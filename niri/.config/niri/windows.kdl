@@ -1,0 +1,113 @@
+// ============================================================================
+// WINDOW MANAGEMENT
+// ============================================================================
+// Window rules, application-specific settings, workspaces, layers
+// ============================================================================
+// WORKSPACES
+// ============================================================================
+workspace "a" {
+
+}
+workspace "b" {
+
+}
+workspace "c" {
+
+}
+workspace "d" {
+
+} 
+//
+// ============================================================================
+// GENERAL WINDOW RULES
+// ============================================================================
+window-rule {
+    geometry-corner-radius 16
+    clip-to-geometry true
+}
+window-rule {
+    match is-active=false
+    opacity 0.9
+}
+// ============================================================================
+// APPLICATION-SPECIFIC RULES
+// ============================================================================
+window-rule {
+match app-id=r#"^org\.keepassxc\.KeePassXC$"#
+match app-id=r#"^org\.gnome\.World\.Secrets$"#
+block-out-from "screen-capture"
+// Use this instead if you want them visible on third-party screenshot tools.
+// block-out-from "screencast"
+}
+window-rule {
+    match app-id="^org\\.wezfurlong\\.wezterm$"
+    default-column-width {
+
+    }
+}
+window-rule {
+    match app-id="firefox$" title="^Picture-in-Picture$"
+    open-floating true
+}
+
+// window-rule {
+//     match app-id="org.keepassxc.KeePassXC"
+//     open-on-workspace "a"
+//     open-maximized true
+// }
+
+window-rule {
+    match app-id="firefox$"
+    open-on-workspace "b"
+    open-maximized true
+}
+window-rule {
+    match app-id="zen"
+    open-on-workspace "b"
+    open-maximized true
+}
+
+window-rule {
+    match app-id="brave-browser"
+    open-on-workspace "b"
+    open-maximized true
+}
+
+
+window-rule {
+    match app-id="zed"
+    open-on-workspace "c"
+    open-maximized true
+}
+window-rule {
+    match title="Visual Studio Code"
+    open-on-workspace "c"
+    open-maximized true
+}
+window-rule {
+    match app-id="kitty"
+    open-on-workspace "c"
+    open-maximized true
+}
+window-rule {
+    match app-id="vesktop"
+    open-on-workspace "d"
+    open-maximized true
+}
+window-rule {
+    match app-id="Spotify"
+    open-on-workspace "d"
+    open-maximized true
+}
+
+
+// ============================================================================
+// LAYER RULES
+// ============================================================================
+layer-rule {
+    match namespace="^noctalia-overview*"
+    place-within-backdrop true
+    opacity 1.0
+
+}
+

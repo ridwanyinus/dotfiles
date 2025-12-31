@@ -1,0 +1,8 @@
+// ============================================================================
+// STARTUP
+// ============================================================================
+// Applications and services to launch at startup
+spawn-at-startup "systemctl" "--user" "import-environment" "WAYLAND_DISPLAY" "XDG_CURRENT_DESKTOP" "XDG_SESSION_DESKTOP=niri"
+spawn-at-startup "dbus-update-activation-environment" "--systemd" "WAYLAND_DISPLAY" "XDG_CURRENT_DESKTOP" "XDG_SESSION_DESKTOP=niri"
+spawn-at-startup "qs" "-c" "noctalia-shell"
+

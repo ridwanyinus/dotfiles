@@ -1,0 +1,12 @@
+// ============================================================================
+// NIRI CONFIGURATION - Modular Setup
+// ============================================================================
+
+include "./base.kdl"
+include "./output.kdl"
+include "./appearance.kdl"
+include "./windows.kdl"
+include "./startup.kdl"
+include "./debug.kdl"
+include "./binds.kdl"
+include "./noctalia.kdl"

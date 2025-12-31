@@ -1,0 +1,118 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export EDITOR:nvim
+SETUVAR --export FZF_ALT_C_COMMAND:fd\x20\x2d\x2dtype\x3dd\x20\x2d\x2dhidden\x20\x2d\x2dstrip\x2dcwd\x2dprefix\x20\x2d\x2dexclude\x20\x2egit\x20\x2d\x2dexclude\x20\x27\x2a\x2a/node_modules\x27\x20\x2d\x2dexclude\x20\x27\x2a\x2a/\x2enext\x27\x20\x2d\x2dexclude\x20\x27\x2a\x2a/dist\x27\x20\x2d\x2dexclude\x20\x27\x2a\x2a/build\x27
+SETUVAR --export FZF_ALT_C_OPTS:\x2d\x2dpreview\x20\x27eza\x20\x2d\x2dicons\x3dalways\x20\x2d\x2dtree\x20\x2d\x2dcolor\x3dalways\x20\x7b\x7d\x20\x7c\x20head\x20\x2d200\x27
+SETUVAR --export FZF_CTRL_R_OPTS:\x0a\x20\x20\x2d\x2dpreview\x2dwindow\x20hidden\x0a\x20\x20\x2d\x2dheader\x2dlabel\x20\x27\x27\x0a\x20\x20\x2d\x2dbind\x20\x27ctrl\x2dy\x3aexecute\x2dsilent\x28echo\x20\x2dn\x20\x7b2\x2e\x2e\x7d\x20\x7c\x20wl\x2dcopy\x29\x2babort\x27\x0a\x20\x20\x2d\x2dcolor\x20header\x3aitalic\x0a\x20\x20\x2d\x2dheader\x20\x27Press\x20CTRL\x2dY\x20to\x20copy\x20command\x20into\x20clipboard\x27
+SETUVAR --export FZF_CTRL_T_COMMAND:builtin\x20history\x20\x2dz\x20\x2d\x2dreverse\x20\x7c\x20command\x20perl\x20\x2d0\x20\x2dpe\x20\x27s/\x5e/\x24\x2e\x5ct/g\x3b\x20s/\x5cn/\x5cn\x5ct/gm\x27\x20\x2d\x2dexclude\x20\x27\x2a\x2a/node_modules\x27\x20\x2d\x2dexclude\x20\x27\x2a\x2a/\x2enext\x27\x20\x2d\x2dexclude\x20\x27\x2a\x2a/dist\x27\x20\x2d\x2dexclude\x20\x27\x2a\x2a/build\x27
+SETUVAR --export FZF_CTRL_T_OPTS:\x2d\x2dpreview\x20\x27\x7e/\x2elocal/bin/fzf\x2dpreview\x2esh\x20\x7b\x7d\x27
+SETUVAR --export FZF_DEFAULT_COMMAND:fd\x20\x2d\x2dhidden\x20\x2d\x2dstrip\x2dcwd\x2dprefix\x20\x2d\x2dexclude\x20\x2egit
+SETUVAR --export FZF_DEFAULT_OPTS:\x2d\x2dstyle\x20full\x20\x2d\x2dborder\x20\x2d\x2dpadding\x201\x2c2\x20\x2d\x2dborder\x2dlabel\x20\x22\x20Search\x20\x22\x20\x2d\x2dinput\x2dlabel\x20\x22\x20Input\x20\x22\x20\x2d\x2dheader\x2dlabel\x20\x22\x20File\x20Type\x20\x22\x20\x2d\x2dbind\x20\x22focus\x3a\x2btransform\x2dheader\x3afile\x20\x2d\x2dbrief\x20\x7b\x7d\x22\x20\x2d\x2dbind\x20\x22result\x3atransform\x2dlist\x2dlabel\x3aif\x20\x5b\x5b\x20\x2dz\x20\x5c\x24FZF_QUERY\x20\x5d\x5d\x3b\x20then\x20echo\x20\x5c\x22\x20\x5c\x24FZF_MATCH_COUNT\x20items\x20\x5c\x22\x3b\x20else\x20echo\x20\x5c\x22\x20\x5c\x24FZF_MATCH_COUNT\x20matches\x20for\x20\x5b\x5c\x24FZF_QUERY\x5d\x20\x5c\x22\x3b\x20fi\x22\x20\x2d\x2dbind\x20\x22focus\x3atransform\x2dpreview\x2dlabel\x3a\x5b\x5b\x20\x2dn\x20\x7b\x7d\x20\x5d\x5d\x20\x26\x26\x20printf\x20\x5c\x22\x20Previewing\x20\x5b\x25s\x5d\x20\x5c\x22\x20\x7b\x7d\x22\x20\x2d\x2dpreview\x20\x22TERM\x3d\x5c\x24TERM\x20KITTY_WINDOW_ID\x3d\x5c\x24KITTY_WINDOW_ID\x20\x7e/\x2elocal/bin/fzf\x2dpreview\x2esh\x20\x7b\x7d\x22\x20\x2d\x2dpreview\x2dwindow\x20\x22right\x3a50\x25\x3aborder\x2dleft\x22\x20\x2d\x2dheight\x2050\x25\x20\x2d\x2dlayout\x3ddefault\x20\x2d\x2dcolor\x3dhl\x3a\x232dd4bf\x20\x2d\x2dcolor\x3dborder\x3a\x23aaaaaa\x2clabel\x3a\x23cccccc\x20\x2d\x2dcolor\x3dpreview\x2dborder\x3a\x239999cc\x2cpreview\x2dlabel\x3a\x23ccccff\x20\x2d\x2dcolor\x3dlist\x2dborder\x3a\x23669966\x2clist\x2dlabel\x3a\x2399cc99\x20\x2d\x2dcolor\x3dinput\x2dborder\x3a\x23996666\x2cinput\x2dlabel\x3a\x23ffcccc\x20\x2d\x2dcolor\x3dheader\x2dborder\x3a\x236699cc\x2cheader\x2dlabel\x3a\x2399ccff
+SETUVAR --export FZF_TAB_COLORS:fg\x3a\x23CDD6F4\x2cbg\x3a\x231E1E2E\x2chl\x3a\x23F38BA8\x2cmin\x2dheight\x3d5
+SETUVAR --export GNOME_KEYRING_CONTROL:/run/user/1000/keyring
+SETUVAR --export LANG:en_US\x2eUTF\x2d8
+SETUVAR --export QT_STYLE_OVERRIDE:kvantum
+SETUVAR --export SSH_AUTH_SOCK:/run/user/1000/keyring/ssh
+SETUVAR __fish_initialized:3800
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_files:\x7e/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_list\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e\x7e/\x2econfig/fish/functions/nvm\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e\x7e/\x2econfig/fish/completions/nvm\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ejorgebucaran/nvm\x2efish
+SETUVAR _fisher_upgraded_to_4_4:\x1d
+SETUVAR fish_color_autosuggestion:brblack
+SETUVAR fish_color_cancel:\x2dr
+SETUVAR fish_color_command:normal
+SETUVAR fish_color_comment:red
+SETUVAR fish_color_cwd:green
+SETUVAR fish_color_cwd_root:red
+SETUVAR fish_color_end:green
+SETUVAR fish_color_error:brred
+SETUVAR fish_color_escape:brcyan
+SETUVAR fish_color_history_current:\x2d\x2dbold
+SETUVAR fish_color_host:normal
+SETUVAR fish_color_host_remote:yellow
+SETUVAR fish_color_normal:normal
+SETUVAR fish_color_operator:brcyan
+SETUVAR fish_color_param:cyan
+SETUVAR fish_color_quote:yellow
+SETUVAR fish_color_redirection:cyan\x1e\x2d\x2dbold
+SETUVAR fish_color_search_match:white\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_color_status:red
+SETUVAR fish_color_user:brgreen
+SETUVAR fish_color_valid_path:\x2d\x2dunderline
+SETUVAR fish_greeting:
+SETUVAR fish_key_bindings:fish_default_key_bindings
+SETUVAR fish_pager_color_completion:normal
+SETUVAR fish_pager_color_description:yellow\x1e\x2di
+SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
+SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR fish_pager_color_selected_background:\x2dr
+SETUVAR fish_user_paths:/home/ridwan/\x2espicetify\x1e/usr/lib/ccache/bin/\x1e/home/ridwan/\x2ecargo/bin/\x1e/home/ridwan/\x2elocal/bin/
+SETUVAR --export fzf_alt_c_opts:\x2d\x2dpreview\x20\x27eza\x20\x2d\x2dicons\x3dalways\x20\x2d\x2dtree\x20\x2d\x2dcolor\x3dalways\x20\x7b\x7d\x20\x7c\x20head\x20\x2d200\x27
+SETUVAR --export fzf_ctrl_t_opts:\x2d\x2dpreview\x20\x27bat\x20\x2d\x2dcolor\x3dalways\x20\x2dn\x20\x2d\x2dline\x2drange\x20\x3a500\x20\x7b\x7d\x27
+SETUVAR pure_begin_prompt_with_current_directory:true
+SETUVAR pure_check_for_new_release:false
+SETUVAR pure_color_at_sign:pure_color_mute
+SETUVAR pure_color_aws_profile:pure_color_warning
+SETUVAR pure_color_command_duration:pure_color_warning
+SETUVAR pure_color_current_directory:pure_color_primary
+SETUVAR pure_color_danger:red
+SETUVAR pure_color_dark:black
+SETUVAR pure_color_git_branch:pure_color_mute
+SETUVAR pure_color_git_dirty:pure_color_mute
+SETUVAR pure_color_git_stash:pure_color_info
+SETUVAR pure_color_git_unpulled_commits:pure_color_info
+SETUVAR pure_color_git_unpushed_commits:pure_color_info
+SETUVAR pure_color_hostname:pure_color_mute
+SETUVAR pure_color_info:cyan
+SETUVAR pure_color_jobs:pure_color_normal
+SETUVAR pure_color_k8s_context:pure_color_success
+SETUVAR pure_color_k8s_namespace:pure_color_primary
+SETUVAR pure_color_k8s_prefix:pure_color_info
+SETUVAR pure_color_light:white
+SETUVAR pure_color_mute:brblack
+SETUVAR pure_color_nixdevshell_prefix:pure_color_info
+SETUVAR pure_color_nixdevshell_symbol:pure_color_mute
+SETUVAR pure_color_normal:normal
+SETUVAR pure_color_prefix_root_prompt:pure_color_danger
+SETUVAR pure_color_primary:blue
+SETUVAR pure_color_prompt_on_error:pure_color_danger
+SETUVAR pure_color_prompt_on_success:pure_color_success
+SETUVAR pure_color_success:magenta
+SETUVAR pure_color_system_time:pure_color_mute
+SETUVAR pure_color_username_normal:pure_color_mute
+SETUVAR pure_color_username_root:pure_color_light
+SETUVAR pure_color_virtualenv:pure_color_mute
+SETUVAR pure_color_warning:yellow
+SETUVAR pure_enable_aws_profile:true
+SETUVAR pure_enable_container_detection:true
+SETUVAR pure_enable_git:true
+SETUVAR pure_enable_k8s:false
+SETUVAR pure_enable_nixdevshell:false
+SETUVAR pure_enable_single_line_prompt:false
+SETUVAR pure_enable_virtualenv:true
+SETUVAR pure_reverse_prompt_symbol_in_vimode:true
+SETUVAR pure_separate_prompt_on_error:false
+SETUVAR pure_shorten_prompt_current_directory_length:0
+SETUVAR pure_shorten_window_title_current_directory_length:0
+SETUVAR pure_show_jobs:false
+SETUVAR pure_show_prefix_root_prompt:false
+SETUVAR pure_show_subsecond_command_duration:false
+SETUVAR pure_show_system_time:false
+SETUVAR pure_symbol_aws_profile_prefix:
+SETUVAR pure_symbol_container_prefix:
+SETUVAR pure_symbol_git_dirty:\x2a
+SETUVAR pure_symbol_git_stash:\u2261
+SETUVAR pure_symbol_git_unpulled_commits:\u21e3
+SETUVAR pure_symbol_git_unpushed_commits:\u21e1
+SETUVAR pure_symbol_k8s_prefix:\u2638
+SETUVAR pure_symbol_nixdevshell_prefix:\u2744\ufe0f
+SETUVAR pure_symbol_prefix_root_prompt:\x23
+SETUVAR pure_symbol_prompt:\u276f
+SETUVAR pure_symbol_reverse_prompt:\u276e
+SETUVAR pure_symbol_ssh_prefix:
+SETUVAR pure_symbol_title_bar_separator:\x2d
+SETUVAR pure_symbol_virtualenv_prefix:
+SETUVAR pure_threshold_command_duration:5
+SETUVAR pure_truncate_prompt_current_directory_keeps:\x2d1
+SETUVAR pure_truncate_window_title_current_directory_keeps:\x2d1

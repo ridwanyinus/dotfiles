@@ -1,0 +1,101 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "properties": {
+            "postfix": " \ue0b1"
+          },
+          "foreground": "#26C6DA",
+          "background": "#546E7A",
+          "type": "os",
+          "style": "plain"
+        },
+        {
+          "foreground": "#26C6DA",
+          "background": "#546E7A",
+          "type": "root",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "postfix": " ",
+            "style": "full"
+          },
+          "foreground": "#26C6DA",
+          "background": "#546E7A",
+          "type": "path",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "prefix": "<#26C6DA>\ue0b1 </>"
+          },
+          "foreground": "#D4E157",
+          "background": "#546E7A",
+          "type": "git",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "postfix": "",
+            "prefix": "",
+            "text": "\ue0b0"
+          },
+          "foreground": "#546E7A",
+          "background": "transparent",
+          "type": "text",
+          "style": "plain"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [
+        {
+          "properties": {
+            "postfix": " <#26C6DA>\ue0b3</> "
+          },
+          "leading_diamond": "\ue0b2",
+          "foreground": "#D4E157",
+          "background": "#546E7A",
+          "type": "session",
+          "style": "diamond"
+        },
+        {
+          "properties": {
+            "postfix": " \uf017 ",
+            "time_format": "15:04:05"
+          },
+          "foreground": "#D4E157",
+          "background": "#546E7A",
+          "type": "time",
+          "style": "plain"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "properties": {
+            "always_enabled": true,
+            "display_exit_code": false,
+            "error_color": "#FF5252",
+            "prefix": "❯"
+          },
+          "foreground": "#D4E157",
+          "type": "exit",
+          "style": "plain"
+        }
+      ],
+      "newline": true
+    }
+  ],
+  "version": 3
+}

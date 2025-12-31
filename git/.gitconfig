@@ -1,0 +1,80 @@
+[user]
+    name = ridwan
+    email = ridwanyinusa15@gmail.com
+    signingKey = ~/.ssh/main.pub
+
+[includeIf "gitdir:~/workspace/secondary/"]
+    path = ~/.gitconfig-secondary
+
+[alias]
+    br = branch
+    st = status
+    lg = log --oneline --graph --decorate
+
+[http]
+    postBuffer = 524288000
+
+[core]
+    editor = code --wait
+    excludesfile = ~/.gitignore
+    fsmonitor = true
+    # untrackedCache = true
+
+[column]
+    ui = auto
+
+[branch]
+    sort = -committerdate
+
+[tag]
+    sort = version:refname
+    gpgSign = true
+
+[init]
+    defaultBranch = main
+
+[diff]
+    algorithm = histogram
+    colorMoved = plain
+    renames = true
+     # mnemonicPrefix = true
+
+[push]
+    default = simple
+    autoSetupRemote = true
+    followTags = true
+
+[fetch]
+    prune = true
+    pruneTags = true
+    all = true
+
+[gpg]
+    format = ssh
+
+[commit]
+    gpgsign = true
+    verbose = true
+
+[help]
+    autocorrect = prompt
+
+[rerere]
+    enabled = true
+    autoupdate = true
+
+[rebase]
+    autoSquash = true
+    autoStash = true
+    updateRefs = true
+
+[merge]
+    # conflictstyle = zdiff3
+
+[pull]
+    rebase = true
+
+[url "git@github.com-secondary:frontendhashira/"]
+    insteadOf = git@github.com:frontendhashira/
+
+
