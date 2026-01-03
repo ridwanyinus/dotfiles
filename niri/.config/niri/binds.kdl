@@ -408,7 +408,7 @@ binds {
         spawn-sh "set -e; grim -t ppm -g \"$(slurp -o -d -F monospace)\" - | satty --filename - --copy-command=wl-copy --annotation-size-factor 1.0 --output-filename=\"$(xdg-user-dir PICTURES)/Screenshots/Screenshot from %Y-%m-%d %H:%M:%S.png\" --actions-on-enter=\"save-to-clipboard,exit\" --brush-smooth-history-size=5 --disable-notifications --font-family \"FantasqueSansM Nerd Font\" --font-style Regular --initial-tool arrow"
     }
     Ctrl+Print {
-        screenshot-screen
+        spawn-sh "set -e; grim -t ppm - | satty --filename - --copy-command=wl-copy --annotation-size-factor 1.0 --output-filename=\"$(xdg-user-dir PICTURES)/Screenshots/Screenshot from %Y-%m-%d %H:%M:%S.png\" --actions-on-enter=\"save-to-clipboard,exit\" --brush-smooth-history-size=5 --disable-notifications --font-family \"FantasqueSansM Nerd Font\" --font-style Regular --initial-tool arrow"
     }
     Alt+Print {
         screenshot-window

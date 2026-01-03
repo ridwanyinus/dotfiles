@@ -8,13 +8,10 @@
 workspace "a" {
 
 }
-workspace "b" {
+workspace "browser" {
 
 }
-workspace "c" {
-
-}
-workspace "d" {
+workspace "code" {
 
 } 
 //
@@ -54,50 +51,56 @@ window-rule {
 //     match app-id="org.keepassxc.KeePassXC"
 //     open-on-workspace "a"
 //     open-maximized true
+    // open-focused true
 // }
 
 window-rule {
     match app-id="firefox$"
-    open-on-workspace "b"
+    open-on-workspace "browser"
     open-maximized true
+    open-focused true
 }
 window-rule {
     match app-id="zen"
-    open-on-workspace "b"
+    open-on-workspace "browser"
     open-maximized true
+    open-focused true
 }
-
 window-rule {
     match app-id="brave-browser"
-    open-on-workspace "b"
+    open-on-workspace "browser"
     open-maximized true
+    open-focused true
 }
-
-
 window-rule {
     match app-id="zed"
-    open-on-workspace "c"
+    open-on-workspace "code"
     open-maximized true
+    open-focused true
 }
 window-rule {
     match title="Visual Studio Code"
-    open-on-workspace "c"
+    open-on-workspace "code"
     open-maximized true
+    open-focused true
 }
 window-rule {
     match app-id="kitty"
-    open-on-workspace "c"
+    open-on-workspace "code"
     open-maximized true
+    open-focused true
 }
 window-rule {
     match app-id="vesktop"
-    open-on-workspace "d"
+    open-on-workspace "a"
     open-maximized true
+    open-focused true
 }
 window-rule {
     match app-id="Spotify"
-    open-on-workspace "d"
+    open-on-workspace "a"
     open-maximized true
+    open-focused true
 }
 
 
