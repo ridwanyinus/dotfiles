@@ -1,0 +1,325 @@
+{
+   /** ------------ General Editor Settings ------------ **/
+   // "editor.defaultFormatter": "biomejs.biome",
+   "editor.formatOnSave": false,
+   "editor.guides.bracketPairs": true,
+   "editor.fontLigatures": true,
+   "editor.linkedEditing": true,
+   "editor.insertSpaces": true,
+   "editor.padding.bottom": 2,
+   "editor.tabSize": 4,
+   "editor.letterSpacing": 0.5,
+   "editor.renderWhitespace": "none",
+   "editor.formatOnPaste": true,
+   "editor.formatOnType": true,
+   "editor.acceptSuggestionOnEnter": "smart",
+   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+   "editor.renderLineHighlight": "none",
+   "editor.codeLensFontFamily": "JetBrains Mono",
+   "editor.codeLensFontSize": 10,
+   "editor.cursorSmoothCaretAnimation": "on",
+   "editor.indentSize": 3,
+   "editor.minimap.autohide": "mouseover",
+   "editor.wordWrapColumn": 250,
+   "editor.inlineSuggest.suppressSuggestions": true,
+   "editor.autoIndent": "none",
+   "editor.detectIndentation": false,
+   "editor.fontFamily": "VictorMono Nerd Font Mono",
+   "editor.fontSize": 14.5,
+   "editor.fontWeight": 450,
+   "editor.lineHeight": 2,
+   "editor.folding": true,
+   "editor.glyphMargin": true,
+   "editor.guides.indentation": false,
+   "editor.unicodeHighlight.ambiguousCharacters": false,
+   "editor.unicodeHighlight.invisibleCharacters": false,
+   "editor.wordWrap": "on",
+   "editor.stickyScroll.enabled": false,
+   "editor.quickSuggestionsDelay": 5,
+   "editor.foldingStrategy": "indentation",
+   "editor.suggest.shareSuggestSelections": true,
+   "editor.snippetSuggestions": "bottom",
+   "editor.suggest.showStatusBar": true,
+   "editor.cursorBlinking": "expand",
+   "editor.accessibilitySupport": "off",
+   "editor.scrollbar.vertical": "hidden",
+   "editor.overviewRulerBorder": false,
+   "editor.quickSuggestions": {
+      "strings": "on",
+      "comments": "on"
+   },
+   "editor.tokenColorCustomizations": {
+      "textMateRules": [
+         {
+            "scope": "comment",
+            "settings": {
+               "fontStyle": "italic"
+            }
+         }
+      ]
+   },
+   "workbench.colorCustomizations": {
+      "inlineparameters.annotationBackground": "#282A3600",
+      "inlineparameters.annotationForeground": "#7b82af",
+      "scrollbar.shadow": "#24292e00"
+   },
+   "workbench.editorLargeFileConfirmation": 10024,
+   // "workbench.activityBar.location": "hidden",
+   "workbench.tree.indent": 8,
+   "workbench.editor.empty.hint": "hidden",
+   "workbench.tree.enableStickyScroll": false,
+   "workbench.tree.renderIndentGuides": "none",
+   "workbench.startupEditor": "none",
+   "workbench.productIconTheme": "fluent-icons",
+   "workbench.iconTheme": "material-icon-theme",
+   "material-icon-theme.hidesExplorerArrows": true,
+   "workbench.sideBar.location": "right",
+   "workbench.navigationControl.enabled": false,
+   "workbench.editor.enablePreview": false,
+   "workbench.layoutControl.enabled": false,
+   "workbench.secondarySideBar.defaultVisibility": "hidden",
+   "workbench.colorTheme": "NoctaliaTheme",
+   "workbench.activityBar.location": "hidden",
+   /** ------------ Breadcrumbs Configurations ------------ **/
+   "breadcrumbs.enabled": false,
+   "breadcrumbs.symbolPath": "off",
+   "breadcrumbs.filePath": "on",
+   /** ------------ Terminal Configurations ------------ **/
+   "terminal.integrated.fontFamily": "MesloLGS Nerd Font Mono, 'Hack Nerd Font', Monospace,Iosevka Term Slab, Iosevka Term,  CaskaydiaCove NFM",
+   "terminal.integrated.fontSize": 14,
+   "terminal.integrated.cursorStyle": "underline",
+   "terminal.integrated.cursorBlinking": true,
+   "terminal.integrated.lineHeight": 1,
+   "terminal.explorerKind": "external",
+   "terminal.integrated.accessibleViewFocusOnCommandExecution": true,
+   "terminal.integrated.enableMultiLinePasteWarning": "never",
+   "terminal.integrated.env.linux": {},
+   "terminal.integrated.env.windows": {},
+   "terminal.integrated.suggest.enabled": true,
+   "terminal.integrated.defaultProfile.windows": "Git Bash",
+   /** ------------ Git Settings ------------ **/
+   "git.suggestSmartCommit": true,
+   "git.autofetch": true,
+   "git.openRepositoryInParentFolders": "never",
+   /** ------------ Prettier Settings ------------ **/
+   "prettier.enableDebugLogs": true,
+   "prettier.useTabs": false,
+   "prettier.semi": true,
+   "prettier.singleQuote": true,
+   "prettier.jsxSingleQuote": true,
+   "prettier.arrowParens": "always",
+   "prettier.bracketSpacing": true,
+   "prettier.bracketSameLine": true,
+   "prettier.trailingComma": "all",
+   "prettier.printWidth": 200,
+   "prettier.tabWidth": 4,
+   "prettier.useEditorConfig": false,
+   /** ------------ Files Settings ------------ **/
+   "files.autoSave": "afterDelay",
+   "files.trimTrailingWhitespace": true,
+   "files.trimFinalNewlines": true,
+   "files.autoSaveDelay": 400,
+   "files.associations": {
+      ".js": "javascriptreact",
+      "*.jsx": "javascriptreact",
+      // "*.css": "tailwindcss",
+   },
+   /** ------------ Language-Specific Settings ------------ **/
+   /** ------------ HTML Formatting ------------ **/
+   "html.format.indentInnerHtml": true,
+   "html.format.indentHandlebars": true,
+   "html.format.wrapLineLength": 250,
+   "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true
+   },
+   "[typescript]": {
+      "editor.defaultFormatter": "biomejs.biome",
+      "editor.formatOnSave": true,
+      "editor.colorDecorators": true,
+      "editor.formatOnPaste": true,
+      "editor.codeActionsOnSave": {
+         "source.organizeImports.biome": "explicit",
+         "source.action.useSortedAttributes.biome": "explicit",
+         "source.action.useSortedKeys.biome": "explicit",
+         "source.fixAll.biome": "explicit"
+      }
+   },
+   "[typescriptreact]": {
+      "editor.defaultFormatter": "biomejs.biome",
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true,
+      "editor.codeActionsOnSave": {
+         "source.organizeImports.biome": "explicit",
+         "source.action.useSortedAttributes.biome": "explicit",
+         "source.action.useSortedKeys.biome": "explicit",
+         "source.fixAll.biome": "explicit"
+      }
+   },
+   "[javascript]": {
+      "editor.defaultFormatter": "biomejs.biome",
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true,
+      "editor.codeActionsOnSave": {
+         "source.organizeImports.biome": "explicit",
+         "source.action.useSortedAttributes.biome": "explicit",
+         "source.action.useSortedKeys.biome": "explicit",
+         "source.fixAll.biome": "explicit"
+      }
+   },
+   "[javascriptreact]": {
+      "editor.defaultFormatter": "biomejs.biome",
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true,
+      "editor.codeActionsOnSave": {
+         "source.organizeImports.biome": "explicit",
+         "source.action.useSortedAttributes.biome": "explicit",
+         "source.action.useSortedKeys.biome": "explicit",
+         "source.fixAll.biome": "explicit"
+      }
+   },
+   "[json]": {
+      "editor.defaultFormatter": "biomejs.biome",
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true,
+      "editor.codeActionsOnSave": {
+         "source.action.useSortedKeys.biome": "explicit",
+         "source.fixAll.biome": "explicit"
+      }
+   },
+   "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features",
+      "editor.formatOnSave": true
+   },
+   "[markdown]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+      "editor.renderWhitespace": "all",
+      "editor.acceptSuggestionOnEnter": "off"
+   },
+   "[css]": {
+      "editor.defaultFormatter": "biomejs.biome",
+      "diffEditor.codeLens": true,
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+         "source.fixAll.stylelint": "explicit",
+         "source.action.useSortedProperties.biome": "explicit",
+         "source.fixAll.biome": "explicit"
+      }
+   },
+   "[scss]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   "[tailwindcss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   "[astro]": {
+      "editor.defaultFormatter": "astro-build.astro-vscode",
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true,
+   },
+   /** ------------ JSON Settings ------------ **/
+   "json.maxItemsComputed": 20000,
+   "json.format.keepLines": false,
+   /** ------------ CSS Settings ------------ **/
+   "css.validate": true,
+   /** ------------ TailwindCSS Settings ------------ **/
+   "tailwindCSS.includeLanguages": {
+      "html": "html",
+      "javascript": "javascript",
+      "css": "css",
+   },
+   "tailwindCSS.emmetCompletions": true,
+   /** ------------ Diff Editor Settings ------------ **/
+   "diffEditor.diffAlgorithm": "advanced",
+   "diffEditor.codeLens": true,
+   /** ------------ Emmet Settings ------------ **/
+   "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      // "typescriptreact": "html",
+      // "astro": "html"
+   },
+   "emmet.triggerExpansionOnTab": true,
+   /** ------------ TypeScript Settings ------------ **/
+   "typescript.updateImportsOnFileMove.enabled": "always",
+   "javascript.updateImportsOnFileMove.enabled": "always",
+   /** ------------ Extension Settings ------------ **/
+   "extensions.ignoreRecommendations": true,
+   "stylelint.validate": [
+      "css",
+      "scss",
+      "tailwindcss"
+   ],
+   "liveSassCompile.settings.formats": [
+      {
+         "format": "compressed",
+         "extensionName": ".css",
+         "savePath": "/dist",
+         "savePathReplacementPairs": null,
+      }
+   ],
+   /** ------------ Indent Rainbow Settings ------------ **/
+   "indentRainbow.ignoreErrorLanguages": [
+      "*"
+   ],
+   "indentRainbow.indicatorStyle": "light",
+   "indentRainbow.lightIndicatorStyleLineWidth": 1,
+   "indentRainbow.colors": [
+      "rgba(255,255,64,0.3)",
+      "rgba(127,255,127,0.3)",
+      "rgba(255,127,255,0.3)",
+      "rgba(79,236,236,0.3)"
+   ],
+   /** ------------ Window Settings ------------ **/
+   "window.restoreFullscreen": true,
+   "window.titleBarStyle": "native",
+   "window.menuBarVisibility": "toggle",
+   "window.commandCenter": false,
+   // "window.customTitleBarVisibility": "never",
+   /** ------------ Custom CSS ------------ **/
+   "custom-ui-style.external.imports": [
+      "file://${userHome}/.config/VSCodium/User/style.css",
+      "file://${userHome}/.config/VSCodium/User/script.js"
+   ],
+   "custom-ui-style.electron": {
+      "titleBarStyle": "hiddenInset",
+      "trafficLightPosition": {
+         "x": 20,
+         "y": 16
+      }
+   },
+   "custom-ui-style.stylesheet": {
+      ".notification-toast": "box-shadow: none !important",
+      ".quick-input-widget.show-file-icons": "box-shadow: none !important",
+      ".sidebar .title-label": "padding: 0 !important",
+      ".sidebar": "border: none !important",
+      ".title-actions": "display: none !important",
+      ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
+      ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
+      ".title .monaco-icon-label.file-icon": "margin: 0 60px",
+      ".monaco-workbench .activitybar>.content": "justify-content: center"
+   },
+   "custom-ui-style.font.sansSerif": "CommitMono",
+   /** Explorer **/
+   "explorer.compactFolders": false,
+   "explorer.confirmDragAndDrop": false,
+   "explorer.confirmDelete": false,
+   "update.mode": "none",
+   //Ignore node_modules
+   "files.watcherExclude": {
+      "**/node_modules/**": true,
+      "**/.git/objects/**": true,
+      "**/.next/**": true
+   },
+   "search.exclude": {
+      "**/node_modules": true,
+      "**/.git": true
+   },
+   "gitlens.hovers.currentLine.over": "line",
+   "gitlens.currentLine.uncommittedChangesFormat": "✏️ ${ago}",
+   "git.ignoreRebaseWarning": true,
+   "git.enableSmartCommit": true,
+   "postman.mcp.notifications.postmanMCP": false,
+}

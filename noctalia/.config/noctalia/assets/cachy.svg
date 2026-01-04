@@ -1,0 +1,64 @@
+<svg width="17.921003" height="17.921002" viewBox="0 0 17.921003 17.921002" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+
+  <defs id="defs6">
+    <linearGradient id="linearGradient937">
+      <stop offset="0" stop-color="#001313"></stop>
+      <stop offset="1" stop-opacity="0" stop-color="#001313"></stop>
+    </linearGradient>
+
+    <linearGradient id="linearGradient4353">
+      <stop offset="0" stop-color="#020202"></stop>
+      <stop offset="1" stop-opacity="0" stop-color="#020202"></stop>
+    </linearGradient>
+
+    <linearGradient id="linearGradient9102" xlink:href="#linearGradient4353" x1="0.46634" y1="0.71989" x2="0.41614" y2="0.57285"></linearGradient>
+
+    <linearGradient id="linearGradient3254" xlink:href="#linearGradient937" x1="0.27787" y1="0.64563" x2="0.51692" y2="0.55446"></linearGradient>
+  </defs>
+
+  <!-- ROTATE + VERTICAL FLIP (BLACK SIDE UP) -->
+  <g transform="rotate(180 8.9605015 8.960501) translate(0 17.921002) scale(1 -1)">
+
+    <title>Layer 1</title>
+
+    <circle cx="87.45" cy="87.45" r="87.45" opacity="0" stroke-width="0.27971"></circle>
+
+    <path fill="#000000" d="m4.06108,2.16831l6.5887,3.6879l2.1127,-3.6528l-8.7014,-0.0351z"></path>
+
+    <path fill="#7a7a7a" fill-opacity="0.68507" d="m6.14998,12.42301l-1.9125,3.7456l8.5747,0l2.1664,-3.7456l-8.8286,0z"></path>
+
+    <path fill="#7a7a7a" fill-opacity="0.69262" d="m4.06108,2.16831l6.5887,3.6879l-4.526,0l-1.8859,3.2605l1.9121,3.306l-1.9125,3.7456l-4.1369,-7.1525l3.9605,-6.8475"></path>
+
+    <path fill="url(#linearGradient9102)" d="m6.09098,5.82171l6.7111,-3.7832l-2.169,3.5579l-4.5421,0.2253z"></path>
+
+    <path fill="#000000" d="m6.12368,5.85621l6.6388,-3.6528l-2.1127,3.6528l-4.5261,0z"></path>
+
+    <path fill="#1a1a1a" d="m0.10058,9.01581l6.0231,-3.1596l-1.8859,3.2605l-4.1372,-0.1009z"></path>
+
+    <path fill="#1a1a1a" d="m6.12368,5.85621l-2.0626,-3.6879l0.17673,6.9484l1.88587,-3.2605z"></path>
+
+    <path fill="#1a1a1a" d="m4.23788,9.11671l-3.1586,1.5811l3.1583,5.4705l0.0003,-7.0516z"></path>
+
+    <path fill="#1a1a1a" d="m1.07923,10.69801l5.0708,1.7248l-1.9121,-3.306l-3.1587,1.5812z"></path>
+
+    <g fill="#1a1a1a" transform="matrix(0.14699,0,0,0.14672,-0.75949407,-0.14715599)">
+      <circle cx="117.95" cy="75.441" r="9.6894"></circle>
+      <circle cx="118.08" cy="75.341" r="9.6894"></circle>
+    </g>
+
+    <g fill="#1a1a1a" transform="matrix(0.14699,0,0,0.14672,-0.11248407,-0.47061599)">
+      <circle cx="93.138" cy="55.045" r="7.3559"></circle>
+      <circle cx="93.239" cy="54.969" r="7.3559"></circle>
+    </g>
+
+    <g fill="#000000" transform="matrix(0.14699,0,0,0.14672,-0.08243407,-0.04714599)">
+      <circle cx="103.06" cy="26.657" r="3.7877"></circle>
+      <circle cx="103.11" cy="26.618" r="3.7877"></circle>
+    </g>
+
+    <path fill="url(#linearGradient3254)" d="m6.12368,5.85621l-2.0626,-3.6879l0.52544,-0.0074l1.9387,3.4465l-0.40154,0.2488z"></path>
+
+    <path fill="#1a1a1a" d="m12.80857,16.16821l-6.6561,-3.74008l-1.90673,3.73744l8.56283,0.00264z"></path>
+
+  </g>
+</svg>

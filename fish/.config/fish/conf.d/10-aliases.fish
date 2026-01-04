@@ -10,13 +10,15 @@ alias ff='fastfetch'
 alias ls='eza -a --icons=always'
 alias ll='eza -al --icons=always'
 alias lt='eza -a --tree --level=2 --long --icons --git'
+alias md='mkdir -p'
+alias rd='rmdir'
 
 alias shutdown='systemctl poweroff'
 alias hibernate='qs -c noctalia-shell ipc call lockScreen lock && systemctl suspend-then-hibernate'
 alias v='$EDITOR'
 alias vim='$EDITOR'
 alias wifi='nmtui'
-
+alias copy='wl-copy'
 
 
 # -----------------------------------------------------
@@ -51,3 +53,6 @@ alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias rec 'asciinema rec -c'
 alias play 'asciinema play -i 2'
 alias upload 'asciinema upload'
+
+# wf-recorder
+alias wf-rec='wf-recorder -f ~/Videos/rec-$(date +%Y%m%d-%H%M%S).mp4'

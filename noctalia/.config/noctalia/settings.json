@@ -4,10 +4,14 @@
         "customLaunchPrefixEnabled": false,
         "enableClipPreview": true,
         "enableClipboardHistory": true,
+        "iconMode": "tabler",
+        "ignoreMouseInput": false,
         "pinnedExecs": [
         ],
         "position": "center",
+        "screenshotAnnotationTool": "",
         "showCategories": false,
+        "showIconBackground": true,
         "sortByMostUsed": true,
         "terminalCommand": "xterm -e",
         "useApp2Unit": false,
@@ -19,13 +23,12 @@
         "mprisBlacklist": [
         ],
         "preferredPlayer": "",
-        "visualizerQuality": "high",
         "visualizerType": "linear",
         "volumeOverdrive": false,
         "volumeStep": 5
     },
     "bar": {
-        "backgroundOpacity": 0.15,
+        "backgroundOpacity": 0.9,
         "capsuleOpacity": 0.6,
         "density": "compact",
         "exclusive": true,
@@ -36,27 +39,40 @@
         ],
         "outerCorners": true,
         "position": "top",
-        "showCapsule": false,
+        "showCapsule": true,
+        "showOutline": false,
+        "useSeparateOpacity": true,
         "widgets": {
             "center": [
                 {
                     "characterCount": 4,
+                    "colorizeIcons": false,
+                    "enableScrollWheel": true,
                     "followFocusedScreen": true,
+                    "groupedBorderOpacity": 1,
                     "hideUnoccupied": false,
+                    "iconScale": 0.8,
                     "id": "Workspace",
-                    "labelMode": "none"
+                    "labelMode": "none",
+                    "showApplications": false,
+                    "showLabelsOnlyWhenOccupied": true,
+                    "unfocusedIconsOpacity": 1
                 }
             ],
             "left": [
                 {
+                    "compactMode": true,
                     "diskPath": "/",
                     "id": "SystemMonitor",
                     "showCpuTemp": false,
                     "showCpuUsage": false,
                     "showDiskUsage": false,
+                    "showGpuTemp": false,
+                    "showLoadAverage": false,
                     "showMemoryAsPercent": true,
                     "showMemoryUsage": true,
                     "showNetworkStats": false,
+                    "useMonospaceFont": true,
                     "usePrimaryColor": true
                 },
                 {
@@ -88,6 +104,7 @@
                     ],
                     "colorizeIcons": false,
                     "drawerEnabled": true,
+                    "hidePassive": false,
                     "id": "Tray",
                     "pinned": [
                         "nm-applet"
@@ -104,6 +121,7 @@
                 {
                     "deviceNativePath": "",
                     "displayMode": "onhover",
+                    "hideIfNotDetected": true,
                     "id": "Battery",
                     "showNoctaliaPerformance": true,
                     "showPowerProfiles": true,
@@ -114,21 +132,22 @@
                     "id": "Volume"
                 },
                 {
-                    "customFont": "Open Sans",
+                    "customFont": "Space Grotesk Light",
                     "formatHorizontal": "HH:mm ddd, MMM dd",
                     "formatVertical": "HH mm - dd MM",
                     "id": "Clock",
+                    "tooltipFormat": "HH:mm ddd, MMM dd",
                     "useCustomFont": true,
                     "usePrimaryColor": true
                 },
                 {
                     "colorizeDistroLogo": false,
-                    "colorizeSystemIcon": "secondary",
-                    "customIconPath": "/home/ridwan/Downloads/arch-symbolic.svg",
+                    "colorizeSystemIcon": "primary",
+                    "customIconPath": "/home/ridwan/.config/noctalia/assets/cachy.svg",
                     "enableColorization": true,
                     "icon": "noctalia",
                     "id": "ControlCenter",
-                    "useDistroLogo": false
+                    "useDistroLogo": true
                 }
             ]
         }
@@ -172,7 +191,7 @@
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "matugenSchemeType": "scheme-content",
-        "predefinedScheme": "Monochrome",
+        "predefinedScheme": "Noctalia (default)",
         "schedulingMode": "off",
         "useWallpaperColors": true
     },
@@ -199,6 +218,7 @@
                 "id": "media-sysmon-card"
             }
         ],
+        "diskPath": "/",
         "position": "close_to_bar_button",
         "shortcuts": {
             "left": [
@@ -231,7 +251,14 @@
             ]
         }
     },
+    "desktopWidgets": {
+        "enabled": false,
+        "gridSnap": false,
+        "monitorWidgets": [
+        ]
+    },
     "dock": {
+        "animationSpeed": 1,
         "backgroundOpacity": 1,
         "colorizeIcons": false,
         "deadOpacity": 0.6,
@@ -251,7 +278,7 @@
         "allowPanelsOnScreenWithoutBar": true,
         "animationDisabled": false,
         "animationSpeed": 1,
-        "avatarImage": "/home/ridwan/Pictures/Wallpapers/pfp/It's a Scouse thing.jpg",
+        "avatarImage": "/home/ridwan/dotfiles/noctalia/.config/noctalia/assets/+.jpg",
         "boxRadiusRatio": 1,
         "compactLockScreen": false,
         "dimmerOpacity": 0.6,
@@ -272,7 +299,11 @@
     },
     "hooks": {
         "darkModeChange": "",
-        "enabled": true,
+        "enabled": false,
+        "performanceModeDisabled": "",
+        "performanceModeEnabled": "",
+        "screenLock": "",
+        "screenUnlock": "",
         "wallpaperChange": ""
     },
     "location": {
@@ -288,6 +319,11 @@
         "weatherShowEffects": true
     },
     "network": {
+        "bluetoothDetailsViewMode": "grid",
+        "bluetoothHideUnnamedDevices": false,
+        "bluetoothRssiPollIntervalMs": 10000,
+        "bluetoothRssiPollingEnabled": false,
+        "wifiDetailsViewMode": "grid",
         "wifiEnabled": true
     },
     "nightLight": {
@@ -311,6 +347,11 @@
         "normalUrgencyDuration": 8,
         "overlayLayer": true,
         "respectExpireTimeout": false,
+        "saveToHistory": {
+            "critical": true,
+            "low": true,
+            "normal": true
+        },
         "sounds": {
             "criticalSoundFile": "",
             "enabled": false,
@@ -339,6 +380,7 @@
         "audioCodec": "opus",
         "audioSource": "default_output",
         "colorRange": "limited",
+        "copyToClipboard": false,
         "directory": "/home/ridwan/Videos",
         "frameRate": 60,
         "quality": "ultra",
@@ -349,6 +391,8 @@
     "sessionMenu": {
         "countdownDuration": 10000,
         "enableCountdown": false,
+        "largeButtonsLayout": "grid",
+        "largeButtonsStyle": false,
         "position": "center",
         "powerOptions": [
             {
@@ -388,9 +432,10 @@
                 "enabled": true
             }
         ],
-        "showHeader": true
+        "showHeader": true,
+        "showNumberLabels": true
     },
-    "settingsVersion": 26,
+    "settingsVersion": 37,
     "systemMonitor": {
         "cpuCriticalThreshold": 85,
         "cpuPollingInterval": 3000,
@@ -399,6 +444,12 @@
         "diskCriticalThreshold": 90,
         "diskPollingInterval": 3000,
         "diskWarningThreshold": 80,
+        "enableDgpuMonitoring": false,
+        "externalMonitor": "resources || missioncenter || jdsystemmonitor || corestats || system-monitoring-center || gnome-system-monitor || plasma-systemmonitor || mate-system-monitor || ukui-system-monitor || deepin-system-monitor || pantheon-system-monitor",
+        "gpuCriticalThreshold": 90,
+        "gpuPollingInterval": 3000,
+        "gpuWarningThreshold": 80,
+        "loadAvgPollingInterval": 3000,
         "memCriticalThreshold": 90,
         "memPollingInterval": 3000,
         "memWarningThreshold": 80,
@@ -420,8 +471,11 @@
         "fuzzel": true,
         "ghostty": false,
         "gtk": true,
+        "helix": false,
+        "hyprland": false,
         "kcolorscheme": true,
         "kitty": true,
+        "mango": false,
         "niri": true,
         "pywalfox": true,
         "qt": true,
@@ -429,16 +483,19 @@
         "telegram": true,
         "vicinae": false,
         "walker": false,
-        "wezterm": false
+        "wezterm": false,
+        "yazi": false,
+        "zed": false
     },
     "ui": {
-        "fontDefault": "Pomodoro",
+        "boxBorderEnabled": false,
+        "fontDefault": "Satoshi Light",
         "fontDefaultScale": 1,
         "fontFixed": "JetBrainsMono Nerd Font Mono",
         "fontFixedScale": 1,
         "panelBackgroundOpacity": 1,
         "panelsAttachedToBar": true,
-        "settingsPanelAttachToBar": true,
+        "settingsPanelMode": "attached",
         "tooltipsEnabled": true
     },
     "wallpaper": {
@@ -456,17 +513,22 @@
         "randomIntervalSec": 300,
         "recursiveSearch": false,
         "setWallpaperOnAllMonitors": true,
+        "solidColor": "#1a1a2e",
         "transitionDuration": 1500,
         "transitionEdgeSmoothness": 0.05,
         "transitionType": "random",
+        "useSolidColor": false,
         "useWallhaven": false,
+        "wallhavenApiKey": "",
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
         "wallhavenPurity": "100",
         "wallhavenQuery": "",
+        "wallhavenRatios": "",
         "wallhavenResolutionHeight": "",
         "wallhavenResolutionMode": "atleast",
         "wallhavenResolutionWidth": "",
-        "wallhavenSorting": "relevance"
+        "wallhavenSorting": "relevance",
+        "wallpaperChangeMode": "random"
     }
 }

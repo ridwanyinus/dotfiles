@@ -13,7 +13,7 @@ workspace "browser" {
 }
 workspace "code" {
 
-} 
+}
 //
 // ============================================================================
 // GENERAL WINDOW RULES
@@ -85,6 +85,12 @@ window-rule {
     open-focused true
 }
 window-rule {
+    match app-id="codium"
+    open-on-workspace "code"
+    open-maximized true
+    open-focused true
+}
+window-rule {
     match app-id="kitty"
     open-on-workspace "code"
     open-maximized true
@@ -113,4 +119,3 @@ layer-rule {
     opacity 1.0
 
 }
-
