@@ -14,15 +14,15 @@ list_oldfiles() {
         fi
     done
     # Use fzf to select from valid files
-    local files=($(printf "%s\n" "${valid_files[@]}" | \
-        grep -v '\[.*' | \
+    local files=($(printf "%s\n" "${valid_files[@]}" |
+        grep -v '\[.*' |
         fzf --multi \
-        --preview 'bat -n --color=always --line-range=:500 {} 2>/dev/null || echo "Error previewing file"' \
-        --height=70% \
-        --layout=default))
+            --preview 'bat -n --color=always --line-range=:500 {} 2>/dev/null || echo "Error previewing file"' \
+            --height=70% \
+            --layout=default))
 
-  # Open selected files in Neovim
-  [[ ${#files[@]} -gt 0 ]] && nvim "${files[@]}"
+    # Open selected files in Neovim
+    [[ ${#files[@]} -gt 0 ]] && nvim "${files[@]}"
 }
 
 # Call the function
