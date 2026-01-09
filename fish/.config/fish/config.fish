@@ -1,6 +1,6 @@
 # Start SSH agent if not already running
 if not set -q SSH_AUTH_SOCK; or not test -S $SSH_AUTH_SOCK
-    eval (ssh-agent -c) > /dev/null
+    eval (ssh-agent -c) >/dev/null
 end
 
 # Add private keys only (they don't have .pub extension)

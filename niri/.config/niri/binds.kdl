@@ -27,7 +27,7 @@ binds {
     Mod+Return hotkey-overlay-title="Open a Terminal: Kitty" {
         spawn "kitty"
     }
-    Mod+B hotkey-overlay-title="Browser: Firefox" {
+    Mod+B hotkey-overlay-title="Browser" {
         spawn "zen-browser"
     }
     Mod+E hotkey-overlay-title="Dolphin File Manager" {
@@ -456,4 +456,3 @@ binds {
         spawn "swaylock"
     }
 }
-

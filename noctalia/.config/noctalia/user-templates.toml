@@ -4,6 +4,47 @@
 input_path = '~/.config/matugen/templates/zed-colors.json'
 output_path = '~/.config/zed/themes/matugen.json'
 
+[templates.nvim]
+input_path = '~/.config/nvim/pywal/matugen.lua'
+output_path = '~/.cache/wal/base46-dark.lua'
+post_hook = "nvim --reload-theme"
+
+[templates.nvimlight]
+input_path = '~/.config/nvim/pywal/matugen.lua'
+output_path = '~/.cache/wal/base46-light.lua'
+
+[templates.pywal]
+input_path = '~/.config/nvim/pywal/waltemplate'
+output_path = '~/.cache/wal/colors'
+
+[config.custom_colors.red]
+color = "#FF0000"
+blend = true
+
+[config.custom_colors.green]
+color = "#00FF00"
+blend = true
+
+[config.custom_colors.yellow]
+color = "#FFFF00"
+blend = true
+
+[config.custom_colors.blue]
+color = "#0000FF"
+blend = true
+
+[config.custom_colors.magenta]
+color = "#FF00FF"
+blend = true
+
+[config.custom_colors.cyan]
+color = "#00FFFF"
+blend = true
+
+[config.custom_colors.white]
+color = "#FFFFFF"
+blend = true
+
 [templates]
 
 # User-defined templates

@@ -7,7 +7,7 @@
 // ============================================================================
 include "./noctalia.kdl"
 layout {
-    gaps 10
+    gaps 8
     center-focused-column "never"
     preset-column-widths {
         proportion 0.33333
@@ -58,7 +58,7 @@ cursor {
 // OVERVIEW
 // ============================================================================
 overview {
-    zoom 0.75
+    zoom 0.50
     workspace-shadow {
         off
     }
@@ -85,4 +85,3 @@ overview {
 // //     }
 //  }
 include "./animations/swipe-window.kdl"
-

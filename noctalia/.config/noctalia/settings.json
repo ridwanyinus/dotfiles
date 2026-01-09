@@ -216,6 +216,10 @@
             {
                 "enabled": false,
                 "id": "media-sysmon-card"
+            },
+            {
+                "enabled": false,
+                "id": "brightness-card"
             }
         ],
         "diskPath": "/",
@@ -378,10 +382,10 @@
     },
     "screenRecorder": {
         "audioCodec": "opus",
-        "audioSource": "default_output",
+        "audioSource": "none",
         "colorRange": "limited",
-        "copyToClipboard": false,
-        "directory": "/home/ridwan/Videos",
+        "copyToClipboard": true,
+        "directory": "/home/ridwan/Videos/ScreenRecord",
         "frameRate": 60,
         "quality": "ultra",
         "showCursor": true,
@@ -392,7 +396,7 @@
         "countdownDuration": 10000,
         "enableCountdown": false,
         "largeButtonsLayout": "grid",
-        "largeButtonsStyle": false,
+        "largeButtonsStyle": true,
         "position": "center",
         "powerOptions": [
             {
@@ -409,7 +413,7 @@
             },
             {
                 "action": "hibernate",
-                "command": "qs -c noctalia-shell ipc call lockScreen lock && systemctl suspend-then-hibernate",
+                "command": "qs -c noctalia-shell ipc call lockScreen lock && systemctl hibernate",
                 "countdownEnabled": false,
                 "enabled": true
             },
@@ -439,7 +443,7 @@
     "systemMonitor": {
         "cpuCriticalThreshold": 85,
         "cpuPollingInterval": 3000,
-        "cpuWarningThreshold": 80,
+        "cpuWarningThreshold": 75,
         "criticalColor": "#ffb4ab",
         "diskCriticalThreshold": 90,
         "diskPollingInterval": 3000,
@@ -449,7 +453,7 @@
         "gpuCriticalThreshold": 90,
         "gpuPollingInterval": 3000,
         "gpuWarningThreshold": 80,
-        "loadAvgPollingInterval": 3000,
+        "loadAvgPollingInterval": 2250,
         "memCriticalThreshold": 90,
         "memPollingInterval": 3000,
         "memWarningThreshold": 80,
@@ -485,7 +489,7 @@
         "walker": false,
         "wezterm": false,
         "yazi": false,
-        "zed": false
+        "zed": true
     },
     "ui": {
         "boxBorderEnabled": false,

@@ -8,12 +8,15 @@
 workspace "a" {
 
 }
+
 workspace "browser" {
 
 }
+
 workspace "code" {
 
 }
+
 //
 // ============================================================================
 // GENERAL WINDOW RULES
@@ -22,6 +25,7 @@ window-rule {
     geometry-corner-radius 16
     clip-to-geometry true
 }
+
 window-rule {
     match is-active=false
     opacity 0.9
@@ -36,23 +40,25 @@ block-out-from "screen-capture"
 // Use this instead if you want them visible on third-party screenshot tools.
 // block-out-from "screencast"
 }
+
 window-rule {
     match app-id="^org\\.wezfurlong\\.wezterm$"
     default-column-width {
 
     }
 }
+
 window-rule {
     match app-id="firefox$" title="^Picture-in-Picture$"
     open-floating true
 }
 
-// window-rule {
-//     match app-id="org.keepassxc.KeePassXC"
-//     open-on-workspace "a"
-//     open-maximized true
-    // open-focused true
-// }
+window-rule {
+    match app-id="org.keepassxc.KeePassXC"
+    open-on-workspace "a"
+    open-maximized true
+    open-focused true
+}
 
 window-rule {
     match app-id="firefox$"
@@ -60,55 +66,66 @@ window-rule {
     open-maximized true
     open-focused true
 }
+
 window-rule {
     match app-id="zen"
     open-on-workspace "browser"
     open-maximized true
     open-focused true
+    // opacity 0.95
 }
+
 window-rule {
     match app-id="brave-browser"
     open-on-workspace "browser"
     open-maximized true
     open-focused true
 }
+
 window-rule {
     match app-id="zed"
     open-on-workspace "code"
     open-maximized true
     open-focused true
+    opacity 0.95
 }
+
 window-rule {
     match title="Visual Studio Code"
     open-on-workspace "code"
     open-maximized true
     open-focused true
+    opacity 0.95
 }
+
 window-rule {
     match app-id="codium"
     open-on-workspace "code"
     open-maximized true
     open-focused true
+    opacity 0.95
 }
+
 window-rule {
     match app-id="kitty"
     open-on-workspace "code"
     open-maximized true
     open-focused true
 }
+
 window-rule {
     match app-id="vesktop"
     open-on-workspace "a"
     open-maximized true
     open-focused true
 }
+
 window-rule {
     match app-id="Spotify"
     open-on-workspace "a"
     open-maximized true
     open-focused true
 }
-
 
 // ============================================================================
 // LAYER RULES
@@ -117,5 +134,4 @@ layer-rule {
     match namespace="^noctalia-overview*"
     place-within-backdrop true
     opacity 1.0
-
 }
