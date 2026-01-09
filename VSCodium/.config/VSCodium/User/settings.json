@@ -14,8 +14,7 @@
    "editor.formatOnType": true,
    "editor.acceptSuggestionOnEnter": "smart",
    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-   "editor.renderLineHighlight": "none",
-   "editor.codeLensFontFamily": "JetBrains Mono",
+   "editor.codeLensFontFamily": "JetBrainsMono Nerd Font",
    "editor.codeLensFontSize": 10,
    "editor.cursorSmoothCaretAnimation": "on",
    "editor.indentSize": 3,
@@ -23,14 +22,16 @@
    "editor.wordWrapColumn": 250,
    "editor.inlineSuggest.suppressSuggestions": true,
    "editor.autoIndent": "none",
-   "editor.detectIndentation": false,
    "editor.fontFamily": "VictorMono Nerd Font Mono",
-   "editor.fontSize": 14.5,
-   "editor.fontWeight": 450,
-   "editor.lineHeight": 2,
+   "editor.fontSize": 14,
+   "editor.fontWeight": 500,
+   "editor.lineHeight": 26,
    "editor.folding": true,
    "editor.glyphMargin": true,
    "editor.guides.indentation": false,
+   "editor.detectIndentation": false,
+   "editor.renderLineHighlight": "none",
+   // "editor.scrollbar.horizontal": "hidden",
    "editor.unicodeHighlight.ambiguousCharacters": false,
    "editor.unicodeHighlight.invisibleCharacters": false,
    "editor.wordWrap": "on",
@@ -41,7 +42,6 @@
    "editor.snippetSuggestions": "bottom",
    "editor.suggest.showStatusBar": true,
    "editor.cursorBlinking": "expand",
-   "editor.accessibilitySupport": "off",
    "editor.scrollbar.vertical": "hidden",
    "editor.overviewRulerBorder": false,
    "editor.quickSuggestions": {
@@ -58,13 +58,17 @@
          }
       ]
    },
+   /** ------------ Workbench Settings ------------ **/
+   "workbench.editor.enablePreview": false,
    "workbench.colorCustomizations": {
       "inlineparameters.annotationBackground": "#282A3600",
       "inlineparameters.annotationForeground": "#7b82af",
       "scrollbar.shadow": "#24292e00"
    },
    "workbench.editorLargeFileConfirmation": 10024,
-   // "workbench.activityBar.location": "hidden",
+   "workbench.layoutControl.enabled": false,
+   "workbench.navigationControl.enabled": false,
+   // "workbench.editor.showTabs": "single",
    "workbench.tree.indent": 8,
    "workbench.editor.empty.hint": "hidden",
    "workbench.tree.enableStickyScroll": false,
@@ -72,14 +76,9 @@
    "workbench.startupEditor": "none",
    "workbench.productIconTheme": "fluent-icons",
    "workbench.iconTheme": "material-icon-theme",
-   "material-icon-theme.hidesExplorerArrows": true,
    "workbench.sideBar.location": "right",
-   "workbench.navigationControl.enabled": false,
-   "workbench.editor.enablePreview": false,
-   "workbench.layoutControl.enabled": false,
-   "workbench.secondarySideBar.defaultVisibility": "hidden",
    "workbench.colorTheme": "NoctaliaTheme",
-   "workbench.activityBar.location": "hidden",
+   "material-icon-theme.hidesExplorerArrows": true,
    /** ------------ Breadcrumbs Configurations ------------ **/
    "breadcrumbs.enabled": false,
    "breadcrumbs.symbolPath": "off",
@@ -112,13 +111,14 @@
    "prettier.bracketSameLine": true,
    "prettier.trailingComma": "all",
    "prettier.printWidth": 200,
-   "prettier.tabWidth": 4,
+   "prettier.tabWidth": 2,
    "prettier.useEditorConfig": false,
    /** ------------ Files Settings ------------ **/
    "files.autoSave": "afterDelay",
    "files.trimTrailingWhitespace": true,
    "files.trimFinalNewlines": true,
    "files.autoSaveDelay": 400,
+   "files.insertFinalNewline": true,
    "files.associations": {
       ".js": "javascriptreact",
       "*.jsx": "javascriptreact",
@@ -199,7 +199,7 @@
       "editor.acceptSuggestionOnEnter": "off"
    },
    "[css]": {
-      "editor.defaultFormatter": "biomejs.biome",
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
       "diffEditor.codeLens": true,
       "editor.formatOnSave": true,
       "editor.codeActionsOnSave": {
@@ -246,7 +246,12 @@
    "typescript.updateImportsOnFileMove.enabled": "always",
    "javascript.updateImportsOnFileMove.enabled": "always",
    /** ------------ Extension Settings ------------ **/
-   "extensions.ignoreRecommendations": true,
+   "vscord.behaviour.debug": true,
+   "vscord.status.idle.disconnectOnIdle": true,
+   "vscord.status.idle.resetElapsedTime": true,
+   "vscord.behaviour.statusBarAlignment": "Left",
+   "previewServer.port": 8085,
+   "svgPreview.autoOpen": false,
    "stylelint.validate": [
       "css",
       "scss",
@@ -272,16 +277,22 @@
       "rgba(255,127,255,0.3)",
       "rgba(79,236,236,0.3)"
    ],
+   /** ------------ Inline Chat Settings ------------ **/
+   "inlineChat.hideOnRequest": true,
+   "security.workspace.trust.untrustedFiles": "open",
+   "remote.autoForwardPortsSource": "hybrid",
+   "accessibility.underlineLinks": true,
+   "accessibility.hideAccessibleView": true,
+   "application.shellEnvironmentResolutionTimeout": 30,
    /** ------------ Window Settings ------------ **/
    "window.restoreFullscreen": true,
    "window.titleBarStyle": "native",
    "window.menuBarVisibility": "toggle",
    "window.commandCenter": false,
-   // "window.customTitleBarVisibility": "never",
    /** ------------ Custom CSS ------------ **/
    "custom-ui-style.external.imports": [
-      "file://${userHome}/.config/VSCodium/User/style.css",
-      "file://${userHome}/.config/VSCodium/User/script.js"
+      "file://${userHome}/.config/Code/User/style.css",
+      "file://${userHome}/.config/Code/User/script.js"
    ],
    "custom-ui-style.electron": {
       "titleBarStyle": "hiddenInset",
@@ -299,9 +310,11 @@
       ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
       ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
       ".title .monaco-icon-label.file-icon": "margin: 0 60px",
-      ".monaco-workbench .activitybar>.content": "justify-content: center"
    },
-   "custom-ui-style.font.sansSerif": "CommitMono",
+   "custom-ui-style.font.sansSerif": "Zed Sans",
+   "custom-ui-style.font.monospace": "JetBrainsMono Nerd Font",
+   "biome.suggestInstallingGlobally": false,
+   "extensions.ignoreRecommendations": true,
    /** Explorer **/
    "explorer.compactFolders": false,
    "explorer.confirmDragAndDrop": false,
@@ -317,9 +330,20 @@
       "**/node_modules": true,
       "**/.git": true
    },
+   "workbench.secondarySideBar.defaultVisibility": "hidden",
    "gitlens.hovers.currentLine.over": "line",
    "gitlens.currentLine.uncommittedChangesFormat": "✏️ ${ago}",
+   "chat.instructionsFilesLocations": {
+      ".github/instructions": true,
+      "/tmp/postman-collections-post-response.instructions.md": true,
+      "/tmp/postman-collections-pre-request.instructions.md": true,
+      "/tmp/postman-folder-post-response.instructions.md": true,
+      "/tmp/postman-folder-pre-request.instructions.md": true,
+      "/tmp/postman-http-request-post-response.instructions.md": true,
+      "/tmp/postman-http-request-pre-request.instructions.md": true
+   },
    "git.ignoreRebaseWarning": true,
-   "git.enableSmartCommit": true,
    "postman.mcp.notifications.postmanMCP": false,
+   "git.enableSmartCommit": true,
+   "workbench.activityBar.location": "hidden",
 }
