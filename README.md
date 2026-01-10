@@ -20,10 +20,18 @@ local ui = {
 }
 ```
 
-#### kitty x noctalia
+<table style="width: 100%;">
+<tr>
+<td align="center"><img src="assets/kit.png"  width="600"/><br><b>kitty x terminal rice</b></td>
+<td align="center"><img src="assets/kitty.png"  width="600"/><br><b>kitty x btop</b></td>
+</tr>
+<tr>
+<td align="center"><img src="assets/nvims.png"  width="600"/><br><b>nvim x vscodium</b></td>
+<td align="center"><img src="assets/zed.png"  width="600"/><br><b>zed</b></td>
+</tr>
+</table>
 
-![Screenshot of kitty and noctalia shell](./assets/rice.png)
+---
 
-#### code editors
-
-![Screenshot of my code editors, neovim, zed, and vscodium](./assets/editors.png)
+_noctalia showcase_
+![Screenshot of my code editors, neovim, zed, and vscodium](./assets/noctababy.png)
