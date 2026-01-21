@@ -1,8 +1,7 @@
 -- This file needs to have same structure as nvconfig.lua
 -- https://github.com/NvChad/ui/blob/v3.0/lua/nvconfig.lua
 -- Please read that file to know all available options :(
-
-local M = {}
+local stl_utils = require "nvchad.stl.utils"
 local git_fn = function()
     if
         not vim.b[vim.api.nvim_win_get_buf(vim.g.statusline_winid or 0)].gitsigns_head
@@ -18,9 +17,10 @@ local git_fn = function()
     return " " .. branch_name
 end
 
+local M = {}
 M.base46 = {
-    theme = "chadwal",
-    theme_toggle = { "chadwal", "doomchad" },
+    theme = "rxyhn",
+    theme_toggle = { "rxyhn", "doomchad" },
     transparency = true,
     hl_override = {
         Comment = { italic = true },
@@ -31,21 +31,25 @@ M.base46 = {
 M.nvdash = {
     load_on_startup = true,
     header = {
-        "⣿⣿⣿⣟⠿⠙⠌⠈⠈⠁⠀⠀⠀⠀⠁⠀⠈⠘⢻⣽⣿⣿⡿⢛⠿⠋⠽⠿⠁⠀",
-        "⣿⣿⣿⡑⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⣹⣿⠿⠁⠃⠀⠀⠀⠀⠀⠀",
-        "⣿⡎⠃⠀⠀⠀⠀⠀⠠⡀⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⣻⡆⠀⠀⠀⠀⠀⠀⠀⠀",
-        "⣿⣓⠀⠀⠀⠀⠀⠤⠈⠀⣨⡴⠆⢀⠀⠀⠀⠀⠂⠀⠹⠁⠀⠀⠀⠀⠀⠀⠀⠀",
-        "⣿⡀⠀⠀⠀⡀⠀⠀⠠⠀⢉⣤⣷⣄⣤⠄⠀⠀⠂⠀⠀⠀⠀⠀⠀⠁⠀⠀⠀⠀",
-        "⣿⣷⡤⠀⠂⣁⢠⡐⠒⢪⣭⡿⠙⠙⠀⠀⠀⠀⠄⠀⠀⠄⠀⠀⠀⠀⠀⠀⠀⠀",
-        "⣿⣿⣷⣆⡨⡎⣩⣠⡠⢋⣕⡮⠆⠃⠀⠈⠀⠈⠌⠀⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀",
-        "⣿⣿⣿⣿⣷⡌⡗⠏⣠⠗⠁⠀⠀⠀⠀⠀⢀⠙⠄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
-        "⣿⣿⣿⣿⣿⣿⣌⠀⠀⠀⠀⠀⠀⢠⡿⠀⡬⠂⠘⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
-        "⣿⣿⣿⣿⣿⣿⣿⣿⢦⡀⠀⠀⠐⠋⡁⣜⡞⡠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
-        "⣿⣿⣿⣿⡏⣻⣿⠋⠑⠀⠀⠀⠀⠈⢊⡴⠊⣁⡄⠀⠀⠀⠀⠀⠀⠐⠀⠀⠀⠀",
-        "⣿⣿⣿⡿⠀⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
-        "⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠄⠤⠄⠀⠀⠀⠀⠀⠀⠀⠀⠄⠀⠀⠀⠀⠀⠀⠀⠀",
-        "⡿⠩⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀",
-        "⡇⠀⠀⠀⠈⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+
+        "⠀⠀⠀⠀⠀⠀⣰⣾⠁⠀⢦⣾⣤⠆⠀⠻⣧⠀⠀⠀⠀⠀⠀",
+        "⠀⠀⠀⠀⢠⣼⠏⠀⠀⠀⠀⣿⡇⠀⠀⠀⠈⢷⣄⠀⠀⠀⠀",
+        "⠀⠀⢀⣸⣿⠃⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⢿⣧⡀⠀⠀",
+        "⠀⢰⣾⣿⡁⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⢀⣿⣿⠖⠀",
+        "⠀⠀⠈⠻⣿⣦⣄⠀⠀⠀⠀⣿⡇⠀⠀⠀⢀⣴⣿⠟⠁⠀⠀",
+        "⠀⠀⠀⠀⠈⠻⢿⣷⣄⡀⠀⣿⡇⠀⣠⣾⣿⠟⠁⠀⠀⠀⠀",
+        "⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣦⣿⣧⣾⣿⠟⠁⠀⠀⠀⠀⠀⠀",
+        "⠀⠀⠀⠀⠀⠀⠀⠀⠀⢙⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀",
+        "⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀",
+        "⠀⠀⠀⠀⠀⢀⣴⣿⣿⠟⠁⣻⣿⠈⠙⢿⣿⣦⡀⠀⠀⠀⠀",
+        "⠀⠀⠀⢀⣴⣿⡿⠋⠀⠀⠀⣽⣿⠀⠀⠀⠙⢿⣿⣦⣄⠀⠀",
+        "⠀⣠⣴⣿⡿⠋⠀⠀⠀⠀⠀⢼⣿⠀⠀⠀⠀⠀⠈⢻⣿⣷⣄",
+        "⠈⠙⢿⣿⣦⣄⠀⠀⠀⠀⠀⢸⣿⠀⠀⠀⠀⠀⣠⣾⣿⠟⠁",
+        "⠀⠀⠀⠙⢿⣿⣷⣄⠀⠀⠀⢸⣿⠀⠀⠀⣠⣾⣿⠟⠁⠀⠀",
+        "⠀⠀⠀⠀⠀⠙⢻⣿⣷⡄⠀⢸⣿⠀⠀⣼⣿⣿⠃⠀⠀⠀⠀",
+        "⠀⠀⠀⠀⠀⠀⠈⠻⢿⣿⣦⣸⣿⣠⣾⣿⠟⠁⠀⠀⠀⠀⠀",
+        "⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⢿⣿⣿⣿⡿⠁⠀⠀⠀⠀⠀⠀⠀",
+        "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀",
         "",
     },
 
@@ -79,6 +83,28 @@ M.ui = {
         theme = "minimal",
         order = { "mode", "cgit", "%=", "lsp_msg", "%=", "lsp", "cwd" },
         modules = {
+            mode = function()
+                if not stl_utils.is_activewin() then
+                    return ""
+                end
+
+                local modes = stl_utils.modes
+                local m = vim.api.nvim_get_mode().mode
+
+                local config = require("nvconfig").ui.statusline
+                local sep_style = config.separator_style
+                sep_style = (sep_style ~= "round" and sep_style ~= "block") and "block" or sep_style
+
+                local sep_icons = stl_utils.separators
+                local separators = (type(sep_style) == "table" and sep_style) or sep_icons[sep_style]
+
+                local sep_r = "%#St_sep_r#" .. separators["right"] .. " %#ST_EmptySpace#"
+
+                local mode_name = modes[m][2]
+                local hl_text = "%#St_" .. mode_name .. "ModeText#"
+
+                return hl_text .. " " .. modes[m][1] .. sep_r
+            end,
             cgit = function()
                 return "%#St_gitIcons#" .. git_fn()
             end,
