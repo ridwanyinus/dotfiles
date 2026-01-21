@@ -11,7 +11,6 @@ SETUVAR --export FZF_DEFAULT_OPTS:\x2d\x2dstyle\x20full\x20\x2d\x2dborder\x20\x2
 SETUVAR --export FZF_TAB_COLORS:fg\x3a\x23CDD6F4\x2cbg\x3a\x231E1E2E\x2chl\x3a\x23F38BA8\x2cmin\x2dheight\x3d5
 SETUVAR --export GNOME_KEYRING_CONTROL:/run/user/1000/keyring
 SETUVAR --export LANG:en_US\x2eUTF\x2d8
-SETUVAR --export QT_STYLE_OVERRIDE:kvantum
 SETUVAR --export SSH_AUTH_SOCK:/run/user/1000/keyring/ssh
 SETUVAR __fish_initialized:3800
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish

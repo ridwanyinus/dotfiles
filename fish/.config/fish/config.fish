@@ -7,3 +7,11 @@ end
 for key in ~/.ssh/id_ed25519_github_main ~/.ssh/id_ed25519_github_secondary
     ssh-add -l | grep -q (basename $key) >/dev/null 2>&1; or ssh-add $key >/dev/null 2>&1
 end
+
+# 1. Define the function that fetches the last command
+function last_history_item
+    echo $history[1]
+end
+
+# 2. Create the abbreviation
+abbr -a !! --position anywhere --function last_history_item
