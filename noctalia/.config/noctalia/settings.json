@@ -1,12 +1,14 @@
 {
     "appLauncher": {
+        "autoPasteClipboard": true,
+        "clipboardWrapText": true,
         "customLaunchPrefix": "",
         "customLaunchPrefixEnabled": false,
         "enableClipPreview": true,
         "enableClipboardHistory": true,
         "iconMode": "tabler",
         "ignoreMouseInput": false,
-        "pinnedExecs": [
+        "pinnedApps": [
         ],
         "position": "center",
         "screenshotAnnotationTool": "",
@@ -19,7 +21,6 @@
     },
     "audio": {
         "cavaFrameRate": 30,
-        "externalMixer": "pwvucontrol || pavucontrol",
         "mprisBlacklist": [
         ],
         "preferredPlayer": "",
@@ -33,8 +34,8 @@
         "density": "compact",
         "exclusive": true,
         "floating": false,
-        "marginHorizontal": 0.25,
-        "marginVertical": 0.25,
+        "marginHorizontal": 5,
+        "marginVertical": 5,
         "monitors": [
         ],
         "outerCorners": true,
@@ -85,10 +86,15 @@
                     "useFixedWidth": false
                 },
                 {
+                    "compactMode": false,
+                    "compactShowAlbumArt": true,
+                    "compactShowVisualizer": false,
                     "hideMode": "hidden",
                     "hideWhenIdle": false,
                     "id": "MediaMini",
                     "maxWidth": 145,
+                    "panelShowAlbumArt": true,
+                    "panelShowVisualizer": true,
                     "scrollingMode": "hover",
                     "showAlbumArt": false,
                     "showArtistFirst": false,
@@ -107,16 +113,7 @@
                     "hidePassive": false,
                     "id": "Tray",
                     "pinned": [
-                        "nm-applet"
                     ]
-                },
-                {
-                    "id": "ScreenRecorder"
-                },
-                {
-                    "hideWhenZero": true,
-                    "id": "NotificationHistory",
-                    "showUnreadBadge": true
                 },
                 {
                     "deviceNativePath": "",
@@ -129,7 +126,8 @@
                 },
                 {
                     "displayMode": "onhover",
-                    "id": "Volume"
+                    "id": "Volume",
+                    "middleClickCommand": "pwvucontrol || pavucontrol"
                 },
                 {
                     "customFont": "Space Grotesk Light",
@@ -176,10 +174,6 @@
                 "id": "calendar-month-card"
             },
             {
-                "enabled": true,
-                "id": "timer-card"
-            },
-            {
                 "enabled": false,
                 "id": "weather-card"
             }
@@ -187,7 +181,6 @@
     },
     "colorSchemes": {
         "darkMode": true,
-        "generateTemplatesForPredefined": true,
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "matugenSchemeType": "scheme-content",
@@ -236,7 +229,21 @@
                     "id": "WallpaperSelector"
                 },
                 {
-                    "id": "ScreenRecorder"
+                    "defaultSettings": {
+                        "audioCodec": "opus",
+                        "audioSource": "default_output",
+                        "colorRange": "limited",
+                        "copyToClipboard": false,
+                        "directory": "",
+                        "filenamePattern": "recording_yyyyMMdd_HHmmss",
+                        "frameRate": "60",
+                        "quality": "very_high",
+                        "resolution": "original",
+                        "showCursor": true,
+                        "videoCodec": "h264",
+                        "videoSource": "portal"
+                    },
+                    "id": "plugin:screen-recorder"
                 }
             ],
             "right": [
@@ -276,6 +283,7 @@
         "pinnedApps": [
         ],
         "pinnedStatic": false,
+        "position": "bottom",
         "size": 1
     },
     "general": {
@@ -297,6 +305,7 @@
         "shadowDirection": "bottom_right",
         "shadowOffsetX": 2,
         "shadowOffsetY": 3,
+        "showChangelogOnStartup": true,
         "showHibernateOnLockScreen": true,
         "showScreenCorners": false,
         "showSessionButtonsOnLockScreen": true
@@ -313,6 +322,8 @@
     "location": {
         "analogClockInCalendar": true,
         "firstDayOfWeek": -1,
+        "hideWeatherCityName": false,
+        "hideWeatherTimezone": false,
         "name": "Tokyo",
         "showCalendarEvents": true,
         "showCalendarWeather": true,
@@ -380,18 +391,6 @@
         ],
         "overlayLayer": false
     },
-    "screenRecorder": {
-        "audioCodec": "opus",
-        "audioSource": "none",
-        "colorRange": "limited",
-        "copyToClipboard": true,
-        "directory": "/home/ridwan/Videos/ScreenRecord",
-        "frameRate": 60,
-        "quality": "ultra",
-        "showCursor": true,
-        "videoCodec": "h264",
-        "videoSource": "portal"
-    },
     "sessionMenu": {
         "countdownDuration": 10000,
         "enableCountdown": false,
@@ -439,7 +438,7 @@
         "showHeader": true,
         "showNumberLabels": true
     },
-    "settingsVersion": 37,
+    "settingsVersion": 39,
     "systemMonitor": {
         "cpuCriticalThreshold": 85,
         "cpuPollingInterval": 3000,
@@ -489,18 +488,23 @@
         "walker": false,
         "wezterm": false,
         "yazi": false,
-        "zed": true
+        "zed": true,
+        "zenBrowser": true
     },
     "ui": {
+        "bluetoothDetailsViewMode": "grid",
+        "bluetoothHideUnnamedDevices": false,
         "boxBorderEnabled": false,
         "fontDefault": "Satoshi Light",
         "fontDefaultScale": 1,
         "fontFixed": "JetBrainsMono Nerd Font Mono",
         "fontFixedScale": 1,
+        "networkPanelView": "wifi",
         "panelBackgroundOpacity": 1,
         "panelsAttachedToBar": true,
         "settingsPanelMode": "attached",
-        "tooltipsEnabled": true
+        "tooltipsEnabled": true,
+        "wifiDetailsViewMode": "grid"
     },
     "wallpaper": {
         "directory": "/home/ridwan/Pictures/Wallpapers",
