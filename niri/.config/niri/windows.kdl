@@ -24,12 +24,17 @@ workspace "code" {
 window-rule {
     geometry-corner-radius 16
     clip-to-geometry true
+    opacity 0.9
+    match is-active=false
 }
 
 window-rule {
-    match is-active=false
-    opacity 0.9
+    geometry-corner-radius 12 
+    clip-to-geometry true
+    opacity 1.0
+    match is-active=true
 }
+
 // ============================================================================
 // APPLICATION-SPECIFIC RULES
 // ============================================================================
@@ -72,7 +77,6 @@ window-rule {
     open-on-workspace "browser"
     open-maximized true
     open-focused true
-    // opacity 0.95
 }
 
 window-rule {
@@ -87,7 +91,7 @@ window-rule {
     open-on-workspace "code"
     open-maximized true
     open-focused true
-    opacity 0.95
+    opacity 0.97
 }
 
 window-rule {
