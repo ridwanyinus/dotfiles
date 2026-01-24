@@ -54,7 +54,7 @@ sudo dnf install stow
 # Clone the repository (choose one)
 git clone https://codeberg.org/ridwan/dotfiles.git ~/dotfiles
 # or
-git clone https://github.com/ridwan/dotfiles.git ~/dotfiles
+git clone https://github.com/ridwanyinus/dotfiles.git ~/dotfiles
 
 cd ~/dotfiles
 
