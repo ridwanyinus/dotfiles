@@ -36,7 +36,7 @@
 set -euo pipefail
 
 raise_or_cycle() {
-  local search_term="$1" 
+  local search_term="$1"
   local tmp
   tmp="$(mktemp)"
   trap 'rm -f "$tmp"' EXIT
@@ -61,7 +61,7 @@ raise_or_cycle() {
   local next_idx=0
   for ((i = 0; i < ${#ids[@]}; i++)); do
     if [[ "${ids[$i]}" == "$focused" ]]; then
-      next_idx=$(( (i + 1) % ${#ids[@]} ))
+      next_idx=$(((i + 1) % ${#ids[@]}))
       break
     fi
   done
@@ -78,10 +78,21 @@ if [[ -z "$target" ]]; then
   exit 2
 fi
 
+# Map common commands to their actual app_ids
+case "${target,,}" in
+"zen-browser")
+  search_term="zen"
+  spawn_command="zen-browser"
+  ;;
+*)
+  search_term="$target"
+  spawn_command="$target"
+  ;;
+esac
+
 # 1. Try to focus or cycle existing windows
-if raise_or_cycle "$target"; then
+if raise_or_cycle "$search_term"; then
   exit 0
 fi
-
-# 2. If no window matched, spawn the command exactly as typed
-niri msg action spawn -- "$target"
+# 2. If no window matched, spawn the command
+niri msg action spawn -- "$spawn_command"
