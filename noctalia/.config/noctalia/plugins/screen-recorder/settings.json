@@ -1,6 +1,6 @@
 {
   "directory": "",
-  "filenamePattern": "recording_yyyyMMdd_HHmmss",
+  "filenamePattern": "recording_dd_HHmmss_MMyyyy",
   "frameRate": "60",
   "audioCodec": "opus",
   "videoCodec": "h264",
