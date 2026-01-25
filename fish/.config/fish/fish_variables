@@ -12,40 +12,12 @@ SETUVAR --export FZF_TAB_COLORS:fg\x3a\x23CDD6F4\x2cbg\x3a\x231E1E2E\x2chl\x3a\x
 SETUVAR --export GNOME_KEYRING_CONTROL:/run/user/1000/keyring
 SETUVAR --export LANG:en_US\x2eUTF\x2d8
 SETUVAR --export SSH_AUTH_SOCK:/run/user/1000/keyring/ssh
-SETUVAR __fish_initialized:3800
+SETUVAR __fish_initialized:4300
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
 SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_files:\x7e/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_list\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e\x7e/\x2econfig/fish/functions/nvm\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e\x7e/\x2econfig/fish/completions/nvm\x2efish
 SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ejorgebucaran/nvm\x2efish
 SETUVAR _fisher_upgraded_to_4_4:\x1d
-SETUVAR fish_color_autosuggestion:brblack
-SETUVAR fish_color_cancel:\x2dr
-SETUVAR fish_color_command:normal
-SETUVAR fish_color_comment:red
-SETUVAR fish_color_cwd:green
-SETUVAR fish_color_cwd_root:red
-SETUVAR fish_color_end:green
-SETUVAR fish_color_error:brred
-SETUVAR fish_color_escape:brcyan
-SETUVAR fish_color_history_current:\x2d\x2dbold
-SETUVAR fish_color_host:normal
-SETUVAR fish_color_host_remote:yellow
-SETUVAR fish_color_normal:normal
-SETUVAR fish_color_operator:brcyan
-SETUVAR fish_color_param:cyan
-SETUVAR fish_color_quote:yellow
-SETUVAR fish_color_redirection:cyan\x1e\x2d\x2dbold
-SETUVAR fish_color_search_match:white\x1e\x2d\x2dbackground\x3dbrblack
-SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrblack
-SETUVAR fish_color_status:red
-SETUVAR fish_color_user:brgreen
-SETUVAR fish_color_valid_path:\x2d\x2dunderline
 SETUVAR fish_greeting:
-SETUVAR fish_key_bindings:fish_default_key_bindings
-SETUVAR fish_pager_color_completion:normal
-SETUVAR fish_pager_color_description:yellow\x1e\x2di
-SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
-SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
-SETUVAR fish_pager_color_selected_background:\x2dr
 SETUVAR fish_user_paths:/home/ridwan/\x2espicetify\x1e/home/ridwan/\x2eamp/bin\x1e/usr/lib/ccache/bin/\x1e/home/ridwan/\x2ecargo/bin/\x1e/home/ridwan/\x2elocal/bin/
 SETUVAR --export fzf_alt_c_opts:\x2d\x2dpreview\x20\x27eza\x20\x2d\x2dicons\x3dalways\x20\x2d\x2dtree\x20\x2d\x2dcolor\x3dalways\x20\x7b\x7d\x20\x7c\x20head\x20\x2d200\x27
 SETUVAR --export fzf_ctrl_t_opts:\x2d\x2dpreview\x20\x27bat\x20\x2d\x2dcolor\x3dalways\x20\x2dn\x20\x2d\x2dline\x2drange\x20\x3a500\x20\x7b\x7d\x27
@@ -95,6 +67,7 @@ SETUVAR pure_separate_prompt_on_error:false
 SETUVAR pure_shorten_prompt_current_directory_length:0
 SETUVAR pure_shorten_window_title_current_directory_length:0
 SETUVAR pure_show_jobs:false
+SETUVAR pure_show_numbered_git_indicator:false
 SETUVAR pure_show_prefix_root_prompt:false
 SETUVAR pure_show_subsecond_command_duration:false
 SETUVAR pure_show_system_time:false
