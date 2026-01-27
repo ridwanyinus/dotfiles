@@ -11,7 +11,7 @@ alias ls='eza -a --icons=always'
 alias ll='eza -al --icons=always'
 alias lt='eza -a --tree --level=2 --long --icons --git'
 alias md='mkdir -p'
-alias rd='rmdir'
+alias rd='rm -rf'
 
 alias shutdown='systemctl poweroff'
 alias hibernate='qs -c noctalia-shell ipc call lockScreen lock && systemctl hibernate'
@@ -20,7 +20,7 @@ alias v='$EDITOR'
 alias vim='$EDITOR'
 alias wifi='nmtui'
 alias copy='wl-copy'
-
+alias oc='opencode'
 
 # -----------------------------------------------------
 # FZF 

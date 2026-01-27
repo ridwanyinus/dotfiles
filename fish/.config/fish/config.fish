@@ -15,5 +15,6 @@ end
 
 # 2. Create the abbreviation
 abbr -a !! --position anywhere --function last_history_item
-set -g fish_cursor_default block
 
+# Force cursor_block
+fish_vi_key_bindings
