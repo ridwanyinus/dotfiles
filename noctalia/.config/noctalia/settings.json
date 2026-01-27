@@ -506,10 +506,6 @@
             },
             {
                 "enabled": true,
-                "id": "fuzzel"
-            },
-            {
-                "enabled": true,
                 "id": "discord"
             },
             {
