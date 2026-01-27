@@ -146,10 +146,22 @@ return {
       opts = {
          "fzf-native",
          winopts = {
-            width = 0.85,
+            width = 0.90,
+            height = 85,
+            border = "rounded",
+            hls = {
+               border = "FloatBorder",
+               normal = "Normal",
+               preview_normal = "Normal",
+            },
             preview = {
                layout = "horizontal",
                horizontal = "right:50%",
+               winopts = {
+                  hls = {
+                     normal = "Normal",
+                  },
+               },
             },
          },
          keymap = {
@@ -178,6 +190,12 @@ return {
          },
       },
       ---@diagnostic enable: missing-fields
+      -- Enable fzf-native for better performance
+      fzf_opts = {
+         ["--layout"] = "reverse",
+         ["--info"] = "inline-right",
+         ["--height"] = "90%",
+      },
    },
    {
       "m4xshen/hardtime.nvim",
