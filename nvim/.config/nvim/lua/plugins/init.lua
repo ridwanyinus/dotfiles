@@ -1,85 +1,188 @@
 return {
-    {
-        "stevearc/conform.nvim",
-        event = "BufWritePre", -- uncomment for format on save
-        opts = require "configs.conform",
-    },
+   -- Disable Telescope
+   { "nvim-telescope/telescope.nvim", enabled = false },
 
-    -- These are some examples, uncomment them if you want to see them work!
-    {
-        "neovim/nvim-lspconfig",
-        config = function()
-            require "configs.lspconfig"
-        end,
-    },
+   -- Disable nvim-cmp and its friends
+   { "hrsh7th/nvim-cmp", enabled = false },
+   { "hrsh7th/cmp-buffer", enabled = false },
+   { "hrsh7th/cmp-path", enabled = false },
+   { "hrsh7th/cmp-nvim-lsp", enabled = false },
+   { "saadparwaiz1/cmp_luasnip", enabled = false },
 
-    { "wakatime/vim-wakatime", lazy = false },
+   -- { "wakatime/vim-wakatime", lazy = false },
+   { "vyfor/cord.nvim", build = ":Cord update", lazy = false },
 
-    {
-        "vyfor/cord.nvim",
-        build = ":Cord update",
-        lazy = false,
-        -- opts = {}
-    },
-
-    {
-        "Leon-Degel-Koehn/qmlformat.nvim",
-    },
-    {
-        "mg979/vim-visual-multi",
-        -- event = "VeryLazy",
-        -- init = function()
-        --     vim.g.VM_maps = {
-        --         ["Find Under"] = "<C-d>", -- Use Ctrl-d like VSCode
-        --         ["Find Subword Under"] = "<C-d>",
-        --     }
-        -- end,
-    },
-    {
-        "nvim-tree/nvim-tree.lua",
-        opts = {
-            git = {
-                ignore = false,
+   {
+      "neovim/nvim-lspconfig",
+      config = function()
+         require "configs.lspconfig"
+      end,
+   },
+   {
+      "nvim-tree/nvim-tree.lua",
+      opts = {
+         reload_on_bufenter = true,
+         sync_root_with_cwd = false,
+         respect_buf_cwd = false,
+         auto_reload_on_write = true,
+         hijack_directories = {
+            enable = false,
+            auto_open = true,
+         },
+         actions = {
+            open_file = {
+               quit_on_open = false,
+               resize_window = false,
+               window_picker = {
+                  enable = false,
+               },
             },
-            view = {
-                side = "right",
-            },
-            renderer = {
-                highlight_git = true,
-                icons = {
-                    show = {
-                        git = true,
-                    },
-                },
-            },
-        },
-    },
+         },
+         update_focused_file = {
+            enable = false,
+         },
+         git = {
+            ignore = false,
+         },
+         view = {
+            signcolumn = "no",
+            centralize_selection = true,
+            adaptive_size = false,
+            side = "right",
+            preserve_window_proportions = true,
+            width = 25,
+            float = {
+               enable = true,
+               quit_on_focus_loss = false,
+               open_win_config = function()
+                  local screen_height = vim.o.lines - 4
 
-    {
-        "nvim-treesitter/nvim-treesitter",
-        opts = {
-            ensure_installed = {
-                "vim",
-                "lua",
-                "vimdoc",
-                "html",
-                "css",
-                "javascript",
-                "typescript",
-                "tsx",
-                "bash",
-                "fish",
+                  return {
+                     row = 0,
+                     width = 25,
+                     border = "rounded",
+                     relative = "editor",
+                     col = vim.o.columns,
+                     height = screen_height,
+                  }
+               end,
             },
-        },
-    },
+         },
+         renderer = {
+            highlight_git = true,
+            icons = {
+               show = {
+                  git = true,
+               },
+            },
+         },
+      },
+   },
+   {
+      "saghen/blink.cmp",
+      version = "1.*",
+      event = { "InsertEnter" },
+      dependencies = {
+         {
+            "windwp/nvim-autopairs",
+            opts = {
+               fast_wrap = {},
+               disable_filetype = { "TelescopePrompt", "vim" },
+            },
+         },
+      },
+      opts_extend = { "sources.default" },
+      opts = function()
+         return require "configs.blink"
+      end,
+   },
+   {
+      "stevearc/conform.nvim",
+      event = { "BufWritePre" },
+      cmd = { "ConformInfo" },
+      opts = require "configs.conform",
+   },
+   {
+      "williamboman/mason.nvim",
+      config = function()
+         require("mason").setup()
+      end,
+   },
+   {
+      "williamboman/mason-lspconfig.nvim",
+      config = function()
+         require("mason-lspconfig").setup()
+      end,
+   },
+   {
+      "nvim-treesitter/nvim-treesitter",
+      opts = {
+         ensure_installed = {
+            "vim",
+            "vimdoc",
+            "html",
+            "css",
+            "javascript",
+            "typescript",
+            "tsx",
+            "bash",
+            "fish",
+         },
+      },
+   },
 
-    {
-        "monkoose/neocodeium",
-        event = "VeryLazy",
-        config = function()
-            local neocodeium = require "neocodeium"
-            neocodeium.setup()
-            vim.keymap.set("i", "<A-f>", neocodeium.accept)
-        end,
-    },
+   {
+      "ibhagwan/fzf-lua",
+      cmd = "FzfLua",
+      dependencies = {
+         "nvim-mini/mini.icons",
+         "mfussenegger/nvim-dap",
+         "MeanderingProgrammer/render-markdown.nvim",
+         "nvim-treesitter/nvim-treesitter-context",
+      },
+      ---@module "fzf-lua"
+      ---@type fzf-lua.Config|{}
+      ---@diagnostic disable: missing-fields
+      opts = {
+         "fzf-native",
+         winopts = {
+            width = 0.85,
+            preview = {
+               layout = "horizontal",
+               horizontal = "right:50%",
+            },
+         },
+         keymap = {
+            fzf = {
+               ["ctrl-j"] = "preview-down",
+               ["ctrl-k"] = "preview-up",
+               ["ctrl-d"] = "preview-page-down",
+               ["ctrl-u"] = "preview-page-up",
+            },
+         },
+         actions = {
+            files = {
+               ["default"] = function(selected, opts)
+                  -- Find a non-NvimTree window
+                  for _, win in ipairs(vim.api.nvim_list_wins()) do
+                     local buf = vim.api.nvim_win_get_buf(win)
+                     local ft = vim.bo[buf].filetype
+                     if ft ~= "NvimTree" and vim.api.nvim_win_get_config(win).relative == "" then
+                        vim.api.nvim_set_current_win(win)
+                        break
+                     end
+                  end
+                  require("fzf-lua.actions").file_edit(selected, opts)
+               end,
+            },
+         },
+      },
+      ---@diagnostic enable: missing-fields
+   },
+   {
+      "m4xshen/hardtime.nvim",
+      lazy = false,
+      dependencies = { "MunifTanjim/nui.nvim" },
+      opts = {},
+   },
 }

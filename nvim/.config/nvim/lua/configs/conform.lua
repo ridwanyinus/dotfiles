@@ -1,19 +1,19 @@
 local options = {
     formatters_by_ft = {
         lua = { "stylua" },
-        -- css = { "prettier" },
-        -- html = { "prettier" },
-        -- kdl = { "kdlfmt" },
+        css = { "prettier" },
+        html = { "prettier" },
         qml = { "qmlformat" },
+        json = { "prettier" },
+        jsonc = { "prettier" },
+        markdown = { "prettier" },
+        javascript = { "prettier" },
+        typescript = { "prettier" },
+        svelte = { "prettier" },
+        sh = { "shfmt" },
     },
 
-    formatters = {
-        kdlfmt = {
-            command = "kdlfmt",
-            args = { "format", "-" },
-            stdin = true,
-        },
-    },
+    formatters = {},
 
     format_on_save = {
         -- These options will be passed to conform.format()

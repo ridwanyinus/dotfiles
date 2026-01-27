@@ -1,9 +1,13 @@
 require "nvchad.autocmds"
 local api = vim.api
+local autocmd = vim.api.nvim_create_autocmd
 
-api.nvim_create_autocmd("BufEnter", {
+api.nvim_create_autocmd("VimEnter", {
     callback = function()
-        vim.cmd "silent! lcd %:p:h"
+        -- Only change cwd on startup when opening a file/directory
+        if vim.fn.argc() > 0 then
+            vim.cmd "silent! lcd %:p:h"
+        end
     end,
 })
 
@@ -48,5 +52,21 @@ api.nvim_create_autocmd({ "BufDelete", "BufWipeout" }, {
                 end
             end, 10)
         end)
+    end,
+})
+
+-- highlight yanked text
+autocmd("TextYankPost", {
+    pattern = "*",
+    command = "silent! lua vim.highlight.on_yank({ timeout = 100 })",
+})
+
+-- jump to last edit position on opening file
+autocmd("BufReadPost", {
+    pattern = "*",
+    callback = function(ev)
+        if vim.fn.line "'\"" > 1 and vim.fn.line "'\"" <= vim.fn.line "$" then
+            vim.cmd 'exe "normal! g\'\\""'
+        end
     end,
 })
