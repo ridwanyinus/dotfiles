@@ -18,6 +18,7 @@
     editor = code --wait
     excludesfile = ~/.gitignore
     fsmonitor = true
+	pager = delta
     # untrackedCache = true
 
 [column]
@@ -69,6 +70,7 @@
     updateRefs = true
 
 [merge]
+	conflictStyle = zdiff3
     # conflictstyle = zdiff3
 
 [pull]
@@ -78,3 +80,7 @@
     insteadOf = git@github.com:frontendhashira/
 
 
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true

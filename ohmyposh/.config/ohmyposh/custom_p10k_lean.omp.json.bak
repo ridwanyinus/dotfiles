@@ -85,6 +85,16 @@
           "style": "plain",
           "template": "{{ if eq .Code 0 }}╰─󱐋{{ else }}╰─{{ end }}",
           "type": "text"
+        },
+        {
+          "foreground": "p:medium",
+          "foreground_templates": ["{{ if gt .Code 0 }}p:error-fg{{ end }}"],
+          "options": {
+            "always_enabled": true
+          },
+          "style": "plain",
+          "template": "\ue285\ueab6",
+          "type": "status"
         }
       ],
       "type": "prompt"
