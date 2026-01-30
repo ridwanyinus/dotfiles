@@ -102,18 +102,20 @@ return {
       cmd = { "ConformInfo" },
       opts = require "configs.conform",
    },
-   {
-      "williamboman/mason.nvim",
-      config = function()
-         require("mason").setup()
-      end,
-   },
-   {
-      "williamboman/mason-lspconfig.nvim",
-      config = function()
-         require("mason-lspconfig").setup()
-      end,
-   },
+{
+  "mason-org/mason.nvim",
+  cmd = { "Mason", "MasonInstall", "MasonUpdate" },
+  opts = {
+    -- ensure_installed = {
+    --   "lua-language-server",
+    --   "stylua",
+    --   "html-lsp",
+    --   "css-lsp",
+    --   "typescript-language-server",
+    --   "biome",
+    -- },
+  },
+},
    {
       "nvim-treesitter/nvim-treesitter",
       opts = {
@@ -144,32 +146,28 @@ return {
       ---@type fzf-lua.Config|{}
       ---@diagnostic disable: missing-fields
       opts = {
-         "fzf-native",
+         "telescope",
+         hls = {
+            border = "FloatBorder",
+            normal = "Normal",
+            preview_normal = "Normal",
+         },
          winopts = {
-            width = 0.90,
-            height = 85,
+            -- width = 0.90,
+            -- height = 85,
             border = "rounded",
-            hls = {
-               border = "FloatBorder",
-               normal = "Normal",
-               preview_normal = "Normal",
-            },
             preview = {
                layout = "horizontal",
                horizontal = "right:50%",
-               winopts = {
-                  hls = {
-                     normal = "Normal",
-                  },
-               },
+               winopts = {},
             },
          },
          keymap = {
             fzf = {
-               ["ctrl-j"] = "preview-down",
-               ["ctrl-k"] = "preview-up",
-               ["ctrl-d"] = "preview-page-down",
-               ["ctrl-u"] = "preview-page-up",
+               ["<C-j>"] = "preview-down",
+               ["<C-k>"] = "preview-up",
+               ["<C-d>"] = "preview-page-down",
+               ["<C-u>"] = "preview-page-up",
             },
          },
          actions = {

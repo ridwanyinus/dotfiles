@@ -1,39 +1,40 @@
 require "nvchad.mappings"
--- add yours here
 
 local map = vim.keymap.set
 
 map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jk", "<ESC>")
 
-map({ "n", "v" }, "<C-a>", "<Esc>gg0vG$", { desc = "Select all (works everywhere)" })
-map("i", "<C-s>", "<ESC><cmd>w<CR>", { desc = "Save in insert" })
+map({ "n", "v" }, "<C-a>", "<Esc>gg0vG$", { desc = "Select all" })
+map("i", "<C-s>", "<ESC><cmd>w<CR>", { desc = "Save in insert", silent = true })
 
 map("n", "<M-j>", ":m .+1<CR>==", { desc = "Move line down" })
 map("n", "<M-k>", ":m .-2<CR>==", { desc = "Move line up" })
 
 map("v", "<M-j>", ":m '>+1<CR>gv=gv", { desc = "Move selection down" })
 map("v", "<M-k>", ":m '<-2<CR>gv=gv", { desc = "Move selection up" })
-map({ "n", "x" }, "c", '"_c', { desc = "Change without yanking" })
 
--- Ctrl-o to ignore dashboard
-map("n", "<C-o>", function()
-   if vim.bo.filetype == "nvdash" then
-      vim.cmd "bdelete"
-   else
-      vim.cmd "normal! <C-o>"
-   end
-end, { desc = "Close dashboard or jump back" })
+map("i", "<C-n>", "<Down>", { noremap = true, desc = "Move down" })
+map("i", "<C-p>", "<Up>", { noremap = true, desc = "Move up" })
+map("i", "<C-b>", "<Left>", { noremap = true, desc = "Move left" })
+map("i", "<C-f>", "<Right>", { noremap = true, desc = "Move right" })
+map("i", "<C-e>", "<C-o>$", { noremap = true, desc = "Move to end of line" })
+
+map("i", "<M-f>", "<C-o>w", { noremap = true, desc = "Move forward one word" })
+map("i", "<M-b>", "<C-o>b", { noremap = true, desc = "Move backward one word" })
+
+map("n", "yc", "yy<cmd>normal gcc<CR>p", { noremap = true, desc = "Duplicate line and comment original" })
+
+map({ "n", "v" }, "gh", "_", { noremap = true, desc = "Go to start of line" })
+map({ "n", "v" }, "gl", "$", { noremap = true, desc = "Go to end of line" })
 
 -- fzf-lua
 map("n", "<leader>ff", function()
    require("fzf-lua").files {
       cmd = "fd --type f --exclude node_modules --exclude .next --exclude .git",
       cwd_prompt = false,
-      -- prompt = 'Files❯ '
    }
 end, { desc = "Fzf Find Files" })
-
 map("n", "<leader>fw", "<cmd>FzfLua live_grep<CR>", { desc = "live grep" })
 map("n", "<leader>fb", "<cmd>FzfLua buffers<CR>", { desc = "find buffers" })
 map("n", "<leader>fh", "<cmd>FzfLua help_tags<CR>", { desc = "help page" })
@@ -42,25 +43,90 @@ map("n", "<leader>fo", "<cmd>FzfLua oldfiles<CR>", { desc = "find oldfiles" })
 map("n", "<leader>fz", "<cmd>FzfLua blines<CR>", { desc = "find in current buffer" })
 map("n", "<leader>cm", "<cmd>FzfLua git_commits<CR>", { desc = "git commits" })
 map("n", "<leader>gt", "<cmd>FzfLua git_status<CR>", { desc = "git status" })
--- find recent zoxide cd'ed paths
-map("n", "<leader>fx", "<cmd>FzfLua zoxide<CR>")
-
---fzf Insert-mode completion
-vim.keymap.set({ "n", "v", "i" }, "<C-x><C-f>", function()
+map("n", "<leader>fx", "<cmd>FzfLua zoxide<CR>", { desc = "find recent zoxide cd paths" })
+map({ "n", "v", "i" }, "<C-x><C-f>", function()
    require("fzf-lua").complete_path()
 end, { silent = true, desc = "Fuzzy complete path" })
 
--- Enter Normal Mode Terminal
-vim.keymap.set("t", "<Esc>", "<C-\\><C-n>", { desc = "Enter Normal Mode(Terminal)", silent = true })
+map("n", "<C-h>", "<C-w>h", { desc = "Go to left window" })
+map("n", "<C-j>", "<C-w>j", { desc = "Go to lower window" })
+map("n", "<C-k>", "<C-w>k", { desc = "Go to upper window" })
+map("n", "<C-l>", "<C-w>l", { desc = "Go to right window" })
 
--- Go to upper window (Terminal)
-vim.keymap.set("t", "<C-j>", "<C-\\><C-N><C-j>", { desc = "General | Go to upper window(Terminal)", silent = true })
+map("t", "<Esc>", "<C-\\><C-n>", { desc = "Exit terminal mode" })
 
--- Go to lower window (Terminal)
-vim.keymap.set("t", "<C-k>", "<C-\\><C-N><C-k>", { desc = "General | Go to lower window(Terminal)", silent = true })
+map("t", "<C-h>", "<cmd>wincmd h<CR>", { desc = "Go to left window" })
+map("t", "<C-j>", "<cmd>wincmd j<CR>", { desc = "Go to lower window" })
+map("t", "<C-k>", "<cmd>wincmd k<CR>", { desc = "Go to upper window" })
+map("t", "<C-l>", "<cmd>wincmd l<CR>", { desc = "Go to right window" })
 
--- Go to left window (Terminal)
-vim.keymap.set("t", "<C-h>", "<C-\\<C-N><C-h>", { desc = "General | Go to left window(Terminal)", silent = true })
+map("n", "<C-Up>", ":resize -2<CR>", { desc = "Decrease window height" })
+map("n", "<C-Down>", ":resize +2<CR>", { desc = "Increase window height" })
+map("n", "<C-Left>", ":vertical resize -2<CR>", { desc = "Decrease window width" })
+map("n", "<C-Right>", ":vertical resize +2<CR>", { desc = "Increase window width" })
 
--- Go to right window (Terminal)
-vim.keymap.set("t", "<C-l>", "<C-\\><C-N><C-l>", { desc = "General | Go to right window(Terminal)", silent = true })
+map("t", "<C-Up>", "<cmd>resize -2<CR>", { desc = "Decrease window height" })
+map("t", "<C-Down>", "<cmd>resize +2<CR>", { desc = "Increase window height" })
+map("t", "<C-Left>", "<cmd>vertical resize -2<CR>", { desc = "Decrease window width" })
+map("t", "<C-Right>", "<cmd>vertical resize +2<CR>", { desc = "Increase window width" })
+
+map("n", "<C-d>", "<C-d>zz", { desc = "Scroll down half page and center", silent = true })
+map("n", "<C-u>", "<C-u>zz", { desc = "Scroll up half page and center", silent = true })
+map("n", "<C-f>", "<C-f>zz", { desc = "Scroll down full page and center", silent = true })
+map("n", "<C-b>", "<C-b>zz", { desc = "Scroll up full page and center", silent = true })
+map("n", "G", "Gzz", { noremap = true })
+map("n", "n", "nzzzv", { noremap = true })
+map("n", "N", "Nzzzv", { noremap = true })
+map("n", "*", "*zz", { noremap = true })
+map("n", "#", "#zz", { noremap = true })
+map("n", "g*", "g*zz", { noremap = true })
+map("n", "g#", "g#zz", { noremap = true })
+
+map("n", "J", "mzJ`z")
+map("n", "Y", "yy")
+
+map("v", "R", '"hy:.,$s/<C-r>h//gc<left><left><left>', { desc = "Replace selection from current line downward" })
+map("n", "<leader>ra", [[:%s/\<<C-r><C-w>\>//gc<Left><Left><Left>]], { desc = "Replace ALL instances (Global)" })
+
+map("n", "g/", function()
+   local cur_line = vim.fn.line "."
+   local search_term = vim.fn.getreg "/" -- Get last search (from / or *)
+
+   if search_term == "" then
+      print "No search pattern set!"
+      return
+   end
+
+   -- 1. Populate Quickfix without jumping (the 'j' flag)
+   vim.cmd("silent! vimgrep /" .. search_term .. "/j %")
+
+   -- 2. Get the list of results
+   local qf_list = vim.fn.getqflist()
+   if #qf_list == 0 then
+      return
+   end
+
+   -- 3. Find the entry closest to our current line
+   local target_idx = 1
+   for i, item in ipairs(qf_list) do
+      if item.lnum <= cur_line then
+         target_idx = i
+      else
+         break -- We've passed our current line
+      end
+   end
+
+   -- 4. Open Quickfix and jump to the specific index
+   vim.cmd "cw" -- Open window
+   vim.cmd(target_idx .. "cc") -- Set current error to our target_idx
+   vim.cmd "wincmd p" -- Jump cursor back to the main editor window
+end, { desc = "Search to Quickfix and sync with cursor" })
+
+map("n", "<BS>", "X", { desc = "Delete character before cursor" })
+
+map("n", "cc", '"_cc', { desc = "Change line without yanking" })
+map("n", "<leader>c", '"_c', { noremap = true })
+map("n", "<leader>d", '"_d', { noremap = true })
+
+map("n", "*", [[:keepjumps normal! mi*`i<CR>]], { desc = "Search word under cursor stay put" })
+map("n", "#", [[:keepjumps normal! mi#`i<CR>]], { desc = "Search word under cursor backward stay put" })

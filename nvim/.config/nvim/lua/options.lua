@@ -1,11 +1,11 @@
 require "nvchad.options"
 
--- add yours here!
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
 
 local o = vim.o
 -- o.mouse = ""
 
--- Relative line numbers
 o.relativenumber = true
 o.number = true
 o.cursorline = false
