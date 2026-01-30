@@ -16,7 +16,7 @@ alias ll='eza -al --icons=always'
 alias lt='eza --tree --level=2 --long --icons --git'
 alias shutdown='systemctl poweroff'
 alias reboot='systemctl reboot'
-alias hibernate='qs -c noctalia-shell ipc call lockScreen lock && systemctl suspend-then-hibernate'
+alias hibernate='systemctl hibernate'
 alias wifi='nmtui'
 
 
