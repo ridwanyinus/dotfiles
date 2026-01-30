@@ -7,7 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-	"disable_ai": true,
+	"message_editor": {
+  "auto_replace_emoji_shortcode": false
+ },
+ "colorize_brackets": true,
+ "disable_ai": true,
 	"buffer_font_weight": 500,
 	"buffer_font_size": 15,
 	"ui_font_family": ".ZedSans",
@@ -33,7 +37,7 @@
 		"breadcrumbs": false,
 		"quick_actions": false,
 		"selections_menu": true,
-		"agent_review": true,
+		"agent_review": false,
 		"code_actions": false
 	},
 
@@ -50,7 +54,7 @@
 		"show_sign_in": false,
 		"show_menus": false,
 		"show_user_menu": false,
-		"show_branch_name": false
+		"show_branch_name": true
 	},
 
 	"tab_bar": {
@@ -61,7 +65,7 @@
 		"coloring": "indent_aware"
 	},
 
-	"file_scan_exclusions": ["**/.next", "**/.svn"],
+	"file_scan_exclusions": ["**/.next", "**/.svn", "**/.git"],
 
 	"project_panel": {
 		"dock": "right",
