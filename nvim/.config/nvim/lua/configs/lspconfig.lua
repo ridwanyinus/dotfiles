@@ -1,6 +1,6 @@
 require("nvchad.configs.lspconfig").defaults()
 
-local servers = { "html", "cssls", "tsserver", "lua_ls", "jsonls", "emmet_ls", "eslint" }
+local servers = { "html", "astro", "cssls", "tsserver", "lua_ls", "jsonls", "emmet_ls", "eslint" }
 
 -- HTML settings
 vim.lsp.config("html", {
@@ -72,6 +72,7 @@ vim.lsp.config("tsserver", {
 vim.lsp.config("emmet_ls", {
    filetypes = {
       "html",
+      "astro",
       "css",
       "scss",
       "javascript",
@@ -80,6 +81,13 @@ vim.lsp.config("emmet_ls", {
       "typescriptreact",
       "vue",
       "svelte",
+   },
+   init_options = {
+      html = {
+         options = {
+            ["bem.enabled"] = true,
+         },
+      },
    },
 })
 
