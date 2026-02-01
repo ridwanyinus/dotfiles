@@ -4,6 +4,11 @@
 input_path = '~/.config/matugen/templates/zed-colors.json'
 output_path = '~/.config/zed/themes/matugen.json'
 
+[templates.omp_colors]
+input_path = '~/.config/matugen/templates/omp_palette.json'
+output_path = '~/.config/ohmyposh/colors.json'
+post_hook = "jq --slurpfile palette ~/.config/ohmyposh/colors.json '. + $palette[0]' ~/.config/ohmyposh/custom_p10k_lean.omp.json > /tmp/new_theme.json && mv /tmp/new_theme.json ~/.config/ohmyposh/custom_p10k_lean.omp.json"
+
 [templates.nvim]
 input_path = '~/.config/nvim/pywal/matugen.lua'
 output_path = '~/.cache/wal/base46-dark.lua'
