@@ -30,7 +30,7 @@ hide_window_decorations     yes
 background_opacity          0.98
 dynamic_background_opacity  yes
 confirm_os_window_close     0
-active_border_color #18120f
+# active_border_color #18120f
 # inactive_border_color #303030
 
 
@@ -45,11 +45,11 @@ include ./custom.conf;
 
 
 # BEGIN_KITTY_THEME
+include colors-matugen.conf
 # Noctalia
 include current-theme.conf
 # END_KITTY_THEME
 
-include my_material.conf
 
 
 sync_to_monitor yes
@@ -75,6 +75,7 @@ tab_bar_min_tabs 2
 tab_separator ""
 tab_activity_sybol none
 tab_title_template "{index}  {tab.active_wd.rsplit('/', 1)[-1]}"
+
 enabled_layouts splits:split_axis=horizontal
 
 map F5 launch --location=hsplit
