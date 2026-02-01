@@ -106,17 +106,15 @@ map("n", "<leader>rb", [[:%s/\v(true|false)/boolean/g<CR>]], { desc = "refactor 
 map("n", "<leader>ff", function()
    require("fzf-lua").files {
       cmd = "fd --type f --exclude node_modules --exclude .next --exclude .git",
-      cwd_prompt = false,
    }
 end, { desc = "fzf find files" })
 
 map("n", "<leader>fd", function()
    require("fzf-lua").files {
       cmd = "fd --type d --exclude node_modules --exclude .next --exclude .git",
-      cwd_prompt = false,
       previewer = false,
       winopts = {
-         width = 0.5,
+         width = 0.4,
       },
    }
 end, { desc = "fzf find directories" })

@@ -9,10 +9,14 @@ return {
       preview_normal = "Normal",
       preview_border = "FloatBorder",
    },
+   files = {
+      cwd_prompt = false,
+   },
    winopts = {
-      border = "rounded",
+      border = "single",
       preview = {
-         border = "rounded",
+         border = "border",
+         wrap = "nowrap",
          scrollbar = "false",
          layout = "horizontal",
          horizontal = "right:50%",
@@ -39,7 +43,11 @@ return {
    fzf_opts = {
       ["--layout"] = "reverse",
       ["--info"] = "inline-right",
+      ["--no-info"] = "",
       ["--height"] = "90%",
+      ["--border"] = "none",
+      ["--no-separator"] = "",
+      ["--no-scrollbar"] = "",
    },
    keymap = {
       buitin = {
