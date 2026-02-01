@@ -37,6 +37,17 @@ return {
                disable_filetype = { "TelescopePrompt", "vim" },
             },
          },
+
+         {
+            "Exafunction/windsurf.nvim",
+            dependencies = {
+               "nvim-lua/plenary.nvim",
+               "hrsh7th/nvim-cmp",
+            },
+            config = function()
+               require("codeium").setup {}
+            end,
+         },
       },
       opts_extend = { "sources.default" },
       opts = function()
@@ -90,8 +101,8 @@ return {
       "m4xshen/hardtime.nvim",
       lazy = false,
       dependencies = { "MunifTanjim/nui.nvim" },
-      opts = {},
    },
+   { "vuciv/golf", cmd = { "Golf", "GolfToday" } },
    {
       "monkoose/neocodeium",
       event = "VeryLazy",

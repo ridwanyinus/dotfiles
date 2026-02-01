@@ -1,0 +1,83 @@
+{
+  "name": "ridwan-snippets",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "c",
+        "path": "./c.json"
+      },
+      {
+        "language": "css",
+        "path": "./css.json"
+      },
+      {
+        "language": "html",
+        "path": "./html.json"
+      },
+      {
+        "language": "http",
+        "path": "./http.json"
+      },
+      {
+        "language": "lua",
+        "path": "./lua.json"
+      },
+      {
+        "language": "markdown",
+        "path": "./markdown.json"
+      },
+      {
+        "language": "zig",
+        "path": "./zig.json"
+      },
+      {
+        "language": [
+          "javascript",
+          "javascriptreact",
+          "typescript",
+          "typescriptreact",
+          "html",
+          "vue",
+          "svelte",
+          "astro"
+        ],
+        "path": "./tailwindcss.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./javascript/javascript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./javascript/typescript.json"
+      },
+      {
+        "language": [
+          "javascript",
+          "typescript"
+        ],
+        "path": "./javascript/js-ts.json"
+      },
+      {
+        "language": [
+          "javascriptreact",
+          "typescriptreact"
+        ],
+        "path": "./javascript/react.json"
+      },
+      {
+        "language": [
+          "javascript",
+          "typescript",
+          "vue",
+          "svelte"
+        ],
+        "path": "./javascript/lynx.json"
+      },
+      {
+        "language": "all",
+        "path": "./global.json"
+      }
+    ]
+  }
+}

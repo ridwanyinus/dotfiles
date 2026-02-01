@@ -1,91 +1,30 @@
+-- help lspconfig-all
 require("nvchad.configs.lspconfig").defaults()
 
-local servers = { "html", "astro", "cssls", "tsserver", "lua_ls", "jsonls", "emmet_ls", "eslint" }
+-- vim.diagnostic.config {
+--    virtual_lines = false,
+--    virtual_text = false,
+--    underline = { severity = { min = vim.diagnostic.severity.ERROR } },
+--    update_in_insert = false,
+--    severity_sort = true,
+--    float = {
+--       focusable = true,
+--       style = "minimal",
+--       border = "rounded",
+--       source = "always",
+--       header = "",
+--       prefix = "",
+--    },
+-- }
 
--- HTML settings
-vim.lsp.config("html", {
-   filetypes = { "html", "htmldjango", "blade", "eruby" },
-})
+local servers = { "html", "astro", "cssls", "ts_ls", "lua_ls", "jsonls", "emmet_ls", "eslint", "stylelint_lsp" }
 
--- CSS settings
-vim.lsp.config("cssls", {
-   settings = {
-      css = {
-         validate = true,
-         lint = {
-            unknownAtRules = "ignore", -- Ignore @tailwind warnings
-         },
-      },
-      scss = {
-         validate = true,
-      },
-      less = {
-         validate = true,
-      },
-   },
-})
-
--- Tailwind settings
-vim.lsp.config("tailwindcss", {
-   filetypes = {
-      "html",
-      "css",
-      "scss",
-      "javascript",
-      "javascriptreact",
-      "typescript",
-      "typescriptreact",
-      "vue",
-      "svelte",
-   },
-})
-
--- TypeScript/JavaScript settings
-vim.lsp.config("tsserver", {
-   settings = {
-      typescript = {
-         inlayHints = {
-            includeInlayParameterNameHints = "all",
-            includeInlayParameterNameHintsWhenArgumentMatchesName = false,
-            includeInlayFunctionParameterTypeHints = true,
-            includeInlayVariableTypeHints = true,
-            includeInlayPropertyDeclarationTypeHints = true,
-            includeInlayFunctionLikeReturnTypeHints = true,
-            includeInlayEnumMemberValueHints = true,
-         },
-      },
-      javascript = {
-         inlayHints = {
-            includeInlayParameterNameHints = "all",
-            includeInlayParameterNameHintsWhenArgumentMatchesName = false,
-            includeInlayFunctionParameterTypeHints = true,
-            includeInlayVariableTypeHints = true,
-            includeInlayPropertyDeclarationTypeHints = true,
-            includeInlayFunctionLikeReturnTypeHints = true,
-            includeInlayEnumMemberValueHints = true,
-         },
-      },
-   },
-})
-
--- Emmet settings
-vim.lsp.config("emmet_ls", {
-   filetypes = {
-      "html",
-      "astro",
-      "css",
-      "scss",
-      "javascript",
-      "javascriptreact",
-      "typescript",
-      "typescriptreact",
-      "vue",
-      "svelte",
-   },
-   init_options = {
-      html = {
-         options = {
-            ["bem.enabled"] = true,
+vim.lsp.config("*", {
+   root_markers = { ".git" },
+   capabilities = {
+      textDocument = {
+         semanticTokens = {
+            multilineTokenSupport = true,
          },
       },
    },
@@ -93,5 +32,10 @@ vim.lsp.config("emmet_ls", {
 
 vim.lsp.enable(servers)
 
--- read :h vim.lspconfig for changing options of lsp servers
--- help lspconfig-all
+-- Auto-format on save
+-- vim.api.nvim_create_autocmd("BufWritePre", {
+--    pattern = { "*.lua", "*.ts", "*.tsx", "*.js", "*.jsx", "*.css", "*.html", "*.astro" },
+--    callback = function()
+--       vim.lsp.buf.format { async = false }
+--    end,
+-- })

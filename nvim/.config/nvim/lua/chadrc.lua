@@ -22,8 +22,8 @@ end
 
 local M = {}
 M.base46 = {
-   theme = "rxyhn",
-   theme_toggle = { "rxyhn", "rxyhn" },
+   theme = "gruvchad",
+   theme_toggle = { "gruvchad", "gruvchad" },
    transparency = true,
    hl_override = {
       Comment = { italic = true },

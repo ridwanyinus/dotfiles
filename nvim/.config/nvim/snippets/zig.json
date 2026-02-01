@@ -1,0 +1,56 @@
+{
+  "import": {
+    "prefix": "import",
+    "body": "const $1 = @import(\"$2\");",
+    "description": "import library"
+  },
+  "const": {
+    "prefix": "cnt-",
+    "body": "const ${1:name} = ${2:value};",
+    "description": "const declaration"
+  },
+  "var": {
+    "prefix": "var-",
+    "body": "var ${1:name}: ${2:type} = ${3:value};",
+    "description": "mutable variable declaration"
+  },
+  "main function": {
+    "prefix": "init",
+    "body": "const std = @import(\"std\");\n\npub fn ${1:main}() !void {\n\t$2\n}",
+    "description": "const declaration"
+  },
+  "page allocator": {
+    "prefix": "alloc-page",
+    "body": "const allocator = std.heap.page_allocator;\n\nconst ${1:buf} = try allocator.alloc(u8, ${2:1024});\ndefer allocator.free(${1:buf});\n",
+    "description": "Allocate memory using the built-in page allocator (more slow)"
+  },
+  "general purpose allocator": {
+      "prefix": "alloc-gpa",
+      "body": "var gpa = std.heap.GeneralPurposeAllocator(.{}){};\ndefer _ = gpa.deinit();\nconst allocator = gpa.allocator();\n",
+      "description": "Allocate memory using a general-purpose allocator"
+  },
+  "arena allocator": {
+      "prefix": "alloc-arena",
+      "body": "var arena = std.heap.ArenaAllocator.init(std.heap.page_allocator);\nconst allocator = arena.allocator();\n\nconst ${1:buf1} = try allocator.alloc(u8, ${2:256});\nconst ${3:buf2} = try allocator.alloc(u8, ${4:512});\narena.reset();\n",
+      "description": "Allocate memory using an arena allocator"
+  },
+  "catch error": {
+      "prefix": "catch-err",
+      "body": "catch |err| {\n\tstd.debug.print(\"error: {s}\", .{@errorName(err)});\n};",
+      "description": "Catch Error and print the Error"
+  },
+  "buffered stdout": {
+    "prefix": "stdout-buf",
+    "body": [
+      "var stdout_buffer: [${1:1024}]u8 = undefined;",
+      "var stdout_writer = std.fs.File.stdout().writer(&stdout_buffer);",
+      "const stdout = &stdout_writer.interface;"
+    ],
+    "description": "Setup buffered stdout writer"
+  },
+  "stdout print": {
+    "prefix": "stdout-print",
+    "body": "try stdout.print(\"${1:text}\\\\n\", .{${2}});",
+    "description": "Print formatted text to stdout"
+  }
+} 
