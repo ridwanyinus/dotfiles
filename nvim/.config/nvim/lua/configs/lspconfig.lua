@@ -1,21 +1,21 @@
 -- help lspconfig-all
 require("nvchad.configs.lspconfig").defaults()
 
--- vim.diagnostic.config {
---    virtual_lines = false,
---    virtual_text = false,
---    underline = { severity = { min = vim.diagnostic.severity.ERROR } },
---    update_in_insert = false,
---    severity_sort = true,
---    float = {
---       focusable = true,
---       style = "minimal",
---       border = "rounded",
---       source = "always",
---       header = "",
---       prefix = "",
---    },
--- }
+vim.diagnostic.config {
+   virtual_lines = false,
+   virtual_text = false,
+   underline = { severity = { min = vim.diagnostic.severity.ERROR } },
+   update_in_insert = false,
+   severity_sort = true,
+   float = {
+      focusable = true,
+      style = "minimal",
+      border = "rounded",
+      source = true,
+      header = "",
+      prefix = "",
+   },
+}
 
 local servers = { "html", "astro", "cssls", "ts_ls", "lua_ls", "jsonls", "emmet_ls", "eslint", "stylelint_lsp" }
 

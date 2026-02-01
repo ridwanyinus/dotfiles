@@ -46,3 +46,25 @@ autocmd("Signal", {
       require("nvchad.utils").reload()
    end,
 })
+
+_G.fzf_focus_nvimtree = function()
+   require("fzf-lua").files {
+      cmd = "fd --type d --exclude node_modules --exclude .next --exclude .git",
+      previewer = false,
+      winopts = {
+         title = " Focus Directory ",
+         width = 0.4,
+      },
+      actions = {
+         ["default"] = function(selected)
+            if selected and selected[1] then
+               local path = require("fzf-lua").path.entry_to_file(selected[1]).path
+
+               local api = require "nvim-tree.api"
+               api.tree.open()
+               api.tree.find_file(path)
+            end
+         end,
+      },
+   }
+end

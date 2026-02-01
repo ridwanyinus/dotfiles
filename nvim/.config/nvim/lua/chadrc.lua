@@ -40,7 +40,7 @@ M.nvdash = {
    buttons = {
       { txt = "  Find File", keys = "ff", cmd = "FzfLua files" },
       { txt = "  Recent Files", keys = "fo", cmd = "FzfLua oldfiles" },
-      { txt = " Find Folder", keys = "fd", cmd = "FzfFindDirs" },
+      { txt = " Find Folder", keys = "fd", cmd = "lua fzf_focus_nvimtree()" },
 
       { txt = "─", hl = "NvDashFooter", no_gap = true, rep = true },
 

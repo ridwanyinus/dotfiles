@@ -110,13 +110,7 @@ map("n", "<leader>ff", function()
 end, { desc = "fzf find files" })
 
 map("n", "<leader>fd", function()
-   require("fzf-lua").files {
-      cmd = "fd --type d --exclude node_modules --exclude .next --exclude .git",
-      previewer = false,
-      winopts = {
-         width = 0.4,
-      },
-   }
+   fzf_focus_nvimtree()
 end, { desc = "fzf find directories" })
 
 map("n", "<leader>fw", "<cmd>FzfLua live_grep<CR>", { desc = "fzf live grep" })
@@ -159,3 +153,8 @@ map("t", "<C-Right>", "<cmd>vertical resize +2<CR>", { desc = "window increase w
 -- GIT (Gitsigns)
 map("n", "<leader>gd", "<cmd>Gitsigns toggle_deleted<cr>", { desc = "git toggle deleted" })
 map("n", "<leader>gb", "<cmd>Gitsigns blame_line<cr>", { desc = "git blame line" })
+
+-- LSP
+map("n", "<leader>de", function()
+   vim.diagnostic.open_float()
+end, { desc = "LSP Show Diagnostics" })
