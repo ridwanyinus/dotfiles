@@ -40,6 +40,7 @@ binds {
     Mod+Space {
         spawn "qs" "-c" "noctalia-shell" "ipc" "call" "launcher" "toggle"
     }
+   Mod+A { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "plugin:assistant-panel" "toggle"; }
     Mod+S {
         spawn "qs" "-c" "noctalia-shell" "ipc" "call" "controlCenter" "toggle"
     }
@@ -91,9 +92,9 @@ binds {
     Mod+F {
         fullscreen-window
     }
-    Mod+A {
-        toggle-window-floating
-    }
+    // Mod+A {
+    //     toggle-window-floating
+    // }
     // Mod+W {
     //     toggle-column-tabbed-display
     // }
