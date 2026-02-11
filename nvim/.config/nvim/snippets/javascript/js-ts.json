@@ -44,11 +44,6 @@
     ],
     "description": "Switch Statement"
   },
-  "If-Else Statement": {
-    "prefix": "if else",
-    "body": ["if (${1:condition}) {", "\t$0", "} else {", "\t", "}"],
-    "description": "If-Else Statement"
-  },
   "else if statement": {
     "prefix": "elif",
     "body": "else if (${1:condition}) {\n\t${0}\n}"
@@ -116,10 +111,6 @@
     "prefix": "imp-default",
     "body": ["import $1 from \"${2}\";"],
     "description": "Import module"
-  },
-  "import module destructured": {
-    "prefix": "imp-destructured",
-    "body": "import {$2} from \"${1:module}\""
   },
   "console.log": {
     "prefix": "clo",

@@ -4,9 +4,42 @@ return {
       "typescript",
       "javascript",
       "typescriptreact",
-      "--tsserver-path",
-      "tsserver",
-      "--maxTsServerMemory=4096",
+      "javascriptreact",
+   },
+   init_options = {
+      preferences = {
+         includeInlayParameterNameHints = "all",
+         includeInlayParameterNameHintsWhenArgumentMatchesName = true,
+         includeInlayFunctionParameterTypeHints = true,
+         includeInlayVariableTypeHints = false,
+         includeInlayPropertyDeclarationTypeHints = true,
+         includeInlayFunctionLikeReturnTypeHints = true,
+         includeInlayEnumMemberValueHints = true,
+      },
+   },
+   settings = {
+      javascript = {
+         inlayHints = {
+            includeInlayEnumMemberValueHints = true,
+            includeInlayFunctionLikeReturnTypeHints = true,
+            includeInlayFunctionParameterTypeHints = true,
+            includeInlayParameterNameHints = "all",
+            includeInlayParameterNameHintsWhenArgumentMatchesName = true,
+            includeInlayPropertyDeclarationTypeHints = true,
+            includeInlayVariableTypeHints = false,
+         },
+      },
+      typescript = {
+         inlayHints = {
+            includeInlayEnumMemberValueHints = true,
+            includeInlayFunctionLikeReturnTypeHints = true,
+            includeInlayFunctionParameterTypeHints = true,
+            includeInlayParameterNameHints = "all",
+            includeInlayParameterNameHintsWhenArgumentMatchesName = true,
+            includeInlayPropertyDeclarationTypeHints = true,
+            includeInlayVariableTypeHints = false,
+         },
+      },
    },
    handlers = {
       ["workspace/applyEdit"] = function()

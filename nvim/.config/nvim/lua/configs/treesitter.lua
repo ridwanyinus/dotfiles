@@ -2,6 +2,8 @@ return {
    ensure_installed = {
       "vim",
       "http",
+      "python",
+      "http",
       "scss",
       "html",
       "css",

@@ -6,6 +6,9 @@ local opts = {
    fuzzy = { implementation = "rust" },
    sources = {
       default = { "lsp", "buffer", "snippets", "path" },
+      per_filetype = {
+         DressingInput = {}, -- disable autocomplete for NvimTree
+      },
    },
 
    keymap = {

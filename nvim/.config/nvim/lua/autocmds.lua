@@ -2,6 +2,7 @@ require "nvchad.autocmds"
 
 local api = vim.api
 local autocmd = vim.api.nvim_create_autocmd
+local highlight_group = api.nvim_create_augroup("LspReferenceHighlight", { clear = true })
 
 -- Automatically change working directory to the directory of the opened file on startup
 api.nvim_create_autocmd("VimEnter", {
@@ -13,80 +14,73 @@ api.nvim_create_autocmd("VimEnter", {
    end,
 })
 
--- Helper function: Check if any real (non-special) buffers are currently open
--- Returns true if there are listed buffers with content, false otherwise
-local function has_real_buffers()
-   local buffers = api.nvim_list_bufs()
-   local real_buffers = 0
-   for _, buf in ipairs(buffers) do
-      if api.nvim_buf_is_valid(buf) and api.nvim_buf_is_loaded(buf) then
-         local buftype = api.nvim_get_option_value("buftype", { buf = buf })
-         local bufname = api.nvim_buf_get_name(buf)
-         local listed = api.nvim_get_option_value("buflisted", { buf = buf })
-         -- Count only normal file buffers (not terminals, help, etc.)
-         if buftype == "" and listed then
-            if bufname ~= "" or api.nvim_get_option_value("modified", { buf = buf }) then
-               real_buffers = real_buffers + 1
-            end
-         end
+-- show dashboard when no open buffers
+vim.api.nvim_create_autocmd("BufDelete", {
+   callback = function()
+      local bufs = vim.t.bufs
+      if #bufs == 1 and vim.api.nvim_buf_get_name(bufs[1]) == "" then
+         vim.cmd "Nvdash"
       end
-   end
-   return real_buffers > 0
-end
-
--- Automatically show dashboard when the last real buffer is closed
--- Triggers on buffer delete or wipeout events
-api.nvim_create_autocmd({ "BufDelete", "BufWipeout" }, {
-   group = api.nvim_create_augroup("ShowDashboard", { clear = true }),
-   callback = function(args)
-      -- Ignore special buffer types (terminals, help, etc.)
-      local buftype = api.nvim_get_option_value("buftype", { buf = args.buf })
-      if buftype ~= "" then
-         return
-      end
-      -- Schedule check to happen after buffer is fully deleted
-      vim.schedule(function()
-         vim.defer_fn(function()
-            -- If no real buffers remain, open the dashboard
-            if not has_real_buffers() then
-               local current_buf = api.nvim_get_current_buf()
-               local current_ft = api.nvim_get_option_value("filetype", { buf = current_buf })
-               -- Avoid opening dashboard if already on dashboard
-               if current_ft ~= "nvdash" then
-                  vim.cmd "Nvdash"
-               end
-            end
-         end, 10)
-      end)
    end,
 })
 
 -- Briefly highlight yanked (copied) text for visual feedback
 autocmd("TextYankPost", {
    pattern = "*",
-   command = "silent! lua vim.highlight.on_yank({ timeout = 100 })",
+   command = "silent! lua vim.highlight.on_yank({ timeout = 200 })",
+   desc = "highlight yanked text",
 })
 
--- Restore cursor position to last known location when opening a file
--- Jumps to the line where you last edited the file
+-- restore cursor to file position in previous editing session
 autocmd("BufReadPost", {
    pattern = "*",
    callback = function()
-      -- Check if the last position mark exists and is valid
-      if vim.fn.line "'\"" > 1 and vim.fn.line "'\"" <= vim.fn.line "$" then
-         vim.cmd 'exe "normal! g\'\\""'
+      local line = vim.fn.line "'\""
+      if
+         line > 1
+         and line <= vim.fn.line "$"
+         and vim.bo.filetype ~= "commit"
+         and vim.fn.index({ "xxd", "gitrebase" }, vim.bo.filetype) == -1
+      then
+         vim.cmd 'normal! g`"zz'
       end
    end,
 })
 
--- Create user command for finding directories
-vim.api.nvim_create_user_command("FzfFindDirs", function()
-   require("fzf-lua").files {
-      cmd = "fd --type d --exclude node_modules --exclude .next --exclude .git",
-      cwd_prompt = false,
-      previewer = false,
-      winopts = {
-         width = 0.4,
-      },
-   }
-end, {})
+-- auto resize splits when the window is resized
+autocmd("VimResized", {
+   command = "wincmd =",
+})
+
+-- no auto commenting on new line
+autocmd("FileType", {
+   group = api.nvim_create_augroup("no_auto_comment", {}),
+   callback = function()
+      vim.opt_local.formatoptions:remove { "c", "r", "o" }
+   end,
+})
+
+-- syntax highlighting for dotenv files
+autocmd("BufRead", {
+   group = api.nvim_create_augroup("dotenv_ft", { clear = true }),
+   pattern = { ".env", ".env.*" },
+   callback = function()
+      vim.bo.filetype = "dosini"
+   end,
+})
+
+-- show cursorline only in active window
+autocmd({ "WinEnter", "BufEnter" }, {
+   group = api.nvim_create_augroup("active_cursorline", { clear = true }),
+   callback = function()
+      vim.opt_local.cursorline = true
+   end,
+})
+
+-- hide cursorline in inactive windows
+autocmd({ "WinLeave", "BufLeave" }, {
+   group = "active_cursorline",
+   callback = function()
+      vim.opt_local.cursorline = false
+   end,
+})

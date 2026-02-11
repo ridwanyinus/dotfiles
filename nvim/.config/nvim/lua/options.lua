@@ -10,11 +10,13 @@ o.scrolloff = 10
 o.termguicolors = true
 o.background = "dark"
 o.fillchars = "eob: ,fold: "
+o.title = true
+o.cmdheight = 0
+o.cursorlineopt = "both"
 
 -- ENCODING
 vim.scriptencoding = "utf-8"
 o.encoding = "utf-8"
-o.fileencoding = "utf-8"
 
 -- SEARCH
 o.ignorecase = true
@@ -36,6 +38,12 @@ o.keywordprg = ":help"
 -- FOLDING
 o.foldlevelstart = 99
 o.foldtext = "v:lua.fold_text()"
+o.foldmethod = "expr"
+o.foldexpr = "v:lua.vim.treesitter.foldexpr()"
+
+vim.opt.inccommand = "split"
+vim.opt.splitright = true -- New vertical splits open to the right
+vim.opt.splitbelow = true -- New horizontal splits open below
 
 function _G.fold_text()
    local line = vim.fn.getline(vim.v.foldstart)
@@ -44,6 +52,9 @@ function _G.fold_text()
    return " 󰁂  " .. cleaned_line .. " ... (" .. line_count .. " lines)"
 end
 
--- SHELL (commented out)
 -- o.mouse = "a"
 -- o.shell = "fish"
+o.autoread = true
+
+-- Increase oldfiles history
+vim.opt.shada = { "'500", "<50", "s10", "h" }

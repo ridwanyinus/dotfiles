@@ -1,15 +1,13 @@
 return {
-   -- Disable Telescope
-   { "nvim-telescope/telescope.nvim", enabled = false },
 
-   -- Disable nvim-cmp and its friends
+   { "nvim-telescope/telescope.nvim", enabled = false },
    { "hrsh7th/nvim-cmp", enabled = false },
    { "hrsh7th/cmp-buffer", enabled = false },
    { "hrsh7th/cmp-path", enabled = false },
    { "hrsh7th/cmp-nvim-lsp", enabled = false },
-   { "saadparwaiz1/cmp_luasnip", enabled = false },
+   -- { "saadparwaiz1/cmp_luasnip", enabled = false },
 
-   -- { "wakatime/vim-wakatime", lazy = false },
+   { "wakatime/vim-wakatime", lazy = false },
    { "vyfor/cord.nvim", build = ":Cord update", lazy = false },
 
    {
@@ -34,7 +32,7 @@ return {
             "windwp/nvim-autopairs",
             opts = {
                fast_wrap = {},
-               disable_filetype = { "TelescopePrompt", "vim" },
+               disable_filetype = { "vim" },
             },
          },
       },
@@ -44,61 +42,8 @@ return {
       end,
    },
    {
-      "stevearc/conform.nvim",
-      event = { "BufWritePre" },
-      cmd = { "ConformInfo" },
-      opts = require "configs.conform",
-   },
-   {
-      "mason-org/mason.nvim",
-      opts = {
-         ensure_installed = {
-            "lua-language-server",
-            "selene",
-            "shellcheck",
-            "shfmt",
-            "stylua",
-            "html-lsp",
-            "css-lsp",
-            "typescript-language-server",
-            "biome",
-         },
-      },
-   },
-   {
       "nvim-treesitter/nvim-treesitter",
-      opts = require "configs.treesitter",
-      -- config = function(_, opts)
-      --    require("nvim-treesitter.configs").setup(opts)
-      -- end,
-   },
-
-   {
-      "ibhagwan/fzf-lua",
-      cmd = "FzfLua",
-      dependencies = {
-         "nvim-mini/mini.icons",
-         "mfussenegger/nvim-dap",
-         "MeanderingProgrammer/render-markdown.nvim",
-         "nvim-treesitter/nvim-treesitter-context",
-      },
-      opts = function()
-         return require "configs.fzf"
-      end,
-   },
-   {
-      "m4xshen/hardtime.nvim",
       lazy = false,
-      dependencies = { "MunifTanjim/nui.nvim" },
-      opts = {},
-   },
-   {
-      "monkoose/neocodeium",
-      event = "VeryLazy",
-      config = function()
-         local neocodeium = require "neocodeium"
-         neocodeium.setup()
-         vim.keymap.set("i", "<A-f>", neocodeium.accept)
-      end,
+      opts = require "configs.treesitter",
    },
 }

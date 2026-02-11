@@ -25,8 +25,8 @@ return {
    actions = {
       files = {
          ["default"] = function(selected, opts)
-            -- Find a non-NvimTree window
-            for _, win in ipairs(vim.api.nvim_list_wins()) do
+            -- Find a non-NvimTree window in the CURRENT TAB only
+            for _, win in ipairs(vim.api.nvim_tabpage_list_wins(0)) do
                local buf = vim.api.nvim_win_get_buf(win)
                local ft = vim.bo[buf].filetype
                if ft ~= "NvimTree" and vim.api.nvim_win_get_config(win).relative == "" then
@@ -44,7 +44,6 @@ return {
       ["--layout"] = "reverse",
       ["--info"] = "inline-right",
       ["--no-info"] = "",
-      ["--height"] = "90%",
       ["--border"] = "none",
       ["--no-separator"] = "",
       ["--no-scrollbar"] = "",

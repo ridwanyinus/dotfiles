@@ -1,6 +1,6 @@
 return {
    reload_on_bufenter = true,
-   sync_root_with_cwd = false,
+   sync_root_with_cwd = true,
    respect_buf_cwd = false,
    auto_reload_on_write = true,
    hijack_directories = {
@@ -26,7 +26,7 @@ return {
    view = {
       signcolumn = "no",
       centralize_selection = true,
-      adaptive_size = false,
+      adaptive_size = true,
       side = "right",
       preserve_window_proportions = true,
       width = 25,

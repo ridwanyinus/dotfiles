@@ -87,7 +87,7 @@ def acquire_lock():
             with open(LOCK_FILE, "r") as f:
                 content = f.read().strip()
                 if not content:
-                     raise ValueError("Empty lock file")
+                    raise ValueError("Empty lock file")
                 pid = int(content)
 
             if os.path.exists(f"/proc/{pid}"):
@@ -100,7 +100,7 @@ def acquire_lock():
             pass
 
         retries -= 1
-        time.sleep(0.1) 
+        time.sleep(0.1)
     sys.exit("Error: Could not acquire lock after multiple retries.")
 
 
