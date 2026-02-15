@@ -32,6 +32,10 @@ M.base46 = {
    hl_override = {
       Comment = { italic = true, fg = "#7a8194" },
       ["@comment"] = { italic = true },
+
+      ["@keyword"] = { italic = true },
+      ["@function.method"] = { italic = true },
+      ["@function.method.call"] = { bold = true },
    },
    integrations = { "semantic_tokens" },
    -- excluded = { "whichkey", "telescope", "tbline", "nvimtree", "nvcheatsheet", "mason", "git" },
@@ -103,7 +107,7 @@ M.ui = {
                return ""
             end
 
-            local blacklist = { "stylelint_lsp", "emmet_ls", "eslint", "null-ls" }
+            local blacklist = { "stylelint_lsp", "tailwindcss", "emmet_ls", "eslint", "null-ls" }
 
             for _, client in ipairs(vim.lsp.get_clients()) do
                local is_blacklisted = vim.tbl_contains(blacklist, client.name)

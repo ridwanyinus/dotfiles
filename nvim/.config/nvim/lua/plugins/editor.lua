@@ -1,13 +1,13 @@
 return {
    {
       "m4xshen/hardtime.nvim",
-      lazy = false,
+      event = { "BufReadPre", "BufNewFile" },
       dependencies = { "MunifTanjim/nui.nvim" },
       opts = {},
    },
    {
       "nvim-mini/mini.surround",
-      lazy = false,
+      event = { "BufReadPre", "BufNewFile" },
       version = false,
       config = function()
          require("mini.surround").setup {
@@ -90,5 +90,12 @@ return {
       config = function()
          require("treesj").setup {}
       end,
+   },
+   {
+      "windwp/nvim-ts-autotag",
+      event = { "BufReadPre", "BufNewFile" },
+      opts = {
+         enable_close_on_slash = true, -- Auto close on trailing </
+      },
    },
 }

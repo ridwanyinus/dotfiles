@@ -35,6 +35,8 @@ return {
             clear_suggestion = "<C-]>",
             accept_word = "<C-j>",
          },
+         disable_inline_completion = false, -- disables inline completion for use with cmp
+         ignore_filetypes = { cpp = true }, -- or { "cpp", }
       },
    },
    {

@@ -15,10 +15,10 @@
     postBuffer = 524288000
 
 [core]
-    editor = code --wait
+    editor = nvim 
     excludesfile = ~/.gitignore
     fsmonitor = true
-	pager = delta
+    pager = delta
     # untrackedCache = true
 
 [column]

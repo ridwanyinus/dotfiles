@@ -1,10 +1,21 @@
 -- help lspconfig-all
 require("nvchad.configs.lspconfig").defaults()
 
+local border = {
+   { "┌", "FloatBorder" },
+   { "─", "FloatBorder" },
+   { "┐", "FloatBorder" },
+   { "│", "FloatBorder" },
+   { "┘", "FloatBorder" },
+   { "─", "FloatBorder" },
+   { "└", "FloatBorder" },
+   { "│", "FloatBorder" },
+}
 vim.diagnostic.config {
    virtual_lines = false,
    virtual_text = false,
-   underline = { severity = { min = vim.diagnostic.severity.ERROR } },
+   underline = true,
+   -- underline = { severity = { min = vim.diagnostic.severity.WARN } },
    update_in_insert = false,
    severity_sort = true,
    float = {
@@ -22,11 +33,11 @@ vim.api.nvim_create_autocmd("LspAttach", {
       local bufnr = args.buf
 
       vim.keymap.set("n", "K", function()
-         vim.lsp.buf.hover { border = "rounded" }
+         vim.lsp.buf.hover { border = border }
       end, { buffer = bufnr, desc = "LSP Hover (Rounded)" })
 
       vim.keymap.set("i", "<C-k>", function()
-         vim.lsp.buf.signature_help { border = "rounded" }
+         vim.lsp.buf.signature_help { border = border }
       end, { buffer = bufnr, desc = "LSP Signature Help" })
    end,
 })
@@ -53,18 +64,7 @@ vim.lsp.config("stylelint_lsp", {
 })
 
 vim.lsp.config("emmet_ls", {
-   filetypes = {
-      "html",
-      "astro",
-      "css",
-      "scss",
-      "javascript",
-      "javascriptreact",
-      "typescript",
-      "typescriptreact",
-      "vue",
-      "svelte",
-   },
+   filetypes = { "html", "css", "javascriptreact", "typescriptreact", "vue" },
    init_options = {
       html = {
          options = {
@@ -89,16 +89,15 @@ local servers = {
    "stylelint_lsp",
 }
 
-vim.lsp.config("*", {
-   root_markers = { ".git" },
-   capabilities = {
-      textDocument = {
-         semanticTokens = {
-            multilineTokenSupport = true,
-         },
-      },
-   },
-})
+-- vim.lsp.config("*", {
+--    capabilities = {
+--       textDocument = {
+--          semanticTokens = {
+--             multilineTokenSupport = true,
+--          },
+--       },
+--    },
+-- })
 
 vim.lsp.enable(servers)
 

@@ -11,6 +11,11 @@ return {
    },
    files = {
       cwd_prompt = false,
+      hidden = true,
+   },
+   fzf_colors = true,
+   defaults = {
+      formatter = "path.dirname_first", -- show greyed-out directory before filename
    },
    winopts = {
       border = "single",
@@ -24,6 +29,7 @@ return {
    },
    actions = {
       files = {
+         true,
          ["default"] = function(selected, opts)
             -- Find a non-NvimTree window in the CURRENT TAB only
             for _, win in ipairs(vim.api.nvim_tabpage_list_wins(0)) do
@@ -43,10 +49,10 @@ return {
    fzf_opts = {
       ["--layout"] = "reverse",
       ["--info"] = "inline-right",
-      ["--no-info"] = "",
+      ["--no-info"] = true,
       ["--border"] = "none",
-      ["--no-separator"] = "",
-      ["--no-scrollbar"] = "",
+      ["--no-separator"] = true,
+      ["--no-scrollbar"] = true,
    },
    keymap = {
       buitin = {

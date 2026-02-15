@@ -20,12 +20,15 @@ map("v", "<A-j>", ":m '>+1<CR>gv=gv", { desc = "edit move selection down" })
 map("v", "<A-k>", ":m '<-2<CR>gv=gv", { desc = "edit move selection up" })
 
 -- INSERT MODE NAVIGATION
-map("i", "<C-n>", "<Down>", { noremap = true, desc = "cursor down" })
-map("i", "<C-p>", "<Up>", { noremap = true, desc = "cursor up" })
-map("i", "<C-b>", "<Left>", { noremap = true, desc = "cursor left" })
-map("i", "<C-f>", "<Right>", { noremap = true, desc = "cursor right" })
-map("i", "<C-e>", "<C-o>$", { noremap = true, desc = "cursor line end" })
-map("i", "<M-b>", "<C-o>b", { noremap = true, desc = "cursor word back" })
+map("i", "<C-e>", "<C-g>u<C-o>$", { desc = "cursor line end" })
+map("i", "<M-b>", "<C-g>u<C-o>b", { desc = "cursor word back" })
+
+map("i", "<M-d>", "<C-g>u<C-o>dw", { desc = "delete word forward" })
+
+map("i", "<C-n>", "<Down>", { noremap = true })
+map("i", "<C-p>", "<Up>", { noremap = true })
+map("i", "<C-b>", "<Left>", { noremap = true })
+map("i", "<C-f>", "<Right>", { noremap = true })
 
 -- CUSTOM EDITING OPERATIONS
 map("n", "yc", "yy<cmd>normal gcc<CR>p", { noremap = true, desc = "edit duplicate + comment" })
@@ -61,11 +64,11 @@ map({ "n", "t" }, "<C-k>", "<cmd>wincmd k<CR>", { desc = "window goto upper" })
 map({ "n", "t" }, "<C-l>", "<cmd>wincmd l<CR>", { desc = "window goto right" })
 
 -- Tab Management
-map("n", "<C-W>N", "<cmd>tabnew<CR>", { desc = "tab new" })
 map("n", "<C-W>C", function()
    vim.cmd(string.rep("tabclose|", vim.v.count1))
 end, { desc = "tab close (supports count)" })
-map("n", "tw", ":tabclose<Return>", { desc = "tab close current" })
+map("n", "<leader>tn", ":tabnew<CR>", { desc = "tab new" })
+map("n", "tx", ":tabclose<Return>", { desc = "tab close current" })
 
 map("t", "<Esc>", "<C-\\><C-n>", { desc = "terminal exit mode" })
 

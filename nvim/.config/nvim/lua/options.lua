@@ -6,6 +6,7 @@ o.relativenumber = true
 o.number = true
 o.wrap = false
 o.scrolloff = 10
+o.sidescrolloff = 8
 -- o.list = true
 o.termguicolors = true
 o.background = "dark"
@@ -13,6 +14,7 @@ o.fillchars = "eob: ,fold: "
 o.title = true
 o.cmdheight = 0
 o.cursorlineopt = "both"
+o.cursorline = true
 
 -- ENCODING
 vim.scriptencoding = "utf-8"
@@ -34,6 +36,7 @@ o.backupdir = backupdir
 -- EDITING
 o.backspace = "start,eol,indent"
 o.keywordprg = ":help"
+vim.opt.iskeyword:append "-"
 
 -- FOLDING
 o.foldlevelstart = 99
@@ -58,3 +61,8 @@ o.autoread = true
 
 -- Increase oldfiles history
 vim.opt.shada = { "'500", "<50", "s10", "h" }
+
+-- Command-line completion
+o.wildmenu = true
+o.wildmode = "longest:full,full"
+vim.opt.wildignore:append { "*.o", "*.obj", "*.pyc", "*.class", "*.jar" }
