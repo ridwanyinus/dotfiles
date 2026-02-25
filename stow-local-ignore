@@ -1,4 +1,6 @@
 ^/README.*
 ^/LICENSE.*
 ^/COPYING
+./assets
 assets
+^/assets
