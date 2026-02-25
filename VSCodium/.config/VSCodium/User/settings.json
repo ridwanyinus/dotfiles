@@ -84,7 +84,7 @@
    "breadcrumbs.symbolPath": "off",
    "breadcrumbs.filePath": "on",
    /** ------------ Terminal Configurations ------------ **/
-   "terminal.integrated.fontFamily": "MesloLGS Nerd Font Mono, 'Hack Nerd Font', Monospace,Iosevka Term Slab, Iosevka Term,  CaskaydiaCove NFM",
+   "terminal.integrated.fontFamily": "IosevkaTerm Nerd Font, Monospace, CaskaydiaCove NFM",
    "terminal.integrated.fontSize": 14,
    "terminal.integrated.cursorStyle": "underline",
    "terminal.integrated.cursorBlinking": true,
@@ -291,8 +291,8 @@
    "window.commandCenter": false,
    /** ------------ Custom CSS ------------ **/
    "custom-ui-style.external.imports": [
-      "file://${userHome}/.config/Code/User/style.css",
-      "file://${userHome}/.config/Code/User/script.js"
+      "file://${userHome}/.config/VSCodium/User/style.css",
+      "file://${userHome}/.config/VSCodium/User/script.js"
    ],
    "custom-ui-style.electron": {
       "titleBarStyle": "hiddenInset",
@@ -311,8 +311,8 @@
       ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
       ".title .monaco-icon-label.file-icon": "margin: 0 60px",
    },
-   "custom-ui-style.font.sansSerif": "Zed Sans",
-   "custom-ui-style.font.monospace": "JetBrainsMono Nerd Font",
+   "custom-ui-style.font.sansSerif": "IBM Plex Sans",
+   "custom-ui-style.font.monospace": "Lilex Nerd Font",
    "biome.suggestInstallingGlobally": false,
    "extensions.ignoreRecommendations": true,
    /** Explorer **/

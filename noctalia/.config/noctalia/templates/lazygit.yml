@@ -1,0 +1,38 @@
+customCommands:
+  - key: "C"
+    command: "git cz"
+    description: "commit with commitizen"
+    context: "files"
+    loadingText: "opening commitizen commit tool"
+    output: terminal
+os:
+  editPreset: 'nvim'
+  edit: 'nvim {{filename}}'
+  editAtLine: 'nvim +{{line}} {{filename}}'
+  editAtLineAndWait: 'nvim +{{line}} {{filename}}'
+
+gui:
+  theme:
+    activeBorderColor:
+      - "{{colors.primary.default.hex}}"
+      - bold
+    inactiveBorderColor:
+      - "{{colors.on_surface_variant.default.hex}}"
+    optionsTextColor:
+      - "{{colors.primary.default.hex}}"
+    selectedLineBgColor:
+      - "{{colors.surface_bright.default.hex}}"
+    selectedRangeBgColor:
+      - "{{colors.on_surface_variant.default.hex}}"
+    cherryPickedCommitBgColor:
+      - "{{colors.on_surface_variant.default.hex}}"
+    cherryPickedCommitFgColor:
+      - "{{colors.primary.default.hex}}"
+    unstagedChangesColor:
+      - "{{colors.red.default.hex}}"
+    defaultFgColor:
+      - "{{colors.on_surface.default.hex}}"
+    searchingActiveBorderColor:
+      - "{{colors.yellow.default.hex}}"
+
+

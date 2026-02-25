@@ -1,8 +1,9 @@
-[config]
+[templates]
 
-[templates.zed]
-input_path = '~/.config/matugen/templates/zed-colors.json'
-output_path = '~/.config/zed/themes/matugen.json'
+[templates.kitty]
+input_path = '~/.config/matugen/templates/kitty-colors.conf'
+output_path = '~/.config/kitty/colors-matugen.conf'
+post_hook = 'pkill -SIGUSR1 kitty'
 
 [templates.omp_colors]
 input_path = '~/.config/matugen/templates/omp_palette.json'
@@ -12,7 +13,6 @@ post_hook = "jq --slurpfile palette ~/.config/ohmyposh/colors.json '. + $palette
 [templates.nvim]
 input_path = '~/.config/nvim/pywal/matugen.lua'
 output_path = '~/.cache/wal/base46-dark.lua'
-post_hook = "nvim --reload-theme"
 
 [templates.nvimlight]
 input_path = '~/.config/nvim/pywal/matugen.lua'
@@ -22,40 +22,38 @@ output_path = '~/.cache/wal/base46-light.lua'
 input_path = '~/.config/nvim/pywal/waltemplate'
 output_path = '~/.cache/wal/colors'
 
-[config.custom_colors.red]
-color = "#FF0000"
-blend = true
+[templates.rmpc]
+input_path = '~/.config/noctalia/templates/rmpc-theme.ron'
+output_path = '~/.config/rmpc/themes/current.ron'
 
-[config.custom_colors.green]
-color = "#00FF00"
-blend = true
+[templates.rmpc_custom]
+input_path = '~/.config/noctalia/templates/rmpc.ron'
+output_path = '~/.config/rmpc/themes/custom.ron'
 
-[config.custom_colors.yellow]
-color = "#FFFF00"
-blend = true
+[templates.lazygit]
+input_path = "~/.config/noctalia/templates/lazygit.yml"
+output_path = "~/.config/lazygit/config.yml"
 
-[config.custom_colors.blue]
-color = "#0000FF"
-blend = true
+[templates.Telegram]
+input_path = "~/.config/noctalia/templates/telegram-colors.tdesktop-theme"
+output_path = "~/.config/telegram-desktop/themes/material-you.tdesktop-theme"
 
-[config.custom_colors.magenta]
-color = "#FF00FF"
-blend = true
+[templates.kvantum_kvconfig]
+input_path = '~/.config/noctalia/templates/kvantum-colors.kvconfig'
+output_path = '~/.config/Kvantum/matugen/matugen.kvconfig'
 
-[config.custom_colors.cyan]
-color = "#00FFFF"
-blend = true
+[templates.kvantum_svg]
+input_path = '~/.config/noctalia/templates/kvantum-colors.svg'
+output_path = '~/.config/Kvantum/matugen/matugen.svg'
 
-[config.custom_colors.white]
-color = "#FFFFFF"
-blend = true
+[config]
 
-[templates]
+[config.custom_colors]
+red = { color = "#FF0000", blend = true }
+green = { color = "#00FF00", blend = true }
+yellow = { color = "#FFFF00", blend = true }
+blue = { color = "#0000FF", blend = true }
+magenta = { color = "#FF00FF", blend = true }
+cyan = { color = "#00FFFF", blend = true }
+white = { color = "#FFFFFF", blend = true }
 
-# User-defined templates
-# Add your custom templates below
-# Example:
-# [templates.myapp]
-# input_path = "~/.config/noctalia/templates/myapp.css"
-# output_path = "~/.config/myapp/theme.css"
-# post_hook = "myapp --reload-theme"

@@ -1,20 +1,18 @@
 {
-    "palette": {
-      "color0": "#0f1512",
-      "color1": "",
-      "color2": "",
-      "color3": "",
-      "color4": "",
-      "color5": "",
-      "color6": "",
-      "color7": "",
-      "color8": "",
-      "color9": "",
-      "color10": "#8bd6b6",
-      "color11": "",
-      "color12": "",
-      "color13": "#002116",
-      "color14": "",
-      "color15": "#dee4df"
-    }
+  "palette": {
+    "bright": "#e6e1e7",
+    "medium-bright": "#3b383d",
+    "git-bg": "#fdafd8",
+    "git-fg": "#521c3e",
+    "medium": "#948e9a",
+    "medium-dim": "#2b292e",
+    "dim-bg": "#1d1b1f",
+    "darker-bg": "#141317",
+    "dark-bg": "#141317",
+    "segment-bg": "#230e49",
+    "os-bg": "#230e49",
+    "root-bg": "#93000a",
+    "path-bg": "#d2bbff",
+    "error-fg": "#ffb4ab"
   }
+}

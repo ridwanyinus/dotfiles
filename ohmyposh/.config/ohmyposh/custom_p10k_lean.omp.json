@@ -1,22 +1,23 @@
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "palette": {
-    "bright": "#ffffff",
-    "medium-bright": "#e2e2e2",
-    "medium": "#c6c6c6",
-    "medium-dim": "#474747",
-    "dim-bg": "#1f1f1f",
-    "darker-bg": "#131313",
-    "dark-bg": "#1b1b1b",
-    "segment-bg": "#222222",
-    "os-bg": "p:medium-dim",
-    "root-bg": "p:darker-bg",
-    "path-bg": "p:segment-bg",
-    "git-bg": "p:darker-bg",
+    "bright": "#e6e1e7",
+    "medium-bright": "#3b383d",
+    "git-bg": "#fdafd8",
+    "git-fg": "#521c3e",
+    "medium": "#948e9a",
+    "medium-dim": "#2b292e",
+    "dim-bg": "#1d1b1f",
+    "darker-bg": "#141317",
+    "dark-bg": "#141317",
+    "segment-bg": "#230e49",
+    "os-bg": "#230e49",
+    "root-bg": "#93000a",
+    "path-bg": "#d2bbff",
     "error-fg": "#ffb4ab"
   },
   "transient_prompt": {
-    "template": "\ue285\ueab6 ",
+    "template": " ",
     "newline": true
   },
   "blocks": [
@@ -32,8 +33,8 @@
         {
           "type": "os",
           "style": "diamond",
-          "leading_diamond": "",
-          "template": "{{ .Icon }} ",
+          "leading_diamond": "",
+          "template": " {{ .Icon }} ",
           "foreground": "p:medium",
           "background": "p:os-bg"
         },
@@ -41,14 +42,14 @@
           "background": "p:root-bg",
           "foreground": "p:bright",
           "style": "diamond",
-          "template": "<parentBackground>\ue0b0</> \uf292 ",
+          "template": "<parentBackground></>  ",
           "type": "root"
         },
         {
           "background": "p:path-bg",
           "foreground": "p:medium-bright",
-          "trailing_diamond": "",
-          "template": "<parentBackground></> 󰉖 {{ path .Path .Location }}",
+          "trailing_diamond": "",
+          "template": "<parentBackground></> 󰉖 {{ path .Path .Location }} ",
           "type": "path",
           "style": "diamond"
         }
@@ -61,10 +62,10 @@
         {
           "type": "git",
           "style": "diamond",
-          "background": "p:git-bg",
-          "foreground": "p:medium-bright",
-          "leading_diamond": "",
-          "trailing_diamond": "",
+          "background": "p:path-bg",
+          "foreground": "p:git-fg",
+          "leading_diamond": "",
+          "trailing_diamond": "",
           "template": " {{ .HEAD }} ",
           "options": {
             "branch_icon": "",
@@ -83,7 +84,7 @@
         {
           "foreground": "p:bright",
           "style": "plain",
-          "template": "{{ if eq .Code 0 }}╰─󱐋{{ else }}╰─{{ end }}",
+          "template": "{{ if eq .Code 0 }}╰─λ{{ else }}╰─{{ end }}",
           "type": "text"
         }
       ],
