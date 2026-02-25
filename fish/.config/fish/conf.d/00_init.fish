@@ -40,7 +40,15 @@ set -gx FZF_CTRL_R_OPTS "
   --color header:italic
   --header 'Press CTRL-Y to copy command into clipboard'"
 
-# For nvm compatability
-set -g nvm_default_version latest
-
+#Zoxide
 zoxide init fish | source
+
+#Yazi
+function y
+	set tmp (mktemp -t "yazi-cwd.XXXXXX")
+	command yazi $argv --cwd-file="$tmp"
+	if read -z cwd < "$tmp"; and [ "$cwd" != "$PWD" ]; and test -d "$cwd"
+		builtin cd -- "$cwd"
+	end
+	rm -f -- "$tmp"
+end

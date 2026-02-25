@@ -20,7 +20,9 @@ alias v='$EDITOR'
 alias vim='$EDITOR'
 alias wifi='nmtui'
 alias copy='wl-copy'
+alias cp='wl-copy'
 alias oc='opencode'
+alias r='rmpc'
 
 # -----------------------------------------------------
 # FZF 

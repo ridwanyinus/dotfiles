@@ -16,5 +16,11 @@ end
 # 2. Create the abbreviation
 abbr -a !! --position anywhere --function last_history_item
 
-# Force cursor_block
-fish_vi_key_bindings
+mise activate fish | source
+
+# pnpm
+set -gx PNPM_HOME "/home/ridwan/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end

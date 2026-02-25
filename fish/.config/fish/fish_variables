@@ -1,18 +1,19 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export EDITOR:nvim
+SETUVAR --export FZF_COLORS:\x2d\x2dcolor\x3dbg\x2b\x3a\x23373a38\x2cbg\x3a\x23111413\x2cspinner\x3a\x23c7c1f0\x2chl\x3a\x239dd2bd\x2cfg\x3a\x23e1e3e0\x2cheader\x3a\x239dd2bd\x2cinfo\x3a\x23c7c1f0\x2cpointer\x3a\x23e1e3e0\x2cmarker\x3a\x23ffb4ab\x2cfg\x2b\x3a\x23e1e3e0\x2cprompt\x3a\x239dd2bd\x2chl\x2b\x3a\x239dd2bd\x2cselected\x2dbg\x3a\x23373a38
+SETUVAR --export FZF_DEFAULT_OPTS:\x20\x20\x2d\x2dcolor\x3dbg\x2b\x3a\x233b383d\x2cbg\x3a\x23141317\x2cspinner\x3a\x23feafd7\x2chl\x3a\x23d3bbff\x20\x20\x20\x2d\x2dcolor\x3dfg\x3a\x23e6e1e7\x2cheader\x3a\x23d3bbff\x2cinfo\x3a\x23feafd7\x2cpointer\x3a\x23e6e1e7\x20\x20\x20\x2d\x2dcolor\x3dmarker\x3a\x23ffb4ab\x2cfg\x2b\x3a\x23e6e1e7\x2cprompt\x3a\x23d3bbff\x2chl\x2b\x3a\x23d3bbff\x20\x20\x20\x2d\x2dcolor\x3dselected\x2dbg\x3a\x233b383d\x20\x20\x20\x2d\x2dmulti
 SETUVAR --export GNOME_KEYRING_CONTROL:/run/user/1000/keyring
 SETUVAR --export LANG:en_US\x2eUTF\x2d8
 SETUVAR --export SSH_AUTH_SOCK:/run/user/1000/keyring/ssh
 SETUVAR __fish_initialized:4300
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
-SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_files:\x7e/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_list\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e\x7e/\x2econfig/fish/functions/nvm\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e\x7e/\x2econfig/fish/completions/nvm\x2efish
-SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ejorgebucaran/nvm\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher
 SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR --export fish_cursor_default:block
-SETUVAR --export fish_cursor_insert:block
+SETUVAR --export fish_cursor_insert:line
 SETUVAR --export fish_cursor_replace:block
-SETUVAR --export fish_cursor_replace_one:block
+SETUVAR --export fish_cursor_replace_one:underscore
 SETUVAR --export fish_cursor_visual:block
 SETUVAR fish_greeting:
 SETUVAR fish_user_paths:/home/ridwan/\x2espicetify\x1e/home/ridwan/\x2eamp/bin\x1e/usr/lib/ccache/bin/\x1e/home/ridwan/\x2ecargo/bin/\x1e/home/ridwan/\x2elocal/bin/

@@ -5,10 +5,34 @@ customCommands:
     context: "files"
     loadingText: "opening commitizen commit tool"
     output: terminal
-gui:
-  mouseEvents: false
 os:
   editPreset: 'nvim'
   edit: 'nvim {{filename}}'
   editAtLine: 'nvim +{{line}} {{filename}}'
   editAtLineAndWait: 'nvim +{{line}} {{filename}}'
+
+gui:
+  theme:
+    activeBorderColor:
+      - "#d2bbff"
+      - bold
+    inactiveBorderColor:
+      - "#cbc4d0"
+    optionsTextColor:
+      - "#d2bbff"
+    selectedLineBgColor:
+      - "#3b383d"
+    selectedRangeBgColor:
+      - "#cbc4d0"
+    cherryPickedCommitBgColor:
+      - "#cbc4d0"
+    cherryPickedCommitFgColor:
+      - "#d2bbff"
+    unstagedChangesColor:
+      - "#ffb2b9"
+    defaultFgColor:
+      - "#e6e1e7"
+    searchingActiveBorderColor:
+      - "#cec6b4"
+
+

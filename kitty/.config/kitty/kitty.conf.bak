@@ -6,17 +6,15 @@
 #                /___/
 #
 # Configuration
-font_family                 JetBrainsMono Nerd Font
-font_size                   12
-bold_font                   auto
-italic_font                 auto
-bold_italic_font            auto
-remember_window_size        no
+font_size                   12.5
+remember_window_size  yes
 initial_window_width        950
 initial_window_height       500
 cursor_blink_interval       0.5
 cursor_stop_blinking_after  1
 cursor_shape block
+cursor_shape_unfocused hollow
+shell_integration no-cursor
 # cursor_trail 200
 cursor_trail 1
 cursor_trail_start_threshold 0
@@ -25,14 +23,15 @@ cursor_trail_decay 0.1 0.4
 scrollback_lines            5000
 wheel_scroll_min_lines      1
 enable_audio_bell           no
-window_padding_width        10
+window_padding_width        8
 hide_window_decorations     yes
 background_opacity          0.98
+# background_blur 32
 dynamic_background_opacity  yes
 confirm_os_window_close     0
-# active_border_color #18120f
-# inactive_border_color #303030
-
+allow_remote_control socket-only
+listen_on unix:/tmp/kitty-socket
+listen_on unix:@mykitty
 
 disable_ligatures never
 url_style curly
@@ -41,29 +40,16 @@ url_style curly
 
 # Include Custom Configuration
 # Create the file custom.conf in ~/.config/kitty to overwrite the default configuration
-include ./custom.conf;
+#include ./custom.conf;
 
+include  colors-matugen.conf
 
 # BEGIN_KITTY_THEME
-include colors-matugen.conf
 # Noctalia
 include current-theme.conf
 # END_KITTY_THEME
 
-
-
 sync_to_monitor yes
-# Tab bar
-# tab_bar_style powerline
-# tab_powerline_style round
-# tab_bar_edge bottom
-# tab_bar_margin_width 0.0
-# tab_bar_margin_height 0.0 0.0
-# tab_bar_align left
-# tab_bar_min_tabs 2
-# tab_separator ""
-# tab_activity_symbol none
-# tab_title_template "{index}  {tab.active_wd.rsplit('/', 1)[-1]}"
 
 # Tab bar
 tab_bar_edge bottom
@@ -73,8 +59,17 @@ tab_bar_style custom
 tab_bar_align left
 tab_bar_min_tabs 2
 tab_separator ""
-tab_activity_sybol none
-tab_title_template "{index}  {tab.active_wd.rsplit('/', 1)[-1]}"
+tab_activity_symbol none
+tab_title_template " {tab.active_wd.rsplit('/', 1)[-1]} "
+active_tab_title_template "~ {tab.active_wd.rsplit('/', 1)[-1]} " 
+
+# tab_bar_margin_width      4
+# tab_bar_margin_height     4 0
+# tab_bar_style             separator
+# tab_bar_min_tabs          2
+# tab_separator             ""
+# tab_title_template        "{fmt.fg.color0}{fmt.bg.default}{fmt.fg.color15}{fmt.bg.color0} 󰄛 {title[:15] + (title[15:] and '…')} {fmt.fg.color0}{fmt.bg.default} "
+# active_tab_title_template "{fmt.fg.color4}{fmt.bg.default}{fmt.fg.color0}{fmt.bg.color4} 󰄛 {title[:40] + (title[40:] and '…')} {fmt.fg.color4}{fmt.bg.default} "
 
 enabled_layouts splits:split_axis=horizontal
 
@@ -90,6 +85,17 @@ map shift+left move_window left
 map shift+right move_window right
 map shift+down move_window down
 
+# default window navigation
+# Ctrl + Shift + [ - Move to previous window
+# Ctrl + Shift + ] - Move to next window
 
 #shell
 shell /usr/bin/fish
+
+
+# BEGIN_KITTY_FONTS
+font_family      family='IosevkaTerm Nerd Font' postscript_name=IosevkaTermNF
+bold_font        auto
+italic_font      family='IosevkaTerm Nerd Font' style='Light Italic'
+bold_italic_font auto
+# END_KITTY_FONTS

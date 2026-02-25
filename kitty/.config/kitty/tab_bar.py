@@ -7,11 +7,12 @@ opts = get_options()
 
 ICON = "   "
 ICON_FG = as_rgb(color_as_int(opts.color0))
-ICON_BG = as_rgb(color_as_int(opts.color4))
+ICON_BG = as_rgb(color_as_int(opts.color10))
+INACTIVE_FG = as_rgb(color_as_int(opts.color15))
 
 LEFT_SEP = ""
 RIGHT_SEP = ""
-ICON_SEP_COLOR_FG = as_rgb(color_as_int(opts.color4))
+ICON_SEP_COLOR_FG = as_rgb(color_as_int(opts.color10))
 ICON_SEP_COLOR_BG = as_rgb(color_as_int(opts.background))
 
 # Battery configuration
@@ -84,6 +85,7 @@ def __draw_tab(
 ) -> int:
     tab_bg = screen.cursor.bg
     default_bg = as_rgb(int(draw_data.default_bg))
+    inactive_fg = as_rgb(int(draw_data.inactive_fg))
     if extra_data.next_tab:
         next_tab_bg = as_rgb(draw_data.tab_bg(extra_data.next_tab))
     else:
@@ -99,7 +101,7 @@ def __draw_tab(
 
     screen.draw(RIGHT_SEP)
     if not tab.is_active:
-        screen.cursor.fg = ICON_BG
+        screen.cursor.fg = INACTIVE_FG
     draw_title(draw_data, screen, tab, index, max_tab_length)
     screen.cursor.fg = tab_bg
     screen.cursor.bg = default_bg
