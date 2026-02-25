@@ -13,6 +13,7 @@ o.background = "dark"
 o.fillchars = "eob: ,fold: "
 o.title = true
 o.cmdheight = 0
+vim.opt.shortmess:append "sIatOc"
 o.cursorlineopt = "both"
 o.cursorline = true
 

@@ -19,7 +19,7 @@ local opts = {
    completion = {
       -- ghost_text = { enabled = true },
       documentation = {
-         auto_show = true,
+         auto_show = false, -- use ctrl-space to toggle documentation instead
          auto_show_delay_ms = 200,
          window = { border = "single" },
       },

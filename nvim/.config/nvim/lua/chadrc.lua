@@ -26,8 +26,8 @@ end
 
 local M = {}
 M.base46 = {
-   theme = "chadwal",
-   theme_toggle = { "monekai", "chadwal" },
+   theme = "kanagawa-dragon",
+   theme_toggle = { "monekai", "kanagawa-dragon" },
    transparency = true,
    hl_override = {
       Comment = { italic = true, fg = "#7a8194" },

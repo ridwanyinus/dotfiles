@@ -1,30 +1,67 @@
 return {
    {
       "NickvanDyke/opencode.nvim",
+      event = "VeryLazy",
+      version = "*", -- Latest stable release
       dependencies = {
-         { "folke/snacks.nvim", opts = { input = {}, picker = {}, terminal = {} } },
+         {
+            -- `snacks.nvim` integration is recommended, but optional
+            ---@module "snacks" <- Loads `snacks.nvim` types for configuration intellisense
+            "folke/snacks.nvim",
+            optional = true,
+            opts = {
+               input = {}, -- Enhances `ask()`
+               picker = { -- Enhances `select()`
+                  actions = {
+                     opencode_send = function(...)
+                        return require("opencode").snacks_picker_send(...)
+                     end,
+                  },
+                  win = {
+                     input = {
+                        keys = {
+                           ["<a-a>"] = { "opencode_send", mode = { "n", "i" } },
+                        },
+                     },
+                  },
+               },
+               terminal = {}, -- Enables the `snacks` provider
+            },
+         },
       },
-      keys = {
-         {
-            "<leader>oc",
-            function()
-               require("opencode").ask()
-            end,
-         },
-         {
-            "<leader>oc",
-            function()
-               require("opencode").ask "@this: "
-            end,
-            mode = "v",
-         },
-         {
-            "<leader>op",
-            function()
-               require("opencode").select()
-            end,
-         },
-      },
+      config = function()
+         ---@type opencode.Opts
+         vim.g.opencode_opts = {}
+
+         vim.o.autoread = true
+
+         vim.keymap.set({ "n" }, "<leader>oc", function()
+            require("opencode").ask()
+         end, { desc = "Ask opencode…" })
+         vim.keymap.set({ "x" }, "<leader>oc", function()
+            require("opencode").ask("@this: ", { submit = true })
+         end, { desc = "Ask opencode…" })
+         vim.keymap.set({ "n", "x" }, "<leader>op", function()
+            require("opencode").select()
+         end, { desc = "Execute opencode action…" })
+         vim.keymap.set({ "n", "t" }, "<C-.>", function()
+            require("opencode").toggle()
+         end, { desc = "Toggle opencode" })
+
+         vim.keymap.set({ "n", "x" }, "go", function()
+            return require("opencode").operator "@this "
+         end, { desc = "Add range to opencode", expr = true })
+         vim.keymap.set("n", "goo", function()
+            return require("opencode").operator "@this " .. "_"
+         end, { desc = "Add line to opencode", expr = true })
+
+         vim.keymap.set("n", "<S-C-u>", function()
+            require("opencode").command "session.half.page.up"
+         end, { desc = "Scroll opencode up" })
+         vim.keymap.set("n", "<S-C-d>", function()
+            require("opencode").command "session.half.page.down"
+         end, { desc = "Scroll opencode down" })
+      end,
    },
    {
       "supermaven-inc/supermaven-nvim",
