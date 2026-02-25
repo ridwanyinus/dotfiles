@@ -109,7 +109,7 @@ window-rule {
     open-on-workspace "code"
     open-maximized true
     open-focused true
-    opacity 0.95
+    opacity 0.97
 }
 
 window-rule {
@@ -117,7 +117,7 @@ window-rule {
     open-on-workspace "code"
     open-maximized true
     open-focused true
-    opacity 0.95
+    opacity 0.97
 }
 
 window-rule {

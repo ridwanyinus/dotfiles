@@ -9,9 +9,6 @@ binds {
     Mod+Shift+Slash {
         show-hotkey-overlay
     }
-    Mod+Shift+E {
-        quit
-    }
     Ctrl+Alt+Delete {
         quit
     }
@@ -33,6 +30,9 @@ binds {
     }
     Mod+E hotkey-overlay-title="Dolphin File Manager" {
         spawn-sh "raise-cycle-or-spawn dolphin"
+    }
+    Mod+M hotkey-overlay-title="MPV media player" {
+        spawn-sh "raise-cycle-or-spawn mpv"
     }
     // ========================================================================
     // NOCTALIA SHELL CORE
@@ -92,9 +92,9 @@ binds {
     Mod+F {
         fullscreen-window
     }
-    // Mod+A {
-    //     toggle-window-floating
-    // }
+    Mod+Z {
+        toggle-window-floating
+    }
     // Mod+W {
     //     toggle-column-tabbed-display
     // }
@@ -405,13 +405,13 @@ binds {
     // SCREENSHOTS
     // ========================================================================
     Print {
-        spawn-sh "set -e; grim -t ppm -g \"$(slurp -o -d -F monospace)\" - | satty --filename - --copy-command=wl-copy --annotation-size-factor 1.0 --output-filename=\"$(xdg-user-dir PICTURES)/Screenshots/Screenshot from %Y-%m-%d %H:%M:%S.png\" --actions-on-enter=\"save-to-clipboard,exit\" --brush-smooth-history-size=5 --disable-notifications --font-family \"FantasqueSansM Nerd Font\" --font-style Regular --initial-tool arrow"
+        spawn-sh "set -e; grim -t ppm -g \"$(slurp -o -d -F monospace)\" - | satty --filename -"
     }
     Ctrl+Print {
-        spawn-sh "set -e; grim -t ppm - | satty --filename - --copy-command=wl-copy --annotation-size-factor 1.0 --output-filename=\"$(xdg-user-dir PICTURES)/Screenshots/Screenshot from %Y-%m-%d %H:%M:%S.png\" --actions-on-enter=\"save-to-clipboard,exit\" --brush-smooth-history-size=5 --disable-notifications --font-family \"FantasqueSansM Nerd Font\" --font-style Regular --initial-tool arrow"
+        spawn-sh "set -e; grim -t ppm - | satty --filename -"
     }
     Alt+Print {
-        screenshot-window write-to-disk=false
+        screenshot-window //write-to-disk=false
     }
     // ========================================================================
     // MEDIA CONTROLS
