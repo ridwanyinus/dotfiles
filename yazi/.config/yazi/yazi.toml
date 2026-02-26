@@ -1,0 +1,8 @@
+[mgr]
+show_hidden    = false
+
+[opener]
+play = [
+  { run = "xdg-open %s1", desc = "Play", for = "linux", orphan = true },
+]
+# ...
