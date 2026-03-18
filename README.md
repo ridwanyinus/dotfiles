@@ -29,10 +29,10 @@ local ui = {
 <summary>Showcase</summary>
 
 ![Desktop](./assets/desktop.png)
-![Neovim](./assets/nvim.png)
-![Tmux Neovim](./assets/tmux+neovim.png)
 ![Control Center](./assets/control_center.png)
 ![Session Manager](./assets/session_manager.png)
+![Neovim](./assets/nvim.png)
+![Tmux Neovim](./assets/tmux+neovim.png)
 ![Terminal](./assets/kitty_preview00.png)
 
 </details>
