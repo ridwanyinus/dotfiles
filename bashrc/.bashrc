@@ -12,3 +12,5 @@ export NVM_DIR="$HOME/.nvm"
 
 # Amp CLI
 export PATH="/home/ridwan/.amp/bin:$PATH"
+
+if command -v wt >/dev/null 2>&1; then eval "$(command wt config shell init bash)"; fi

@@ -23,6 +23,8 @@ alias copy='wl-copy'
 alias cp='wl-copy'
 alias oc='opencode'
 alias r='rmpc'
+alias tmux="tmux -u"
+alias t="tmux -u"
 
 # -----------------------------------------------------
 # FZF 

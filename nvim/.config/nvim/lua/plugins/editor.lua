@@ -94,6 +94,12 @@ return {
    {
       "windwp/nvim-ts-autotag",
       event = { "BufReadPre", "BufNewFile" },
+      ft = {
+         "javascript",
+         "javascriptreact",
+         "typescript",
+         "typescriptreact",
+      },
       opts = {
          opts = {
             enable_close_on_slash = true,

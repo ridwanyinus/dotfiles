@@ -1,13 +1,39 @@
 dofile(vim.g.base46_cache .. "blink")
 
 local opts = {
+   enabled = function()
+      return vim.bo.filetype ~= "NvimTree"
+   end,
    cmdline = { enabled = false },
    appearance = { nerd_font_variant = "mono" },
-   fuzzy = { implementation = "rust" },
+   fuzzy = {
+      sorts = {
+         function(a, b)
+            if (a.client_name == nil or b.client_name == nil) or (a.client_name == b.client_name) then
+               return
+            end
+            return b.client_name == "emmet_ls"
+         end,
+
+         "exact",
+         "score",
+         "sort_text",
+      },
+   },
    sources = {
-      default = { "lsp", "buffer", "snippets", "path" },
       per_filetype = {
          DressingInput = {}, -- disable autocomplete for NvimTree
+      },
+      providers = {
+         buffer = {
+            opts = {
+               get_bufnrs = function()
+                  return vim.tbl_filter(function(bufnr)
+                     return vim.bo[bufnr].buftype == ""
+                  end, vim.api.nvim_list_bufs())
+               end,
+            },
+         },
       },
    },
 
@@ -27,6 +53,7 @@ local opts = {
       -- nvchad's cmp ui
       menu = require("nvchad.blink").menu,
    },
+   signature = { enabled = true, window = { border = "single" } },
 }
 
 return opts

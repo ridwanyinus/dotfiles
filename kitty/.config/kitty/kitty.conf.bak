@@ -6,7 +6,7 @@
 #                /___/
 #
 # Configuration
-font_size                   12.5
+font_size                   11.5
 remember_window_size  yes
 initial_window_width        950
 initial_window_height       500
@@ -16,16 +16,16 @@ cursor_shape block
 cursor_shape_unfocused hollow
 shell_integration no-cursor
 # cursor_trail 200
+# cursor_trail_start_threshold 2
 cursor_trail 1
 cursor_trail_start_threshold 0
-# cursor_trail_start_threshold 2
 cursor_trail_decay 0.1 0.4
 scrollback_lines            5000
 wheel_scroll_min_lines      1
 enable_audio_bell           no
 window_padding_width        8
 hide_window_decorations     yes
-background_opacity          0.98
+background_opacity          0.97
 # background_blur 32
 dynamic_background_opacity  yes
 confirm_os_window_close     0
@@ -94,8 +94,8 @@ shell /usr/bin/fish
 
 
 # BEGIN_KITTY_FONTS
-font_family      family='IosevkaTerm Nerd Font' postscript_name=IosevkaTermNF
+font_family      family="Maple Mono"
 bold_font        auto
-italic_font      family='IosevkaTerm Nerd Font' style='Light Italic'
+italic_font      family='Maple Mono' style='Light Italic'
 bold_italic_font auto
 # END_KITTY_FONTS

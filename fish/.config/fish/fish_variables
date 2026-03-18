@@ -2,9 +2,11 @@
 # VERSION: 3.0
 SETUVAR --export EDITOR:nvim
 SETUVAR --export FZF_COLORS:\x2d\x2dcolor\x3dbg\x2b\x3a\x23373a38\x2cbg\x3a\x23111413\x2cspinner\x3a\x23c7c1f0\x2chl\x3a\x239dd2bd\x2cfg\x3a\x23e1e3e0\x2cheader\x3a\x239dd2bd\x2cinfo\x3a\x23c7c1f0\x2cpointer\x3a\x23e1e3e0\x2cmarker\x3a\x23ffb4ab\x2cfg\x2b\x3a\x23e1e3e0\x2cprompt\x3a\x239dd2bd\x2chl\x2b\x3a\x239dd2bd\x2cselected\x2dbg\x3a\x23373a38
-SETUVAR --export FZF_DEFAULT_OPTS:\x20\x20\x2d\x2dcolor\x3dbg\x2b\x3a\x233b383d\x2cbg\x3a\x23141317\x2cspinner\x3a\x23feafd7\x2chl\x3a\x23d3bbff\x20\x20\x20\x2d\x2dcolor\x3dfg\x3a\x23e6e1e7\x2cheader\x3a\x23d3bbff\x2cinfo\x3a\x23feafd7\x2cpointer\x3a\x23e6e1e7\x20\x20\x20\x2d\x2dcolor\x3dmarker\x3a\x23ffb4ab\x2cfg\x2b\x3a\x23e6e1e7\x2cprompt\x3a\x23d3bbff\x2chl\x2b\x3a\x23d3bbff\x20\x20\x20\x2d\x2dcolor\x3dselected\x2dbg\x3a\x233b383d\x20\x20\x20\x2d\x2dmulti
+SETUVAR --export FZF_DEFAULT_COMMAND:fd\x20\x2dH\x20\x2dE\x20\x2d\x2dstrip\x2dcwd\x2dprefix\x20\x27\x2egit\x27
+SETUVAR --export FZF_DEFAULT_OPTS:\x2d\x2dstyle\x3dfull\x20\x2d\x2dinfo\x3dhidden\x20\x2d\x2dansi\x20\x2d\x2dpointer\x3d\U0001f449\x20\x2d\x2dgutter\x3d\x22\x20\x22\x20\x2d\x2dcolor\x3dcurrent\x2dbg\x3a\x2d1\x20\x2d\x2dcolor\x3dcurrent\x2dfg\x3ablue\x20\x2d\x2dcolor\x3dgutter\x3a\x2d1\x20\x2d\x2dcolor\x3dheader\x2dbg\x3a\x2d1\x20\x2d\x2dcolor\x3dheader\x2dborder\x3acyan\x20\x2d\x2dcolor\x3dhl\x2b\x3ayellow\x20\x2d\x2dcolor\x3dhl\x3ayellow\x20\x2d\x2dcolor\x3dinput\x2dborder\x3ayellow\x20\x2d\x2dcolor\x3dlist\x2dborder\x3ablue\x20\x2d\x2dcolor\x3dpointer\x3ablue\x20\x2d\x2dcolor\x3dpreview\x2dborder\x3acyan\x20
 SETUVAR --export GNOME_KEYRING_CONTROL:/run/user/1000/keyring
 SETUVAR --export LANG:en_US\x2eUTF\x2d8
+SETUVAR --export NVIDIA_API_KEY:nvapi\x2d\x2ddtxgUciZXnEvrKDtZa\x2dWzFNF4EDRDoYLIMlDZ6mnuU\x2dtyq_GcTHsGcZ_uetIHrF
 SETUVAR --export SSH_AUTH_SOCK:/run/user/1000/keyring/ssh
 SETUVAR __fish_initialized:4300
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
@@ -28,6 +30,7 @@ SETUVAR pure_color_command_duration:pure_color_warning
 SETUVAR pure_color_current_directory:pure_color_primary
 SETUVAR pure_color_danger:red
 SETUVAR pure_color_dark:black
+SETUVAR pure_color_exit_status:pure_color_danger
 SETUVAR pure_color_git_branch:pure_color_mute
 SETUVAR pure_color_git_dirty:pure_color_mute
 SETUVAR pure_color_git_stash:pure_color_info
@@ -54,6 +57,7 @@ SETUVAR pure_color_username_normal:pure_color_mute
 SETUVAR pure_color_username_root:pure_color_light
 SETUVAR pure_color_virtualenv:pure_color_mute
 SETUVAR pure_color_warning:yellow
+SETUVAR pure_convert_exit_status_to_signal:false
 SETUVAR pure_enable_aws_profile:true
 SETUVAR pure_enable_container_detection:true
 SETUVAR pure_enable_git:true
@@ -65,6 +69,7 @@ SETUVAR pure_reverse_prompt_symbol_in_vimode:true
 SETUVAR pure_separate_prompt_on_error:false
 SETUVAR pure_shorten_prompt_current_directory_length:0
 SETUVAR pure_shorten_window_title_current_directory_length:0
+SETUVAR pure_show_exit_status:false
 SETUVAR pure_show_jobs:false
 SETUVAR pure_show_numbered_git_indicator:false
 SETUVAR pure_show_prefix_root_prompt:false
@@ -72,6 +77,8 @@ SETUVAR pure_show_subsecond_command_duration:false
 SETUVAR pure_show_system_time:false
 SETUVAR pure_symbol_aws_profile_prefix:
 SETUVAR pure_symbol_container_prefix:
+SETUVAR pure_symbol_exit_status_prefix:\x7c
+SETUVAR pure_symbol_exit_status_separator:\x7c
 SETUVAR pure_symbol_git_dirty:\x2a
 SETUVAR pure_symbol_git_stash:\u2261
 SETUVAR pure_symbol_git_unpulled_commits:\u21e3

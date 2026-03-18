@@ -1,3 +1,14 @@
+#
+# ███████╗██╗███████╗██╗  ██╗
+# ██╔════╝██║██╔════╝██║  ██║
+# █████╗  ██║███████╗███████║
+# ██╔══╝  ██║╚════██║██╔══██║
+# ██║     ██║███████║██║  ██║
+# ╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝
+# A smart and user-friendly command line
+# https://fishshell.com/
+# cSpell:words shellcode pkgx direnv
+
 # Start SSH agent if not already running
 if not set -q SSH_AUTH_SOCK; or not test -S $SSH_AUTH_SOCK
     eval (ssh-agent -c) >/dev/null
@@ -24,3 +35,4 @@ if not string match -q -- $PNPM_HOME $PATH
   set -gx PATH "$PNPM_HOME" $PATH
 end
 # pnpm end
+set -gx NODE_OPTIONS "--dns-result-order=ipv4first"

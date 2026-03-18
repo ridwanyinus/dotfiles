@@ -4,15 +4,19 @@ local o = vim.o
 -- DISPLAY
 o.relativenumber = true
 o.number = true
-o.wrap = false
+o.wrap = true
+o.linebreak = true
 o.scrolloff = 10
 o.sidescrolloff = 8
+o.tabstop = 4
+o.shiftwidth = 4
+o.expandtab = true
 -- o.list = true
 o.termguicolors = true
 o.background = "dark"
 o.fillchars = "eob: ,fold: "
 o.title = true
-o.cmdheight = 0
+o.cmdheight = 1
 vim.opt.shortmess:append "sIatOc"
 o.cursorlineopt = "both"
 o.cursorline = true
@@ -53,7 +57,7 @@ function _G.fold_text()
    local line = vim.fn.getline(vim.v.foldstart)
    local line_count = vim.v.foldend - vim.v.foldstart + 1
    local cleaned_line = line:gsub("^%s*", "")
-   return " 󰁂  " .. cleaned_line .. " ... (" .. line_count .. " lines)"
+   return cleaned_line .. " ... (" .. line_count .. " lines)"
 end
 
 -- o.mouse = "a"
@@ -67,3 +71,8 @@ vim.opt.shada = { "'500", "<50", "s10", "h" }
 o.wildmenu = true
 o.wildmode = "longest:full,full"
 vim.opt.wildignore:append { "*.o", "*.obj", "*.pyc", "*.class", "*.jar" }
+
+vim.cmd [[
+  highlight LineNr ctermfg=grey guifg=#aaaaaa
+  highlight CursorLineNr ctermfg=white guifg=white gui=bold cterm=bold
+]]

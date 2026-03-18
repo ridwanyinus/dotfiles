@@ -46,6 +46,11 @@ output_path = '~/.config/Kvantum/matugen/matugen.kvconfig'
 input_path = '~/.config/noctalia/templates/kvantum-colors.svg'
 output_path = '~/.config/Kvantum/matugen/matugen.svg'
 
+[templates.tmux]
+input_path = '~/.config/noctalia/templates/tmux-colors.conf'
+output_path = '~/.config/tmux/generated.conf'
+post_hook = 'tmux source-file ~/.config/tmux/generated.conf' 
+
 [config]
 
 [config.custom_colors]

@@ -8,7 +8,15 @@ return {
    -- { "saadparwaiz1/cmp_luasnip", enabled = false },
 
    { "wakatime/vim-wakatime", lazy = false },
-   { "vyfor/cord.nvim", build = ":Cord update", lazy = false },
+   {
+      "vyfor/cord.nvim",
+      build = ":Cord update",
+      lazy = false,
+      ---@type CordConfig
+      opts = {
+         log_level = "info",
+      },
+   },
 
    {
       "neovim/nvim-lspconfig",

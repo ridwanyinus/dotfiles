@@ -26,8 +26,8 @@ end
 
 local M = {}
 M.base46 = {
-   theme = "kanagawa-dragon",
-   theme_toggle = { "monekai", "kanagawa-dragon" },
+   theme = "chadwal",
+   theme_toggle = { "monekai", "chadwal" },
    transparency = true,
    hl_override = {
       Comment = { italic = true, fg = "#7a8194" },
@@ -107,14 +107,21 @@ M.ui = {
                return ""
             end
 
-            local blacklist = { "stylelint_lsp", "tailwindcss", "emmet_ls", "eslint", "null-ls" }
+            local blacklist = { "biome", "stylelint_lsp", "tailwindcss", "emmet_ls", "eslint", "null-ls" }
+            local fallback = nil
 
             for _, client in ipairs(vim.lsp.get_clients()) do
-               local is_blacklisted = vim.tbl_contains(blacklist, client.name)
-
-               if client.attached_buffers[stbufnr()] and not is_blacklisted then
-                  return (vim.o.columns > 100 and "lsp   " .. client.name .. " ") or "   lsp "
+               if client.attached_buffers[stbufnr()] then
+                  if not vim.tbl_contains(blacklist, client.name) then
+                     return (vim.o.columns > 100 and "lsp  " .. client.name .. " ") or "   lsp "
+                  else
+                     fallback = client.name
+                  end
                end
+            end
+
+            if fallback then
+               return (vim.o.columns > 100 and "lsp  " .. fallback .. " ") or "   lsp "
             end
 
             return ""
@@ -139,10 +146,10 @@ M.term = {
    sizes = { sp = 0.4, vsp = 0.5, ["bo sp"] = 0.3, ["bo vsp"] = 0.2 },
    float = {
       relative = "editor",
-      width = 0.6,
-      height = 0.5,
-      col = 0.2,
-      row = 0.25,
+      width = 0.8,
+      height = 0.7,
+      col = 0.1,
+      row = 0.1,
       border = "single",
    },
 }

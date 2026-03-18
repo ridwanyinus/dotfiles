@@ -3480,3 +3480,2552 @@
 2026-02-25T23:00:50 player: played "sure nisa｜ Muhammed Selim Kurdi.opus"
 2026-02-25T23:01:17 player: played "best sadghuru meditation music.opus"
 2026-02-25T23:01:17 exception: Number too large: -1
+2026-02-26T00:07:31 player: played "sure nisa｜ Muhammed Selim Kurdi.opus"
+2026-02-26T21:15:24 player: played "/home/ridwan/.cache/rmpc/youtube/fPO76Jlnz6c.opus"
+2026-02-26T21:19:40 player: played "/home/ridwan/.cache/rmpc/youtube/fPO76Jlnz6c.opus"
+2026-02-26T21:24:00 player: played "/home/ridwan/.cache/rmpc/youtube/983bBbJx0Mk.opus"
+2026-02-26T21:24:16 player: played "Lipps Inc. - Funkytown.mp3"
+2026-02-26T21:31:32 player: played "Lipps Inc. - Funkytown.mp3"
+2026-02-26T21:42:55 player: played "Massive Attack - Teardrop.mp3"
+2026-02-26T21:50:41 player: played "Massive Attack - Teardrop.mp3"
+2026-02-27T08:50:12 player: played "Massive Attack - Teardrop.mp3"
+2026-02-27T08:54:04 player: played "Massive Attack - Teardrop.mp3"
+2026-02-27T10:27:26 player: played "Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus"
+2026-02-27T10:27:26 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2026-02-27T14:40:04 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2026-02-27T23:40:14 player: played "Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus"
+2026-02-28T14:35:03 player: played "sure nisa｜ Muhammed Selim Kurdi.opus"
+2026-02-28T22:00:29 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2026-02-28T23:43:00 player: played "sure nisa｜ Muhammed Selim Kurdi.opus"
+2026-03-01T06:26:32 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2026-03-01T12:31:01 player: played "sure nisa｜ Muhammed Selim Kurdi.opus"
+2026-03-01T22:15:46 player: played "Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus"
+2026-03-01T22:45:13 player: played "Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus"
+2026-03-02T01:42:04 player: played "Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus"
+2026-03-02T11:45:08 update: added /RUQIYA AMUBIEYA.mpa - Copy.mp3
+2026-03-02T11:45:15 update: added ruqyah/RUQIYA AMUBIEYA.mpa - Copy.mp3
+2026-03-02T11:45:17 update: updating ADDU'A supplication/ADDU'A SUDAIS.MP3
+2026-03-02T11:45:17 update: updating ADDU'A supplication/ADDU,AHMAD SULAIMAN.mp3
+2026-03-02T11:45:17 update: updating ADDU'A supplication/AL- ADDU'A.mp3
+2026-03-02T11:45:17 update: updating ADDU'A supplication/Sheikh Matrood Dua.mp3
+2026-03-02T11:45:17 update: updating ADDU'A supplication/Sheikh Matrood Powerful Dua.mp3
+2026-03-02T11:45:17 update: updating /be-inspired.opus
+2026-03-02T11:45:17 update: updating /best sadghuru meditation music.opus
+2026-03-02T11:45:17 update: updating Brian Scott/Neville Goddard - I Am All Imagination.opus
+2026-03-02T11:45:17 update: updating Brian Scott/Rumi Drops Of Enlightenment.opus
+2026-03-02T11:45:17 update: updating /Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus
+2026-03-02T11:45:17 update: updating /Haemin Sunim – The Things You Can See Only When You Slow Down.m4a
+2026-03-02T11:45:17 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-03-02T11:45:17 update: updating Nasheed/youtube_3wzQhSojCSg_audio.opus
+2026-03-02T11:45:17 update: updating Nasheed/youtube_C2HbWE_bu8Q_audio.opus
+2026-03-02T11:45:17 update: updating Nasheed/youtube_mZFfdjPC3Bg_audio.opus
+2026-03-02T11:45:17 update: updating Nasheed/youtube_ooCLJ1-HHTM_audio.opus
+2026-03-02T11:45:17 update: updating Nasheed/youtube_PE_LwDx5s-M_audio.opus
+2026-03-02T11:45:17 update: updating Nasheed/youtube_SkcRkR9XnC0_audio.opus
+2026-03-02T11:45:17 update: updating Nasheed/youtube_tlsGQKSL1K4_audio.opus
+2026-03-02T11:45:17 update: updating ruqyah/Ruqyah - Evil Eye.opus
+2026-03-02T11:45:17 update: updating ruqyah/ÑÞíÉ ÇáÓÍÑ.opus
+2026-03-02T11:45:17 update: updating ruqyah/Sheikh_Mishary_Rashed_Al-Efasy_Ruqya.mp3
+2026-03-02T11:45:17 update: updating ruqyah/Aal Ruqyah.mp3
+2026-03-02T11:45:17 update: updating ruqyah/RUQIYA AMUBIEYA.mpa - Copy.mp3
+2026-03-02T11:45:17 update: updating Sanskrit/youtube_-LsZpFaGFoU_audio.opus
+2026-03-02T11:45:17 update: updating Sanskrit/youtube_6x5xtNhOts0_audio.opus
+2026-03-02T11:45:17 update: updating Sanskrit/youtube_AZvrqbrBxt8_audio.opus
+2026-03-02T11:45:17 update: updating Sanskrit/youtube_cToCInaGzCw_audio.opus
+2026-03-02T11:45:17 update: updating Sanskrit/youtube_djTNi6edmTI_audio.opus
+2026-03-02T11:45:17 update: updating Sanskrit/youtube_QBY-KxkvGlk_audio.opus
+2026-03-02T11:45:17 update: updating Sanskrit/Namami Shamishan.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/001.  Mishary Alafasi Al-Fatihah Al-Fatihah.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/002.  Mishary Alafasi Al-Baqarah Al-Baqarah.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/003.  Mishary Alafasi Al-Imran Al-Imran.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/004.  Mishary Alafasi An-Nisa' An-Nisa'.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/005.  Mishary Alafasi Al-Ma'idah Al-Ma'idah.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/006.  Mishary Alafasi Al-An'am Al-An'am.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/007.  Mishary Alafasi Al-A'raf Al-A'raf.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/008.  Mishary Alafasi Al-Anfal Al-Anfal.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/009.  Mishary Alafasi At-Taubah At-Taubah.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/010.  Mishary Alafasi Yunus Yunus.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/011.  Mishary Alafasi Hood Hood.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/012.  Mishary Alafasi Yusuf Yusuf.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/013.  Mishary Alafasi Ar-Ra'd Ar-Ra'd.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/014.  Mishary Alafasi Ibrahim Ibrahim.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/015.  Mishary Alafasi Al-Hijr Al-Hijr.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/016.  Mishary Alafasi An-Nahl An-Nahl.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/017.  Mishary Alafasi Al-Isra Al-Isra.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/018.  Mishary Alafasi Al-Kahf Al-Kahf.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/019.  Mishary Alafasi Maryam Maryam.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/020.  Mishary Alafasi Ta­Ha Ta­Ha.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/021.  Mishary Alafasi Al-Anbiya' Al-Anbiya'.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/022.  Mishary Alafasi Al-Hajj Al-Hajj.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/023.  Mishary Alafasi Al-Mu'minun Al-Mu'minun.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/024.  Mishary Alafasi An-Nur An-Nur.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/025.  Mishary Alafasi Al-Furqan Al-Furqan.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/026.  Mishary Alafasi Ash-Shu'ara' Ash-Shu'ara'.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/027.  Mishary Alafasi An-Naml An-Naml.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/028.  Mishary Alafasi Al-Qasas Al-Qasas.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/029.  Mishary Alafasi Al-'Ankabut Al-'Ankabut.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/030.  Mishary Alafasi Ar­Room Ar­Room.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/031.  Mishary Alafasi Luqman Luqman.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/032.  Mishary Alafasi As­Sajdah As­Sajdah.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/033.  Mishary Alafasi Al­Ahzab Al­Ahzab.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/034.  Mishary Alafasi Saba' Saba'.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/035.  Mishary Alafasi Fatir Fatir.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/036.  Mishary Alafasi Ya­Sin Ya­Sin.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/037.  Mishary Alafasi As-Saffat As-Saffat.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/038.  Mishary Alafasi Sad Sad.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/039.  Mishary Alafasi Az-Zumar Az-Zumar.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/040.  Mishary Alafasi Ghafir Ghafir.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/041.  Mishary Alafasi Fussilat Fussilat.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/042.  Mishary Alafasi Ash-Shura Ash-Shura.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/043.  Mishary Alafasi Az-Zukhruf Az-Zukhruf.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/044.  Mishary Alafasi Ad-Dukhan Ad-Dukhan.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/045.  Mishary Alafasi Al-Jathiya Al-Jathiya.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/046.  Mishary Alafasi Al-Ahqaf Al-Ahqaf.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/047.  Mishary Alafasi Muhammad Muhammad.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/048.  Mishary Alafasi Al-Fath Al-Fath.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/049.  Mishary Alafasi Al-Hujurat Al-Hujurat.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/050.  Mishary Alafasi Qaf Qaf.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/051.  Mishary Alafasi Az-Zariyat Az-Zariyat.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/052.  Mishary Alafasi At-Tur At-Tur.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/053.  Mishary Alafasi An-Najm An-Najm.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/054.  Mishary Alafasi Al-Qamar Al-Qamar.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/055.  Mishary Alafasi Ar-Rahman Ar-Rahman.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/056.  Mishary Alafasi Al-Waqi'ah Al-Waqi'ah.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/057.  Mishary Alafasi Al-Hadid Al-Hadid.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/058.  Mishary Alafasi Al-Mujadilah Al-Mujadilah.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/059.  Mishary Alafasi Al-Hashr Al-Hashr.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/060.  Mishary Alafasi Al-Mumtahinah Al-Mumtahinah.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/061.  Mishary Alafasi As-Saff As-Saff.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/062.  Mishary Alafasi Al-Jumu'ah Al-Jumu'ah.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/063.  Mishary Alafasi Al-Munafiqun Al-Munafiqun.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/064.  Mishary Alafasi At-Taghabun At-Taghabun.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/065.  Mishary Alafasi At-Talaq At-Talaq.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/066.  Mishary Alafasi At-Tahrim At-Tahrim.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/067.  Mishary Alafasi Al-Mulk Al-Mulk.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/068.  Mishary Alafasi Al-Qalam Al-Qalam.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/069.  Mishary Alafasi Al-Haqqah Al-Haqqah.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/070.  Mishary Alafasi Al-Ma'arij Al-Ma'arij.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/071.  Mishary Alafasi Nooh Nooh.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/072.  Mishary Alafasi Al-Jinn Al-Jinn.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/073.  Mishary Alafasi Al-Muzzammil Al-Muzzammil.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/074.  Mishary Alafasi Al-Muddaththir Al-Muddaththir.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/075.  Mishary Alafasi Al-Qiyamah Al-Qiyamah.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/076.  Mishary Alafasi Al-Insan Al-Insan.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/077.  Mishary Alafasi Al-Mursalat Al-Mursalat.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/078.  Mishary Alafasi An-Naba' An-Naba'.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/079.  Mishary Alafasi An-Nazi'at An-Nazi'at.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/080.  Mishary Alafasi Abasa Abasa.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/081.  Mishary Alafasi At-Takwir At-Takwir.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/082.  Mishary Alafasi Al-Infitar Al-Infitar.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/083.  Mishary Alafasi Al-Mutaffifin Al-Mutaffifin.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/084.  Mishary Alafasi Al-Inshiqaq Al-Inshiqaq.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/085.  Mishary Alafasi Al-Buruj Al-Buruj.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/086.  Mishary Alafasi At-Tariq At-Tariq.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/087.  Mishary Alafasi Al-A'la Al-A'la.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/088.  Mishary Alafasi Al-Ghashiyah Al-Ghashiyah.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/089.  Mishary Alafasi Al-Fajr Al-Fajr.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/090.  Mishary Alafasi Al-Balad Al-Balad.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/091.  Mishary Alafasi Ash-Shams Ash-Shams.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/092.  Mishary Alafasi Al-Lail Al-Lail.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/093.  Mishary Alafasi Ad-Duha Ad-Duha.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/094.  Mishary Alafasi Ash-Sharh Ash-Sharh.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/095.  Mishary Alafasi At-Tin At-Tin.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/096.  Mishary Alafasi Al-'Alaq Al-'Alaq.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/097.  Mishary Alafasi Al-Qadr Al-Qadr.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/098.  Mishary Alafasi Al-Baiyinah Al-Baiyinah.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/099.  Mishary Alafasi Az-Zalzalah Az-Zalzalah.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/100.  Mishary Alafasi Al-'Adiyat Al-'Adiyat.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/101.  Mishary Alafasi Al-Qari'ah Al-Qari'ah.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/102.  Mishary Alafasi At-Takathur At-Takathur.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/103.  Mishary Alafasi Al-'Asr Al-'Asr.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/104.  Mishary Alafasi Al-Humazah Al-Humazah.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/105.  Mishary Alafasi Al-Fil Al-Fil.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/106.  Mishary Alafasi Quraish Quraish.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/107.  Mishary Alafasi Al-Ma'un Al-Ma'un.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/108.  Mishary Alafasi Al-Kauthar Al-Kauthar.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/109.  Mishary Alafasi Al-Kafirun Al-Kafirun.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/110.  Mishary Alafasi An-Nasr An-Nasr.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/111.  Mishary Alafasi Al-Masad Al-Masad.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/112.  Mishary Alafasi Al-Ikhlas Al-Ikhlas.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/113.  Mishary Alafasi Al-Falaq Al-Falaq.opus
+2026-03-02T11:45:17 update: updating Sheikh Alfasy/114.  Mishary Alafasi An-Nas An-Nas.opus
+2026-03-02T11:45:17 update: updating Sheikh Maheer/001_AL-FATIHA.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/002_AL-BAQARA.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/003_AAL-E-IMRAN.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/004_AN-NISA.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/005_AL-MAEDA.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/006_AL-ANAAM.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/007_AL-ARAF.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/008_AL-ANFAL.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/009_AT-TAWBA.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/010_YUNUS.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/011_HUD.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/012_YUSUF.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/013_AR-RAD.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/014_IBRAHIM.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/015_AL-HIJR.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/016_AN-NAHL.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/017_AL-ISRA.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/018_AL-KAHF.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/019_MARYAM.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/020_TA-HA.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/021_AL-ANBIYA.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/022_AL-HAJJ.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/023_AL-MUMENOON.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/024_AN-NOOR.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/025_AL-FURQAN.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/026_ASH-SHUARA.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/027_AN-NAML.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/028_AL-QASAS.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/029_AL-ANKABOOT.mp3
+2026-03-02T11:45:17 update: updating Sheikh Maheer/030_AR-ROOM.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/031_LUQMAN.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/032_AS-SAJDA.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/033_AL-AHZAB.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/034_SABA.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/035_FATIR.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/036_YA-SEEN.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/037_AS-SAAFFAT.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/038_SAD.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/039_AZ-ZUMAR.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/040_AL-GHAFIR.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/041_FUSSILAT.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/042_ASH-SHURA.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/043_AZ-ZUKHRUF.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/044_AD-DUKHAN.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/045_AL-JATHIYA.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/046_AL-AHQAF.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/047_MUHAMMAD.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/048_AL-FATH.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/049_AL-HUJRAAT.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/050_QAF.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/051_ADH-DHARIYAT.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/052_AT-TUR.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/053_AN-NAJM.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/054_AL-QAMAR.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/055_AR-RAHMAN.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/056_AL-WAQIA.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/057_AL-HADID.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/058_AL-MUJADILA.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/059_AL-HASHR.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/060_AL-MUMTAHINA.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/061_AS-SAFF.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/062_AL-JUMUA.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/063_AL-MUNAFIQOON.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/064_AT-TAGHABUN.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/065_AT-TALAQ.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/066_AT-TAHRIM.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/067_AL-MULK.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/068_AL-QALAM.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/069_AL-HAAQQA.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/070_AL-MAARIJ.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/071_NOOH.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/072_AL-JINN.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/073_AL-MUZZAMMIL.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/074_AL-MUDDATHTHIR.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/075_AL-QIYAMA.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/076_AL-INSAN.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/077_AL-MURSALAT.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/078_AN-NABA.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/079_AN-NAZIAT.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/080_ABASA.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/081_AT-TAKWIR.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/082_AL-INFITAR.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/083_AL-MUTAFFIFIN.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/084_AL-INSHIQAQ.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/085_AL-BUROOJ.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/086_AT-TARIQ.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/087_AL-ALA.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/088_AL-GHASHIYA.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/089_AL-FAJR.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/090_AL-BALAD.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/091_ASH-SHAMS.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/092_AL-LAIL.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/093_AD-DHUHA.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/094_AL-INSHIRAH.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/095_AT-TIN.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/096_AL-ALAQ.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/097_AL-QADR.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/098_AL-BAYYINA.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/099_AZ-ZALZALA.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/100_AL-ADIYAT.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/101_AL-QARIA.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/102_AT-TAKATHUR.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/103_AL-ASR.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/104_AL-HUMAZA.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/105_AL-FIL.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/106_QURAISH.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/107_AL-MAUN.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/108_AL-KAUTHER.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/109_AL-KAFIROON.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/110_AN-NASR.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/111_AL-MASADD.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/112_AL-IKHLAS.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/113_AL-FALAQ.mp3
+2026-03-02T11:45:18 update: updating Sheikh Maheer/114_AN-NAS.mp3
+2026-03-02T11:45:18 update: updating /Shankar-Ehsaan-LoyInstrumental.opus
+2026-03-02T11:45:18 update: updating /Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus
+2026-03-02T11:45:18 update: updating /Sh_Afif_Moh_Taj_Surah_Yusuf.m4a
+2026-03-02T11:45:18 update: updating /sure nisa｜ Muhammed Selim Kurdi.opus
+2026-03-02T11:45:18 update: updating /Sh_Afif_Moh.Taj_Surat Al Kahaf-0.opus
+2026-03-02T11:45:18 update: updating /Isha Inner Engineering Meditation Music.opus
+2026-03-02T11:45:18 update: updating /Lipps Inc. - Funkytown.mp3
+2026-03-02T11:45:18 update: updating /Massive Attack - Teardrop.mp3
+2026-03-02T11:45:18 update: updating /Massive Attack - Paradise Circus.mp3
+2026-03-02T11:45:18 update: updating /RUQIYA AMUBIEYA.mpa - Copy.mp3
+2026-03-02T11:45:26 player: played "sure nisa｜ Muhammed Selim Kurdi.opus"
+2026-03-02T11:51:35 update: updating /RUQIYA AMUBIEYA.mpa - Copy.mp3
+2026-03-02T11:52:30 update: updating ADDU'A supplication/ADDU'A SUDAIS.MP3
+2026-03-02T11:52:30 update: updating ADDU'A supplication/ADDU,AHMAD SULAIMAN.mp3
+2026-03-02T11:52:30 update: updating ADDU'A supplication/AL- ADDU'A.mp3
+2026-03-02T11:52:30 update: updating ADDU'A supplication/Sheikh Matrood Dua.mp3
+2026-03-02T11:52:30 update: updating ADDU'A supplication/Sheikh Matrood Powerful Dua.mp3
+2026-03-02T11:52:30 update: updating /be-inspired.opus
+2026-03-02T11:52:30 update: updating /best sadghuru meditation music.opus
+2026-03-02T11:52:30 update: updating Brian Scott/Neville Goddard - I Am All Imagination.opus
+2026-03-02T11:52:30 update: updating Brian Scott/Rumi Drops Of Enlightenment.opus
+2026-03-02T11:52:30 update: updating /Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus
+2026-03-02T11:52:30 update: updating /Haemin Sunim – The Things You Can See Only When You Slow Down.m4a
+2026-03-02T11:52:30 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-03-02T11:52:30 update: updating Nasheed/youtube_3wzQhSojCSg_audio.opus
+2026-03-02T11:52:30 update: updating Nasheed/youtube_C2HbWE_bu8Q_audio.opus
+2026-03-02T11:52:30 update: updating Nasheed/youtube_mZFfdjPC3Bg_audio.opus
+2026-03-02T11:52:30 update: updating Nasheed/youtube_ooCLJ1-HHTM_audio.opus
+2026-03-02T11:52:30 update: updating Nasheed/youtube_PE_LwDx5s-M_audio.opus
+2026-03-02T11:52:30 update: updating Nasheed/youtube_SkcRkR9XnC0_audio.opus
+2026-03-02T11:52:30 update: updating Nasheed/youtube_tlsGQKSL1K4_audio.opus
+2026-03-02T11:52:30 update: updating ruqyah/Ruqyah - Evil Eye.opus
+2026-03-02T11:52:30 update: updating ruqyah/ÑÞíÉ ÇáÓÍÑ.opus
+2026-03-02T11:52:30 update: updating ruqyah/Sheikh_Mishary_Rashed_Al-Efasy_Ruqya.mp3
+2026-03-02T11:52:30 update: updating ruqyah/Aal Ruqyah.mp3
+2026-03-02T11:52:30 update: updating ruqyah/RUQIYA AMUBIEYA.mpa - Copy.mp3
+2026-03-02T11:52:30 update: updating Sanskrit/youtube_-LsZpFaGFoU_audio.opus
+2026-03-02T11:52:30 update: updating Sanskrit/youtube_6x5xtNhOts0_audio.opus
+2026-03-02T11:52:30 update: updating Sanskrit/youtube_AZvrqbrBxt8_audio.opus
+2026-03-02T11:52:30 update: updating Sanskrit/youtube_cToCInaGzCw_audio.opus
+2026-03-02T11:52:30 update: updating Sanskrit/youtube_djTNi6edmTI_audio.opus
+2026-03-02T11:52:30 update: updating Sanskrit/youtube_QBY-KxkvGlk_audio.opus
+2026-03-02T11:52:30 update: updating Sanskrit/Namami Shamishan.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/001.  Mishary Alafasi Al-Fatihah Al-Fatihah.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/002.  Mishary Alafasi Al-Baqarah Al-Baqarah.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/003.  Mishary Alafasi Al-Imran Al-Imran.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/004.  Mishary Alafasi An-Nisa' An-Nisa'.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/005.  Mishary Alafasi Al-Ma'idah Al-Ma'idah.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/006.  Mishary Alafasi Al-An'am Al-An'am.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/007.  Mishary Alafasi Al-A'raf Al-A'raf.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/008.  Mishary Alafasi Al-Anfal Al-Anfal.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/009.  Mishary Alafasi At-Taubah At-Taubah.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/010.  Mishary Alafasi Yunus Yunus.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/011.  Mishary Alafasi Hood Hood.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/012.  Mishary Alafasi Yusuf Yusuf.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/013.  Mishary Alafasi Ar-Ra'd Ar-Ra'd.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/014.  Mishary Alafasi Ibrahim Ibrahim.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/015.  Mishary Alafasi Al-Hijr Al-Hijr.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/016.  Mishary Alafasi An-Nahl An-Nahl.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/017.  Mishary Alafasi Al-Isra Al-Isra.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/018.  Mishary Alafasi Al-Kahf Al-Kahf.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/019.  Mishary Alafasi Maryam Maryam.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/020.  Mishary Alafasi Ta­Ha Ta­Ha.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/021.  Mishary Alafasi Al-Anbiya' Al-Anbiya'.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/022.  Mishary Alafasi Al-Hajj Al-Hajj.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/023.  Mishary Alafasi Al-Mu'minun Al-Mu'minun.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/024.  Mishary Alafasi An-Nur An-Nur.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/025.  Mishary Alafasi Al-Furqan Al-Furqan.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/026.  Mishary Alafasi Ash-Shu'ara' Ash-Shu'ara'.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/027.  Mishary Alafasi An-Naml An-Naml.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/028.  Mishary Alafasi Al-Qasas Al-Qasas.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/029.  Mishary Alafasi Al-'Ankabut Al-'Ankabut.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/030.  Mishary Alafasi Ar­Room Ar­Room.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/031.  Mishary Alafasi Luqman Luqman.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/032.  Mishary Alafasi As­Sajdah As­Sajdah.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/033.  Mishary Alafasi Al­Ahzab Al­Ahzab.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/034.  Mishary Alafasi Saba' Saba'.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/035.  Mishary Alafasi Fatir Fatir.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/036.  Mishary Alafasi Ya­Sin Ya­Sin.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/037.  Mishary Alafasi As-Saffat As-Saffat.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/038.  Mishary Alafasi Sad Sad.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/039.  Mishary Alafasi Az-Zumar Az-Zumar.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/040.  Mishary Alafasi Ghafir Ghafir.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/041.  Mishary Alafasi Fussilat Fussilat.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/042.  Mishary Alafasi Ash-Shura Ash-Shura.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/043.  Mishary Alafasi Az-Zukhruf Az-Zukhruf.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/044.  Mishary Alafasi Ad-Dukhan Ad-Dukhan.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/045.  Mishary Alafasi Al-Jathiya Al-Jathiya.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/046.  Mishary Alafasi Al-Ahqaf Al-Ahqaf.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/047.  Mishary Alafasi Muhammad Muhammad.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/048.  Mishary Alafasi Al-Fath Al-Fath.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/049.  Mishary Alafasi Al-Hujurat Al-Hujurat.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/050.  Mishary Alafasi Qaf Qaf.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/051.  Mishary Alafasi Az-Zariyat Az-Zariyat.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/052.  Mishary Alafasi At-Tur At-Tur.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/053.  Mishary Alafasi An-Najm An-Najm.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/054.  Mishary Alafasi Al-Qamar Al-Qamar.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/055.  Mishary Alafasi Ar-Rahman Ar-Rahman.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/056.  Mishary Alafasi Al-Waqi'ah Al-Waqi'ah.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/057.  Mishary Alafasi Al-Hadid Al-Hadid.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/058.  Mishary Alafasi Al-Mujadilah Al-Mujadilah.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/059.  Mishary Alafasi Al-Hashr Al-Hashr.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/060.  Mishary Alafasi Al-Mumtahinah Al-Mumtahinah.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/061.  Mishary Alafasi As-Saff As-Saff.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/062.  Mishary Alafasi Al-Jumu'ah Al-Jumu'ah.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/063.  Mishary Alafasi Al-Munafiqun Al-Munafiqun.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/064.  Mishary Alafasi At-Taghabun At-Taghabun.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/065.  Mishary Alafasi At-Talaq At-Talaq.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/066.  Mishary Alafasi At-Tahrim At-Tahrim.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/067.  Mishary Alafasi Al-Mulk Al-Mulk.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/068.  Mishary Alafasi Al-Qalam Al-Qalam.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/069.  Mishary Alafasi Al-Haqqah Al-Haqqah.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/070.  Mishary Alafasi Al-Ma'arij Al-Ma'arij.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/071.  Mishary Alafasi Nooh Nooh.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/072.  Mishary Alafasi Al-Jinn Al-Jinn.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/073.  Mishary Alafasi Al-Muzzammil Al-Muzzammil.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/074.  Mishary Alafasi Al-Muddaththir Al-Muddaththir.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/075.  Mishary Alafasi Al-Qiyamah Al-Qiyamah.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/076.  Mishary Alafasi Al-Insan Al-Insan.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/077.  Mishary Alafasi Al-Mursalat Al-Mursalat.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/078.  Mishary Alafasi An-Naba' An-Naba'.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/079.  Mishary Alafasi An-Nazi'at An-Nazi'at.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/080.  Mishary Alafasi Abasa Abasa.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/081.  Mishary Alafasi At-Takwir At-Takwir.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/082.  Mishary Alafasi Al-Infitar Al-Infitar.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/083.  Mishary Alafasi Al-Mutaffifin Al-Mutaffifin.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/084.  Mishary Alafasi Al-Inshiqaq Al-Inshiqaq.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/085.  Mishary Alafasi Al-Buruj Al-Buruj.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/086.  Mishary Alafasi At-Tariq At-Tariq.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/087.  Mishary Alafasi Al-A'la Al-A'la.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/088.  Mishary Alafasi Al-Ghashiyah Al-Ghashiyah.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/089.  Mishary Alafasi Al-Fajr Al-Fajr.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/090.  Mishary Alafasi Al-Balad Al-Balad.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/091.  Mishary Alafasi Ash-Shams Ash-Shams.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/092.  Mishary Alafasi Al-Lail Al-Lail.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/093.  Mishary Alafasi Ad-Duha Ad-Duha.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/094.  Mishary Alafasi Ash-Sharh Ash-Sharh.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/095.  Mishary Alafasi At-Tin At-Tin.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/096.  Mishary Alafasi Al-'Alaq Al-'Alaq.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/097.  Mishary Alafasi Al-Qadr Al-Qadr.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/098.  Mishary Alafasi Al-Baiyinah Al-Baiyinah.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/099.  Mishary Alafasi Az-Zalzalah Az-Zalzalah.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/100.  Mishary Alafasi Al-'Adiyat Al-'Adiyat.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/101.  Mishary Alafasi Al-Qari'ah Al-Qari'ah.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/102.  Mishary Alafasi At-Takathur At-Takathur.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/103.  Mishary Alafasi Al-'Asr Al-'Asr.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/104.  Mishary Alafasi Al-Humazah Al-Humazah.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/105.  Mishary Alafasi Al-Fil Al-Fil.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/106.  Mishary Alafasi Quraish Quraish.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/107.  Mishary Alafasi Al-Ma'un Al-Ma'un.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/108.  Mishary Alafasi Al-Kauthar Al-Kauthar.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/109.  Mishary Alafasi Al-Kafirun Al-Kafirun.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/110.  Mishary Alafasi An-Nasr An-Nasr.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/111.  Mishary Alafasi Al-Masad Al-Masad.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/112.  Mishary Alafasi Al-Ikhlas Al-Ikhlas.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/113.  Mishary Alafasi Al-Falaq Al-Falaq.opus
+2026-03-02T11:52:30 update: updating Sheikh Alfasy/114.  Mishary Alafasi An-Nas An-Nas.opus
+2026-03-02T11:52:30 update: updating Sheikh Maheer/001_AL-FATIHA.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/002_AL-BAQARA.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/003_AAL-E-IMRAN.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/004_AN-NISA.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/005_AL-MAEDA.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/006_AL-ANAAM.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/007_AL-ARAF.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/008_AL-ANFAL.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/009_AT-TAWBA.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/010_YUNUS.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/011_HUD.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/012_YUSUF.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/013_AR-RAD.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/014_IBRAHIM.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/015_AL-HIJR.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/016_AN-NAHL.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/017_AL-ISRA.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/018_AL-KAHF.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/019_MARYAM.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/020_TA-HA.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/021_AL-ANBIYA.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/022_AL-HAJJ.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/023_AL-MUMENOON.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/024_AN-NOOR.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/025_AL-FURQAN.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/026_ASH-SHUARA.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/027_AN-NAML.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/028_AL-QASAS.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/029_AL-ANKABOOT.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/030_AR-ROOM.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/031_LUQMAN.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/032_AS-SAJDA.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/033_AL-AHZAB.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/034_SABA.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/035_FATIR.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/036_YA-SEEN.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/037_AS-SAAFFAT.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/038_SAD.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/039_AZ-ZUMAR.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/040_AL-GHAFIR.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/041_FUSSILAT.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/042_ASH-SHURA.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/043_AZ-ZUKHRUF.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/044_AD-DUKHAN.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/045_AL-JATHIYA.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/046_AL-AHQAF.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/047_MUHAMMAD.mp3
+2026-03-02T11:52:30 update: updating Sheikh Maheer/048_AL-FATH.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/049_AL-HUJRAAT.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/050_QAF.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/051_ADH-DHARIYAT.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/052_AT-TUR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/053_AN-NAJM.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/054_AL-QAMAR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/055_AR-RAHMAN.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/056_AL-WAQIA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/057_AL-HADID.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/058_AL-MUJADILA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/059_AL-HASHR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/060_AL-MUMTAHINA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/061_AS-SAFF.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/062_AL-JUMUA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/063_AL-MUNAFIQOON.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/064_AT-TAGHABUN.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/065_AT-TALAQ.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/066_AT-TAHRIM.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/067_AL-MULK.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/068_AL-QALAM.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/069_AL-HAAQQA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/070_AL-MAARIJ.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/071_NOOH.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/072_AL-JINN.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/073_AL-MUZZAMMIL.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/074_AL-MUDDATHTHIR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/075_AL-QIYAMA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/076_AL-INSAN.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/077_AL-MURSALAT.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/078_AN-NABA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/079_AN-NAZIAT.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/080_ABASA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/081_AT-TAKWIR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/082_AL-INFITAR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/083_AL-MUTAFFIFIN.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/084_AL-INSHIQAQ.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/085_AL-BUROOJ.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/086_AT-TARIQ.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/087_AL-ALA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/088_AL-GHASHIYA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/089_AL-FAJR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/090_AL-BALAD.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/091_ASH-SHAMS.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/092_AL-LAIL.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/093_AD-DHUHA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/094_AL-INSHIRAH.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/095_AT-TIN.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/096_AL-ALAQ.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/097_AL-QADR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/098_AL-BAYYINA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/099_AZ-ZALZALA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/100_AL-ADIYAT.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/101_AL-QARIA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/102_AT-TAKATHUR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/103_AL-ASR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/104_AL-HUMAZA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/105_AL-FIL.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/106_QURAISH.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/107_AL-MAUN.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/108_AL-KAUTHER.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/109_AL-KAFIROON.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/110_AN-NASR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/111_AL-MASADD.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/112_AL-IKHLAS.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/113_AL-FALAQ.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/114_AN-NAS.mp3
+2026-03-02T11:52:31 update: updating /Shankar-Ehsaan-LoyInstrumental.opus
+2026-03-02T11:52:31 update: updating /Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus
+2026-03-02T11:52:31 update: updating /Sh_Afif_Moh_Taj_Surah_Yusuf.m4a
+2026-03-02T11:52:31 update: updating /sure nisa｜ Muhammed Selim Kurdi.opus
+2026-03-02T11:52:31 update: updating /Sh_Afif_Moh.Taj_Surat Al Kahaf-0.opus
+2026-03-02T11:52:31 update: updating /Isha Inner Engineering Meditation Music.opus
+2026-03-02T11:52:31 update: updating /Lipps Inc. - Funkytown.mp3
+2026-03-02T11:52:31 update: updating /Massive Attack - Teardrop.mp3
+2026-03-02T11:52:31 update: updating /Massive Attack - Paradise Circus.mp3
+2026-03-02T11:52:31 update: updating /RUQIYA AMUBIEYA.mpa - Copy.mp3
+2026-03-02T11:52:31 update: updating ADDU'A supplication/ADDU'A SUDAIS.MP3
+2026-03-02T11:52:31 update: updating ADDU'A supplication/ADDU,AHMAD SULAIMAN.mp3
+2026-03-02T11:52:31 update: updating ADDU'A supplication/AL- ADDU'A.mp3
+2026-03-02T11:52:31 update: updating ADDU'A supplication/Sheikh Matrood Dua.mp3
+2026-03-02T11:52:31 update: updating ADDU'A supplication/Sheikh Matrood Powerful Dua.mp3
+2026-03-02T11:52:31 update: updating /be-inspired.opus
+2026-03-02T11:52:31 update: updating /best sadghuru meditation music.opus
+2026-03-02T11:52:31 update: updating Brian Scott/Neville Goddard - I Am All Imagination.opus
+2026-03-02T11:52:31 update: updating Brian Scott/Rumi Drops Of Enlightenment.opus
+2026-03-02T11:52:31 update: updating /Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus
+2026-03-02T11:52:31 update: updating /Haemin Sunim – The Things You Can See Only When You Slow Down.m4a
+2026-03-02T11:52:31 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-03-02T11:52:31 update: updating Nasheed/youtube_3wzQhSojCSg_audio.opus
+2026-03-02T11:52:31 update: updating Nasheed/youtube_C2HbWE_bu8Q_audio.opus
+2026-03-02T11:52:31 update: updating Nasheed/youtube_mZFfdjPC3Bg_audio.opus
+2026-03-02T11:52:31 update: updating Nasheed/youtube_ooCLJ1-HHTM_audio.opus
+2026-03-02T11:52:31 update: updating Nasheed/youtube_PE_LwDx5s-M_audio.opus
+2026-03-02T11:52:31 update: updating Nasheed/youtube_SkcRkR9XnC0_audio.opus
+2026-03-02T11:52:31 update: updating Nasheed/youtube_tlsGQKSL1K4_audio.opus
+2026-03-02T11:52:31 update: updating ruqyah/Ruqyah - Evil Eye.opus
+2026-03-02T11:52:31 update: updating ruqyah/ÑÞíÉ ÇáÓÍÑ.opus
+2026-03-02T11:52:31 update: updating ruqyah/Sheikh_Mishary_Rashed_Al-Efasy_Ruqya.mp3
+2026-03-02T11:52:31 update: updating ruqyah/Aal Ruqyah.mp3
+2026-03-02T11:52:31 update: updating ruqyah/RUQIYA AMUBIEYA.mpa - Copy.mp3
+2026-03-02T11:52:31 update: updating Sanskrit/youtube_-LsZpFaGFoU_audio.opus
+2026-03-02T11:52:31 update: updating Sanskrit/youtube_6x5xtNhOts0_audio.opus
+2026-03-02T11:52:31 update: updating Sanskrit/youtube_AZvrqbrBxt8_audio.opus
+2026-03-02T11:52:31 update: updating Sanskrit/youtube_cToCInaGzCw_audio.opus
+2026-03-02T11:52:31 update: updating Sanskrit/youtube_djTNi6edmTI_audio.opus
+2026-03-02T11:52:31 update: updating Sanskrit/youtube_QBY-KxkvGlk_audio.opus
+2026-03-02T11:52:31 update: updating Sanskrit/Namami Shamishan.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/001.  Mishary Alafasi Al-Fatihah Al-Fatihah.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/002.  Mishary Alafasi Al-Baqarah Al-Baqarah.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/003.  Mishary Alafasi Al-Imran Al-Imran.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/004.  Mishary Alafasi An-Nisa' An-Nisa'.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/005.  Mishary Alafasi Al-Ma'idah Al-Ma'idah.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/006.  Mishary Alafasi Al-An'am Al-An'am.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/007.  Mishary Alafasi Al-A'raf Al-A'raf.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/008.  Mishary Alafasi Al-Anfal Al-Anfal.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/009.  Mishary Alafasi At-Taubah At-Taubah.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/010.  Mishary Alafasi Yunus Yunus.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/011.  Mishary Alafasi Hood Hood.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/012.  Mishary Alafasi Yusuf Yusuf.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/013.  Mishary Alafasi Ar-Ra'd Ar-Ra'd.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/014.  Mishary Alafasi Ibrahim Ibrahim.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/015.  Mishary Alafasi Al-Hijr Al-Hijr.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/016.  Mishary Alafasi An-Nahl An-Nahl.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/017.  Mishary Alafasi Al-Isra Al-Isra.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/018.  Mishary Alafasi Al-Kahf Al-Kahf.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/019.  Mishary Alafasi Maryam Maryam.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/020.  Mishary Alafasi Ta­Ha Ta­Ha.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/021.  Mishary Alafasi Al-Anbiya' Al-Anbiya'.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/022.  Mishary Alafasi Al-Hajj Al-Hajj.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/023.  Mishary Alafasi Al-Mu'minun Al-Mu'minun.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/024.  Mishary Alafasi An-Nur An-Nur.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/025.  Mishary Alafasi Al-Furqan Al-Furqan.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/026.  Mishary Alafasi Ash-Shu'ara' Ash-Shu'ara'.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/027.  Mishary Alafasi An-Naml An-Naml.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/028.  Mishary Alafasi Al-Qasas Al-Qasas.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/029.  Mishary Alafasi Al-'Ankabut Al-'Ankabut.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/030.  Mishary Alafasi Ar­Room Ar­Room.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/031.  Mishary Alafasi Luqman Luqman.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/032.  Mishary Alafasi As­Sajdah As­Sajdah.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/033.  Mishary Alafasi Al­Ahzab Al­Ahzab.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/034.  Mishary Alafasi Saba' Saba'.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/035.  Mishary Alafasi Fatir Fatir.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/036.  Mishary Alafasi Ya­Sin Ya­Sin.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/037.  Mishary Alafasi As-Saffat As-Saffat.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/038.  Mishary Alafasi Sad Sad.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/039.  Mishary Alafasi Az-Zumar Az-Zumar.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/040.  Mishary Alafasi Ghafir Ghafir.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/041.  Mishary Alafasi Fussilat Fussilat.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/042.  Mishary Alafasi Ash-Shura Ash-Shura.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/043.  Mishary Alafasi Az-Zukhruf Az-Zukhruf.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/044.  Mishary Alafasi Ad-Dukhan Ad-Dukhan.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/045.  Mishary Alafasi Al-Jathiya Al-Jathiya.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/046.  Mishary Alafasi Al-Ahqaf Al-Ahqaf.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/047.  Mishary Alafasi Muhammad Muhammad.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/048.  Mishary Alafasi Al-Fath Al-Fath.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/049.  Mishary Alafasi Al-Hujurat Al-Hujurat.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/050.  Mishary Alafasi Qaf Qaf.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/051.  Mishary Alafasi Az-Zariyat Az-Zariyat.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/052.  Mishary Alafasi At-Tur At-Tur.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/053.  Mishary Alafasi An-Najm An-Najm.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/054.  Mishary Alafasi Al-Qamar Al-Qamar.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/055.  Mishary Alafasi Ar-Rahman Ar-Rahman.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/056.  Mishary Alafasi Al-Waqi'ah Al-Waqi'ah.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/057.  Mishary Alafasi Al-Hadid Al-Hadid.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/058.  Mishary Alafasi Al-Mujadilah Al-Mujadilah.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/059.  Mishary Alafasi Al-Hashr Al-Hashr.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/060.  Mishary Alafasi Al-Mumtahinah Al-Mumtahinah.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/061.  Mishary Alafasi As-Saff As-Saff.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/062.  Mishary Alafasi Al-Jumu'ah Al-Jumu'ah.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/063.  Mishary Alafasi Al-Munafiqun Al-Munafiqun.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/064.  Mishary Alafasi At-Taghabun At-Taghabun.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/065.  Mishary Alafasi At-Talaq At-Talaq.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/066.  Mishary Alafasi At-Tahrim At-Tahrim.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/067.  Mishary Alafasi Al-Mulk Al-Mulk.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/068.  Mishary Alafasi Al-Qalam Al-Qalam.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/069.  Mishary Alafasi Al-Haqqah Al-Haqqah.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/070.  Mishary Alafasi Al-Ma'arij Al-Ma'arij.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/071.  Mishary Alafasi Nooh Nooh.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/072.  Mishary Alafasi Al-Jinn Al-Jinn.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/073.  Mishary Alafasi Al-Muzzammil Al-Muzzammil.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/074.  Mishary Alafasi Al-Muddaththir Al-Muddaththir.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/075.  Mishary Alafasi Al-Qiyamah Al-Qiyamah.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/076.  Mishary Alafasi Al-Insan Al-Insan.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/077.  Mishary Alafasi Al-Mursalat Al-Mursalat.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/078.  Mishary Alafasi An-Naba' An-Naba'.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/079.  Mishary Alafasi An-Nazi'at An-Nazi'at.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/080.  Mishary Alafasi Abasa Abasa.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/081.  Mishary Alafasi At-Takwir At-Takwir.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/082.  Mishary Alafasi Al-Infitar Al-Infitar.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/083.  Mishary Alafasi Al-Mutaffifin Al-Mutaffifin.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/084.  Mishary Alafasi Al-Inshiqaq Al-Inshiqaq.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/085.  Mishary Alafasi Al-Buruj Al-Buruj.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/086.  Mishary Alafasi At-Tariq At-Tariq.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/087.  Mishary Alafasi Al-A'la Al-A'la.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/088.  Mishary Alafasi Al-Ghashiyah Al-Ghashiyah.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/089.  Mishary Alafasi Al-Fajr Al-Fajr.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/090.  Mishary Alafasi Al-Balad Al-Balad.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/091.  Mishary Alafasi Ash-Shams Ash-Shams.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/092.  Mishary Alafasi Al-Lail Al-Lail.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/093.  Mishary Alafasi Ad-Duha Ad-Duha.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/094.  Mishary Alafasi Ash-Sharh Ash-Sharh.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/095.  Mishary Alafasi At-Tin At-Tin.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/096.  Mishary Alafasi Al-'Alaq Al-'Alaq.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/097.  Mishary Alafasi Al-Qadr Al-Qadr.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/098.  Mishary Alafasi Al-Baiyinah Al-Baiyinah.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/099.  Mishary Alafasi Az-Zalzalah Az-Zalzalah.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/100.  Mishary Alafasi Al-'Adiyat Al-'Adiyat.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/101.  Mishary Alafasi Al-Qari'ah Al-Qari'ah.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/102.  Mishary Alafasi At-Takathur At-Takathur.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/103.  Mishary Alafasi Al-'Asr Al-'Asr.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/104.  Mishary Alafasi Al-Humazah Al-Humazah.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/105.  Mishary Alafasi Al-Fil Al-Fil.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/106.  Mishary Alafasi Quraish Quraish.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/107.  Mishary Alafasi Al-Ma'un Al-Ma'un.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/108.  Mishary Alafasi Al-Kauthar Al-Kauthar.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/109.  Mishary Alafasi Al-Kafirun Al-Kafirun.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/110.  Mishary Alafasi An-Nasr An-Nasr.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/111.  Mishary Alafasi Al-Masad Al-Masad.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/112.  Mishary Alafasi Al-Ikhlas Al-Ikhlas.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/113.  Mishary Alafasi Al-Falaq Al-Falaq.opus
+2026-03-02T11:52:31 update: updating Sheikh Alfasy/114.  Mishary Alafasi An-Nas An-Nas.opus
+2026-03-02T11:52:31 update: updating Sheikh Maheer/001_AL-FATIHA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/002_AL-BAQARA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/003_AAL-E-IMRAN.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/004_AN-NISA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/005_AL-MAEDA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/006_AL-ANAAM.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/007_AL-ARAF.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/008_AL-ANFAL.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/009_AT-TAWBA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/010_YUNUS.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/011_HUD.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/012_YUSUF.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/013_AR-RAD.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/014_IBRAHIM.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/015_AL-HIJR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/016_AN-NAHL.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/017_AL-ISRA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/018_AL-KAHF.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/019_MARYAM.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/020_TA-HA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/021_AL-ANBIYA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/022_AL-HAJJ.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/023_AL-MUMENOON.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/024_AN-NOOR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/025_AL-FURQAN.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/026_ASH-SHUARA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/027_AN-NAML.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/028_AL-QASAS.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/029_AL-ANKABOOT.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/030_AR-ROOM.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/031_LUQMAN.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/032_AS-SAJDA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/033_AL-AHZAB.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/034_SABA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/035_FATIR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/036_YA-SEEN.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/037_AS-SAAFFAT.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/038_SAD.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/039_AZ-ZUMAR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/040_AL-GHAFIR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/041_FUSSILAT.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/042_ASH-SHURA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/043_AZ-ZUKHRUF.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/044_AD-DUKHAN.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/045_AL-JATHIYA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/046_AL-AHQAF.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/047_MUHAMMAD.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/048_AL-FATH.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/049_AL-HUJRAAT.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/050_QAF.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/051_ADH-DHARIYAT.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/052_AT-TUR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/053_AN-NAJM.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/054_AL-QAMAR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/055_AR-RAHMAN.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/056_AL-WAQIA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/057_AL-HADID.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/058_AL-MUJADILA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/059_AL-HASHR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/060_AL-MUMTAHINA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/061_AS-SAFF.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/062_AL-JUMUA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/063_AL-MUNAFIQOON.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/064_AT-TAGHABUN.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/065_AT-TALAQ.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/066_AT-TAHRIM.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/067_AL-MULK.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/068_AL-QALAM.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/069_AL-HAAQQA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/070_AL-MAARIJ.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/071_NOOH.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/072_AL-JINN.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/073_AL-MUZZAMMIL.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/074_AL-MUDDATHTHIR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/075_AL-QIYAMA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/076_AL-INSAN.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/077_AL-MURSALAT.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/078_AN-NABA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/079_AN-NAZIAT.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/080_ABASA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/081_AT-TAKWIR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/082_AL-INFITAR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/083_AL-MUTAFFIFIN.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/084_AL-INSHIQAQ.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/085_AL-BUROOJ.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/086_AT-TARIQ.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/087_AL-ALA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/088_AL-GHASHIYA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/089_AL-FAJR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/090_AL-BALAD.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/091_ASH-SHAMS.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/092_AL-LAIL.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/093_AD-DHUHA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/094_AL-INSHIRAH.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/095_AT-TIN.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/096_AL-ALAQ.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/097_AL-QADR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/098_AL-BAYYINA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/099_AZ-ZALZALA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/100_AL-ADIYAT.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/101_AL-QARIA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/102_AT-TAKATHUR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/103_AL-ASR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/104_AL-HUMAZA.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/105_AL-FIL.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/106_QURAISH.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/107_AL-MAUN.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/108_AL-KAUTHER.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/109_AL-KAFIROON.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/110_AN-NASR.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/111_AL-MASADD.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/112_AL-IKHLAS.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/113_AL-FALAQ.mp3
+2026-03-02T11:52:31 update: updating Sheikh Maheer/114_AN-NAS.mp3
+2026-03-02T11:52:31 update: updating /Shankar-Ehsaan-LoyInstrumental.opus
+2026-03-02T11:52:31 update: updating /Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus
+2026-03-02T11:52:31 update: updating /Sh_Afif_Moh_Taj_Surah_Yusuf.m4a
+2026-03-02T11:52:31 update: updating /sure nisa｜ Muhammed Selim Kurdi.opus
+2026-03-02T11:52:31 update: updating /Sh_Afif_Moh.Taj_Surat Al Kahaf-0.opus
+2026-03-02T11:52:31 update: updating /Isha Inner Engineering Meditation Music.opus
+2026-03-02T11:52:31 update: updating /Lipps Inc. - Funkytown.mp3
+2026-03-02T11:52:31 update: updating /Massive Attack - Teardrop.mp3
+2026-03-02T11:52:31 update: updating /Massive Attack - Paradise Circus.mp3
+2026-03-02T11:52:31 update: updating /RUQIYA AMUBIEYA.mpa - Copy.mp3
+2026-03-02T12:45:51 player: played "ruqyah/RUQIYA AMUBIEYA.mpa - Copy.mp3"
+2026-03-02T13:59:32 player: played "ruqyah/Sheikh_Mishary_Rashed_Al-Efasy_Ruqya.mp3"
+2026-03-02T23:27:11 player: played "ruqyah/ÑÞíÉ ÇáÓÍÑ.opus"
+2026-03-03T00:25:15 player: played "ruqyah/Ruqyah - Evil Eye.opus"
+2026-03-03T00:38:28 player: played "ruqyah/Aal Ruqyah.mp3"
+2026-03-04T08:20:16 player: played "ruqyah/RUQIYA AMUBIEYA.mpa - Copy.mp3"
+2026-03-04T08:20:31 player: played "Lipps Inc. - Funkytown.mp3"
+2026-03-04T10:09:39 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2026-03-04T18:16:44 player: played "Massive Attack - Teardrop.mp3"
+2026-03-04T18:21:38 player: played "Massive Attack - Paradise Circus.mp3"
+2026-03-07T09:30:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-03-07T09:36:26 player: played "sure nisa｜ Muhammed Selim Kurdi.opus"
+2026-03-07T09:36:26 exception: Not playing
+2026-03-07T09:46:16 exception: Not playing
+2026-03-07T09:48:42 exception: Not playing
+2026-03-07T09:48:42 exception: Not playing
+2026-03-07T09:48:43 exception: Not playing
+2026-03-07T09:48:43 exception: Not playing
+2026-03-07T09:48:43 exception: Not playing
+2026-03-07T09:48:43 exception: Not playing
+2026-03-07T09:48:43 exception: Not playing
+2026-03-07T09:48:43 exception: Not playing
+2026-03-07T09:48:43 exception: Not playing
+2026-03-07T09:48:43 exception: Not playing
+2026-03-07T09:48:43 exception: Not playing
+2026-03-07T09:49:04 exception: Not playing
+2026-03-07T09:49:05 exception: Not playing
+2026-03-07T09:49:05 exception: Not playing
+2026-03-07T09:49:05 exception: Not playing
+2026-03-07T09:49:05 exception: Not playing
+2026-03-07T09:49:06 exception: Not playing
+2026-03-07T09:49:06 exception: Not playing
+2026-03-07T09:49:06 exception: Not playing
+2026-03-07T09:49:08 exception: Not playing
+2026-03-07T09:49:08 exception: Not playing
+2026-03-07T09:49:09 exception: Not playing
+2026-03-07T09:49:09 exception: Not playing
+2026-03-07T09:49:09 exception: Not playing
+2026-03-07T09:49:09 exception: Not playing
+2026-03-07T09:49:09 exception: Not playing
+2026-03-07T09:49:09 exception: Not playing
+2026-03-07T09:49:09 exception: Not playing
+2026-03-07T09:49:09 exception: Not playing
+2026-03-07T09:49:09 exception: Not playing
+2026-03-07T09:49:10 exception: Not playing
+2026-03-07T09:49:11 exception: Not playing
+2026-03-07T09:49:11 exception: Not playing
+2026-03-07T09:49:11 exception: Not playing
+2026-03-07T09:49:11 exception: Not playing
+2026-03-07T09:49:12 exception: Not playing
+2026-03-07T09:49:12 exception: Not playing
+2026-03-07T09:49:18 exception: Not playing
+2026-03-07T09:49:18 exception: Not playing
+2026-03-07T09:49:18 exception: Not playing
+2026-03-07T09:49:18 exception: Not playing
+2026-03-07T09:49:18 exception: Not playing
+2026-03-07T09:49:18 exception: Not playing
+2026-03-07T09:49:18 exception: Not playing
+2026-03-07T09:49:18 exception: Not playing
+2026-03-07T09:49:18 exception: Not playing
+2026-03-07T09:49:18 exception: Not playing
+2026-03-07T09:49:18 exception: Not playing
+2026-03-07T09:49:19 exception: Not playing
+2026-03-07T09:49:19 exception: Not playing
+2026-03-07T09:49:19 exception: Not playing
+2026-03-07T09:49:19 exception: Not playing
+2026-03-07T09:49:19 exception: Not playing
+2026-03-07T09:49:20 exception: Not playing
+2026-03-07T09:49:20 exception: Not playing
+2026-03-07T09:49:20 exception: Not playing
+2026-03-07T09:49:20 exception: Not playing
+2026-03-07T09:49:20 exception: Not playing
+2026-03-07T09:49:20 exception: Not playing
+2026-03-07T09:49:20 exception: Not playing
+2026-03-07T09:49:20 exception: Not playing
+2026-03-07T09:49:20 exception: Not playing
+2026-03-07T09:49:20 exception: Not playing
+2026-03-07T09:49:27 exception: Not playing
+2026-03-07T09:50:26 exception: Not playing
+2026-03-07T09:50:26 exception: Not playing
+2026-03-07T09:50:26 exception: Not playing
+2026-03-07T09:50:27 exception: Not playing
+2026-03-07T09:50:28 exception: Not playing
+2026-03-07T09:50:29 exception: Not playing
+2026-03-07T09:50:39 exception: Not playing
+2026-03-07T09:50:39 exception: Not playing
+2026-03-07T09:50:40 exception: Not playing
+2026-03-07T09:50:41 exception: Not playing
+2026-03-07T09:50:42 exception: Not playing
+2026-03-07T09:56:17 exception: Not playing
+2026-03-07T14:44:24 exception: Not playing
+2026-03-07T14:44:24 exception: Not playing
+2026-03-07T14:45:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-03-07T14:45:17 player: played "sure nisa｜ Muhammed Selim Kurdi.opus"
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:17 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:18 exception: Not playing
+2026-03-07T14:45:19 exception: Not playing
+2026-03-07T14:45:19 exception: Not playing
+2026-03-07T14:45:19 exception: Not playing
+2026-03-07T14:45:19 exception: Not playing
+2026-03-07T14:45:19 exception: Not playing
+2026-03-07T14:45:19 exception: Not playing
+2026-03-07T14:45:19 exception: Not playing
+2026-03-07T14:45:19 exception: Not playing
+2026-03-07T14:45:19 exception: Not playing
+2026-03-07T14:45:19 exception: Not playing
+2026-03-07T14:45:19 exception: Not playing
+2026-03-07T14:45:19 exception: Not playing
+2026-03-07T14:45:19 exception: Not playing
+2026-03-07T14:45:19 exception: Not playing
+2026-03-07T14:45:19 exception: Not playing
+2026-03-07T14:45:19 exception: Not playing
+2026-03-07T14:45:20 exception: Not playing
+2026-03-07T14:45:21 exception: Not playing
+2026-03-07T14:45:24 exception: Not playing
+2026-03-07T14:45:26 exception: Not playing
+2026-03-07T14:45:27 exception: Not playing
+2026-03-07T14:45:27 exception: Not playing
+2026-03-07T14:45:27 exception: Not playing
+2026-03-07T14:45:39 exception: Not playing
+2026-03-07T14:45:39 exception: Not playing
+2026-03-07T14:45:39 exception: Not playing
+2026-03-07T14:45:39 exception: Not playing
+2026-03-07T14:45:40 exception: Not playing
+2026-03-07T14:45:40 exception: Not playing
+2026-03-07T14:45:40 exception: Not playing
+2026-03-07T14:45:40 exception: Not playing
+2026-03-07T14:45:40 exception: Not playing
+2026-03-07T14:45:40 exception: Not playing
+2026-03-07T14:45:40 exception: Not playing
+2026-03-07T14:45:40 exception: Not playing
+2026-03-07T14:45:40 exception: Not playing
+2026-03-07T14:45:40 exception: Not playing
+2026-03-07T14:45:40 exception: Not playing
+2026-03-07T14:45:40 exception: Not playing
+2026-03-07T14:45:40 exception: Not playing
+2026-03-07T14:45:40 exception: Not playing
+2026-03-07T14:45:40 exception: Not playing
+2026-03-07T14:45:40 exception: Not playing
+2026-03-07T14:45:40 exception: Not playing
+2026-03-07T14:45:40 exception: Not playing
+2026-03-07T14:45:40 exception: Not playing
+2026-03-07T14:45:40 exception: Not playing
+2026-03-07T14:45:40 exception: Not playing
+2026-03-07T14:45:46 exception: Not playing
+2026-03-07T14:46:03 exception: Not playing
+2026-03-07T14:46:08 exception: Not playing
+2026-03-07T14:46:14 exception: Not playing
+2026-03-07T14:46:14 exception: Not playing
+2026-03-07T14:46:14 exception: Not playing
+2026-03-07T14:46:14 exception: Not playing
+2026-03-07T14:46:15 exception: Not playing
+2026-03-07T14:46:15 exception: Not playing
+2026-03-07T14:46:15 exception: Not playing
+2026-03-07T14:46:15 exception: Not playing
+2026-03-07T14:46:15 exception: Not playing
+2026-03-07T14:46:15 exception: Not playing
+2026-03-07T14:46:15 exception: Not playing
+2026-03-07T14:46:15 exception: Not playing
+2026-03-07T14:46:15 exception: Not playing
+2026-03-07T14:46:15 exception: Not playing
+2026-03-07T14:46:15 exception: Not playing
+2026-03-07T14:46:15 exception: Not playing
+2026-03-07T14:46:15 exception: Not playing
+2026-03-07T14:46:16 exception: Not playing
+2026-03-07T14:46:16 exception: Not playing
+2026-03-07T14:46:16 exception: Not playing
+2026-03-07T14:46:16 exception: Not playing
+2026-03-07T14:46:16 exception: Not playing
+2026-03-07T14:46:16 exception: Not playing
+2026-03-07T14:46:17 exception: Not playing
+2026-03-07T14:46:17 exception: Not playing
+2026-03-07T14:46:17 exception: Not playing
+2026-03-07T14:46:17 exception: Not playing
+2026-03-07T14:46:17 exception: Not playing
+2026-03-07T14:46:17 exception: Not playing
+2026-03-07T14:46:18 exception: Not playing
+2026-03-07T14:46:18 exception: Not playing
+2026-03-07T14:46:18 exception: Not playing
+2026-03-07T14:46:18 exception: Not playing
+2026-03-07T14:46:18 exception: Not playing
+2026-03-07T14:46:18 exception: Not playing
+2026-03-07T14:46:18 exception: Not playing
+2026-03-07T14:46:18 exception: Not playing
+2026-03-07T14:46:18 exception: Not playing
+2026-03-07T14:46:18 exception: Not playing
+2026-03-07T14:46:18 exception: Not playing
+2026-03-07T14:46:18 exception: Not playing
+2026-03-07T14:46:18 exception: Not playing
+2026-03-07T14:46:18 exception: Not playing
+2026-03-07T14:46:18 exception: Not playing
+2026-03-07T14:46:18 exception: Not playing
+2026-03-07T14:46:18 exception: Not playing
+2026-03-07T14:46:19 exception: Not playing
+2026-03-07T14:46:19 exception: Not playing
+2026-03-07T14:46:19 exception: Not playing
+2026-03-07T14:46:19 exception: Not playing
+2026-03-07T14:46:20 exception: Not playing
+2026-03-07T14:46:20 exception: Not playing
+2026-03-07T14:46:20 exception: Not playing
+2026-03-07T14:46:20 exception: Not playing
+2026-03-07T14:46:20 exception: Not playing
+2026-03-07T14:46:21 exception: Not playing
+2026-03-07T14:46:21 exception: Not playing
+2026-03-07T15:27:16 exception: Not playing
+2026-03-07T15:27:56 exception: Not playing
+2026-03-07T15:27:57 exception: Not playing
+2026-03-07T15:27:59 exception: Not playing
+2026-03-07T15:28:05 exception: Not playing
+2026-03-07T15:28:05 exception: Not playing
+2026-03-07T15:28:05 exception: Not playing
+2026-03-07T15:28:05 exception: Not playing
+2026-03-07T15:28:05 exception: Not playing
+2026-03-07T15:28:05 exception: Not playing
+2026-03-07T15:28:06 exception: Not playing
+2026-03-07T15:28:08 exception: Not playing
+2026-03-07T15:28:08 exception: Not playing
+2026-03-07T15:28:08 exception: Not playing
+2026-03-07T15:28:08 exception: Not playing
+2026-03-07T15:28:09 exception: Not playing
+2026-03-07T15:38:42 exception: Not playing
+2026-03-07T15:38:43 exception: Not playing
+2026-03-07T15:38:43 exception: Not playing
+2026-03-07T15:38:43 exception: Not playing
+2026-03-07T15:38:43 exception: Not playing
+2026-03-07T15:38:43 exception: Not playing
+2026-03-07T15:38:43 exception: Not playing
+2026-03-07T15:38:43 exception: Not playing
+2026-03-07T15:38:44 exception: Not playing
+2026-03-07T15:38:46 exception: Not playing
+2026-03-11T15:50:25 update: removing RUQIYA AMUBIEYA.mpa - Copy.mp3
+2026-03-11T15:50:36 update: removing Sh_Afif_Moh.Taj_Surat Al Kahaf-0.opus
+2026-03-11T15:51:30 update: added Playlists/sure nisa｜ Muhammed Selim Kurdi.opus
+2026-03-11T15:51:30 update: added Playlists/Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus
+2026-03-11T15:51:31 update: added Playlists/Sh_Afif_Moh_Taj_Surah_Yusuf.m4a
+2026-03-11T15:51:31 update: added Playlists/Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus
+2026-03-11T15:53:08 update: added Playlists/quran/Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus
+2026-03-11T15:53:10 update: added Playlists/quran/sure nisa｜ Muhammed Selim Kurdi.opus
+2026-03-11T15:53:10 update: added Playlists/quran/Sh_Afif_Moh_Taj_Surah_Yusuf.m4a
+2026-03-11T15:53:10 update: added Playlists/quran/Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus
+2026-03-11T15:53:10 update: removing Playlists/Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus
+2026-03-11T15:53:10 update: removing Playlists/sure nisa｜ Muhammed Selim Kurdi.opus
+2026-03-11T15:53:10 update: removing Playlists/Sh_Afif_Moh_Taj_Surah_Yusuf.m4a
+2026-03-11T15:53:10 update: removing Playlists/Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus
+2026-03-11T15:53:14 update: updating ADDU'A supplication/ADDU'A SUDAIS.MP3
+2026-03-11T15:53:14 update: updating ADDU'A supplication/ADDU,AHMAD SULAIMAN.mp3
+2026-03-11T15:53:14 update: updating ADDU'A supplication/AL- ADDU'A.mp3
+2026-03-11T15:53:14 update: updating ADDU'A supplication/Sheikh Matrood Dua.mp3
+2026-03-11T15:53:14 update: updating ADDU'A supplication/Sheikh Matrood Powerful Dua.mp3
+2026-03-11T15:53:14 update: updating /be-inspired.opus
+2026-03-11T15:53:14 update: updating /best sadghuru meditation music.opus
+2026-03-11T15:53:14 update: updating Brian Scott/Neville Goddard - I Am All Imagination.opus
+2026-03-11T15:53:14 update: updating Brian Scott/Rumi Drops Of Enlightenment.opus
+2026-03-11T15:53:14 update: updating /Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus
+2026-03-11T15:53:14 update: updating /Haemin Sunim – The Things You Can See Only When You Slow Down.m4a
+2026-03-11T15:53:14 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-03-11T15:53:14 update: updating Nasheed/youtube_3wzQhSojCSg_audio.opus
+2026-03-11T15:53:14 update: updating Nasheed/youtube_C2HbWE_bu8Q_audio.opus
+2026-03-11T15:53:14 update: updating Nasheed/youtube_mZFfdjPC3Bg_audio.opus
+2026-03-11T15:53:14 update: updating Nasheed/youtube_ooCLJ1-HHTM_audio.opus
+2026-03-11T15:53:14 update: updating Nasheed/youtube_PE_LwDx5s-M_audio.opus
+2026-03-11T15:53:14 update: updating Nasheed/youtube_SkcRkR9XnC0_audio.opus
+2026-03-11T15:53:14 update: updating Nasheed/youtube_tlsGQKSL1K4_audio.opus
+2026-03-11T15:53:14 update: updating ruqyah/Ruqyah - Evil Eye.opus
+2026-03-11T15:53:14 update: updating ruqyah/ÑÞíÉ ÇáÓÍÑ.opus
+2026-03-11T15:53:14 update: updating ruqyah/Sheikh_Mishary_Rashed_Al-Efasy_Ruqya.mp3
+2026-03-11T15:53:14 update: updating ruqyah/Aal Ruqyah.mp3
+2026-03-11T15:53:14 update: updating ruqyah/RUQIYA AMUBIEYA.mpa - Copy.mp3
+2026-03-11T15:53:14 update: updating Sanskrit/youtube_-LsZpFaGFoU_audio.opus
+2026-03-11T15:53:14 update: updating Sanskrit/youtube_6x5xtNhOts0_audio.opus
+2026-03-11T15:53:14 update: updating Sanskrit/youtube_AZvrqbrBxt8_audio.opus
+2026-03-11T15:53:14 update: updating Sanskrit/youtube_cToCInaGzCw_audio.opus
+2026-03-11T15:53:14 update: updating Sanskrit/youtube_djTNi6edmTI_audio.opus
+2026-03-11T15:53:14 update: updating Sanskrit/youtube_QBY-KxkvGlk_audio.opus
+2026-03-11T15:53:14 update: updating Sanskrit/Namami Shamishan.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/001.  Mishary Alafasi Al-Fatihah Al-Fatihah.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/002.  Mishary Alafasi Al-Baqarah Al-Baqarah.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/003.  Mishary Alafasi Al-Imran Al-Imran.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/004.  Mishary Alafasi An-Nisa' An-Nisa'.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/005.  Mishary Alafasi Al-Ma'idah Al-Ma'idah.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/006.  Mishary Alafasi Al-An'am Al-An'am.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/007.  Mishary Alafasi Al-A'raf Al-A'raf.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/008.  Mishary Alafasi Al-Anfal Al-Anfal.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/009.  Mishary Alafasi At-Taubah At-Taubah.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/010.  Mishary Alafasi Yunus Yunus.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/011.  Mishary Alafasi Hood Hood.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/012.  Mishary Alafasi Yusuf Yusuf.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/013.  Mishary Alafasi Ar-Ra'd Ar-Ra'd.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/014.  Mishary Alafasi Ibrahim Ibrahim.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/015.  Mishary Alafasi Al-Hijr Al-Hijr.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/016.  Mishary Alafasi An-Nahl An-Nahl.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/017.  Mishary Alafasi Al-Isra Al-Isra.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/018.  Mishary Alafasi Al-Kahf Al-Kahf.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/019.  Mishary Alafasi Maryam Maryam.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/020.  Mishary Alafasi Ta­Ha Ta­Ha.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/021.  Mishary Alafasi Al-Anbiya' Al-Anbiya'.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/022.  Mishary Alafasi Al-Hajj Al-Hajj.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/023.  Mishary Alafasi Al-Mu'minun Al-Mu'minun.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/024.  Mishary Alafasi An-Nur An-Nur.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/025.  Mishary Alafasi Al-Furqan Al-Furqan.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/026.  Mishary Alafasi Ash-Shu'ara' Ash-Shu'ara'.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/027.  Mishary Alafasi An-Naml An-Naml.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/028.  Mishary Alafasi Al-Qasas Al-Qasas.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/029.  Mishary Alafasi Al-'Ankabut Al-'Ankabut.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/030.  Mishary Alafasi Ar­Room Ar­Room.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/031.  Mishary Alafasi Luqman Luqman.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/032.  Mishary Alafasi As­Sajdah As­Sajdah.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/033.  Mishary Alafasi Al­Ahzab Al­Ahzab.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/034.  Mishary Alafasi Saba' Saba'.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/035.  Mishary Alafasi Fatir Fatir.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/036.  Mishary Alafasi Ya­Sin Ya­Sin.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/037.  Mishary Alafasi As-Saffat As-Saffat.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/038.  Mishary Alafasi Sad Sad.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/039.  Mishary Alafasi Az-Zumar Az-Zumar.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/040.  Mishary Alafasi Ghafir Ghafir.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/041.  Mishary Alafasi Fussilat Fussilat.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/042.  Mishary Alafasi Ash-Shura Ash-Shura.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/043.  Mishary Alafasi Az-Zukhruf Az-Zukhruf.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/044.  Mishary Alafasi Ad-Dukhan Ad-Dukhan.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/045.  Mishary Alafasi Al-Jathiya Al-Jathiya.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/046.  Mishary Alafasi Al-Ahqaf Al-Ahqaf.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/047.  Mishary Alafasi Muhammad Muhammad.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/048.  Mishary Alafasi Al-Fath Al-Fath.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/049.  Mishary Alafasi Al-Hujurat Al-Hujurat.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/050.  Mishary Alafasi Qaf Qaf.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/051.  Mishary Alafasi Az-Zariyat Az-Zariyat.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/052.  Mishary Alafasi At-Tur At-Tur.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/053.  Mishary Alafasi An-Najm An-Najm.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/054.  Mishary Alafasi Al-Qamar Al-Qamar.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/055.  Mishary Alafasi Ar-Rahman Ar-Rahman.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/056.  Mishary Alafasi Al-Waqi'ah Al-Waqi'ah.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/057.  Mishary Alafasi Al-Hadid Al-Hadid.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/058.  Mishary Alafasi Al-Mujadilah Al-Mujadilah.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/059.  Mishary Alafasi Al-Hashr Al-Hashr.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/060.  Mishary Alafasi Al-Mumtahinah Al-Mumtahinah.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/061.  Mishary Alafasi As-Saff As-Saff.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/062.  Mishary Alafasi Al-Jumu'ah Al-Jumu'ah.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/063.  Mishary Alafasi Al-Munafiqun Al-Munafiqun.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/064.  Mishary Alafasi At-Taghabun At-Taghabun.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/065.  Mishary Alafasi At-Talaq At-Talaq.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/066.  Mishary Alafasi At-Tahrim At-Tahrim.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/067.  Mishary Alafasi Al-Mulk Al-Mulk.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/068.  Mishary Alafasi Al-Qalam Al-Qalam.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/069.  Mishary Alafasi Al-Haqqah Al-Haqqah.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/070.  Mishary Alafasi Al-Ma'arij Al-Ma'arij.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/071.  Mishary Alafasi Nooh Nooh.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/072.  Mishary Alafasi Al-Jinn Al-Jinn.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/073.  Mishary Alafasi Al-Muzzammil Al-Muzzammil.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/074.  Mishary Alafasi Al-Muddaththir Al-Muddaththir.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/075.  Mishary Alafasi Al-Qiyamah Al-Qiyamah.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/076.  Mishary Alafasi Al-Insan Al-Insan.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/077.  Mishary Alafasi Al-Mursalat Al-Mursalat.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/078.  Mishary Alafasi An-Naba' An-Naba'.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/079.  Mishary Alafasi An-Nazi'at An-Nazi'at.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/080.  Mishary Alafasi Abasa Abasa.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/081.  Mishary Alafasi At-Takwir At-Takwir.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/082.  Mishary Alafasi Al-Infitar Al-Infitar.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/083.  Mishary Alafasi Al-Mutaffifin Al-Mutaffifin.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/084.  Mishary Alafasi Al-Inshiqaq Al-Inshiqaq.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/085.  Mishary Alafasi Al-Buruj Al-Buruj.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/086.  Mishary Alafasi At-Tariq At-Tariq.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/087.  Mishary Alafasi Al-A'la Al-A'la.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/088.  Mishary Alafasi Al-Ghashiyah Al-Ghashiyah.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/089.  Mishary Alafasi Al-Fajr Al-Fajr.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/090.  Mishary Alafasi Al-Balad Al-Balad.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/091.  Mishary Alafasi Ash-Shams Ash-Shams.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/092.  Mishary Alafasi Al-Lail Al-Lail.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/093.  Mishary Alafasi Ad-Duha Ad-Duha.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/094.  Mishary Alafasi Ash-Sharh Ash-Sharh.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/095.  Mishary Alafasi At-Tin At-Tin.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/096.  Mishary Alafasi Al-'Alaq Al-'Alaq.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/097.  Mishary Alafasi Al-Qadr Al-Qadr.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/098.  Mishary Alafasi Al-Baiyinah Al-Baiyinah.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/099.  Mishary Alafasi Az-Zalzalah Az-Zalzalah.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/100.  Mishary Alafasi Al-'Adiyat Al-'Adiyat.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/101.  Mishary Alafasi Al-Qari'ah Al-Qari'ah.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/102.  Mishary Alafasi At-Takathur At-Takathur.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/103.  Mishary Alafasi Al-'Asr Al-'Asr.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/104.  Mishary Alafasi Al-Humazah Al-Humazah.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/105.  Mishary Alafasi Al-Fil Al-Fil.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/106.  Mishary Alafasi Quraish Quraish.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/107.  Mishary Alafasi Al-Ma'un Al-Ma'un.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/108.  Mishary Alafasi Al-Kauthar Al-Kauthar.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/109.  Mishary Alafasi Al-Kafirun Al-Kafirun.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/110.  Mishary Alafasi An-Nasr An-Nasr.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/111.  Mishary Alafasi Al-Masad Al-Masad.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/112.  Mishary Alafasi Al-Ikhlas Al-Ikhlas.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/113.  Mishary Alafasi Al-Falaq Al-Falaq.opus
+2026-03-11T15:53:14 update: updating Sheikh Alfasy/114.  Mishary Alafasi An-Nas An-Nas.opus
+2026-03-11T15:53:14 update: updating Sheikh Maheer/001_AL-FATIHA.mp3
+2026-03-11T15:53:14 update: updating Sheikh Maheer/002_AL-BAQARA.mp3
+2026-03-11T15:53:14 update: updating Sheikh Maheer/003_AAL-E-IMRAN.mp3
+2026-03-11T15:53:14 update: updating Sheikh Maheer/004_AN-NISA.mp3
+2026-03-11T15:53:14 update: updating Sheikh Maheer/005_AL-MAEDA.mp3
+2026-03-11T15:53:14 update: updating Sheikh Maheer/006_AL-ANAAM.mp3
+2026-03-11T15:53:14 update: updating Sheikh Maheer/007_AL-ARAF.mp3
+2026-03-11T15:53:14 update: updating Sheikh Maheer/008_AL-ANFAL.mp3
+2026-03-11T15:53:14 update: updating Sheikh Maheer/009_AT-TAWBA.mp3
+2026-03-11T15:53:14 update: updating Sheikh Maheer/010_YUNUS.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/011_HUD.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/012_YUSUF.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/013_AR-RAD.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/014_IBRAHIM.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/015_AL-HIJR.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/016_AN-NAHL.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/017_AL-ISRA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/018_AL-KAHF.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/019_MARYAM.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/020_TA-HA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/021_AL-ANBIYA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/022_AL-HAJJ.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/023_AL-MUMENOON.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/024_AN-NOOR.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/025_AL-FURQAN.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/026_ASH-SHUARA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/027_AN-NAML.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/028_AL-QASAS.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/029_AL-ANKABOOT.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/030_AR-ROOM.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/031_LUQMAN.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/032_AS-SAJDA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/033_AL-AHZAB.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/034_SABA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/035_FATIR.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/036_YA-SEEN.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/037_AS-SAAFFAT.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/038_SAD.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/039_AZ-ZUMAR.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/040_AL-GHAFIR.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/041_FUSSILAT.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/042_ASH-SHURA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/043_AZ-ZUKHRUF.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/044_AD-DUKHAN.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/045_AL-JATHIYA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/046_AL-AHQAF.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/047_MUHAMMAD.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/048_AL-FATH.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/049_AL-HUJRAAT.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/050_QAF.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/051_ADH-DHARIYAT.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/052_AT-TUR.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/053_AN-NAJM.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/054_AL-QAMAR.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/055_AR-RAHMAN.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/056_AL-WAQIA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/057_AL-HADID.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/058_AL-MUJADILA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/059_AL-HASHR.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/060_AL-MUMTAHINA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/061_AS-SAFF.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/062_AL-JUMUA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/063_AL-MUNAFIQOON.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/064_AT-TAGHABUN.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/065_AT-TALAQ.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/066_AT-TAHRIM.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/067_AL-MULK.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/068_AL-QALAM.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/069_AL-HAAQQA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/070_AL-MAARIJ.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/071_NOOH.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/072_AL-JINN.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/073_AL-MUZZAMMIL.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/074_AL-MUDDATHTHIR.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/075_AL-QIYAMA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/076_AL-INSAN.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/077_AL-MURSALAT.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/078_AN-NABA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/079_AN-NAZIAT.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/080_ABASA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/081_AT-TAKWIR.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/082_AL-INFITAR.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/083_AL-MUTAFFIFIN.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/084_AL-INSHIQAQ.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/085_AL-BUROOJ.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/086_AT-TARIQ.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/087_AL-ALA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/088_AL-GHASHIYA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/089_AL-FAJR.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/090_AL-BALAD.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/091_ASH-SHAMS.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/092_AL-LAIL.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/093_AD-DHUHA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/094_AL-INSHIRAH.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/095_AT-TIN.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/096_AL-ALAQ.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/097_AL-QADR.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/098_AL-BAYYINA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/099_AZ-ZALZALA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/100_AL-ADIYAT.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/101_AL-QARIA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/102_AT-TAKATHUR.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/103_AL-ASR.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/104_AL-HUMAZA.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/105_AL-FIL.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/106_QURAISH.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/107_AL-MAUN.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/108_AL-KAUTHER.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/109_AL-KAFIROON.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/110_AN-NASR.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/111_AL-MASADD.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/112_AL-IKHLAS.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/113_AL-FALAQ.mp3
+2026-03-11T15:53:15 update: updating Sheikh Maheer/114_AN-NAS.mp3
+2026-03-11T15:53:15 update: updating /Shankar-Ehsaan-LoyInstrumental.opus
+2026-03-11T15:53:15 update: updating /Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus
+2026-03-11T15:53:15 update: updating Playlists/quran/Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus
+2026-03-11T15:53:15 update: updating Playlists/quran/sure nisa｜ Muhammed Selim Kurdi.opus
+2026-03-11T15:53:15 update: updating Playlists/quran/Sh_Afif_Moh_Taj_Surah_Yusuf.m4a
+2026-03-11T15:53:15 update: updating Playlists/quran/Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus
+2026-03-11T15:53:15 update: updating /Sh_Afif_Moh_Taj_Surah_Yusuf.m4a
+2026-03-11T15:53:15 update: updating /sure nisa｜ Muhammed Selim Kurdi.opus
+2026-03-11T15:53:15 update: updating /Isha Inner Engineering Meditation Music.opus
+2026-03-11T15:53:15 update: updating /Lipps Inc. - Funkytown.mp3
+2026-03-11T15:53:15 update: updating /Massive Attack - Teardrop.mp3
+2026-03-11T15:53:15 update: updating /Massive Attack - Paradise Circus.mp3
+2026-03-11T18:44:16 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2026-03-11T23:36:33 player: played "Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus"
+2026-03-11T23:46:13 update: updating ADDU'A supplication/ADDU'A SUDAIS.MP3
+2026-03-11T23:46:13 update: updating ADDU'A supplication/ADDU,AHMAD SULAIMAN.mp3
+2026-03-11T23:46:13 update: updating ADDU'A supplication/AL- ADDU'A.mp3
+2026-03-11T23:46:13 update: updating ADDU'A supplication/Sheikh Matrood Dua.mp3
+2026-03-11T23:46:13 update: updating ADDU'A supplication/Sheikh Matrood Powerful Dua.mp3
+2026-03-11T23:46:13 update: updating /be-inspired.opus
+2026-03-11T23:46:13 update: updating /best sadghuru meditation music.opus
+2026-03-11T23:46:13 update: updating Brian Scott/Neville Goddard - I Am All Imagination.opus
+2026-03-11T23:46:13 update: updating Brian Scott/Rumi Drops Of Enlightenment.opus
+2026-03-11T23:46:13 update: updating /Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus
+2026-03-11T23:46:13 update: updating /Haemin Sunim – The Things You Can See Only When You Slow Down.m4a
+2026-03-11T23:46:13 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-03-11T23:46:13 update: updating Nasheed/youtube_3wzQhSojCSg_audio.opus
+2026-03-11T23:46:13 update: updating Nasheed/youtube_C2HbWE_bu8Q_audio.opus
+2026-03-11T23:46:13 update: updating Nasheed/youtube_mZFfdjPC3Bg_audio.opus
+2026-03-11T23:46:13 update: updating Nasheed/youtube_ooCLJ1-HHTM_audio.opus
+2026-03-11T23:46:13 update: updating Nasheed/youtube_PE_LwDx5s-M_audio.opus
+2026-03-11T23:46:13 update: updating Nasheed/youtube_SkcRkR9XnC0_audio.opus
+2026-03-11T23:46:13 update: updating Nasheed/youtube_tlsGQKSL1K4_audio.opus
+2026-03-11T23:46:13 update: updating ruqyah/Ruqyah - Evil Eye.opus
+2026-03-11T23:46:13 update: updating ruqyah/ÑÞíÉ ÇáÓÍÑ.opus
+2026-03-11T23:46:13 update: updating ruqyah/Sheikh_Mishary_Rashed_Al-Efasy_Ruqya.mp3
+2026-03-11T23:46:13 update: updating ruqyah/Aal Ruqyah.mp3
+2026-03-11T23:46:13 update: updating ruqyah/RUQIYA AMUBIEYA.mpa - Copy.mp3
+2026-03-11T23:46:13 update: updating Sanskrit/youtube_-LsZpFaGFoU_audio.opus
+2026-03-11T23:46:13 update: updating Sanskrit/youtube_6x5xtNhOts0_audio.opus
+2026-03-11T23:46:13 update: updating Sanskrit/youtube_AZvrqbrBxt8_audio.opus
+2026-03-11T23:46:13 update: updating Sanskrit/youtube_cToCInaGzCw_audio.opus
+2026-03-11T23:46:13 update: updating Sanskrit/youtube_djTNi6edmTI_audio.opus
+2026-03-11T23:46:13 update: updating Sanskrit/youtube_QBY-KxkvGlk_audio.opus
+2026-03-11T23:46:13 update: updating Sanskrit/Namami Shamishan.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/001.  Mishary Alafasi Al-Fatihah Al-Fatihah.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/002.  Mishary Alafasi Al-Baqarah Al-Baqarah.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/003.  Mishary Alafasi Al-Imran Al-Imran.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/004.  Mishary Alafasi An-Nisa' An-Nisa'.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/005.  Mishary Alafasi Al-Ma'idah Al-Ma'idah.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/006.  Mishary Alafasi Al-An'am Al-An'am.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/007.  Mishary Alafasi Al-A'raf Al-A'raf.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/008.  Mishary Alafasi Al-Anfal Al-Anfal.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/009.  Mishary Alafasi At-Taubah At-Taubah.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/010.  Mishary Alafasi Yunus Yunus.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/011.  Mishary Alafasi Hood Hood.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/012.  Mishary Alafasi Yusuf Yusuf.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/013.  Mishary Alafasi Ar-Ra'd Ar-Ra'd.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/014.  Mishary Alafasi Ibrahim Ibrahim.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/015.  Mishary Alafasi Al-Hijr Al-Hijr.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/016.  Mishary Alafasi An-Nahl An-Nahl.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/017.  Mishary Alafasi Al-Isra Al-Isra.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/018.  Mishary Alafasi Al-Kahf Al-Kahf.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/019.  Mishary Alafasi Maryam Maryam.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/020.  Mishary Alafasi Ta­Ha Ta­Ha.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/021.  Mishary Alafasi Al-Anbiya' Al-Anbiya'.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/022.  Mishary Alafasi Al-Hajj Al-Hajj.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/023.  Mishary Alafasi Al-Mu'minun Al-Mu'minun.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/024.  Mishary Alafasi An-Nur An-Nur.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/025.  Mishary Alafasi Al-Furqan Al-Furqan.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/026.  Mishary Alafasi Ash-Shu'ara' Ash-Shu'ara'.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/027.  Mishary Alafasi An-Naml An-Naml.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/028.  Mishary Alafasi Al-Qasas Al-Qasas.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/029.  Mishary Alafasi Al-'Ankabut Al-'Ankabut.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/030.  Mishary Alafasi Ar­Room Ar­Room.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/031.  Mishary Alafasi Luqman Luqman.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/032.  Mishary Alafasi As­Sajdah As­Sajdah.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/033.  Mishary Alafasi Al­Ahzab Al­Ahzab.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/034.  Mishary Alafasi Saba' Saba'.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/035.  Mishary Alafasi Fatir Fatir.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/036.  Mishary Alafasi Ya­Sin Ya­Sin.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/037.  Mishary Alafasi As-Saffat As-Saffat.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/038.  Mishary Alafasi Sad Sad.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/039.  Mishary Alafasi Az-Zumar Az-Zumar.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/040.  Mishary Alafasi Ghafir Ghafir.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/041.  Mishary Alafasi Fussilat Fussilat.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/042.  Mishary Alafasi Ash-Shura Ash-Shura.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/043.  Mishary Alafasi Az-Zukhruf Az-Zukhruf.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/044.  Mishary Alafasi Ad-Dukhan Ad-Dukhan.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/045.  Mishary Alafasi Al-Jathiya Al-Jathiya.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/046.  Mishary Alafasi Al-Ahqaf Al-Ahqaf.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/047.  Mishary Alafasi Muhammad Muhammad.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/048.  Mishary Alafasi Al-Fath Al-Fath.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/049.  Mishary Alafasi Al-Hujurat Al-Hujurat.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/050.  Mishary Alafasi Qaf Qaf.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/051.  Mishary Alafasi Az-Zariyat Az-Zariyat.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/052.  Mishary Alafasi At-Tur At-Tur.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/053.  Mishary Alafasi An-Najm An-Najm.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/054.  Mishary Alafasi Al-Qamar Al-Qamar.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/055.  Mishary Alafasi Ar-Rahman Ar-Rahman.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/056.  Mishary Alafasi Al-Waqi'ah Al-Waqi'ah.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/057.  Mishary Alafasi Al-Hadid Al-Hadid.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/058.  Mishary Alafasi Al-Mujadilah Al-Mujadilah.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/059.  Mishary Alafasi Al-Hashr Al-Hashr.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/060.  Mishary Alafasi Al-Mumtahinah Al-Mumtahinah.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/061.  Mishary Alafasi As-Saff As-Saff.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/062.  Mishary Alafasi Al-Jumu'ah Al-Jumu'ah.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/063.  Mishary Alafasi Al-Munafiqun Al-Munafiqun.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/064.  Mishary Alafasi At-Taghabun At-Taghabun.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/065.  Mishary Alafasi At-Talaq At-Talaq.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/066.  Mishary Alafasi At-Tahrim At-Tahrim.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/067.  Mishary Alafasi Al-Mulk Al-Mulk.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/068.  Mishary Alafasi Al-Qalam Al-Qalam.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/069.  Mishary Alafasi Al-Haqqah Al-Haqqah.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/070.  Mishary Alafasi Al-Ma'arij Al-Ma'arij.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/071.  Mishary Alafasi Nooh Nooh.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/072.  Mishary Alafasi Al-Jinn Al-Jinn.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/073.  Mishary Alafasi Al-Muzzammil Al-Muzzammil.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/074.  Mishary Alafasi Al-Muddaththir Al-Muddaththir.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/075.  Mishary Alafasi Al-Qiyamah Al-Qiyamah.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/076.  Mishary Alafasi Al-Insan Al-Insan.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/077.  Mishary Alafasi Al-Mursalat Al-Mursalat.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/078.  Mishary Alafasi An-Naba' An-Naba'.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/079.  Mishary Alafasi An-Nazi'at An-Nazi'at.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/080.  Mishary Alafasi Abasa Abasa.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/081.  Mishary Alafasi At-Takwir At-Takwir.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/082.  Mishary Alafasi Al-Infitar Al-Infitar.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/083.  Mishary Alafasi Al-Mutaffifin Al-Mutaffifin.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/084.  Mishary Alafasi Al-Inshiqaq Al-Inshiqaq.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/085.  Mishary Alafasi Al-Buruj Al-Buruj.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/086.  Mishary Alafasi At-Tariq At-Tariq.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/087.  Mishary Alafasi Al-A'la Al-A'la.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/088.  Mishary Alafasi Al-Ghashiyah Al-Ghashiyah.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/089.  Mishary Alafasi Al-Fajr Al-Fajr.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/090.  Mishary Alafasi Al-Balad Al-Balad.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/091.  Mishary Alafasi Ash-Shams Ash-Shams.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/092.  Mishary Alafasi Al-Lail Al-Lail.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/093.  Mishary Alafasi Ad-Duha Ad-Duha.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/094.  Mishary Alafasi Ash-Sharh Ash-Sharh.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/095.  Mishary Alafasi At-Tin At-Tin.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/096.  Mishary Alafasi Al-'Alaq Al-'Alaq.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/097.  Mishary Alafasi Al-Qadr Al-Qadr.opus
+2026-03-11T23:46:13 update: updating Sheikh Alfasy/098.  Mishary Alafasi Al-Baiyinah Al-Baiyinah.opus
+2026-03-11T23:46:14 update: updating Sheikh Alfasy/099.  Mishary Alafasi Az-Zalzalah Az-Zalzalah.opus
+2026-03-11T23:46:14 update: updating Sheikh Alfasy/100.  Mishary Alafasi Al-'Adiyat Al-'Adiyat.opus
+2026-03-11T23:46:14 update: updating Sheikh Alfasy/101.  Mishary Alafasi Al-Qari'ah Al-Qari'ah.opus
+2026-03-11T23:46:14 update: updating Sheikh Alfasy/102.  Mishary Alafasi At-Takathur At-Takathur.opus
+2026-03-11T23:46:14 update: updating Sheikh Alfasy/103.  Mishary Alafasi Al-'Asr Al-'Asr.opus
+2026-03-11T23:46:14 update: updating Sheikh Alfasy/104.  Mishary Alafasi Al-Humazah Al-Humazah.opus
+2026-03-11T23:46:14 update: updating Sheikh Alfasy/105.  Mishary Alafasi Al-Fil Al-Fil.opus
+2026-03-11T23:46:14 update: updating Sheikh Alfasy/106.  Mishary Alafasi Quraish Quraish.opus
+2026-03-11T23:46:14 update: updating Sheikh Alfasy/107.  Mishary Alafasi Al-Ma'un Al-Ma'un.opus
+2026-03-11T23:46:14 update: updating Sheikh Alfasy/108.  Mishary Alafasi Al-Kauthar Al-Kauthar.opus
+2026-03-11T23:46:14 update: updating Sheikh Alfasy/109.  Mishary Alafasi Al-Kafirun Al-Kafirun.opus
+2026-03-11T23:46:14 update: updating Sheikh Alfasy/110.  Mishary Alafasi An-Nasr An-Nasr.opus
+2026-03-11T23:46:14 update: updating Sheikh Alfasy/111.  Mishary Alafasi Al-Masad Al-Masad.opus
+2026-03-11T23:46:14 update: updating Sheikh Alfasy/112.  Mishary Alafasi Al-Ikhlas Al-Ikhlas.opus
+2026-03-11T23:46:14 update: updating Sheikh Alfasy/113.  Mishary Alafasi Al-Falaq Al-Falaq.opus
+2026-03-11T23:46:14 update: updating Sheikh Alfasy/114.  Mishary Alafasi An-Nas An-Nas.opus
+2026-03-11T23:46:14 update: updating Sheikh Maheer/001_AL-FATIHA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/002_AL-BAQARA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/003_AAL-E-IMRAN.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/004_AN-NISA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/005_AL-MAEDA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/006_AL-ANAAM.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/007_AL-ARAF.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/008_AL-ANFAL.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/009_AT-TAWBA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/010_YUNUS.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/011_HUD.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/012_YUSUF.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/013_AR-RAD.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/014_IBRAHIM.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/015_AL-HIJR.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/016_AN-NAHL.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/017_AL-ISRA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/018_AL-KAHF.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/019_MARYAM.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/020_TA-HA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/021_AL-ANBIYA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/022_AL-HAJJ.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/023_AL-MUMENOON.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/024_AN-NOOR.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/025_AL-FURQAN.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/026_ASH-SHUARA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/027_AN-NAML.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/028_AL-QASAS.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/029_AL-ANKABOOT.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/030_AR-ROOM.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/031_LUQMAN.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/032_AS-SAJDA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/033_AL-AHZAB.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/034_SABA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/035_FATIR.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/036_YA-SEEN.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/037_AS-SAAFFAT.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/038_SAD.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/039_AZ-ZUMAR.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/040_AL-GHAFIR.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/041_FUSSILAT.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/042_ASH-SHURA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/043_AZ-ZUKHRUF.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/044_AD-DUKHAN.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/045_AL-JATHIYA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/046_AL-AHQAF.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/047_MUHAMMAD.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/048_AL-FATH.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/049_AL-HUJRAAT.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/050_QAF.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/051_ADH-DHARIYAT.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/052_AT-TUR.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/053_AN-NAJM.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/054_AL-QAMAR.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/055_AR-RAHMAN.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/056_AL-WAQIA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/057_AL-HADID.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/058_AL-MUJADILA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/059_AL-HASHR.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/060_AL-MUMTAHINA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/061_AS-SAFF.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/062_AL-JUMUA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/063_AL-MUNAFIQOON.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/064_AT-TAGHABUN.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/065_AT-TALAQ.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/066_AT-TAHRIM.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/067_AL-MULK.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/068_AL-QALAM.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/069_AL-HAAQQA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/070_AL-MAARIJ.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/071_NOOH.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/072_AL-JINN.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/073_AL-MUZZAMMIL.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/074_AL-MUDDATHTHIR.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/075_AL-QIYAMA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/076_AL-INSAN.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/077_AL-MURSALAT.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/078_AN-NABA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/079_AN-NAZIAT.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/080_ABASA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/081_AT-TAKWIR.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/082_AL-INFITAR.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/083_AL-MUTAFFIFIN.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/084_AL-INSHIQAQ.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/085_AL-BUROOJ.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/086_AT-TARIQ.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/087_AL-ALA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/088_AL-GHASHIYA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/089_AL-FAJR.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/090_AL-BALAD.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/091_ASH-SHAMS.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/092_AL-LAIL.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/093_AD-DHUHA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/094_AL-INSHIRAH.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/095_AT-TIN.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/096_AL-ALAQ.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/097_AL-QADR.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/098_AL-BAYYINA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/099_AZ-ZALZALA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/100_AL-ADIYAT.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/101_AL-QARIA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/102_AT-TAKATHUR.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/103_AL-ASR.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/104_AL-HUMAZA.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/105_AL-FIL.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/106_QURAISH.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/107_AL-MAUN.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/108_AL-KAUTHER.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/109_AL-KAFIROON.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/110_AN-NASR.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/111_AL-MASADD.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/112_AL-IKHLAS.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/113_AL-FALAQ.mp3
+2026-03-11T23:46:14 update: updating Sheikh Maheer/114_AN-NAS.mp3
+2026-03-11T23:46:14 update: updating /Shankar-Ehsaan-LoyInstrumental.opus
+2026-03-11T23:46:14 update: updating /Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus
+2026-03-11T23:46:14 update: updating Playlists/quran/Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus
+2026-03-11T23:46:14 update: updating Playlists/quran/sure nisa｜ Muhammed Selim Kurdi.opus
+2026-03-11T23:46:14 update: updating Playlists/quran/Sh_Afif_Moh_Taj_Surah_Yusuf.m4a
+2026-03-11T23:46:14 update: updating Playlists/quran/Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus
+2026-03-11T23:46:14 update: updating /Sh_Afif_Moh_Taj_Surah_Yusuf.m4a
+2026-03-11T23:46:14 update: updating /sure nisa｜ Muhammed Selim Kurdi.opus
+2026-03-11T23:46:14 update: updating /Isha Inner Engineering Meditation Music.opus
+2026-03-11T23:46:14 update: updating /Lipps Inc. - Funkytown.mp3
+2026-03-11T23:46:14 update: updating /Massive Attack - Teardrop.mp3
+2026-03-11T23:46:14 update: updating /Massive Attack - Paradise Circus.mp3
+2026-03-11T23:46:16 update: updating ADDU'A supplication/ADDU'A SUDAIS.MP3
+2026-03-11T23:46:16 update: updating ADDU'A supplication/ADDU,AHMAD SULAIMAN.mp3
+2026-03-11T23:46:16 update: updating ADDU'A supplication/AL- ADDU'A.mp3
+2026-03-11T23:46:16 update: updating ADDU'A supplication/Sheikh Matrood Dua.mp3
+2026-03-11T23:46:16 update: updating ADDU'A supplication/Sheikh Matrood Powerful Dua.mp3
+2026-03-11T23:46:16 update: updating /be-inspired.opus
+2026-03-11T23:46:16 update: updating /best sadghuru meditation music.opus
+2026-03-11T23:46:16 update: updating Brian Scott/Neville Goddard - I Am All Imagination.opus
+2026-03-11T23:46:16 update: updating Brian Scott/Rumi Drops Of Enlightenment.opus
+2026-03-11T23:46:16 update: updating /Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus
+2026-03-11T23:46:16 update: updating /Haemin Sunim – The Things You Can See Only When You Slow Down.m4a
+2026-03-11T23:46:16 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-03-11T23:46:16 update: updating Nasheed/youtube_3wzQhSojCSg_audio.opus
+2026-03-11T23:46:16 update: updating Nasheed/youtube_C2HbWE_bu8Q_audio.opus
+2026-03-11T23:46:16 update: updating Nasheed/youtube_mZFfdjPC3Bg_audio.opus
+2026-03-11T23:46:16 update: updating Nasheed/youtube_ooCLJ1-HHTM_audio.opus
+2026-03-11T23:46:16 update: updating Nasheed/youtube_PE_LwDx5s-M_audio.opus
+2026-03-11T23:46:16 update: updating Nasheed/youtube_SkcRkR9XnC0_audio.opus
+2026-03-11T23:46:16 update: updating Nasheed/youtube_tlsGQKSL1K4_audio.opus
+2026-03-11T23:46:16 update: updating ruqyah/Ruqyah - Evil Eye.opus
+2026-03-11T23:46:16 update: updating ruqyah/ÑÞíÉ ÇáÓÍÑ.opus
+2026-03-11T23:46:16 update: updating ruqyah/Sheikh_Mishary_Rashed_Al-Efasy_Ruqya.mp3
+2026-03-11T23:46:16 update: updating ruqyah/Aal Ruqyah.mp3
+2026-03-11T23:46:16 update: updating ruqyah/RUQIYA AMUBIEYA.mpa - Copy.mp3
+2026-03-11T23:46:16 update: updating Sanskrit/youtube_-LsZpFaGFoU_audio.opus
+2026-03-11T23:46:16 update: updating Sanskrit/youtube_6x5xtNhOts0_audio.opus
+2026-03-11T23:46:16 update: updating Sanskrit/youtube_AZvrqbrBxt8_audio.opus
+2026-03-11T23:46:16 update: updating Sanskrit/youtube_cToCInaGzCw_audio.opus
+2026-03-11T23:46:16 update: updating Sanskrit/youtube_djTNi6edmTI_audio.opus
+2026-03-11T23:46:16 update: updating Sanskrit/youtube_QBY-KxkvGlk_audio.opus
+2026-03-11T23:46:16 update: updating Sanskrit/Namami Shamishan.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/001.  Mishary Alafasi Al-Fatihah Al-Fatihah.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/002.  Mishary Alafasi Al-Baqarah Al-Baqarah.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/003.  Mishary Alafasi Al-Imran Al-Imran.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/004.  Mishary Alafasi An-Nisa' An-Nisa'.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/005.  Mishary Alafasi Al-Ma'idah Al-Ma'idah.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/006.  Mishary Alafasi Al-An'am Al-An'am.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/007.  Mishary Alafasi Al-A'raf Al-A'raf.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/008.  Mishary Alafasi Al-Anfal Al-Anfal.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/009.  Mishary Alafasi At-Taubah At-Taubah.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/010.  Mishary Alafasi Yunus Yunus.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/011.  Mishary Alafasi Hood Hood.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/012.  Mishary Alafasi Yusuf Yusuf.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/013.  Mishary Alafasi Ar-Ra'd Ar-Ra'd.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/014.  Mishary Alafasi Ibrahim Ibrahim.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/015.  Mishary Alafasi Al-Hijr Al-Hijr.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/016.  Mishary Alafasi An-Nahl An-Nahl.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/017.  Mishary Alafasi Al-Isra Al-Isra.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/018.  Mishary Alafasi Al-Kahf Al-Kahf.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/019.  Mishary Alafasi Maryam Maryam.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/020.  Mishary Alafasi Ta­Ha Ta­Ha.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/021.  Mishary Alafasi Al-Anbiya' Al-Anbiya'.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/022.  Mishary Alafasi Al-Hajj Al-Hajj.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/023.  Mishary Alafasi Al-Mu'minun Al-Mu'minun.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/024.  Mishary Alafasi An-Nur An-Nur.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/025.  Mishary Alafasi Al-Furqan Al-Furqan.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/026.  Mishary Alafasi Ash-Shu'ara' Ash-Shu'ara'.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/027.  Mishary Alafasi An-Naml An-Naml.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/028.  Mishary Alafasi Al-Qasas Al-Qasas.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/029.  Mishary Alafasi Al-'Ankabut Al-'Ankabut.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/030.  Mishary Alafasi Ar­Room Ar­Room.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/031.  Mishary Alafasi Luqman Luqman.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/032.  Mishary Alafasi As­Sajdah As­Sajdah.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/033.  Mishary Alafasi Al­Ahzab Al­Ahzab.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/034.  Mishary Alafasi Saba' Saba'.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/035.  Mishary Alafasi Fatir Fatir.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/036.  Mishary Alafasi Ya­Sin Ya­Sin.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/037.  Mishary Alafasi As-Saffat As-Saffat.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/038.  Mishary Alafasi Sad Sad.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/039.  Mishary Alafasi Az-Zumar Az-Zumar.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/040.  Mishary Alafasi Ghafir Ghafir.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/041.  Mishary Alafasi Fussilat Fussilat.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/042.  Mishary Alafasi Ash-Shura Ash-Shura.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/043.  Mishary Alafasi Az-Zukhruf Az-Zukhruf.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/044.  Mishary Alafasi Ad-Dukhan Ad-Dukhan.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/045.  Mishary Alafasi Al-Jathiya Al-Jathiya.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/046.  Mishary Alafasi Al-Ahqaf Al-Ahqaf.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/047.  Mishary Alafasi Muhammad Muhammad.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/048.  Mishary Alafasi Al-Fath Al-Fath.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/049.  Mishary Alafasi Al-Hujurat Al-Hujurat.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/050.  Mishary Alafasi Qaf Qaf.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/051.  Mishary Alafasi Az-Zariyat Az-Zariyat.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/052.  Mishary Alafasi At-Tur At-Tur.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/053.  Mishary Alafasi An-Najm An-Najm.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/054.  Mishary Alafasi Al-Qamar Al-Qamar.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/055.  Mishary Alafasi Ar-Rahman Ar-Rahman.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/056.  Mishary Alafasi Al-Waqi'ah Al-Waqi'ah.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/057.  Mishary Alafasi Al-Hadid Al-Hadid.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/058.  Mishary Alafasi Al-Mujadilah Al-Mujadilah.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/059.  Mishary Alafasi Al-Hashr Al-Hashr.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/060.  Mishary Alafasi Al-Mumtahinah Al-Mumtahinah.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/061.  Mishary Alafasi As-Saff As-Saff.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/062.  Mishary Alafasi Al-Jumu'ah Al-Jumu'ah.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/063.  Mishary Alafasi Al-Munafiqun Al-Munafiqun.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/064.  Mishary Alafasi At-Taghabun At-Taghabun.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/065.  Mishary Alafasi At-Talaq At-Talaq.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/066.  Mishary Alafasi At-Tahrim At-Tahrim.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/067.  Mishary Alafasi Al-Mulk Al-Mulk.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/068.  Mishary Alafasi Al-Qalam Al-Qalam.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/069.  Mishary Alafasi Al-Haqqah Al-Haqqah.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/070.  Mishary Alafasi Al-Ma'arij Al-Ma'arij.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/071.  Mishary Alafasi Nooh Nooh.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/072.  Mishary Alafasi Al-Jinn Al-Jinn.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/073.  Mishary Alafasi Al-Muzzammil Al-Muzzammil.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/074.  Mishary Alafasi Al-Muddaththir Al-Muddaththir.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/075.  Mishary Alafasi Al-Qiyamah Al-Qiyamah.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/076.  Mishary Alafasi Al-Insan Al-Insan.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/077.  Mishary Alafasi Al-Mursalat Al-Mursalat.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/078.  Mishary Alafasi An-Naba' An-Naba'.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/079.  Mishary Alafasi An-Nazi'at An-Nazi'at.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/080.  Mishary Alafasi Abasa Abasa.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/081.  Mishary Alafasi At-Takwir At-Takwir.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/082.  Mishary Alafasi Al-Infitar Al-Infitar.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/083.  Mishary Alafasi Al-Mutaffifin Al-Mutaffifin.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/084.  Mishary Alafasi Al-Inshiqaq Al-Inshiqaq.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/085.  Mishary Alafasi Al-Buruj Al-Buruj.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/086.  Mishary Alafasi At-Tariq At-Tariq.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/087.  Mishary Alafasi Al-A'la Al-A'la.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/088.  Mishary Alafasi Al-Ghashiyah Al-Ghashiyah.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/089.  Mishary Alafasi Al-Fajr Al-Fajr.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/090.  Mishary Alafasi Al-Balad Al-Balad.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/091.  Mishary Alafasi Ash-Shams Ash-Shams.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/092.  Mishary Alafasi Al-Lail Al-Lail.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/093.  Mishary Alafasi Ad-Duha Ad-Duha.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/094.  Mishary Alafasi Ash-Sharh Ash-Sharh.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/095.  Mishary Alafasi At-Tin At-Tin.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/096.  Mishary Alafasi Al-'Alaq Al-'Alaq.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/097.  Mishary Alafasi Al-Qadr Al-Qadr.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/098.  Mishary Alafasi Al-Baiyinah Al-Baiyinah.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/099.  Mishary Alafasi Az-Zalzalah Az-Zalzalah.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/100.  Mishary Alafasi Al-'Adiyat Al-'Adiyat.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/101.  Mishary Alafasi Al-Qari'ah Al-Qari'ah.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/102.  Mishary Alafasi At-Takathur At-Takathur.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/103.  Mishary Alafasi Al-'Asr Al-'Asr.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/104.  Mishary Alafasi Al-Humazah Al-Humazah.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/105.  Mishary Alafasi Al-Fil Al-Fil.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/106.  Mishary Alafasi Quraish Quraish.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/107.  Mishary Alafasi Al-Ma'un Al-Ma'un.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/108.  Mishary Alafasi Al-Kauthar Al-Kauthar.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/109.  Mishary Alafasi Al-Kafirun Al-Kafirun.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/110.  Mishary Alafasi An-Nasr An-Nasr.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/111.  Mishary Alafasi Al-Masad Al-Masad.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/112.  Mishary Alafasi Al-Ikhlas Al-Ikhlas.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/113.  Mishary Alafasi Al-Falaq Al-Falaq.opus
+2026-03-11T23:46:16 update: updating Sheikh Alfasy/114.  Mishary Alafasi An-Nas An-Nas.opus
+2026-03-11T23:46:16 update: updating Sheikh Maheer/001_AL-FATIHA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/002_AL-BAQARA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/003_AAL-E-IMRAN.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/004_AN-NISA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/005_AL-MAEDA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/006_AL-ANAAM.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/007_AL-ARAF.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/008_AL-ANFAL.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/009_AT-TAWBA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/010_YUNUS.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/011_HUD.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/012_YUSUF.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/013_AR-RAD.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/014_IBRAHIM.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/015_AL-HIJR.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/016_AN-NAHL.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/017_AL-ISRA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/018_AL-KAHF.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/019_MARYAM.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/020_TA-HA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/021_AL-ANBIYA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/022_AL-HAJJ.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/023_AL-MUMENOON.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/024_AN-NOOR.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/025_AL-FURQAN.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/026_ASH-SHUARA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/027_AN-NAML.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/028_AL-QASAS.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/029_AL-ANKABOOT.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/030_AR-ROOM.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/031_LUQMAN.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/032_AS-SAJDA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/033_AL-AHZAB.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/034_SABA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/035_FATIR.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/036_YA-SEEN.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/037_AS-SAAFFAT.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/038_SAD.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/039_AZ-ZUMAR.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/040_AL-GHAFIR.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/041_FUSSILAT.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/042_ASH-SHURA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/043_AZ-ZUKHRUF.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/044_AD-DUKHAN.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/045_AL-JATHIYA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/046_AL-AHQAF.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/047_MUHAMMAD.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/048_AL-FATH.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/049_AL-HUJRAAT.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/050_QAF.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/051_ADH-DHARIYAT.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/052_AT-TUR.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/053_AN-NAJM.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/054_AL-QAMAR.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/055_AR-RAHMAN.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/056_AL-WAQIA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/057_AL-HADID.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/058_AL-MUJADILA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/059_AL-HASHR.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/060_AL-MUMTAHINA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/061_AS-SAFF.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/062_AL-JUMUA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/063_AL-MUNAFIQOON.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/064_AT-TAGHABUN.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/065_AT-TALAQ.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/066_AT-TAHRIM.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/067_AL-MULK.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/068_AL-QALAM.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/069_AL-HAAQQA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/070_AL-MAARIJ.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/071_NOOH.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/072_AL-JINN.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/073_AL-MUZZAMMIL.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/074_AL-MUDDATHTHIR.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/075_AL-QIYAMA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/076_AL-INSAN.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/077_AL-MURSALAT.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/078_AN-NABA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/079_AN-NAZIAT.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/080_ABASA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/081_AT-TAKWIR.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/082_AL-INFITAR.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/083_AL-MUTAFFIFIN.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/084_AL-INSHIQAQ.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/085_AL-BUROOJ.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/086_AT-TARIQ.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/087_AL-ALA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/088_AL-GHASHIYA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/089_AL-FAJR.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/090_AL-BALAD.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/091_ASH-SHAMS.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/092_AL-LAIL.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/093_AD-DHUHA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/094_AL-INSHIRAH.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/095_AT-TIN.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/096_AL-ALAQ.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/097_AL-QADR.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/098_AL-BAYYINA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/099_AZ-ZALZALA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/100_AL-ADIYAT.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/101_AL-QARIA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/102_AT-TAKATHUR.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/103_AL-ASR.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/104_AL-HUMAZA.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/105_AL-FIL.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/106_QURAISH.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/107_AL-MAUN.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/108_AL-KAUTHER.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/109_AL-KAFIROON.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/110_AN-NASR.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/111_AL-MASADD.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/112_AL-IKHLAS.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/113_AL-FALAQ.mp3
+2026-03-11T23:46:16 update: updating Sheikh Maheer/114_AN-NAS.mp3
+2026-03-11T23:46:16 update: updating /Shankar-Ehsaan-LoyInstrumental.opus
+2026-03-11T23:46:16 update: updating /Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus
+2026-03-11T23:46:16 update: updating Playlists/quran/Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus
+2026-03-11T23:46:16 update: updating Playlists/quran/sure nisa｜ Muhammed Selim Kurdi.opus
+2026-03-11T23:46:16 update: updating Playlists/quran/Sh_Afif_Moh_Taj_Surah_Yusuf.m4a
+2026-03-11T23:46:17 update: updating Playlists/quran/Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus
+2026-03-11T23:46:17 update: updating /Sh_Afif_Moh_Taj_Surah_Yusuf.m4a
+2026-03-11T23:46:17 update: updating /sure nisa｜ Muhammed Selim Kurdi.opus
+2026-03-11T23:46:17 update: updating /Isha Inner Engineering Meditation Music.opus
+2026-03-11T23:46:17 update: updating /Lipps Inc. - Funkytown.mp3
+2026-03-11T23:46:17 update: updating /Massive Attack - Teardrop.mp3
+2026-03-11T23:46:17 update: updating /Massive Attack - Paradise Circus.mp3
+2026-03-11T23:46:17 update: updating ADDU'A supplication/ADDU'A SUDAIS.MP3
+2026-03-11T23:46:17 update: updating ADDU'A supplication/ADDU,AHMAD SULAIMAN.mp3
+2026-03-11T23:46:17 update: updating ADDU'A supplication/AL- ADDU'A.mp3
+2026-03-11T23:46:17 update: updating ADDU'A supplication/Sheikh Matrood Dua.mp3
+2026-03-11T23:46:17 update: updating ADDU'A supplication/Sheikh Matrood Powerful Dua.mp3
+2026-03-11T23:46:17 update: updating /be-inspired.opus
+2026-03-11T23:46:17 update: updating /best sadghuru meditation music.opus
+2026-03-11T23:46:17 update: updating Brian Scott/Neville Goddard - I Am All Imagination.opus
+2026-03-11T23:46:17 update: updating Brian Scott/Rumi Drops Of Enlightenment.opus
+2026-03-11T23:46:17 update: updating /Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus
+2026-03-11T23:46:17 update: updating /Haemin Sunim – The Things You Can See Only When You Slow Down.m4a
+2026-03-11T23:46:17 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-03-11T23:46:17 update: updating Nasheed/youtube_3wzQhSojCSg_audio.opus
+2026-03-11T23:46:17 update: updating Nasheed/youtube_C2HbWE_bu8Q_audio.opus
+2026-03-11T23:46:17 update: updating Nasheed/youtube_mZFfdjPC3Bg_audio.opus
+2026-03-11T23:46:17 update: updating Nasheed/youtube_ooCLJ1-HHTM_audio.opus
+2026-03-11T23:46:17 update: updating Nasheed/youtube_PE_LwDx5s-M_audio.opus
+2026-03-11T23:46:17 update: updating Nasheed/youtube_SkcRkR9XnC0_audio.opus
+2026-03-11T23:46:17 update: updating Nasheed/youtube_tlsGQKSL1K4_audio.opus
+2026-03-11T23:46:17 update: updating ruqyah/Ruqyah - Evil Eye.opus
+2026-03-11T23:46:17 update: updating ruqyah/ÑÞíÉ ÇáÓÍÑ.opus
+2026-03-11T23:46:17 update: updating ruqyah/Sheikh_Mishary_Rashed_Al-Efasy_Ruqya.mp3
+2026-03-11T23:46:17 update: updating ruqyah/Aal Ruqyah.mp3
+2026-03-11T23:46:17 update: updating ruqyah/RUQIYA AMUBIEYA.mpa - Copy.mp3
+2026-03-11T23:46:17 update: updating Sanskrit/youtube_-LsZpFaGFoU_audio.opus
+2026-03-11T23:46:17 update: updating Sanskrit/youtube_6x5xtNhOts0_audio.opus
+2026-03-11T23:46:17 update: updating Sanskrit/youtube_AZvrqbrBxt8_audio.opus
+2026-03-11T23:46:17 update: updating Sanskrit/youtube_cToCInaGzCw_audio.opus
+2026-03-11T23:46:17 update: updating Sanskrit/youtube_djTNi6edmTI_audio.opus
+2026-03-11T23:46:17 update: updating Sanskrit/youtube_QBY-KxkvGlk_audio.opus
+2026-03-11T23:46:17 update: updating Sanskrit/Namami Shamishan.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/001.  Mishary Alafasi Al-Fatihah Al-Fatihah.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/002.  Mishary Alafasi Al-Baqarah Al-Baqarah.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/003.  Mishary Alafasi Al-Imran Al-Imran.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/004.  Mishary Alafasi An-Nisa' An-Nisa'.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/005.  Mishary Alafasi Al-Ma'idah Al-Ma'idah.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/006.  Mishary Alafasi Al-An'am Al-An'am.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/007.  Mishary Alafasi Al-A'raf Al-A'raf.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/008.  Mishary Alafasi Al-Anfal Al-Anfal.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/009.  Mishary Alafasi At-Taubah At-Taubah.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/010.  Mishary Alafasi Yunus Yunus.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/011.  Mishary Alafasi Hood Hood.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/012.  Mishary Alafasi Yusuf Yusuf.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/013.  Mishary Alafasi Ar-Ra'd Ar-Ra'd.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/014.  Mishary Alafasi Ibrahim Ibrahim.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/015.  Mishary Alafasi Al-Hijr Al-Hijr.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/016.  Mishary Alafasi An-Nahl An-Nahl.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/017.  Mishary Alafasi Al-Isra Al-Isra.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/018.  Mishary Alafasi Al-Kahf Al-Kahf.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/019.  Mishary Alafasi Maryam Maryam.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/020.  Mishary Alafasi Ta­Ha Ta­Ha.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/021.  Mishary Alafasi Al-Anbiya' Al-Anbiya'.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/022.  Mishary Alafasi Al-Hajj Al-Hajj.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/023.  Mishary Alafasi Al-Mu'minun Al-Mu'minun.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/024.  Mishary Alafasi An-Nur An-Nur.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/025.  Mishary Alafasi Al-Furqan Al-Furqan.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/026.  Mishary Alafasi Ash-Shu'ara' Ash-Shu'ara'.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/027.  Mishary Alafasi An-Naml An-Naml.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/028.  Mishary Alafasi Al-Qasas Al-Qasas.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/029.  Mishary Alafasi Al-'Ankabut Al-'Ankabut.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/030.  Mishary Alafasi Ar­Room Ar­Room.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/031.  Mishary Alafasi Luqman Luqman.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/032.  Mishary Alafasi As­Sajdah As­Sajdah.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/033.  Mishary Alafasi Al­Ahzab Al­Ahzab.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/034.  Mishary Alafasi Saba' Saba'.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/035.  Mishary Alafasi Fatir Fatir.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/036.  Mishary Alafasi Ya­Sin Ya­Sin.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/037.  Mishary Alafasi As-Saffat As-Saffat.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/038.  Mishary Alafasi Sad Sad.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/039.  Mishary Alafasi Az-Zumar Az-Zumar.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/040.  Mishary Alafasi Ghafir Ghafir.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/041.  Mishary Alafasi Fussilat Fussilat.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/042.  Mishary Alafasi Ash-Shura Ash-Shura.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/043.  Mishary Alafasi Az-Zukhruf Az-Zukhruf.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/044.  Mishary Alafasi Ad-Dukhan Ad-Dukhan.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/045.  Mishary Alafasi Al-Jathiya Al-Jathiya.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/046.  Mishary Alafasi Al-Ahqaf Al-Ahqaf.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/047.  Mishary Alafasi Muhammad Muhammad.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/048.  Mishary Alafasi Al-Fath Al-Fath.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/049.  Mishary Alafasi Al-Hujurat Al-Hujurat.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/050.  Mishary Alafasi Qaf Qaf.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/051.  Mishary Alafasi Az-Zariyat Az-Zariyat.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/052.  Mishary Alafasi At-Tur At-Tur.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/053.  Mishary Alafasi An-Najm An-Najm.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/054.  Mishary Alafasi Al-Qamar Al-Qamar.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/055.  Mishary Alafasi Ar-Rahman Ar-Rahman.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/056.  Mishary Alafasi Al-Waqi'ah Al-Waqi'ah.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/057.  Mishary Alafasi Al-Hadid Al-Hadid.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/058.  Mishary Alafasi Al-Mujadilah Al-Mujadilah.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/059.  Mishary Alafasi Al-Hashr Al-Hashr.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/060.  Mishary Alafasi Al-Mumtahinah Al-Mumtahinah.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/061.  Mishary Alafasi As-Saff As-Saff.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/062.  Mishary Alafasi Al-Jumu'ah Al-Jumu'ah.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/063.  Mishary Alafasi Al-Munafiqun Al-Munafiqun.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/064.  Mishary Alafasi At-Taghabun At-Taghabun.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/065.  Mishary Alafasi At-Talaq At-Talaq.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/066.  Mishary Alafasi At-Tahrim At-Tahrim.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/067.  Mishary Alafasi Al-Mulk Al-Mulk.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/068.  Mishary Alafasi Al-Qalam Al-Qalam.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/069.  Mishary Alafasi Al-Haqqah Al-Haqqah.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/070.  Mishary Alafasi Al-Ma'arij Al-Ma'arij.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/071.  Mishary Alafasi Nooh Nooh.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/072.  Mishary Alafasi Al-Jinn Al-Jinn.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/073.  Mishary Alafasi Al-Muzzammil Al-Muzzammil.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/074.  Mishary Alafasi Al-Muddaththir Al-Muddaththir.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/075.  Mishary Alafasi Al-Qiyamah Al-Qiyamah.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/076.  Mishary Alafasi Al-Insan Al-Insan.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/077.  Mishary Alafasi Al-Mursalat Al-Mursalat.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/078.  Mishary Alafasi An-Naba' An-Naba'.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/079.  Mishary Alafasi An-Nazi'at An-Nazi'at.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/080.  Mishary Alafasi Abasa Abasa.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/081.  Mishary Alafasi At-Takwir At-Takwir.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/082.  Mishary Alafasi Al-Infitar Al-Infitar.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/083.  Mishary Alafasi Al-Mutaffifin Al-Mutaffifin.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/084.  Mishary Alafasi Al-Inshiqaq Al-Inshiqaq.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/085.  Mishary Alafasi Al-Buruj Al-Buruj.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/086.  Mishary Alafasi At-Tariq At-Tariq.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/087.  Mishary Alafasi Al-A'la Al-A'la.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/088.  Mishary Alafasi Al-Ghashiyah Al-Ghashiyah.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/089.  Mishary Alafasi Al-Fajr Al-Fajr.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/090.  Mishary Alafasi Al-Balad Al-Balad.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/091.  Mishary Alafasi Ash-Shams Ash-Shams.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/092.  Mishary Alafasi Al-Lail Al-Lail.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/093.  Mishary Alafasi Ad-Duha Ad-Duha.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/094.  Mishary Alafasi Ash-Sharh Ash-Sharh.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/095.  Mishary Alafasi At-Tin At-Tin.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/096.  Mishary Alafasi Al-'Alaq Al-'Alaq.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/097.  Mishary Alafasi Al-Qadr Al-Qadr.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/098.  Mishary Alafasi Al-Baiyinah Al-Baiyinah.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/099.  Mishary Alafasi Az-Zalzalah Az-Zalzalah.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/100.  Mishary Alafasi Al-'Adiyat Al-'Adiyat.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/101.  Mishary Alafasi Al-Qari'ah Al-Qari'ah.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/102.  Mishary Alafasi At-Takathur At-Takathur.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/103.  Mishary Alafasi Al-'Asr Al-'Asr.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/104.  Mishary Alafasi Al-Humazah Al-Humazah.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/105.  Mishary Alafasi Al-Fil Al-Fil.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/106.  Mishary Alafasi Quraish Quraish.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/107.  Mishary Alafasi Al-Ma'un Al-Ma'un.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/108.  Mishary Alafasi Al-Kauthar Al-Kauthar.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/109.  Mishary Alafasi Al-Kafirun Al-Kafirun.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/110.  Mishary Alafasi An-Nasr An-Nasr.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/111.  Mishary Alafasi Al-Masad Al-Masad.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/112.  Mishary Alafasi Al-Ikhlas Al-Ikhlas.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/113.  Mishary Alafasi Al-Falaq Al-Falaq.opus
+2026-03-11T23:46:17 update: updating Sheikh Alfasy/114.  Mishary Alafasi An-Nas An-Nas.opus
+2026-03-11T23:46:17 update: updating Sheikh Maheer/001_AL-FATIHA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/002_AL-BAQARA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/003_AAL-E-IMRAN.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/004_AN-NISA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/005_AL-MAEDA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/006_AL-ANAAM.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/007_AL-ARAF.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/008_AL-ANFAL.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/009_AT-TAWBA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/010_YUNUS.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/011_HUD.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/012_YUSUF.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/013_AR-RAD.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/014_IBRAHIM.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/015_AL-HIJR.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/016_AN-NAHL.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/017_AL-ISRA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/018_AL-KAHF.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/019_MARYAM.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/020_TA-HA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/021_AL-ANBIYA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/022_AL-HAJJ.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/023_AL-MUMENOON.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/024_AN-NOOR.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/025_AL-FURQAN.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/026_ASH-SHUARA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/027_AN-NAML.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/028_AL-QASAS.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/029_AL-ANKABOOT.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/030_AR-ROOM.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/031_LUQMAN.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/032_AS-SAJDA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/033_AL-AHZAB.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/034_SABA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/035_FATIR.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/036_YA-SEEN.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/037_AS-SAAFFAT.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/038_SAD.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/039_AZ-ZUMAR.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/040_AL-GHAFIR.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/041_FUSSILAT.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/042_ASH-SHURA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/043_AZ-ZUKHRUF.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/044_AD-DUKHAN.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/045_AL-JATHIYA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/046_AL-AHQAF.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/047_MUHAMMAD.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/048_AL-FATH.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/049_AL-HUJRAAT.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/050_QAF.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/051_ADH-DHARIYAT.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/052_AT-TUR.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/053_AN-NAJM.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/054_AL-QAMAR.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/055_AR-RAHMAN.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/056_AL-WAQIA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/057_AL-HADID.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/058_AL-MUJADILA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/059_AL-HASHR.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/060_AL-MUMTAHINA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/061_AS-SAFF.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/062_AL-JUMUA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/063_AL-MUNAFIQOON.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/064_AT-TAGHABUN.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/065_AT-TALAQ.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/066_AT-TAHRIM.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/067_AL-MULK.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/068_AL-QALAM.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/069_AL-HAAQQA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/070_AL-MAARIJ.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/071_NOOH.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/072_AL-JINN.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/073_AL-MUZZAMMIL.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/074_AL-MUDDATHTHIR.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/075_AL-QIYAMA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/076_AL-INSAN.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/077_AL-MURSALAT.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/078_AN-NABA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/079_AN-NAZIAT.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/080_ABASA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/081_AT-TAKWIR.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/082_AL-INFITAR.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/083_AL-MUTAFFIFIN.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/084_AL-INSHIQAQ.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/085_AL-BUROOJ.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/086_AT-TARIQ.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/087_AL-ALA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/088_AL-GHASHIYA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/089_AL-FAJR.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/090_AL-BALAD.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/091_ASH-SHAMS.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/092_AL-LAIL.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/093_AD-DHUHA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/094_AL-INSHIRAH.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/095_AT-TIN.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/096_AL-ALAQ.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/097_AL-QADR.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/098_AL-BAYYINA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/099_AZ-ZALZALA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/100_AL-ADIYAT.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/101_AL-QARIA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/102_AT-TAKATHUR.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/103_AL-ASR.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/104_AL-HUMAZA.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/105_AL-FIL.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/106_QURAISH.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/107_AL-MAUN.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/108_AL-KAUTHER.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/109_AL-KAFIROON.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/110_AN-NASR.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/111_AL-MASADD.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/112_AL-IKHLAS.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/113_AL-FALAQ.mp3
+2026-03-11T23:46:17 update: updating Sheikh Maheer/114_AN-NAS.mp3
+2026-03-11T23:46:17 update: updating /Shankar-Ehsaan-LoyInstrumental.opus
+2026-03-11T23:46:17 update: updating /Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus
+2026-03-11T23:46:17 update: updating Playlists/quran/Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus
+2026-03-11T23:46:17 update: updating Playlists/quran/sure nisa｜ Muhammed Selim Kurdi.opus
+2026-03-11T23:46:17 update: updating Playlists/quran/Sh_Afif_Moh_Taj_Surah_Yusuf.m4a
+2026-03-11T23:46:17 update: updating Playlists/quran/Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus
+2026-03-11T23:46:17 update: updating /Sh_Afif_Moh_Taj_Surah_Yusuf.m4a
+2026-03-11T23:46:17 update: updating /sure nisa｜ Muhammed Selim Kurdi.opus
+2026-03-11T23:46:17 update: updating /Isha Inner Engineering Meditation Music.opus
+2026-03-11T23:46:17 update: updating /Lipps Inc. - Funkytown.mp3
+2026-03-11T23:46:17 update: updating /Massive Attack - Teardrop.mp3
+2026-03-11T23:46:17 update: updating /Massive Attack - Paradise Circus.mp3
+2026-03-11T23:46:51 update: updating ADDU'A supplication/ADDU'A SUDAIS.MP3
+2026-03-11T23:46:51 update: updating ADDU'A supplication/ADDU,AHMAD SULAIMAN.mp3
+2026-03-11T23:46:51 update: updating ADDU'A supplication/AL- ADDU'A.mp3
+2026-03-11T23:46:51 update: updating ADDU'A supplication/Sheikh Matrood Dua.mp3
+2026-03-11T23:46:51 update: updating ADDU'A supplication/Sheikh Matrood Powerful Dua.mp3
+2026-03-11T23:46:51 update: updating /be-inspired.opus
+2026-03-11T23:46:51 update: updating /best sadghuru meditation music.opus
+2026-03-11T23:46:51 update: updating Brian Scott/Neville Goddard - I Am All Imagination.opus
+2026-03-11T23:46:51 update: updating Brian Scott/Rumi Drops Of Enlightenment.opus
+2026-03-11T23:46:51 update: updating /Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus
+2026-03-11T23:46:51 update: updating /Haemin Sunim – The Things You Can See Only When You Slow Down.m4a
+2026-03-11T23:46:51 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-03-11T23:46:51 update: updating Nasheed/youtube_3wzQhSojCSg_audio.opus
+2026-03-11T23:46:51 update: updating Nasheed/youtube_C2HbWE_bu8Q_audio.opus
+2026-03-11T23:46:51 update: updating Nasheed/youtube_mZFfdjPC3Bg_audio.opus
+2026-03-11T23:46:51 update: updating Nasheed/youtube_ooCLJ1-HHTM_audio.opus
+2026-03-11T23:46:51 update: updating Nasheed/youtube_PE_LwDx5s-M_audio.opus
+2026-03-11T23:46:51 update: updating Nasheed/youtube_SkcRkR9XnC0_audio.opus
+2026-03-11T23:46:51 update: updating Nasheed/youtube_tlsGQKSL1K4_audio.opus
+2026-03-11T23:46:51 update: updating ruqyah/Ruqyah - Evil Eye.opus
+2026-03-11T23:46:51 update: updating ruqyah/ÑÞíÉ ÇáÓÍÑ.opus
+2026-03-11T23:46:51 update: updating ruqyah/Sheikh_Mishary_Rashed_Al-Efasy_Ruqya.mp3
+2026-03-11T23:46:51 update: updating ruqyah/Aal Ruqyah.mp3
+2026-03-11T23:46:51 update: updating ruqyah/RUQIYA AMUBIEYA.mpa - Copy.mp3
+2026-03-11T23:46:51 update: updating Sanskrit/youtube_-LsZpFaGFoU_audio.opus
+2026-03-11T23:46:51 update: updating Sanskrit/youtube_6x5xtNhOts0_audio.opus
+2026-03-11T23:46:51 update: updating Sanskrit/youtube_AZvrqbrBxt8_audio.opus
+2026-03-11T23:46:51 update: updating Sanskrit/youtube_cToCInaGzCw_audio.opus
+2026-03-11T23:46:51 update: updating Sanskrit/youtube_djTNi6edmTI_audio.opus
+2026-03-11T23:46:51 update: updating Sanskrit/youtube_QBY-KxkvGlk_audio.opus
+2026-03-11T23:46:51 update: updating Sanskrit/Namami Shamishan.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/001.  Mishary Alafasi Al-Fatihah Al-Fatihah.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/002.  Mishary Alafasi Al-Baqarah Al-Baqarah.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/003.  Mishary Alafasi Al-Imran Al-Imran.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/004.  Mishary Alafasi An-Nisa' An-Nisa'.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/005.  Mishary Alafasi Al-Ma'idah Al-Ma'idah.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/006.  Mishary Alafasi Al-An'am Al-An'am.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/007.  Mishary Alafasi Al-A'raf Al-A'raf.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/008.  Mishary Alafasi Al-Anfal Al-Anfal.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/009.  Mishary Alafasi At-Taubah At-Taubah.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/010.  Mishary Alafasi Yunus Yunus.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/011.  Mishary Alafasi Hood Hood.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/012.  Mishary Alafasi Yusuf Yusuf.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/013.  Mishary Alafasi Ar-Ra'd Ar-Ra'd.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/014.  Mishary Alafasi Ibrahim Ibrahim.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/015.  Mishary Alafasi Al-Hijr Al-Hijr.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/016.  Mishary Alafasi An-Nahl An-Nahl.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/017.  Mishary Alafasi Al-Isra Al-Isra.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/018.  Mishary Alafasi Al-Kahf Al-Kahf.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/019.  Mishary Alafasi Maryam Maryam.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/020.  Mishary Alafasi Ta­Ha Ta­Ha.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/021.  Mishary Alafasi Al-Anbiya' Al-Anbiya'.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/022.  Mishary Alafasi Al-Hajj Al-Hajj.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/023.  Mishary Alafasi Al-Mu'minun Al-Mu'minun.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/024.  Mishary Alafasi An-Nur An-Nur.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/025.  Mishary Alafasi Al-Furqan Al-Furqan.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/026.  Mishary Alafasi Ash-Shu'ara' Ash-Shu'ara'.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/027.  Mishary Alafasi An-Naml An-Naml.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/028.  Mishary Alafasi Al-Qasas Al-Qasas.opus
+2026-03-11T23:46:51 update: updating Sheikh Alfasy/029.  Mishary Alafasi Al-'Ankabut Al-'Ankabut.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/030.  Mishary Alafasi Ar­Room Ar­Room.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/031.  Mishary Alafasi Luqman Luqman.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/032.  Mishary Alafasi As­Sajdah As­Sajdah.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/033.  Mishary Alafasi Al­Ahzab Al­Ahzab.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/034.  Mishary Alafasi Saba' Saba'.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/035.  Mishary Alafasi Fatir Fatir.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/036.  Mishary Alafasi Ya­Sin Ya­Sin.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/037.  Mishary Alafasi As-Saffat As-Saffat.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/038.  Mishary Alafasi Sad Sad.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/039.  Mishary Alafasi Az-Zumar Az-Zumar.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/040.  Mishary Alafasi Ghafir Ghafir.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/041.  Mishary Alafasi Fussilat Fussilat.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/042.  Mishary Alafasi Ash-Shura Ash-Shura.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/043.  Mishary Alafasi Az-Zukhruf Az-Zukhruf.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/044.  Mishary Alafasi Ad-Dukhan Ad-Dukhan.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/045.  Mishary Alafasi Al-Jathiya Al-Jathiya.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/046.  Mishary Alafasi Al-Ahqaf Al-Ahqaf.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/047.  Mishary Alafasi Muhammad Muhammad.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/048.  Mishary Alafasi Al-Fath Al-Fath.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/049.  Mishary Alafasi Al-Hujurat Al-Hujurat.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/050.  Mishary Alafasi Qaf Qaf.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/051.  Mishary Alafasi Az-Zariyat Az-Zariyat.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/052.  Mishary Alafasi At-Tur At-Tur.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/053.  Mishary Alafasi An-Najm An-Najm.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/054.  Mishary Alafasi Al-Qamar Al-Qamar.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/055.  Mishary Alafasi Ar-Rahman Ar-Rahman.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/056.  Mishary Alafasi Al-Waqi'ah Al-Waqi'ah.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/057.  Mishary Alafasi Al-Hadid Al-Hadid.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/058.  Mishary Alafasi Al-Mujadilah Al-Mujadilah.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/059.  Mishary Alafasi Al-Hashr Al-Hashr.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/060.  Mishary Alafasi Al-Mumtahinah Al-Mumtahinah.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/061.  Mishary Alafasi As-Saff As-Saff.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/062.  Mishary Alafasi Al-Jumu'ah Al-Jumu'ah.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/063.  Mishary Alafasi Al-Munafiqun Al-Munafiqun.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/064.  Mishary Alafasi At-Taghabun At-Taghabun.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/065.  Mishary Alafasi At-Talaq At-Talaq.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/066.  Mishary Alafasi At-Tahrim At-Tahrim.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/067.  Mishary Alafasi Al-Mulk Al-Mulk.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/068.  Mishary Alafasi Al-Qalam Al-Qalam.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/069.  Mishary Alafasi Al-Haqqah Al-Haqqah.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/070.  Mishary Alafasi Al-Ma'arij Al-Ma'arij.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/071.  Mishary Alafasi Nooh Nooh.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/072.  Mishary Alafasi Al-Jinn Al-Jinn.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/073.  Mishary Alafasi Al-Muzzammil Al-Muzzammil.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/074.  Mishary Alafasi Al-Muddaththir Al-Muddaththir.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/075.  Mishary Alafasi Al-Qiyamah Al-Qiyamah.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/076.  Mishary Alafasi Al-Insan Al-Insan.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/077.  Mishary Alafasi Al-Mursalat Al-Mursalat.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/078.  Mishary Alafasi An-Naba' An-Naba'.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/079.  Mishary Alafasi An-Nazi'at An-Nazi'at.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/080.  Mishary Alafasi Abasa Abasa.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/081.  Mishary Alafasi At-Takwir At-Takwir.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/082.  Mishary Alafasi Al-Infitar Al-Infitar.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/083.  Mishary Alafasi Al-Mutaffifin Al-Mutaffifin.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/084.  Mishary Alafasi Al-Inshiqaq Al-Inshiqaq.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/085.  Mishary Alafasi Al-Buruj Al-Buruj.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/086.  Mishary Alafasi At-Tariq At-Tariq.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/087.  Mishary Alafasi Al-A'la Al-A'la.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/088.  Mishary Alafasi Al-Ghashiyah Al-Ghashiyah.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/089.  Mishary Alafasi Al-Fajr Al-Fajr.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/090.  Mishary Alafasi Al-Balad Al-Balad.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/091.  Mishary Alafasi Ash-Shams Ash-Shams.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/092.  Mishary Alafasi Al-Lail Al-Lail.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/093.  Mishary Alafasi Ad-Duha Ad-Duha.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/094.  Mishary Alafasi Ash-Sharh Ash-Sharh.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/095.  Mishary Alafasi At-Tin At-Tin.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/096.  Mishary Alafasi Al-'Alaq Al-'Alaq.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/097.  Mishary Alafasi Al-Qadr Al-Qadr.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/098.  Mishary Alafasi Al-Baiyinah Al-Baiyinah.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/099.  Mishary Alafasi Az-Zalzalah Az-Zalzalah.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/100.  Mishary Alafasi Al-'Adiyat Al-'Adiyat.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/101.  Mishary Alafasi Al-Qari'ah Al-Qari'ah.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/102.  Mishary Alafasi At-Takathur At-Takathur.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/103.  Mishary Alafasi Al-'Asr Al-'Asr.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/104.  Mishary Alafasi Al-Humazah Al-Humazah.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/105.  Mishary Alafasi Al-Fil Al-Fil.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/106.  Mishary Alafasi Quraish Quraish.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/107.  Mishary Alafasi Al-Ma'un Al-Ma'un.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/108.  Mishary Alafasi Al-Kauthar Al-Kauthar.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/109.  Mishary Alafasi Al-Kafirun Al-Kafirun.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/110.  Mishary Alafasi An-Nasr An-Nasr.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/111.  Mishary Alafasi Al-Masad Al-Masad.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/112.  Mishary Alafasi Al-Ikhlas Al-Ikhlas.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/113.  Mishary Alafasi Al-Falaq Al-Falaq.opus
+2026-03-11T23:46:52 update: updating Sheikh Alfasy/114.  Mishary Alafasi An-Nas An-Nas.opus
+2026-03-11T23:46:52 update: updating Sheikh Maheer/001_AL-FATIHA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/002_AL-BAQARA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/003_AAL-E-IMRAN.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/004_AN-NISA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/005_AL-MAEDA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/006_AL-ANAAM.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/007_AL-ARAF.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/008_AL-ANFAL.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/009_AT-TAWBA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/010_YUNUS.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/011_HUD.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/012_YUSUF.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/013_AR-RAD.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/014_IBRAHIM.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/015_AL-HIJR.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/016_AN-NAHL.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/017_AL-ISRA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/018_AL-KAHF.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/019_MARYAM.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/020_TA-HA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/021_AL-ANBIYA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/022_AL-HAJJ.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/023_AL-MUMENOON.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/024_AN-NOOR.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/025_AL-FURQAN.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/026_ASH-SHUARA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/027_AN-NAML.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/028_AL-QASAS.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/029_AL-ANKABOOT.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/030_AR-ROOM.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/031_LUQMAN.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/032_AS-SAJDA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/033_AL-AHZAB.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/034_SABA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/035_FATIR.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/036_YA-SEEN.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/037_AS-SAAFFAT.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/038_SAD.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/039_AZ-ZUMAR.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/040_AL-GHAFIR.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/041_FUSSILAT.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/042_ASH-SHURA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/043_AZ-ZUKHRUF.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/044_AD-DUKHAN.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/045_AL-JATHIYA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/046_AL-AHQAF.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/047_MUHAMMAD.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/048_AL-FATH.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/049_AL-HUJRAAT.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/050_QAF.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/051_ADH-DHARIYAT.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/052_AT-TUR.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/053_AN-NAJM.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/054_AL-QAMAR.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/055_AR-RAHMAN.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/056_AL-WAQIA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/057_AL-HADID.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/058_AL-MUJADILA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/059_AL-HASHR.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/060_AL-MUMTAHINA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/061_AS-SAFF.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/062_AL-JUMUA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/063_AL-MUNAFIQOON.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/064_AT-TAGHABUN.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/065_AT-TALAQ.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/066_AT-TAHRIM.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/067_AL-MULK.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/068_AL-QALAM.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/069_AL-HAAQQA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/070_AL-MAARIJ.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/071_NOOH.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/072_AL-JINN.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/073_AL-MUZZAMMIL.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/074_AL-MUDDATHTHIR.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/075_AL-QIYAMA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/076_AL-INSAN.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/077_AL-MURSALAT.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/078_AN-NABA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/079_AN-NAZIAT.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/080_ABASA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/081_AT-TAKWIR.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/082_AL-INFITAR.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/083_AL-MUTAFFIFIN.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/084_AL-INSHIQAQ.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/085_AL-BUROOJ.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/086_AT-TARIQ.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/087_AL-ALA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/088_AL-GHASHIYA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/089_AL-FAJR.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/090_AL-BALAD.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/091_ASH-SHAMS.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/092_AL-LAIL.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/093_AD-DHUHA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/094_AL-INSHIRAH.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/095_AT-TIN.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/096_AL-ALAQ.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/097_AL-QADR.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/098_AL-BAYYINA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/099_AZ-ZALZALA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/100_AL-ADIYAT.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/101_AL-QARIA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/102_AT-TAKATHUR.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/103_AL-ASR.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/104_AL-HUMAZA.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/105_AL-FIL.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/106_QURAISH.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/107_AL-MAUN.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/108_AL-KAUTHER.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/109_AL-KAFIROON.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/110_AN-NASR.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/111_AL-MASADD.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/112_AL-IKHLAS.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/113_AL-FALAQ.mp3
+2026-03-11T23:46:52 update: updating Sheikh Maheer/114_AN-NAS.mp3
+2026-03-11T23:46:52 update: updating /Shankar-Ehsaan-LoyInstrumental.opus
+2026-03-11T23:46:52 update: updating /Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus
+2026-03-11T23:46:52 update: updating Playlists/quran/Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus
+2026-03-11T23:46:52 update: updating Playlists/quran/sure nisa｜ Muhammed Selim Kurdi.opus
+2026-03-11T23:46:52 update: updating Playlists/quran/Sh_Afif_Moh_Taj_Surah_Yusuf.m4a
+2026-03-11T23:46:52 update: updating Playlists/quran/Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus
+2026-03-11T23:46:52 update: updating /Sh_Afif_Moh_Taj_Surah_Yusuf.m4a
+2026-03-11T23:46:52 update: updating /sure nisa｜ Muhammed Selim Kurdi.opus
+2026-03-11T23:46:52 update: updating /Isha Inner Engineering Meditation Music.opus
+2026-03-11T23:46:52 update: updating /Lipps Inc. - Funkytown.mp3
+2026-03-11T23:46:52 update: updating /Massive Attack - Teardrop.mp3
+2026-03-11T23:46:52 update: updating /Massive Attack - Paradise Circus.mp3
+2026-03-11T23:46:57 player: played "Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus"
+2026-03-11T23:47:07 player: played "Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus"
+2026-03-11T23:48:06 player: played "Sh_Afif_Moh_Taj_Surah_Yusuf.m4a"
+2026-03-11T23:48:37 update: removing Playlists/quran/Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus
+2026-03-11T23:48:37 update: removing Playlists/quran/sure nisa｜ Muhammed Selim Kurdi.opus
+2026-03-11T23:48:37 update: removing Playlists/quran/Sh_Afif_Moh_Taj_Surah_Yusuf.m4a
+2026-03-11T23:48:37 update: removing Playlists/quran/Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus
+2026-03-12T00:26:16 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2026-03-12T02:02:56 player: played "Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus"
+2026-03-12T07:03:51 player: played "Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus"
+2026-03-12T07:03:51 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2026-03-12T07:04:39 player: played "Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus"
+2026-03-12T07:04:54 player: played "Lipps Inc. - Funkytown.mp3"
+2026-03-12T07:06:47 player: played "Lipps Inc. - Funkytown.mp3"
+2026-03-13T10:44:26 player: played "Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus"
+2026-03-13T14:43:02 player: played "Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus"
+2026-03-13T14:51:59 player: played "Sh_Afif_Moh_Taj_Surah_Yusuf.m4a"
+2026-03-13T15:46:36 player: played "sure nisa｜ Muhammed Selim Kurdi.opus"
+2026-03-13T18:03:39 player: played "sure nisa｜ Muhammed Selim Kurdi.opus"
+2026-03-13T18:33:30 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2026-03-14T09:10:23 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2026-03-14T09:32:59 player: played "Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus"
+2026-03-14T09:36:55 player: played "Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus"
+2026-03-14T09:37:26 output: Failed to send tag to "pipewire" (pipewire): no target node available
+2026-03-14T09:37:26 output: Failed to play on "pipewire" (pipewire): no target node available
+2026-03-14T09:38:02 player: played "Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus"
+2026-03-14T10:03:27 player: played "Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus"
+2026-03-14T10:12:24 player: played "Sh_Afif_Moh_Taj_Surah_Yusuf.m4a"
+2026-03-14T11:20:35 player: played "sure nisa｜ Muhammed Selim Kurdi.opus"
+2026-03-14T15:27:57 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2026-03-14T15:27:57 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2026-03-14T15:27:58 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2026-03-14T15:27:58 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2026-03-14T15:27:58 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2026-03-14T15:36:37 player: played "Afif Mohammed Taj ｜The Most Beautiful Quran Recitation.opus"
+2026-03-14T16:05:57 player: played "Dua Kumayl - Mohsen Farahmand Azad Dua Kumayl.opus"
+2026-03-14T16:14:54 player: played "Sh_Afif_Moh_Taj_Surah_Yusuf.m4a"
+2026-03-14T17:21:10 player: played "sure nisa｜ Muhammed Selim Kurdi.opus"
+2026-03-14T21:20:37 player: played "best sadghuru meditation music.opus"
+2026-03-14T21:47:04 player: played "Isha Inner Engineering Meditation Music.opus"
+2026-03-17T05:36:01 player: played "Sh_Afif_Moh_Taj_Surah_Yusuf.m4a"
+2026-03-17T21:01:52 player: played "sure nisa｜ Muhammed Selim Kurdi.opus"
+2026-03-18T15:31:54 player: played "best sadghuru meditation music.opus"
+2026-03-18T15:58:21 player: played "Isha Inner Engineering Meditation Music.opus"

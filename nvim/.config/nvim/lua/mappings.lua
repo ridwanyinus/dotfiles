@@ -1,5 +1,6 @@
 require "nvchad.mappings"
 local map = vim.keymap.set
+local bufnr = vim.api.nvim_get_current_buf()
 
 -- COMMAND MODE & BASIC EDITING
 map("n", ";", ":", { desc = "cmd enter mode" })
@@ -115,13 +116,13 @@ end, { desc = "lsp diagnostics show" })
 map("n", "<leader>ss", "<cmd>FzfLua lsp_document_symbols<CR>", { desc = "lsp symbols" })
 
 -- TREESITTER TEXTOBJECTS
-map({ "n", "x", "o" }, "]m", function()
+map({ "n", "x", "o" }, "]f", function()
    require("nvim-treesitter-textobjects.move").goto_next_start("@function.outer", "textobjects")
 end, { desc = "nav function next" })
 map({ "n", "x", "o" }, "]]", function()
    require("nvim-treesitter-textobjects.move").goto_next_start("@class.outer", "textobjects")
 end, { desc = "nav class next" })
-map({ "n", "x", "o" }, "]o", function()
+map({ "n", "x", "o" }, "]l", function()
    require("nvim-treesitter-textobjects.move").goto_next_start({ "@loop.inner", "@loop.outer" }, "textobjects")
 end, { desc = "nav loop next" })
 map({ "n", "x", "o" }, "]s", function()
@@ -131,21 +132,21 @@ map({ "n", "x", "o" }, "]z", function()
    require("nvim-treesitter-textobjects.move").goto_next_start("@fold", "folds")
 end, { desc = "nav fold next" })
 
-map({ "n", "x", "o" }, "]M", function()
+map({ "n", "x", "o" }, "]F", function()
    require("nvim-treesitter-textobjects.move").goto_next_end("@function.outer", "textobjects")
 end, { desc = "nav function end next" })
 map({ "n", "x", "o" }, "][", function()
    require("nvim-treesitter-textobjects.move").goto_next_end("@class.outer", "textobjects")
 end, { desc = "nav class end next" })
 
-map({ "n", "x", "o" }, "[m", function()
+map({ "n", "x", "o" }, "[f", function()
    require("nvim-treesitter-textobjects.move").goto_previous_start("@function.outer", "textobjects")
 end, { desc = "nav function prev" })
 map({ "n", "x", "o" }, "[[", function()
    require("nvim-treesitter-textobjects.move").goto_previous_start("@class.outer", "textobjects")
 end, { desc = "nav class prev" })
 
-map({ "n", "x", "o" }, "[M", function()
+map({ "n", "x", "o" }, "[F", function()
    require("nvim-treesitter-textobjects.move").goto_previous_end("@function.outer", "textobjects")
 end, { desc = "nav function end prev" })
 map({ "n", "x", "o" }, "[]", function()
@@ -160,10 +161,10 @@ map({ "n", "x", "o" }, "[d", function()
 end, { desc = "nav conditional prev" })
 
 -- TEXTOBJECTS
-map({ "x", "o" }, "am", function()
+map({ "x", "o" }, "af", function()
    require("nvim-treesitter-textobjects.select").select_textobject("@function.outer", "textobjects")
 end, { desc = "textobj function outer" })
-map({ "x", "o" }, "im", function()
+map({ "x", "o" }, "if", function()
    require("nvim-treesitter-textobjects.select").select_textobject("@function.inner", "textobjects")
 end, { desc = "textobj function inner" })
 map({ "x", "o" }, "ac", function()
@@ -190,7 +191,4 @@ map({ "x", "o" }, "il", function()
    require("nvim-treesitter-textobjects.select").select_textobject("@loop.inner", "textobjects")
 end, { desc = "textobj loop inner" })
 
--- -- OPENCODE
--- map({ "n", "t" }, "<C-.>", function()
---    require("opencode").toggle()
--- end, { desc = "Toggle opencode" })
+map("n", "<leader>ca", vim.lsp.buf.code_action, { buffer = bufnr })

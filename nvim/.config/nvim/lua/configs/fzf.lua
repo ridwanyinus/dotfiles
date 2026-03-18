@@ -57,6 +57,16 @@ return {
    keymap = {
       buitin = {
          true,
+         ["<F1>"] = "toggle-help",
+         ["<F2>"] = "toggle-fullscreen",
+         -- Only valid with the 'builtin' previewer
+         ["<F3>"] = "toggle-preview-wrap",
+         ["<F4>"] = "toggle-preview",
+         ["<S-Left>"] = "preview-reset",
+         ["<S-down>"] = "preview-page-down",
+         ["<S-up>"] = "preview-page-up",
+         ["<M-S-down>"] = "preview-down",
+         ["<M-S-up>"] = "preview-up",
       },
       fzf = {
          true,

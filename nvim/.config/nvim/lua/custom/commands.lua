@@ -57,7 +57,7 @@ end, {})
 
 local live_server_id = nil
 
-vim.api.nvim_create_user_command("LiveServerStart", function()
+create_cmd("LiveServerStart", function()
    if live_server_id then
       print "Live Server is already running!"
       return
@@ -80,7 +80,7 @@ vim.api.nvim_create_user_command("LiveServerStart", function()
    print("Live Server started at http://127.0.0.1:" .. port .. "/" .. current_file)
 end, {})
 
-vim.api.nvim_create_user_command("LiveServerStop", function()
+create_cmd("LiveServerStop", function()
    if live_server_id then
       vim.fn.jobstop(live_server_id)
       live_server_id = nil
@@ -89,7 +89,7 @@ vim.api.nvim_create_user_command("LiveServerStop", function()
    end
 end, {})
 
-vim.api.nvim_create_user_command("TabOpen", function()
+create_cmd("TabOpen", function()
    vim.ui.input({ prompt = "File to open in new tab: ", completion = "file" }, function(input)
       if input and input ~= "" then
          vim.cmd("tabnew " .. input)
@@ -97,7 +97,7 @@ vim.api.nvim_create_user_command("TabOpen", function()
    end)
 end, { desc = "Open a file in a new tab using UI input" })
 
-vim.api.nvim_create_user_command("TabDup", function()
+create_cmd("TabDup", function()
    local current_file = vim.fn.expand "%:p"
    if current_file ~= "" then
       vim.cmd("tabnew " .. current_file)
@@ -105,3 +105,21 @@ vim.api.nvim_create_user_command("TabDup", function()
       vim.cmd "tabnew"
    end
 end, { desc = "Duplicate current buffer in a new tab" })
+
+create_cmd("GoToCommand", function()
+   require("fzf-lua").commands()
+end, {})
+vim.api.nvim_create_user_command("GoToFile", function()
+   require("fzf-lua").files {
+      tiebreakers = { "frecency", "index" },
+   }
+end, {})
+create_cmd("GoToSymbol", function()
+   require("fzf-lua").lsp_document_symbols()
+end, {})
+create_cmd("Grep", function()
+   require("fzf-lua").live_grep()
+end, {})
+create_cmd("SmartGoTo", function()
+   require("fzf-lua").lsp_definitions()
+end, {})

@@ -200,7 +200,7 @@
             panes: [
                (size: "100%", pane: Pane(Property(content: [
                          (kind: Text("[ "),style: (fg: "{{colors.primary.default.hex}}", modifiers: "Bold")),
-                          (kind: Property(Status(RepeatV2(on_label: " ", off_label: " ",
+                          (kind: Property(Status(RepeatV2(on_label: "", off_label: "󰑗",
                                          on_style: (fg: "{{colors.on_surface.default.hex}}", modifiers: "Bold"),
                                          off_style: (fg: "{{colors.secondary.default.hex}}", modifiers: "Bold"))))),
                          (kind: Text(" | "),style: (fg: "{{colors.primary.default.hex}}", modifiers: "Bold")),
@@ -212,12 +212,12 @@
                                          on_style: (fg: "{{colors.on_surface.default.hex}}", modifiers: "Bold"),
                                          off_style: (fg: "{{colors.secondary.default.hex}}", modifiers: "Bold"))))),
                          (kind: Text(" | "),style: (fg: "{{colors.primary.default.hex}}", modifiers: "Bold")),
-                         (kind: Property(Status(SingleV2(on_label: "󰎤 ", off_label: "󰎦 ", oneshot_label: "󰇊 ", off_oneshot_label: "󱅊 ",
+                         (kind: Property(Status(SingleV2(on_label: "󰎤", off_label: "󰎦", oneshot_label: "󰇊", off_oneshot_label: "󱅊",
                                          on_style: (fg: "{{colors.on_surface.default.hex}}", modifiers: "Bold"),
                                          off_style: (fg: "{{colors.secondary.default.hex}}", modifiers: "Bold"))))),
                          (kind: Text(" | "),style: (fg: "{{colors.primary.default.hex}}", modifiers: "Bold")),
                          (kind: Property(Status(Crossfade)),style: (fg: "{{colors.secondary.default.hex}}"),
-                          default: (kind: Text("󰴽 "), style: (fg: "{{colors.secondary.default.hex}}"))),
+                          default: (kind: Text("󰴽"), style: (fg: "{{colors.secondary.default.hex}}"))),
                      ], align: Right))
                ),
             ]

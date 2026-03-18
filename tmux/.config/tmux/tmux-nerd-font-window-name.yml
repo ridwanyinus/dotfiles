@@ -1,0 +1,33 @@
+config:
+  fallback-icon: "?"
+  multi-pane-icon: ""
+  show-name: false
+  always-show-fallback-name: false
+  icon-position: "left"
+
+icons:
+  zsh: ""
+  btop: "📈"
+  bun: "🥟"
+  docker: ""
+  fish: "󰈺"
+  shell: ""
+  opencode: "󱚣"
+  gh: ""
+  gt: "󰊢"
+  nvim: ""
+  mprocs: ""
+  yazi: ""
+  man: ""
+  devbox: ""
+  openapi-tui: "󱂛"
+  watch: "󱥼"
+  upscope: "󱓟"
+  mutagen: ""
+  notes: "󰂺"
+  lazydocker: ""
+  Devdeck: "󰋁"
+  python: ""
+  go: ""
+  mise: "󱌣"
+  tail: 

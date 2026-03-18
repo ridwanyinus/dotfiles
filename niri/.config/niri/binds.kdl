@@ -34,6 +34,9 @@ binds {
     Mod+M hotkey-overlay-title="MPV media player" {
         spawn-sh "raise-cycle-or-spawn mpv"
     }
+    Mod+Shift+C hotkey-overlay-title="Code Editor: Zed" {
+        spawn-sh "raise-cycle-or-spawn zed"
+    }
     // ========================================================================
     // NOCTALIA SHELL CORE
     // ========================================================================

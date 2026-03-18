@@ -1,54 +1,88 @@
 # -----------------------------------------------------
 # INIT
 # -----------------------------------------------------
-
 set -U fish_greeting ""
 
 # -----------------------------------------------------
-# Exports
+# EDITOR
 # -----------------------------------------------------
 set -Ux EDITOR nvim
 set -Ux LANG en_US.UTF-8
-
+set -gx LC_ALL en_US.UTF-8
+# -----------------------------------------------------
+# PATH
+# -----------------------------------------------------
 set -U fish_user_paths /usr/lib/ccache/bin/
 set -U fish_user_paths $fish_user_paths $HOME/.cargo/bin/
 set -U fish_user_paths $fish_user_paths $HOME/.local/bin/
 
 # Amp CLI
 fish_add_path /home/ridwan/.amp/bin
-
+# Spicetify (Spotify customizer)
 fish_add_path /home/ridwan/.spicetify
+# Deno
 fish_add_path /home/ridwan/.deno/env
 
-# Set up fzf key bindings
+# -----------------------------------------------------
+# FZF
+# -----------------------------------------------------
+# Key bindings
 fzf --fish | source
-set -gx FZF_DEFAULT_COMMAND "fd --hidden --strip-cwd-prefix --exclude .git"
-set -gx FZF_CTRL_T_COMMAND "$FZF_DEFAULT_COMMAND --exclude '**/node_modules' --exclude '**/.next' --exclude '**/dist' --exclude '**/build'"
-set -gx FZF_ALT_C_COMMAND "fd --type=d --hidden --strip-cwd-prefix --exclude .git --exclude '**/node_modules' --exclude '**/.next' --exclude '**/dist' --exclude '**/build'"
-set -gx FZF_DEFAULT_OPTS '--style full --border --padding 1,2 --border-label " Search " --input-label " Input " --header-label " File Type " --bind "focus:+transform-header:file --brief {}" --bind "result:transform-list-label:if [[ -z \$FZF_QUERY ]]; then echo \" \$FZF_MATCH_COUNT items \"; else echo \" \$FZF_MATCH_COUNT matches for [\$FZF_QUERY] \"; fi" --bind "focus:transform-preview-label:[[ -n {} ]] && printf \" Previewing [%s] \" {}" --preview "TERM=\$TERM KITTY_WINDOW_ID=\$KITTY_WINDOW_ID ~/.local/bin/fzf-preview.sh {}" --preview-window "right:50%:border-left" --height 50% --layout=default --color=hl:#2dd4bf --color=border:#aaaaaa,label:#cccccc --color=preview-border:#9999cc,preview-label:#ccccff --color=list-border:#669966,list-label:#99cc99 --color=input-border:#996666,input-label:#ffcccc --color=header-border:#6699cc,header-label:#99ccff'
-set -gx FZF_TAB_COLORS 'fg:#CDD6F4,bg:#1E1E2E,hl:#F38BA8,min-height=5'
 
-# Setup fzf
-set -gx FZF_CTRL_T_OPTS "--preview '~/.local/bin/fzf-preview.sh {}'"
-set -gx FZF_ALT_C_OPTS "--preview 'eza --icons=always --tree --color=always {} | head -200'"
+# Use fd as default search command (include hidden, exclude .git)
+set -Ux FZF_DEFAULT_COMMAND "fd -H -E --strip-cwd-prefix '.git'"
 
+# Default appearance options
+set -Ux FZF_DEFAULT_OPTS (printf '%s ' \
+    '--style=full' \
+    '--info=hidden' \
+    '--ansi' \
+    '--pointer=👉' \
+    '--gutter=" "' \
+    '--color=current-bg:-1' \
+    '--color=current-fg:blue' \
+    '--color=gutter:-1' \
+    '--color=header-bg:-1' \
+    '--color=header-border:cyan' \
+    '--color=hl+:yellow' \
+    '--color=hl:yellow' \
+    '--color=input-border:yellow' \
+    '--color=list-border:blue' \
+    '--color=pointer:blue' \
+    '--color=preview-border:cyan' | string collect)
+
+# Keybinding-specific options
+# ctrl-t: file picker with preview
+set -gx FZF_CTRL_T_OPTS "--tmux 80% --preview '~/.local/bin/fzf-preview.sh {}'"
+# alt-c: directory picker with tree preview
+set -gx FZF_ALT_C_OPTS "--tmux 80% --preview 'eza --icons=always --tree --color=always {} | head -200'"
+# ctrl-r: history picker with clipboard support
 set -gx FZF_CTRL_R_OPTS "
-  --height 30%
+  --tmux bottom,30%
   --preview-window hidden
   --header-label ''
   --bind 'ctrl-y:execute-silent(echo -n {2..} | wl-copy)+abort'
   --color header:italic
   --header 'Press CTRL-Y to copy command into clipboard'"
 
-#Zoxide
+# -----------------------------------------------------
+# ZOXIDE (smart cd)
+# -----------------------------------------------------
 zoxide init fish | source
 
-#Yazi
+# -----------------------------------------------------
+# YAZI (file manager - cd on exit)
+# -----------------------------------------------------
 function y
-	set tmp (mktemp -t "yazi-cwd.XXXXXX")
-	command yazi $argv --cwd-file="$tmp"
-	if read -z cwd < "$tmp"; and [ "$cwd" != "$PWD" ]; and test -d "$cwd"
-		builtin cd -- "$cwd"
-	end
-	rm -f -- "$tmp"
+    set tmp (mktemp -t "yazi-cwd.XXXXXX")
+    command yazi $argv --cwd-file="$tmp"
+    if read -z cwd < "$tmp"; and [ "$cwd" != "$PWD" ]; and test -d "$cwd"
+        builtin cd -- "$cwd"
+    end
+    rm -f -- "$tmp"
 end
+
+# -----------------------------------------------------
+# SESH (tmux session manager)
+# -----------------------------------------------------
+set -gx SESH_TMUX_OPTS "-u"
