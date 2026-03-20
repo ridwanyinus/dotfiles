@@ -2,6 +2,8 @@
 # INIT
 # -----------------------------------------------------
 set -U fish_greeting ""
+export VISUAL="nvim"
+export TERMINAL="kitty"
 
 # -----------------------------------------------------
 # EDITOR
@@ -49,7 +51,8 @@ set -Ux FZF_DEFAULT_OPTS (printf '%s ' \
     '--color=input-border:yellow' \
     '--color=list-border:blue' \
     '--color=pointer:blue' \
-    '--color=preview-border:cyan' | string collect)
+    '--color=preview-border:cyan' \
+    '--bind="ctrl-u:preview-half-page-up,ctrl-d:preview-half-page-down,shift-up:preview-page-up,shift-down:preview-page-down"' | string collect)
 
 # Keybinding-specific options
 # ctrl-t: file picker with preview
@@ -66,9 +69,10 @@ set -gx FZF_CTRL_R_OPTS "
   --header 'Press CTRL-Y to copy command into clipboard'"
 
 # -----------------------------------------------------
-# ZOXIDE (smart cd)
+# Tools integration
 # -----------------------------------------------------
 zoxide init fish | source
+mise activate fish | source
 
 # -----------------------------------------------------
 # YAZI (file manager - cd on exit)
@@ -86,3 +90,13 @@ end
 # SESH (tmux session manager)
 # -----------------------------------------------------
 set -gx SESH_TMUX_OPTS "-u"
+
+# -----------------------------------------------------
+# node / pnpm
+# -----------------------------------------------------
+set -gx NODE_OPTIONS "--dns-result-order=ipv4first"
+
+set -gx PNPM_HOME "/home/ridwan/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end

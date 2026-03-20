@@ -23,7 +23,7 @@ epub = [
 [open]
 prepend_rules = [
   { mime = "application/pdf",  use = "pdf" },
-  { mime = "application/zip",  use = "open" },  
+  # { mime = "application/zip",  use = "open" },  
   { mime = "application/epub+zip", use = "epub" },
   {url = "*.cbz", use = "cbz"}
 ]

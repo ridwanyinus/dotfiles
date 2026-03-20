@@ -27,12 +27,6 @@ end
 # 2. Create the abbreviation
 abbr -a !! --position anywhere --function last_history_item
 
-mise activate fish | source
-
-# pnpm
-set -gx PNPM_HOME "/home/ridwan/.local/share/pnpm"
-if not string match -q -- $PNPM_HOME $PATH
-  set -gx PATH "$PNPM_HOME" $PATH
-end
-# pnpm end
-set -gx NODE_OPTIONS "--dns-result-order=ipv4first"
+# Key bindings
+fish_default_key_bindings
+# fish_vi_key_bindings
