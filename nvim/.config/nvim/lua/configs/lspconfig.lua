@@ -1,11 +1,16 @@
+vim.lsp.config("*", {
+   capabilities = require("blink.cmp").get_lsp_capabilities {
+      textDocument = {
+         foldingRange = {
+            dynamicRegistration = false,
+            lineFoldingOnly = true,
+         },
+      },
+   },
+})
+
 -- help lspconfig-all
 require("nvchad.configs.lspconfig").defaults()
-
-local lspconfig = require "lspconfig"
-local on_init = require("nvchad.configs.lspconfig").on_init
-
-local on_attach = require("nvchad.configs.lspconfig").on_attach
-local capabilities = require("nvchad.configs.lspconfig").capabilities
 
 local border = {
    { "┌", "FloatBorder" },
@@ -22,7 +27,6 @@ vim.diagnostic.config {
    virtual_lines = false,
    virtual_text = false,
    underline = true,
-   -- underline = { severity = { min = vim.diagnostic.severity.WARN } },
    update_in_insert = false,
    severity_sort = true,
    float = {
@@ -33,8 +37,21 @@ vim.diagnostic.config {
       header = "",
       prefix = "",
    },
+   signs = {
+      text = {
+         [vim.diagnostic.severity.ERROR] = "",
+         [vim.diagnostic.severity.WARN] = "",
+         [vim.diagnostic.severity.INFO] = "",
+         [vim.diagnostic.severity.HINT] = "",
+      },
+      numhl = {
+         [vim.diagnostic.severity.ERROR] = "DiagnosticSignError",
+         [vim.diagnostic.severity.WARN] = "DiagnosticSignWarn",
+         [vim.diagnostic.severity.INFO] = "DiagnosticSignInfo",
+         [vim.diagnostic.severity.HINT] = "DiagnosticSignHint",
+      },
+   },
 }
-
 local function apply_code_action_sync(bufnr, client, action_kind)
    local params = vim.lsp.util.make_range_params(0, client.offset_encoding)
    params.context = { only = { action_kind }, diagnostics = {} }
@@ -61,10 +78,16 @@ vim.api.nvim_create_autocmd("LspAttach", {
       local bufnr = args.buf
       local client = vim.lsp.get_client_by_id(args.data.client_id)
 
+      -- switch to LSP folding if supported (ts_ls, html, etc. all do)
+      if client and client:supports_method "textDocument/foldingRange" and client.name ~= "ts_ls" then
+         local win = vim.api.nvim_get_current_win()
+         vim.wo[win][0].foldexpr = "v:lua.vim.lsp.foldexpr()"
+      end
+
+      -- Document highlight
       vim.keymap.set("n", "K", function()
          vim.lsp.buf.hover { border = border }
       end, { buffer = bufnr, desc = "LSP Hover (Rounded)" })
-
       vim.keymap.set("i", "<C-k>", function()
          vim.lsp.buf.signature_help { border = border }
       end, { buffer = bufnr, desc = "LSP Signature Help" })
@@ -74,7 +97,6 @@ vim.api.nvim_create_autocmd("LspAttach", {
             buffer = bufnr,
             callback = function()
                apply_code_action_sync(bufnr, client, "source.organizeImports")
-               -- apply_code_action_sync(bufnr, client, "source.fixAll")
             end,
          })
       end
@@ -82,14 +104,10 @@ vim.api.nvim_create_autocmd("LspAttach", {
 })
 
 vim.lsp.config("ruff", {
-   on_attach = on_attach,
-   capabilities = capabilities,
    filetypes = { "python" },
 })
 
 vim.lsp.config("pyright", {
-   on_attach = on_attach,
-   capabilities = capabilities,
    settings = {
       python = {
          analysis = {
@@ -113,9 +131,6 @@ vim.lsp.config("stylelint_lsp", {
 })
 
 vim.lsp.config("emmet_ls", {
-   on_attach = on_attach,
-   on_init = on_init,
-   capabilities = capabilities,
    filetypes = {
       "css",
       "eruby",
@@ -128,7 +143,6 @@ vim.lsp.config("emmet_ls", {
       "typescript",
       "typescriptreact",
    },
-
    init_options = {
       showAbbreviationSuggestions = true,
       showExpandedAbbreviation = "always",
@@ -146,8 +160,6 @@ vim.lsp.config("biome", {
 })
 
 vim.lsp.config("ts_ls", {
-   on_attach = on_attach,
-   capabilities = capabilities,
    settings = {
       javascript = {
          suggest = {
@@ -182,15 +194,5 @@ local servers = {
    "biome",
    "stylelint_lsp",
 }
-
--- vim.lsp.config("*", {
---    capabilities = {
---       textDocument = {
---          semanticTokens = {
---             multilineTokenSupport = true,
---          },
---       },
---    },
--- })
 
 vim.lsp.enable(servers)

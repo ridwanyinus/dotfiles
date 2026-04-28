@@ -1,6 +1,7 @@
 return {
    {
       "NickvanDyke/opencode.nvim",
+      enabled = false,
       event = "VeryLazy",
       version = "*", -- Latest stable release
       dependencies = {
@@ -65,6 +66,7 @@ return {
    },
    {
       "supermaven-inc/supermaven-nvim",
+      enabled = false,
       event = "InsertEnter",
       opts = {
          keymaps = {
@@ -78,7 +80,6 @@ return {
    },
    {
       "monkoose/neocodeium",
-      enabled = false,
 
       event = "VeryLazy",
       config = function()

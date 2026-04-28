@@ -9,6 +9,7 @@ map("i", "jk", "<ESC>", { desc = "edit exit insert mode" })
 map("n", "Y", "yy", { desc = "edit yank entire line" })
 map("n", "J", "mzJ`z", { desc = "edit join lines (preserve cursor)" })
 map("n", "gs", "a<CR><Esc>k$", { desc = "edit split line below" })
+vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR><cmd>echo ''<CR>")
 
 -- SELECTION & SAVING
 map({ "n", "v" }, "<C-a>", "<Esc>gg0vG$", { desc = "edit select all" })
@@ -153,10 +154,10 @@ map({ "n", "x", "o" }, "[]", function()
    require("nvim-treesitter-textobjects.move").goto_previous_end("@class.outer", "textobjects")
 end, { desc = "nav class end prev" })
 
-map({ "n", "x", "o" }, "]d", function()
+map({ "n", "x", "o" }, "]i", function()
    require("nvim-treesitter-textobjects.move").goto_next("@conditional.outer", "textobjects")
 end, { desc = "nav conditional next" })
-map({ "n", "x", "o" }, "[d", function()
+map({ "n", "x", "o" }, "[i", function()
    require("nvim-treesitter-textobjects.move").goto_previous("@conditional.outer", "textobjects")
 end, { desc = "nav conditional prev" })
 
@@ -192,3 +193,19 @@ map({ "x", "o" }, "il", function()
 end, { desc = "textobj loop inner" })
 
 map("n", "<leader>ca", vim.lsp.buf.code_action, { buffer = bufnr })
+
+vim.keymap.set({ "n", "x", "o" }, "<A-o>", function()
+   if vim.treesitter.get_parser(nil, nil, { error = false }) then
+      require("vim.treesitter._select").select_parent(vim.v.count1)
+   else
+      vim.lsp.buf.selection_range(vim.v.count1)
+   end
+end, { desc = "Select parent treesitter node or outer incremental lsp selections" })
+
+map({ "n", "x", "o" }, "<A-i>", function()
+   if vim.treesitter.get_parser(nil, nil, { error = false }) then
+      require("vim.treesitter._select").select_child(vim.v.count1)
+   else
+      vim.lsp.buf.selection_range(-vim.v.count1)
+   end
+end, { desc = "Select child treesitter node or inner incremental lsp selections" })

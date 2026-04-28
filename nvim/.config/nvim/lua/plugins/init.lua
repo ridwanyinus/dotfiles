@@ -5,18 +5,10 @@ return {
    { "hrsh7th/cmp-buffer", enabled = false },
    { "hrsh7th/cmp-path", enabled = false },
    { "hrsh7th/cmp-nvim-lsp", enabled = false },
+   -- { "lukas-reineke/indent-blankline.nvim", enabled = false },
    -- { "saadparwaiz1/cmp_luasnip", enabled = false },
 
    { "wakatime/vim-wakatime", lazy = false },
-   {
-      "vyfor/cord.nvim",
-      build = ":Cord update",
-      lazy = false,
-      ---@type CordConfig
-      opts = {
-         log_level = "info",
-      },
-   },
 
    {
       "neovim/nvim-lspconfig",
