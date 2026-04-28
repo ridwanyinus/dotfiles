@@ -22,6 +22,13 @@ workspace "code" {
 // GENERAL WINDOW RULES
 // ============================================================================
 window-rule {
+  background-effect {
+    blur true
+    xray false
+  }
+}
+
+window-rule {
     geometry-corner-radius 16
     clip-to-geometry true
     opacity 0.9
@@ -100,7 +107,7 @@ window-rule {
     open-on-workspace "code"
     open-maximized true
     open-focused true
-    opacity 0.97
+    opacity 0.95
     focus-ring { off; }
 }
 
@@ -109,7 +116,7 @@ window-rule {
     open-on-workspace "code"
     open-maximized true
     open-focused true
-    opacity 0.97
+    opacity 0.95
 }
 
 window-rule {
@@ -117,7 +124,7 @@ window-rule {
     open-on-workspace "code"
     open-maximized true
     open-focused true
-    opacity 0.97
+    opacity 0.95
 }
 
 window-rule {
@@ -132,6 +139,7 @@ window-rule {
     open-on-workspace "a"
     open-maximized true
     open-focused true
+    opacity 0.95
 }
 
 window-rule {
@@ -139,6 +147,7 @@ window-rule {
     open-on-workspace "a"
     open-maximized true
     open-focused true
+    opacity 0.95
 }
 
 // ============================================================================
@@ -147,5 +156,12 @@ window-rule {
 layer-rule {
     match namespace="^noctalia-overview*"
     place-within-backdrop true
-    // opacity 1.0
+}
+
+/* Noctalia: blur everywhere without xray for a better look */
+layer-rule {
+  match namespace="^noctalia-(background|launcher-overlay|dock)-.*$"
+  background-effect {
+    xray false
+  }
 }

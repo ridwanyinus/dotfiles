@@ -34,8 +34,14 @@ binds {
     Mod+M hotkey-overlay-title="MPV media player" {
         spawn-sh "raise-cycle-or-spawn mpv"
     }
+    Mod+C hotkey-overlay-title="VLC media player" {
+        spawn-sh "raise-cycle-or-spawn vlc"
+    }
     Mod+Shift+C hotkey-overlay-title="Code Editor: Zed" {
         spawn-sh "raise-cycle-or-spawn zed"
+    }
+    Mod+T hotkey-overlay-title="Telegram Desktop" {
+        spawn-sh "raise-cycle-or-spawn Telegram --"
     }
     // ========================================================================
     // NOCTALIA SHELL CORE
@@ -61,9 +67,6 @@ binds {
     // ========================================================================
     Mod+V {
         spawn "qs" "-c" "noctalia-shell" "ipc" "call" "launcher" "clipboard"
-    }
-    Mod+C {
-        spawn "qs" "-c" "noctalia-shell" "ipc" "call" "launcher" "calculator"
     }
     Mod+Period {
         spawn-sh "qs -c noctalia-shell ipc call launcher emoji"

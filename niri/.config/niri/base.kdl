@@ -45,10 +45,18 @@ environment {
     QT_QPA_PLATFORM "wayland"
     QT_QPA_PLATFORMTHEME "qt6ct"
     QT_QPA_PLATFORMTHEME_QT6 "qt6ct"
+    QT_WAYLAND_DISABLE_WINDOWDECORATION "1"
+    QT_AUTO_SCREEN_SCALE_FACTOR "1"
 
     XDG_CURRENT_DESKTOP "niri"
-    // XDG_MENU_PREFIX "arch-"
-    ELECTRON_OZONE_PLATFORM_HINT "auto"
+    ELECTRON_OZONE_PLATFORM_HINT "wayland"
 
     GTK_DECORATION_LAYOUT ":"
+    OZONE_PLATFORM "wayland"
+    TERM "kitty"
+    GDK_BACKEND "wayland,x11, *"
+    CLUTTER_BACKEND "wayland"
+    EDITOR "nvim"
+    VISUAL "nvim"
+    GTK_USE_PORTAL "1"
 }
