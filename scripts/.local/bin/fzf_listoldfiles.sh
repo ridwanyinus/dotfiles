@@ -1,29 +1,57 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# Opens recent Neovim files using fzf.
+#
+# Setup:
+#   fish:  alias nlof='bash ~/.local/bin/nlof.sh'  (in config.fish)
+#   bash:  alias nlof='bash ~/.local/bin/nlof.sh'  (in .bashrc)
 
-# Script to list recent files and open nvim using fzf
-# set to an alias nlof in .zshrc
+set -euo pipefail
 
-list_oldfiles() {
-  # Get the oldfiles list from Neovim
-  local oldfiles=($(nvim -u NONE --headless +'lua io.write(table.concat(vim.v.oldfiles, "\n") .. "\n")' +qa))
-  # Filter invalid paths or files not found
-  local valid_files=()
-  for file in "${oldfiles[@]}"; do
-    if [[ -f "$file" ]]; then
-      valid_files+=("$file")
-    fi
-  done
-  # Use fzf to select from valid files
-  local files=($(printf "%s\n" "${valid_files[@]}" |
-    grep -v '\[.*' |
-    fzf --multi \
-      --preview 'bat -n --color=always --line-range=:500 {} 2>/dev/null || echo "Error previewing file"' \
-      --height=70% \
-      --layout=default))
+readonly PREVIEW_LINE_LIMIT=500
 
-  # Open selected files in Neovim
-  [[ ${#files[@]} -gt 0 ]] && nvim "${files[@]}"
+_die() {
+    echo "[nlof] error: $*" >&2
+    exit 1
 }
 
-# Call the function
-list_oldfiles "$@"
+_get_oldfiles() {
+    # No -u NONE — let nvim load real config so shada/oldfiles work correctly
+    nvim --headless \
+        +'lua io.write(table.concat(vim.v.oldfiles,"\n").."\n"); io.flush()' \
+        +qa 2>/dev/null ||
+        _die "failed to read oldfiles from Neovim. Is nvim installed?"
+}
+
+_filter_valid_files() {
+    while IFS= read -r file; do
+        [[ "$file" == \[* ]] && continue
+        [[ -f "$file" ]] && printf '%s\n' "$file"
+    done
+}
+
+_pick_with_fzf() {
+    fzf --multi \
+        --preview "bat -n --color=always --line-range=:${PREVIEW_LINE_LIMIT} {} 2>/dev/null \
+               || echo 'preview unavailable'" \
+        --height=70% \
+        --layout=default \
+        --info=inline-right
+}
+
+list_oldfiles() {
+    local -a valid_files
+    mapfile -t valid_files < <(_get_oldfiles | _filter_valid_files)
+
+    if [[ ${#valid_files[@]} -eq 0 ]]; then
+        _die "no valid recent files found."
+    fi
+
+    local -a selected
+    mapfile -t selected < <(printf '%s\n' "${valid_files[@]}" | _pick_with_fzf || true)
+
+    if [[ ${#selected[@]} -gt 0 ]]; then
+        nvim "${selected[@]}"
+    fi
+}
+
+list_oldfiles
