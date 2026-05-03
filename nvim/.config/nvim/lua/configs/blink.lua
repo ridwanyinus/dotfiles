@@ -2,7 +2,7 @@ dofile(vim.g.base46_cache .. "blink")
 
 local opts = {
    enabled = function()
-      return vim.bo.filetype ~= "NvimTree"
+      return not vim.tbl_contains({ "NvimTree", "neo-tree" }, vim.bo.filetype) and vim.bo.buftype ~= "prompt" and vim.bo.buftype ~= "nofile"
    end,
    cmdline = { enabled = false },
    appearance = { nerd_font_variant = "mono" },

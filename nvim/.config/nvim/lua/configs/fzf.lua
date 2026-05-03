@@ -1,6 +1,7 @@
 ---@module "fzf-lua"
 ---@type fzf-lua.Config|{}
 ---@diagnostic disable: missing-fields
+
 return {
    "telescope",
    hls = {
@@ -54,6 +55,7 @@ return {
       ["--no-separator"] = true,
       ["--no-scrollbar"] = true,
    },
+   fzf_tmux_opts = { ["-p"] = "80%,80%", ["--margin"] = "0,0" },
    keymap = {
       buitin = {
          true,
