@@ -56,13 +56,13 @@ set -Ux FZF_DEFAULT_OPTS (printf '%s ' \
 
 # Keybinding-specific options
 # ctrl-t: file picker with preview
-set -gx FZF_CTRL_T_OPTS "--tmux 80% --preview '~/.local/bin/fzf-preview.sh {}'"
+set -gx FZF_CTRL_T_OPTS "--preview '~/.local/bin/fzf-preview.sh {}'"
 # alt-c: directory picker with tree preview
 set -gx FZF_ALT_C_OPTS "--tmux 80% --preview 'eza --icons=always --tree --color=always {} | head -200'"
 # ctrl-r: history picker with clipboard support
 set -gx FZF_CTRL_R_OPTS "
-  --tmux bottom,30%
   --preview-window hidden
+  --height 40%
   --header-label ''
   --bind 'ctrl-y:execute-silent(echo -n {2..} | wl-copy)+abort'
   --color header:italic
@@ -94,7 +94,7 @@ set -gx SESH_TMUX_OPTS "-u"
 # -----------------------------------------------------
 # node / pnpm
 # -----------------------------------------------------
-set -gx NODE_OPTIONS "--dns-result-order=ipv4first"
+# set -gx NODE_OPTIONS "--dns-result-order=ipv4first"
 
 set -gx PNPM_HOME "/home/ridwan/.local/share/pnpm"
 if not string match -q -- $PNPM_HOME $PATH

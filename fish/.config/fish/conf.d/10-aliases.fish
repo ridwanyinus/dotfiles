@@ -23,9 +23,9 @@ alias tmux='tmux -u'
 alias t='tmux -u'
 
 # Power
-alias shutdown='systemctl poweroff'
-alias soft-reboot='sudo systemctl soft-reboot'
-alias hibernate='qs -c noctalia-shell ipc call lockScreen lock && systemctl hibernate'
+abbr shutdown 'systemctl poweroff'
+abbr soft-reboot 'sudo systemctl soft-reboot'
+abbr hibernate 'qs -c noctalia-shell ipc call lockScreen lock && systemctl hibernate'
 
 # Git
 alias gs='git status'
@@ -61,6 +61,7 @@ abbr -a folders 'du -h --max-depth=1' # Folder sizes one level deep
 
 # tmux
 abbr -a tmuxk 'tmux kill-session'
+abbr ss sesh-pick
 
 # System info
 abbr -a cache ' sudo du -sh /var/cache/pacman/pkg ~/.cache/yay ~/.cache/paru'
@@ -77,4 +78,4 @@ abbr -a cleanc 'sudo pacman -Sc && paru -Sc && yay -Sc' # Nuclear cache wipe —
 
 # AUR fuzzy search
 abbr -a yayf  "yay -Slq | strings | grep -E '^[a-zA-Z0-9_.+-]+\$' | fzf --multi --layout=reverse --ansi --preview 'yay -Sii {1}' --preview-window=down:75% --bind 'ctrl-u:preview-half-page-up,ctrl-d:preview-half-page-down' | xargs -ro yay -S"
-abbr -a paruf "paru -Slq | strings | grep -E '^[a-zA-Z0-9_.+-]+\$' | fzf --multi --layout=reverse --ansi --preview 'paru -Sii {1}' --preview-window=down:75% --bind 'ctrl-u:preview-half-page-up,ctrl-d:preview-half-page-down' | xargs -ro paru -S"
+abbr -a paruf "yay --color=never -Slq | grep -E '^[a-zA-Z0-9_.+-]+\$' | fzf --multi --layout=reverse --ansi --preview 'paru -Sii {1}' --preview-window=down:75% --bind 'ctrl-u:preview-half-page-up,ctrl-d:preview-half-page-down' | xargs -ro paru -S"

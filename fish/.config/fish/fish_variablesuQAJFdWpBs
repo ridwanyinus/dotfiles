@@ -20,7 +20,7 @@ SETUVAR --export fish_cursor_replace:block
 SETUVAR --export fish_cursor_replace_one:underscore
 SETUVAR --export fish_cursor_visual:block
 SETUVAR fish_greeting:
-SETUVAR fish_user_paths:/home/ridwan/\x2espicetify\x1e/home/ridwan/\x2eamp/bin\x1e/usr/lib/ccache/bin/\x1e/home/ridwan/\x2ecargo/bin/\x1e/home/ridwan/\x2elocal/bin/
+SETUVAR fish_user_paths:/usr/lib/ccache/bin/\x1e/home/ridwan/\x2ecargo/bin/\x1e/home/ridwan/\x2elocal/bin/
 SETUVAR --export fzf_alt_c_opts:\x2d\x2dpreview\x20\x27eza\x20\x2d\x2dicons\x3dalways\x20\x2d\x2dtree\x20\x2d\x2dcolor\x3dalways\x20\x7b\x7d\x20\x7c\x20head\x20\x2d200\x27
 SETUVAR --export fzf_ctrl_t_opts:\x2d\x2dpreview\x20\x27bat\x20\x2d\x2dcolor\x3dalways\x20\x2dn\x20\x2d\x2dline\x2drange\x20\x3a500\x20\x7b\x7d\x27
 SETUVAR nvm_default_version:latest
