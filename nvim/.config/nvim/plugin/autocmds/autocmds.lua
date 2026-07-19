@@ -3,6 +3,7 @@ require "nvchad.autocmds"
 local api = vim.api
 local autocmd = api.nvim_create_autocmd
 local highlight_group = api.nvim_create_augroup("LspReferenceHighlight", { clear = true })
+local config_augroup = api.nvim_create_augroup("Config", { clear = true })
 
 -- Automatically change working directory to the directory of the opened file on startup
 api.nvim_create_autocmd("VimEnter", {
@@ -63,7 +64,7 @@ vim.api.nvim_create_autocmd("FileType", {
 -- Close certain filetypes with q
 -- Note: 'man' is excluded because Neovim has built-in q handling for man pages
 autocmd("FileType", {
-   group = api.nvim_create_augroup("close_with_q", { clear = true }),
+   group = config_augroup,
    pattern = {
       "checkhealth",
       "git",
@@ -96,25 +97,9 @@ vim.api.nvim_create_autocmd("FileType", {
    end,
 })
 
-local ui2 = require "vim._core.ui2"
-local msgs = require "vim._core.ui2.messages"
-local orig_set_pos = msgs.set_pos
-msgs.set_pos = function(tgt)
-   orig_set_pos(tgt)
-   if (tgt == "msg" or tgt == nil) and vim.api.nvim_win_is_valid(ui2.wins.msg) then
-      pcall(vim.api.nvim_win_set_config, ui2.wins.msg, {
-         relative = "editor",
-         anchor = "NE",
-         row = 1,
-         col = vim.o.columns - 1,
-         border = "rounded",
-      })
-   end
-end
-
 vim.api.nvim_create_autocmd("WinEnter", {
    pattern = { "*" },
-   group = api.nvim_create_augroup("close_with_q", { clear = true }),
+   group = config_augroup,
    callback = function()
       vim.fn.matchadd("TODO", "TODO:")
       vim.fn.matchadd("INFO", "INFO:")

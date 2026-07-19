@@ -135,6 +135,25 @@ window-rule {
 }
 
 window-rule {
+    match app-id="foot"
+    open-on-workspace "code"
+    open-maximized true
+    open-focused true
+}
+
+window-rule {
+    match app-id="ONLYOFFICE"
+    open-maximized true
+    open-focused true
+}
+
+window-rule {
+    match app-id="okular"
+    open-maximized true
+    open-focused true
+}
+
+window-rule {
     match app-id="vesktop"
     open-on-workspace "a"
     open-maximized true

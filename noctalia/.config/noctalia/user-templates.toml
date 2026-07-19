@@ -51,6 +51,10 @@ input_path = '~/.config/noctalia/templates/tmux-colors.conf'
 output_path = '~/.config/tmux/generated.conf'
 post_hook = 'tmux source-file ~/.config/tmux/generated.conf' 
 
+[templates.sddm-noctalia]
+input_path = "/usr/share/sddm/themes/sddm-noctalia/template.conf"
+output_path = "/usr/share/sddm/themes/sddm-noctalia/theme.conf"
+
 [config]
 
 [config.custom_colors]

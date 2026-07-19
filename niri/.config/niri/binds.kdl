@@ -18,10 +18,16 @@ binds {
     Mod+Shift+P {
         power-off-monitors
     }
+	 // ========================================================================
+    // KEYBOARD LAYOUT
+    // ========================================================================
+    Mod+G {
+		   switch-layout "next"
+    }
     // ========================================================================
     // APPLICATIONS
     // ========================================================================
-    Mod+Return hotkey-overlay-title="Open a Terminal: Kitty" {
+    Mod+Return hotkey-overlay-title="Open a Terminal" {
         // spawn "kitty"
         spawn-sh "raise-cycle-or-spawn kitty"
     }

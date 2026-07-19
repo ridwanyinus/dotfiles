@@ -78,12 +78,6 @@ vim.api.nvim_create_autocmd("LspAttach", {
       local bufnr = args.buf
       local client = vim.lsp.get_client_by_id(args.data.client_id)
 
-      -- switch to LSP folding if supported (ts_ls, html, etc. all do)
-      if client and client:supports_method "textDocument/foldingRange" and client.name ~= "ts_ls" then
-         local win = vim.api.nvim_get_current_win()
-         vim.wo[win][0].foldexpr = "v:lua.vim.lsp.foldexpr()"
-      end
-
       -- Document highlight
       vim.keymap.set("n", "K", function()
          vim.lsp.buf.hover { border = border }

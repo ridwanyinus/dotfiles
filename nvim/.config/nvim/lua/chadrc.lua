@@ -26,8 +26,8 @@ end
 
 local M = {}
 M.base46 = {
-   theme = "chadwal",
-   theme_toggle = { "monekai", "chadwal" },
+   theme = "chadracula",
+   theme_toggle = { "monekai", "chadracula" },
    transparency = true,
    hl_override = {
       Comment = { italic = true, fg = "#7a8194" },
@@ -113,7 +113,7 @@ M.ui = {
             for _, client in ipairs(vim.lsp.get_clients()) do
                if client.attached_buffers[stbufnr()] then
                   if not vim.tbl_contains(blacklist, client.name) then
-                     return (vim.o.columns > 100 and "lsp  " .. client.name .. " ") or "   lsp "
+                     return (vim.o.columns > 100 and "lsp   " .. client.name .. " ") or "   lsp "
                   else
                      fallback = client.name
                   end
@@ -121,7 +121,7 @@ M.ui = {
             end
 
             if fallback then
-               return (vim.o.columns > 100 and "lsp  " .. fallback .. " ") or "   lsp "
+               return (vim.o.columns > 100 and "lsp   " .. fallback .. " ") or "   lsp "
             end
 
             return ""

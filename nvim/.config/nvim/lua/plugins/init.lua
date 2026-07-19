@@ -1,5 +1,4 @@
 return {
-
    { "nvim-telescope/telescope.nvim", enabled = false },
    { "hrsh7th/nvim-cmp", enabled = false },
    { "hrsh7th/cmp-buffer", enabled = false },
@@ -8,7 +7,7 @@ return {
    -- { "lukas-reineke/indent-blankline.nvim", enabled = false },
    -- { "saadparwaiz1/cmp_luasnip", enabled = false },
 
-   { "wakatime/vim-wakatime", lazy = false },
+   { "wakatime/vim-wakatime", lazy = false, enabled = false },
 
    {
       "neovim/nvim-lspconfig",
@@ -46,4 +45,14 @@ return {
       lazy = false,
       opts = require "configs.treesitter",
    },
+   {
+      "iamcco/markdown-preview.nvim",
+      cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+      build = "cd app && npm install",
+      init = function()
+         vim.g.mkdp_filetypes = { "markdown" }
+      end,
+      ft = { "markdown" },
+   },
+   { "tpope/vim-obsession", event = "VeryLazy" },
 }

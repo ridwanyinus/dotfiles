@@ -3,10 +3,10 @@
 #![enable(unwrap_variant_newtypes)]
 
 (
-    address: "/tmp/mpd_socket",
+	address: "127.0.0.1:6600",
     password: None,
     theme: Some("current.ron"),
-    cache_dir: Some("~/.cache/rmpc"),
+    cache_dir: Some("~/Music/.cache/rmpc"),
     on_song_change: ["~/.config/rmpc/scripts/getlyrics"],
     volume_step: 5,
     max_fps: 30,

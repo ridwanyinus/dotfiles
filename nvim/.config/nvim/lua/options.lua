@@ -8,7 +8,7 @@ o.number = true
 o.wrap = true
 o.linebreak = true
 o.scrolloff = 8
-o.signcolumn = "yes"
+o.signcolumn = "yes:1"
 o.sidescrolloff = 8
 o.tabstop = 4
 o.shiftwidth = 4
@@ -16,23 +16,12 @@ o.expandtab = false
 o.list = false
 -- opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 
--- Fill chars
-opt.fillchars:append {
-   diff = "░",
-   eob = " ",
-   fold = "⋯",
-   foldopen = "▼",
-   foldclose = "▶",
-   foldsep = "┊",
-   msgsep = "━",
-}
 o.termguicolors = true
 o.background = "dark"
-o.fillchars = "eob: ,fold: "
 o.title = true
 o.winborder = "rounded"
 o.pumborder = "rounded"
-o.cmdheight = 1
+o.cmdheight = 0
 o.cursorlineopt = "both"
 o.cursorline = true
 o.shortmess = table.concat { -- Use abbreviations and short messages in command menu line.
@@ -66,10 +55,12 @@ o.smartcase = true
 -- BACKUP
 o.backup = true
 o.swapfile = false
+
 local backupdir = vim.fn.stdpath "data" .. "/backup"
 if vim.fn.isdirectory(backupdir) == 0 then
    vim.fn.mkdir(backupdir, "p")
 end
+
 o.backupdir = backupdir
 
 -- EDITING
@@ -78,24 +69,23 @@ o.keywordprg = ":help"
 vim.opt.iskeyword:append "-"
 
 -- FOLDING
--- vim.o.foldmethod = "expr"
--- vim.o.foldexpr = "v:lua.vim.treesitter.foldexpr()"
--- vim.o.foldlevel = 99
-o.foldlevelstart = 99
-o.foldenable = false
-o.foldcolumn = "0"
-o.foldtext = ""
--- vim.o.foldtext = "v:lua.CustomFoldText()"
+vim.o.foldenable = true
+vim.o.foldmethod = "expr"
+vim.o.foldexpr = "v:lua.vim.treesitter.foldexpr()"
+vim.o.foldtext = ""
+vim.o.fillchars = "foldclose:󰅂,foldopen:󰅀"
+vim.o.foldlevelstart = 99
+vim.wo.foldcolumn = "1"
 
-function _G.CustomFoldText()
-   local start_line = vim.fn.getline(vim.v.foldstart)
-   local end_line = vim.fn.getline(vim.v.foldend)
-
-   start_line = start_line:gsub("\t", string.rep(" ", vim.o.tabstop))
-   end_line = vim.trim(end_line)
-
-   return start_line .. " ... " .. end_line
-end
+-- Fill chars
+vim.opt.fillchars = {
+   fold = " ",
+   foldopen = " ",
+   foldclose = "▸",
+   foldinner = " ",
+   foldsep = " ",
+   eob = " ",
+}
 
 vim.opt.inccommand = "split"
 vim.opt.splitright = true -- New vertical splits open to the right

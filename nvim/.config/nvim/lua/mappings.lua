@@ -202,7 +202,7 @@ vim.keymap.set({ "n", "x", "o" }, "<A-o>", function()
    end
 end, { desc = "Select parent treesitter node or outer incremental lsp selections" })
 
-map({ "n", "x", "o" }, "<A-i>", function()
+map({ "x", "o" }, "<A-i>", function()
    if vim.treesitter.get_parser(nil, nil, { error = false }) then
       require("vim.treesitter._select").select_child(vim.v.count1)
    else

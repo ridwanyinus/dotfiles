@@ -1,4 +1,5 @@
 import QtQuick
+import QtQuick.Controls
 import QtQuick.Layouts
 import Quickshell
 import qs.Commons
@@ -10,13 +11,12 @@ Item {
 
     property var pluginApi: null
     property ShellScreen screen
-
+    readonly property var geometryPlaceholder: panelContainer
+    readonly property bool allowAttach: true
     readonly property var main: pluginApi?.mainInstance ?? null
     readonly property var vpnList: main?.vpnList ?? []
-    readonly property bool isLoading: main?.isLoading ?? false
     readonly property var activeList: vpnList.filter(v => v.connected || v.isLoading)
     readonly property var inactiveList: vpnList.filter(v => !v.connected && !v.isLoading)
-
     property real contentPreferredWidth: Math.round(500 * Style.uiScaleRatio)
     property real contentPreferredHeight: Math.min(500, mainColumn.implicitHeight + Style.marginL * 2)
 
@@ -24,344 +24,211 @@ Item {
         if (main) main.refresh()
     }
 
-    ColumnLayout {
-        id: mainColumn
+    Rectangle {
+        id: panelContainer
         anchors.fill: parent
-        anchors.margins: Style.marginL
-        spacing: Style.marginM
+        color: "transparent"
 
-        // HEADER
-        NBox {
-            Layout.fillWidth: true
-            Layout.preferredHeight: Math.round(header.implicitHeight + Style.marginM * 2 + 1)
+        ColumnLayout {
+            id: mainColumn
+            anchors.fill: parent
+            anchors.margins: Style.marginL
+            spacing: Style.marginM
 
-            ColumnLayout {
-                id: header
-                anchors.fill: parent
-                anchors.margins: Style.marginM
-                spacing: Style.marginM
+            // HEADER
+            NBox {
+                Layout.fillWidth: true
+                Layout.preferredHeight: Math.round(header.implicitHeight + Style.marginM * 2 + 1)
 
-                RowLayout {
-                    NIcon {
-                        icon: "key"
-                        pointSize: Style.fontSizeXXL
-                        color: Color.mPrimary
-                    }
+                ColumnLayout {
+                    id: header
+                    anchors.fill: parent
+                    anchors.margins: Style.marginM
+                    spacing: Style.marginM
 
-                    NLabel {
-                        label: pluginApi?.tr("common.vpn") || "VPN"
-                    }
-
-                    NBox {
-                        Layout.fillWidth: true
-                    }
-
-                    NIconButton {
-                        icon: "refresh"
-                        tooltipText: pluginApi?.tr("common.refresh") || "Refresh"
-                        baseSize: Style.baseWidgetSize * 0.8
-                        enabled: true
-                        onClicked: {
-                            onClicked: { if (main) main.refresh() }
+                    RowLayout {
+                        NIcon {
+                            icon: "shield"
+                            pointSize: Style.fontSizeXXL
+                            color: Color.mPrimary
                         }
-                    }
 
+                        NLabel {
+                            label: pluginApi?.tr("common.vpn")
+                        }
 
-                    NIconButton {
-                        icon: "close"
-                        tooltipText: pluginApi?.tr("common.close") || "close"
-                        baseSize: Style.baseWidgetSize * 0.8
-                        onClicked: pluginApi.closePanel(pluginApi.panelOpenScreen)
+                        NBox {
+                            Layout.fillWidth: true
+                        }
+
+                        NIconButton {
+                            icon: "refresh"
+                            tooltipText: pluginApi?.tr("common.refresh")
+                            baseSize: Style.baseWidgetSize * 0.8
+                            enabled: true
+                            onClicked: {
+                                if (main) {
+                                    main.refresh()
+                                }
+                            }
+                        }
+
+                        NIconButton {
+                            icon: "close"
+                            tooltipText: pluginApi?.tr("common.close")
+                            baseSize: Style.baseWidgetSize * 0.8
+                            onClicked: pluginApi.closePanel(pluginApi.panelOpenScreen)
+                        }
                     }
                 }
             }
-        }
 
-        // CONNECTED
-        NBox {
-            Layout.fillWidth: true
-            Layout.preferredHeight: Math.round(networksListActive.implicitHeight + Style.marginXL)
-            visible: activeList.length > 0
+            NScrollView {
+                id: scrollView
+                Layout.fillWidth: true
+                Layout.fillHeight: true
+                horizontalPolicy: ScrollBar.AlwaysOff
+                verticalPolicy: ScrollBar.AsNeeded
+                reserveScrollbarSpace: false
 
-            ColumnLayout {
-                id: networksListActive
-                anchors.fill: parent
-                anchors.margins: Style.marginM
-                spacing: Style.marginM
-
-                RowLayout {
-                    Layout.fillWidth: true
-                    Layout.leftMargin: Style.marginS
-                    spacing: Style.marginS
-
-                    NLabel {
-                        label: 'Connected'
-                        Layout.fillWidth: true
-                    }
-                }
-
-                Repeater {
-                    model: activeList
-
+                ColumnLayout {
+                    anchors.fill: parent
+                    spacing: Style.marginM
+                    
+                    // CONNECTED
                     NBox {
-                        id: networkItem
-
                         Layout.fillWidth: true
-                        Layout.leftMargin: Style.marginXS
-                        Layout.rightMargin: Style.marginXS
-                        implicitHeight: Math.round(netColumn.implicitHeight + (Style.marginXL))
-
-                        color: Qt.alpha(Color.mPrimary, 0.15)
+                        Layout.preferredHeight: Math.round(networksListActive.implicitHeight + Style.marginXL)
+                        visible: activeList.length > 0
 
                         ColumnLayout {
-                            id: netColumn
-                            width: parent.width - (Style.marginXL)
-                            x: Style.marginM
-                            y: Style.marginM
-                            spacing: Style.marginS
+                            id: networksListActive
+                            anchors.fill: parent
+                            anchors.margins: Style.marginM
+                            spacing: Style.marginM
 
-                            // Main row
                             RowLayout {
                                 Layout.fillWidth: true
+                                Layout.leftMargin: Style.marginS
                                 spacing: Style.marginS
 
-                                NIcon {
-                                    icon: "router"
-                                    pointSize: Style.fontSizeXXL
-                                    color: Color.mPrimary
-                                }
-
-                                ColumnLayout {
+                                NLabel {
+                                    label: pluginApi?.tr("common.connected")
                                     Layout.fillWidth: true
-                                    spacing: 2
-
-                                    NText {
-                                        text: modelData.name
-                                        pointSize: Style.fontSizeM
-                                        font.weight: Style.fontWeightBold
-                                        color: Color.mOnSurface
-                                        elide: Text.ElideRight
-                                        Layout.fillWidth: true
-                                    }
-
-                                    RowLayout {
-                                        spacing: Style.marginXS
-
-                                        NText {
-                                            text: modelData.type
-                                            pointSize: Style.fontSizeXXS
-                                            color: Color.mOnSurfaceVariant
-                                        }
-
-                                        Item {
-                                            Layout.preferredWidth: Style.marginXXS
-                                        }
-
-                                        Rectangle {
-                                            color: Color.mPrimary
-                                            radius: height * 0.5
-                                            width: Math.round(connectedText.implicitWidth + (Style.marginS * 2))
-                                            height: Math.round(connectedText.implicitHeight + (Style.marginXS))
-
-                                            NText {
-                                                id: connectedText
-                                                anchors.centerIn: parent
-                                                text: pluginApi?.tr("common.connected") ||"Connected"
-                                                pointSize: Style.fontSizeXXS
-                                                color: Color.mOnPrimary
-                                            }
-                                        }
-                                    }
                                 }
+                            }
 
-                                // Action area
-                                RowLayout {
-                                    spacing: Style.marginS
+                            Repeater {
+                                model: activeList
 
-                                    NBusyIndicator {
-                                        visible: modelData.isLoading
-                                        running: visible
-                                        color: Color.mPrimary
-                                        size: Style.baseWidgetSize * 0.5
-                                    }
-
-                                    NButton {
-                                        text: pluginApi?.tr("common.disconnect") ||"Disconnect"
-                                        outlined: !hovered
-                                        fontSize: Style.fontSizeS
-                                        backgroundColor: Color.mError
-                                        enabled: !root.isLoading
-                                        onClicked: {
-                                            if (!main) return
-                                            main.disconnectFrom(modelData.name)
-                                        }
+                                VpnListItem {
+                                    name: modelData.name
+                                    type: modelData.type
+                                    isConnected: true
+                                    isLoading: modelData.isLoading
+                                    onButtonClicked: {
+                                        if (!main) return
+                                        main.disconnectFrom(modelData.uuid)
                                     }
                                 }
                             }
                         }
                     }
-                }
-            }
-        }
 
-        // DISCONNECTED
-        NBox {
-            Layout.fillWidth: true
-            Layout.preferredHeight: Math.round(networksListInactive.implicitHeight + Style.marginXL)
-            visible: inactiveList.length > 0
-
-            ColumnLayout {
-                id: networksListInactive
-                anchors.fill: parent
-                anchors.margins: Style.marginM
-                spacing: Style.marginM
-
-                RowLayout {
-                    Layout.fillWidth: true
-                    Layout.leftMargin: Style.marginS
-                    spacing: Style.marginS
-
-                    NLabel {
-                        label: 'Disconnected'
-                        Layout.fillWidth: true
-                    }
-                }
-
-                Repeater {
-                    model: inactiveList
-
+                    // DISCONNECTED
                     NBox {
-                        id: networkItem
-
                         Layout.fillWidth: true
-                        Layout.leftMargin: Style.marginXS
-                        Layout.rightMargin: Style.marginXS
-                        implicitHeight: Math.round(netColumn.implicitHeight + (Style.marginXL))
-
-                        color: Color.mSurface
+                        Layout.preferredHeight: Math.round(networksListInactive.implicitHeight + Style.marginXL)
+                        visible: inactiveList.length > 0
 
                         ColumnLayout {
-                            id: netColumn
-                            width: parent.width - (Style.marginXL)
-                            x: Style.marginM
-                            y: Style.marginM
-                            spacing: Style.marginS
+                            id: networksListInactive
+                            anchors.fill: parent
+                            anchors.margins: Style.marginM
+                            spacing: Style.marginM
 
-                            // Main row
                             RowLayout {
                                 Layout.fillWidth: true
+                                Layout.leftMargin: Style.marginS
                                 spacing: Style.marginS
 
-                                NIcon {
-                                    icon: "router"
-                                    pointSize: Style.fontSizeXXL
-                                    color: Color.mOnSurface
-                                }
-
-                                ColumnLayout {
+                                NLabel {
+                                    label: pluginApi?.tr("common.disconnected")
                                     Layout.fillWidth: true
-                                    spacing: 2
-
-                                    NText {
-                                        text: modelData.name
-                                        pointSize: Style.fontSizeM
-                                        font.weight: Style.fontWeightMedium
-                                        color: Color.mOnSurface
-                                        elide: Text.ElideRight
-                                        Layout.fillWidth: true
-                                    }
-
-                                    RowLayout {
-                                        spacing: Style.marginXS
-
-                                        NText {
-                                            text: modelData.type
-                                            pointSize: Style.fontSizeXXS
-                                            color: Color.mOnSurfaceVariant
-                                        }
-
-                                        Item {
-                                            Layout.preferredWidth: Style.marginXXS
-                                        }
-                                    }
                                 }
+                            }
 
-                                // Action area
-                                RowLayout {
-                                    spacing: Style.marginS
+                            Repeater {
+                                model: inactiveList
 
-                                    NBusyIndicator {
-                                        visible: modelData.isLoading
-                                        running: visible
-                                        color: Color.mPrimary
-                                        size: Style.baseWidgetSize * 0.5
-                                    }
-
-                                    NButton {
-                                        text: pluginApi?.tr("common.connect") ||"Connect"
-                                        outlined: !hovered
-                                        fontSize: Style.fontSizeS
-                                        enabled: !root.isLoading
-                                        onClicked: {
-                                            if (!main) return
-                                            main.connectTo(modelData.name)
-                                        }
+                                VpnListItem {
+                                    name: modelData.name
+                                    type: modelData.type
+                                    isConnected: false
+                                    isLoading: modelData.isLoading
+                                    onButtonClicked: {
+                                        if (!main) return
+                                        main.connectTo(modelData.uuid)
                                     }
                                 }
                             }
                         }
                     }
-                }
-            }
-        }
 
-        // EMPTY
-        NBox {
-            id: emptyBox
-            visible: vpnList.length < 1
-            Layout.fillWidth: true
-            Layout.preferredHeight: Math.round(emptyColumn.implicitHeight + Style.marginM * 2 + 1)
+                    // EMPTY
+                    NBox {
+                        id: emptyBox
+                        visible: vpnList.length < 1
+                        Layout.fillWidth: true
+                        Layout.preferredHeight: Math.round(emptyColumn.implicitHeight + Style.marginM * 2 + 1)
 
-            ColumnLayout {
-                id: emptyColumn
-                anchors.fill: parent
-                anchors.margins: Style.marginM
-                spacing: Style.marginL
+                        ColumnLayout {
+                            id: emptyColumn
+                            anchors.fill: parent
+                            anchors.margins: Style.marginM
+                            spacing: Style.marginL
 
-                Item {
-                    Layout.fillHeight: true
-                }
+                            Item {
+                                Layout.fillHeight: true
+                            }
 
-                NIcon {
-                    icon: "search"
-                    pointSize: 48
-                    color: Color.mOnSurfaceVariant
-                    Layout.alignment: Qt.AlignHCenter
-                }
+                            NIcon {
+                                icon: "search"
+                                pointSize: 48
+                                color: Color.mOnSurfaceVariant
+                                Layout.alignment: Qt.AlignHCenter
+                            }
 
-                NText {
-                    text: pluginApi?.tr("panel.emptyTitle") || "No VPN found"
-                    pointSize: Style.fontSizeL
-                    color: Color.mOnSurfaceVariant
-                    Layout.alignment: Qt.AlignHCenter
-                }
+                            NText {
+                                text: pluginApi?.tr("panel.emptyTitle")
+                                pointSize: Style.fontSizeL
+                                color: Color.mOnSurfaceVariant
+                                Layout.alignment: Qt.AlignHCenter
+                            }
 
-                NText {
-                    text: pluginApi?.tr("panel.emptyDescription") || "Use Network Manager to add a VPN"
-                    pointSize: Style.fontSizeS
-                    color: Color.mOnSurfaceVariant
-                    Layout.alignment: Qt.AlignHCenter
-                }
+                            NText {
+                                text: pluginApi?.tr("panel.emptyDescription")
+                                pointSize: Style.fontSizeS
+                                color: Color.mOnSurfaceVariant
+                                Layout.alignment: Qt.AlignHCenter
+                            }
 
-                NButton {
-                    text: pluginApi?.tr("common.refresh") ||"Refresh"
-                    icon: "refresh"
-                    Layout.alignment: Qt.AlignHCenter
-                    onClicked: { if (main) main.refresh() }
-                }
+                            NButton {
+                                text: pluginApi?.tr("common.refresh")
+                                icon: "refresh"
+                                Layout.alignment: Qt.AlignHCenter
+                                onClicked: { 
+                                    if (main) {
+                                        main.refresh()
+                                    } 
+                                }
+                            }
 
-                Item {
-                    Layout.fillHeight: true
+                            Item {
+                                Layout.fillHeight: true
+                            }
+                        }
+                    }
                 }
             }
         }

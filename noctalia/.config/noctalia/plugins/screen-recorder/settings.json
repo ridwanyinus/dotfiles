@@ -5,10 +5,18 @@
   "audioCodec": "opus",
   "videoCodec": "h264",
   "quality": "very_high",
-  "colorRange": "limited",
+  "colorRange": "full",
   "showCursor": true,
   "copyToClipboard": false,
   "audioSource": "none",
-  "videoSource": "portal",
-  "resolution": "3840x2160"
+  "videoSource": "screen",
+  "resolution": "3840x2160",
+  "hideInactive": true,
+  "iconColor": "primary",
+  "customFrameRate": "60",
+  "restorePortalSession": false,
+  "replayEnabled": false,
+  "replayDuration": "30",
+  "customReplayDuration": "30",
+  "replayStorage": "ram"
 }
