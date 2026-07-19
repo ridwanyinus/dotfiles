@@ -16,7 +16,7 @@
 
 [core]
     editor = nvim 
-    excludesfile = ~/.ignore
+	excludesFile = ~/.gitignore_global
     fsmonitor = true
     pager = delta
     # untrackedCache = true
